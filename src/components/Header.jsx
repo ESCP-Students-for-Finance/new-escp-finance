@@ -49,7 +49,7 @@ export default function Header() {
                                 <circle cx="11" cy="11" r="8"></circle>
                                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                             </svg>
-                            <span className="hidden sm:inline">Search</span>
+                            <span>Search</span>
                         </button>
                     </div>
                 </div>
@@ -132,8 +132,8 @@ export default function Header() {
                                         to={item.path}
                                         onClick={handleMobileLinkClick}
                                         className={`block py-4 px-4 text-base font-medium uppercase tracking-wider transition-all touch-manipulation ${isActive(item.path)
-                                                ? 'bg-white/10 text-white border-l-4 border-[#D4AF37]'
-                                                : 'text-gray-400 hover:bg-white/5 hover:text-white border-l-4 border-transparent'
+                                            ? 'bg-white/10 text-white border-l-4 border-[#D4AF37]'
+                                            : 'text-gray-400 hover:bg-white/5 hover:text-white border-l-4 border-transparent'
                                             }`}>
                                         {item.name}
                                     </Link>
