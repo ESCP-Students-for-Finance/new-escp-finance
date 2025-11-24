@@ -1,14 +1,55 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function SearchOverlay({ isOpen, onClose }) {
     const [query, setQuery] = useState('');
-    const [results, setResults] = useState([]);
+    const [results, setResults] = useState({ site: [], global: [] });
     const [loading, setLoading] = useState(false);
-    const [searchType, setSearchType] = useState('web'); // 'web', 'news', 'finance'
+    const [activeTab, setActiveTab] = useState('all'); // 'all', 'site', 'global'
+
+    // Site content database
+    const siteContent = {
+        articles: [
+            {
+                title: "The Future of Sustainable Finance: ESG in 2024",
+                excerpt: "Exploring how ESG criteria are reshaping investment strategies and corporate governance in the modern financial landscape.",
+                category: "Articles",
+                url: "/articles/sustainable-finance-esg-2024",
+                keywords: ["ESG", "sustainable", "finance", "investing", "climate", "environment"]
+            },
+            {
+                title: "Blockchain in Banking: Beyond the Hype",
+                excerpt: "A deep dive into real-world applications of blockchain technology in traditional banking systems.",
+                category: "Articles",
+                url: "/articles/blockchain-banking-revolution",
+                keywords: ["blockchain", "banking", "technology", "crypto", "DeFi", "tokenization"]
+            },
+            {
+                title: "Private Equity Trends in 2025: AI and Value Creation",
+                excerpt: "Analysis of emerging patterns in PE investments and what they mean for the future of capital markets.",
+                category: "Articles",
+                url: "/articles/private-equity-trends-2024",
+                keywords: ["private equity", "PE", "AI", "investment", "value creation"]
+            }
+        ],
+        pages: [
+            { title: "About Us", url: "/about", keywords: ["team", "members", "club", "society"] },
+            { title: "Our Mission", url: "/mission", keywords: ["mission", "vision", "goals", "purpose"] },
+            { title: "Financial News", url: "/news", keywords: ["news", "updates", "markets", "latest"] },
+            { title: "Contact", url: "/contact", keywords: ["contact", "email", "reach", "connect"] }
+        ]
+    };
 
     useEffect(() => {
         const handleEscape = (e) => {
             if (e.key === 'Escape') onClose();
+        };
+
+        const handleKeyDown = (e) => {
+            // Cmd/Ctrl + K to open search
+            if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+                e.preventDefault();
+            }
         };
 
         if (isOpen) {
@@ -16,37 +57,111 @@ export default function SearchOverlay({ isOpen, onClose }) {
             document.body.style.overflow = 'hidden';
         }
 
+        document.addEventListener('keydown', handleKeyDown);
+
         return () => {
             document.removeEventListener('keydown', handleEscape);
+            document.removeEventListener('keydown', handleKeyDown);
             document.body.style.overflow = 'unset';
         };
     }, [isOpen, onClose]);
 
+    const searchSite = (searchQuery) => {
+        const lowerQuery = searchQuery.toLowerCase();
+        const siteResults = [];
+
+        // Search articles
+        siteContent.articles.forEach(article => {
+            const score =
+                (article.title.toLowerCase().includes(lowerQuery) ? 10 : 0) +
+                (article.excerpt.toLowerCase().includes(lowerQuery) ? 5 : 0) +
+                (article.keywords.some(k => k.toLowerCase().includes(lowerQuery)) ? 3 : 0);
+
+            if (score > 0) {
+                siteResults.push({ ...article, score, type: 'article' });
+            }
+        });
+
+        // Search pages
+        siteContent.pages.forEach(page => {
+            const score =
+                (page.title.toLowerCase().includes(lowerQuery) ? 10 : 0) +
+                (page.keywords.some(k => k.toLowerCase().includes(lowerQuery)) ? 5 : 0);
+
+            if (score > 0) {
+                siteResults.push({ ...page, score, type: 'page', category: 'Pages' });
+            }
+        });
+
+        return siteResults.sort((a, b) => b.score - a.score);
+    };
+
+    const searchGlobal = async (searchQuery) => {
+        // Simulate global finance search results
+        // In production, you would call a real API here
+        const globalResults = [
+            {
+                title: `${searchQuery} - Financial Times`,
+                excerpt: "Latest analysis and insights from Financial Times on " + searchQuery,
+                url: `https://www.ft.com/search?q=${encodeURIComponent(searchQuery)}`,
+                source: "Financial Times",
+                type: 'global'
+            },
+            {
+                title: `${searchQuery} - Bloomberg Markets`,
+                excerpt: "Bloomberg's comprehensive coverage of " + searchQuery,
+                url: `https://www.bloomberg.com/search?query=${encodeURIComponent(searchQuery)}`,
+                source: "Bloomberg",
+                type: 'global'
+            },
+            {
+                title: `${searchQuery} - Reuters Finance`,
+                excerpt: "Breaking news and analysis from Reuters on " + searchQuery,
+                url: `https://www.reuters.com/search/news?blob=${encodeURIComponent(searchQuery)}`,
+                source: "Reuters",
+                type: 'global'
+            },
+            {
+                title: `${searchQuery} - Wall Street Journal`,
+                excerpt: "WSJ's in-depth reporting on " + searchQuery,
+                url: `https://www.wsj.com/search?query=${encodeURIComponent(searchQuery)}`,
+                source: "Wall Street Journal",
+                type: 'global'
+            }
+        ];
+
+        return globalResults;
+    };
+
     const performSearch = async () => {
-        if (!query.trim()) return;
+        if (!query.trim()) {
+            setResults({ site: [], global: [] });
+            return;
+        }
 
         setLoading(true);
 
-        // For now, we'll use Google search with finance-specific queries
-        // In production, you would integrate with a real API like Brave Search, SerpAPI, or Google Custom Search
-        const financeQuery = `${query} finance investing markets`;
-        const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(financeQuery)}`;
+        // Search site content
+        const siteResults = searchSite(query);
 
-        // Open in new tab
-        window.open(searchUrl, '_blank');
+        // Search global finance sources
+        const globalResults = await searchGlobal(query);
 
-        // Simulate API response for UI feedback
-        setTimeout(() => {
-            setResults([
-                {
-                    title: `Search results for "${query}"`,
-                    description: 'Opening Google search in new tab with finance-focused results...',
-                    url: searchUrl
-                }
-            ]);
-            setLoading(false);
-        }, 500);
+        setResults({
+            site: siteResults,
+            global: globalResults
+        });
+
+        setLoading(false);
     };
+
+    useEffect(() => {
+        const debounce = setTimeout(() => {
+            if (query) performSearch();
+        }, 300);
+
+        return () => clearTimeout(debounce);
+    }, [query]);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -54,18 +169,24 @@ export default function SearchOverlay({ isOpen, onClose }) {
     };
 
     const quickSearches = [
-        'ESG investing trends',
-        'Blockchain in finance',
-        'Private equity strategies',
-        'Central bank policies',
-        'Cryptocurrency regulation',
-        'Sustainable finance'
+        'ESG investing',
+        'Blockchain',
+        'Private equity',
+        'Sustainable finance',
+        'Market analysis',
+        'Team members'
     ];
+
+    const filteredResults = () => {
+        if (activeTab === 'site') return results.site;
+        if (activeTab === 'global') return results.global;
+        return [...results.site, ...results.global];
+    };
 
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 z-[100] flex items-start justify-center pt-20 px-4">
+        <div className="fixed inset-0 z-[100] flex items-start justify-center pt-16 px-4">
             {/* Backdrop */}
             <div
                 className="absolute inset-0 bg-black/80 backdrop-blur-sm"
@@ -73,14 +194,14 @@ export default function SearchOverlay({ isOpen, onClose }) {
             />
 
             {/* Search Modal */}
-            <div className="relative w-full max-w-3xl bg-[#042440] border border-white/10 shadow-2xl">
+            <div className="relative w-full max-w-4xl bg-[#042440] border border-white/10 shadow-2xl max-h-[85vh] flex flex-col">
                 {/* Search Header */}
                 <div className="border-b border-white/10 p-6">
                     <div className="flex items-center gap-4 mb-4">
                         <svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg>
-                        <h2 className="text-2xl font-light text-white">Global Finance Search</h2>
+                        <h2 className="text-2xl font-light text-white">Search</h2>
                         <button
                             onClick={onClose}
                             className="ml-auto text-gray-400 hover:text-white transition-colors"
@@ -91,105 +212,135 @@ export default function SearchOverlay({ isOpen, onClose }) {
                         </button>
                     </div>
 
-                    {/* Search Type Tabs */}
-                    <div className="flex gap-2 mb-4">
-                        <button
-                            onClick={() => setSearchType('web')}
-                            className={`px-4 py-2 text-sm transition-colors ${searchType === 'web'
-                                    ? 'bg-white text-[#042440] font-medium'
-                                    : 'text-gray-400 hover:text-white'
-                                }`}
-                        >
-                            Web Search
-                        </button>
-                        <button
-                            onClick={() => setSearchType('news')}
-                            className={`px-4 py-2 text-sm transition-colors ${searchType === 'news'
-                                    ? 'bg-white text-[#042440] font-medium'
-                                    : 'text-gray-400 hover:text-white'
-                                }`}
-                        >
-                            News
-                        </button>
-                        <button
-                            onClick={() => setSearchType('finance')}
-                            className={`px-4 py-2 text-sm transition-colors ${searchType === 'finance'
-                                    ? 'bg-white text-[#042440] font-medium'
-                                    : 'text-gray-400 hover:text-white'
-                                }`}
-                        >
-                            Finance Data
-                        </button>
-                    </div>
-
                     {/* Search Input */}
-                    <form onSubmit={handleSubmit} className="relative">
+                    <form onSubmit={handleSubmit} className="relative mb-4">
                         <input
                             type="text"
                             value={query}
                             onChange={(e) => setQuery(e.target.value)}
-                            placeholder="Search for finance news, market data, analysis..."
+                            placeholder="Search our site and global finance sources..."
                             className="w-full px-6 py-4 bg-[#051C2C] border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-white/30 transition-colors text-lg"
                             autoFocus
                         />
-                        <button
-                            type="submit"
-                            className="absolute right-4 top-1/2 -translate-y-1/2 px-6 py-2 bg-white text-[#042440] font-medium hover:bg-gray-200 transition-colors"
-                        >
-                            Search
-                        </button>
+                        {loading && (
+                            <div className="absolute right-4 top-1/2 -translate-y-1/2">
+                                <div className="animate-spin rounded-full h-5 w-5 border-2 border-white border-t-transparent"></div>
+                            </div>
+                        )}
                     </form>
 
-                    <p className="text-xs text-gray-500 mt-2">
-                        Press Enter to search • ESC to close • Powered by Google Search
+                    {/* Tabs */}
+                    <div className="flex gap-2">
+                        <button
+                            onClick={() => setActiveTab('all')}
+                            className={`px-4 py-2 text-sm transition-colors ${activeTab === 'all'
+                                    ? 'bg-white text-[#042440] font-medium'
+                                    : 'text-gray-400 hover:text-white'
+                                }`}
+                        >
+                            All ({results.site.length + results.global.length})
+                        </button>
+                        <button
+                            onClick={() => setActiveTab('site')}
+                            className={`px-4 py-2 text-sm transition-colors ${activeTab === 'site'
+                                    ? 'bg-white text-[#042440] font-medium'
+                                    : 'text-gray-400 hover:text-white'
+                                }`}
+                        >
+                            Our Site ({results.site.length})
+                        </button>
+                        <button
+                            onClick={() => setActiveTab('global')}
+                            className={`px-4 py-2 text-sm transition-colors ${activeTab === 'global'
+                                    ? 'bg-white text-[#042440] font-medium'
+                                    : 'text-gray-400 hover:text-white'
+                                }`}
+                        >
+                            Global Sources ({results.global.length})
+                        </button>
+                    </div>
+                </div>
+
+                {/* Results */}
+                <div className="flex-1 overflow-y-auto p-6">
+                    {!query ? (
+                        <div>
+                            <h3 className="text-sm font-medium text-gray-400 mb-3">QUICK SEARCHES</h3>
+                            <div className="flex flex-wrap gap-2">
+                                {quickSearches.map((search, idx) => (
+                                    <button
+                                        key={idx}
+                                        onClick={() => setQuery(search)}
+                                        className="px-3 py-1 bg-[#051C2C] text-gray-300 text-sm hover:bg-white/10 transition-colors border border-white/10"
+                                    >
+                                        {search}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+                    ) : filteredResults().length === 0 ? (
+                        <div className="text-center py-12">
+                            <p className="text-gray-400">No results found for "{query}"</p>
+                            <p className="text-sm text-gray-500 mt-2">Try different keywords or check spelling</p>
+                        </div>
+                    ) : (
+                        <div className="space-y-4">
+                            {filteredResults().map((result, idx) => (
+                                result.type === 'global' ? (
+                                    <a
+                                        key={idx}
+                                        href={result.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="block p-4 bg-[#051C2C] hover:bg-white/5 transition-colors border border-white/10 group"
+                                    >
+                                        <div className="flex items-start justify-between mb-2">
+                                            <h3 className="text-lg font-medium text-white group-hover:text-gray-300 transition-colors">
+                                                {result.title}
+                                            </h3>
+                                            <svg className="w-4 h-4 text-gray-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                            </svg>
+                                        </div>
+                                        <p className="text-sm text-gray-400 mb-2">{result.excerpt}</p>
+                                        <div className="flex items-center gap-2 text-xs text-gray-500">
+                                            <span className="px-2 py-1 bg-white/5 border border-white/10">{result.source}</span>
+                                            <span>•</span>
+                                            <span>External Link</span>
+                                        </div>
+                                    </a>
+                                ) : (
+                                    <Link
+                                        key={idx}
+                                        to={result.url}
+                                        onClick={onClose}
+                                        className="block p-4 bg-[#051C2C] hover:bg-white/5 transition-colors border border-white/10 group"
+                                    >
+                                        <div className="flex items-start justify-between mb-2">
+                                            <h3 className="text-lg font-medium text-white group-hover:text-gray-300 transition-colors">
+                                                {result.title}
+                                            </h3>
+                                        </div>
+                                        {result.excerpt && (
+                                            <p className="text-sm text-gray-400 mb-2">{result.excerpt}</p>
+                                        )}
+                                        <div className="flex items-center gap-2 text-xs text-gray-500">
+                                            <span className="px-2 py-1 bg-white/5 border border-white/10">{result.category}</span>
+                                        </div>
+                                    </Link>
+                                )
+                            ))}
+                        </div>
+                    )}
+                </div>
+
+                {/* Footer */}
+                <div className="border-t border-white/10 p-4 bg-[#051C2C]">
+                    <p className="text-xs text-gray-500 text-center">
+                        Press <kbd className="px-2 py-1 bg-white/10 rounded">ESC</kbd> to close •
+                        <kbd className="px-2 py-1 bg-white/10 rounded ml-1">⌘K</kbd> to search
                     </p>
                 </div>
-
-                {/* Quick Searches */}
-                <div className="p-6 border-b border-white/10">
-                    <h3 className="text-sm font-medium text-gray-400 mb-3">POPULAR SEARCHES</h3>
-                    <div className="flex flex-wrap gap-2">
-                        {quickSearches.map((search, idx) => (
-                            <button
-                                key={idx}
-                                onClick={() => {
-                                    setQuery(search);
-                                    setTimeout(() => performSearch(), 100);
-                                }}
-                                className="px-3 py-1 bg-[#051C2C] text-gray-300 text-sm hover:bg-white/10 transition-colors border border-white/10"
-                            >
-                                {search}
-                            </button>
-                        ))}
-                    </div>
-                </div>
-
-                {/* Search Tips */}
-                <div className="p-6 bg-[#051C2C]">
-                    <h3 className="text-sm font-medium text-gray-400 mb-3">SEARCH TIPS</h3>
-                    <div className="grid grid-cols-2 gap-4 text-sm text-gray-500">
-                        <div>
-                            <span className="text-white font-medium">Web Search:</span> General finance information
-                        </div>
-                        <div>
-                            <span className="text-white font-medium">News:</span> Latest market updates
-                        </div>
-                        <div>
-                            <span className="text-white font-medium">Finance Data:</span> Stock prices, market data
-                        </div>
-                        <div>
-                            <span className="text-white font-medium">Tip:</span> Use specific terms for better results
-                        </div>
-                    </div>
-                </div>
-
-                {/* Loading State */}
-                {loading && (
-                    <div className="p-6 text-center">
-                        <div className="inline-block animate-spin rounded-full h-8 w-8 border-4 border-white border-t-transparent"></div>
-                        <p className="text-gray-400 mt-2">Searching...</p>
-                    </div>
-                )}
             </div>
         </div>
     );
