@@ -43,139 +43,109 @@ export default function SearchOverlay({ isOpen, onClose }) {
         ]
     };
 
-    // AI Finance Assistant responses
-    const getAIResponse = (searchQuery) => {
-        const lowerQuery = searchQuery.toLowerCase();
+    // Rate limiting configuration
+    const RATE_LIMITS = {
+        DAILY_MAX: 50, // Max requests per user per day
+        MIN_INTERVAL: 3000, // Min time between requests (ms)
+        DEBOUNCE_TIME: 800 // Wait time after typing (ms)
+    };
 
-        // Finance topics with intelligent responses
-        const responses = {
-            'esg': "ESG (Environmental, Social, and Governance) investing focuses on companies that meet certain sustainability criteria. Key trends in 2024 include stricter regulations (EU CSRD), anti-greenwashing measures, and increased focus on impact measurement. Check out our article on Sustainable Finance for detailed insights!",
-            'sustainable': "Sustainable finance integrates ESG factors into investment decisions. The market is growing rapidly with green bonds, social bonds, and sustainability-linked instruments. Major developments include the EU Taxonomy and increased regulatory scrutiny.",
-            'blockchain': "Blockchain is revolutionizing banking through tokenization of real-world assets, DeFi integration, and faster cross-border payments. By 2030, $16 trillion in assets could be tokenized. Our Blockchain in Banking article covers the latest trends!",
-            'crypto': "Cryptocurrency markets are evolving with increased institutional adoption and regulatory clarity. Key developments include Bitcoin ETFs, stablecoin regulations (EU MiCA), and central bank digital currencies (CBDCs). Stay informed with our latest news!",
-            'private equity': "Private equity in 2024 is characterized by AI adoption, operational value creation, and ESG integration. Deal activity is rebounding with focus on technology, healthcare, and infrastructure sectors. Read our PE Trends article for expert analysis!",
-            'ai': "AI is transforming finance through predictive analytics, risk management, automated trading, and portfolio optimization. In private equity, AI helps with deal sourcing, due diligence, and performance monitoring. The future of finance is AI-powered!",
-            'investing': "Smart investing in 2024 requires understanding ESG factors, technology trends, and global macro conditions. Diversification, long-term thinking, and staying informed are key. Explore our articles for investment insights and strategies!",
-            'market': "Current market trends include AI-driven growth in tech stocks, energy transition investments, and private credit expansion. Interest rates, geopolitical tensions, and regulatory changes are key factors to watch.",
-            'team': "Our team consists of 50+ passionate finance students from ESCP Turin Campus, organized into Leadership, Research, Articles, Events, Marketing, and Tech divisions. Meet our founding board and specialized teams on the About page!",
-            'career': "Finance careers span investment banking, private equity, asset management, fintech, and consulting. Key skills include financial modeling, data analysis, and understanding of markets. Network with our team and attend our events to learn more!"
-        };
+    // Initialize Gemini API
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 
-        // Find matching response
-        for (const [key, response] of Object.entries(responses)) {
-            if (lowerQuery.includes(key)) {
-                return response;
-            }
+    // Helper to check rate limits
+    const checkRateLimit = () => {
+        const now = Date.now();
+        const usageData = JSON.parse(localStorage.getItem('escp_ai_usage') || '{"count": 0, "lastRequest": 0, "date": 0}');
+
+        // Reset daily count if it's a new day
+        const today = new Date().setHours(0, 0, 0, 0);
+        if (usageData.date !== today) {
+            usageData.count = 0;
+            usageData.date = today;
         }
 
-        // Default intelligent response
-        return `I can help you explore "${searchQuery}" in the context of finance. I've found relevant articles, news, and resources below. Our site covers ESG investing, blockchain technology, private equity trends, and more. What specific aspect would you like to learn about?`;
+        // Check limits
+        if (usageData.count >= RATE_LIMITS.DAILY_MAX) {
+            return { allowed: false, reason: "Daily limit reached. Please try again tomorrow." };
+        }
+
+        if (now - usageData.lastRequest < RATE_LIMITS.MIN_INTERVAL) {
+            return { allowed: false, reason: "Please wait a moment before searching again." };
+        }
+
+        // Update usage
+        usageData.count++;
+        usageData.lastRequest = now;
+        localStorage.setItem('escp_ai_usage', JSON.stringify(usageData));
+
+        return { allowed: true };
+    };
+
+    // AI Finance Assistant responses (Fallback/Simulated)
+    const getSimulatedResponse = (searchQuery) => {
+        const lowerQuery = searchQuery.toLowerCase();
+        const responses = {
+            'esg': "ESG (Environmental, Social, and Governance) investing focuses on companies that meet certain sustainability criteria. Key trends in 2024 include stricter regulations (EU CSRD), anti-greenwashing measures, and increased focus on impact measurement.",
+            'blockchain': "Blockchain is revolutionizing banking through tokenization of real-world assets, DeFi integration, and faster cross-border payments. By 2030, $16 trillion in assets could be tokenized.",
+            'private equity': "Private equity in 2024 is characterized by AI adoption, operational value creation, and ESG integration. Deal activity is rebounding with focus on technology, healthcare, and infrastructure sectors.",
+            'ai': "AI is transforming finance through predictive analytics, risk management, automated trading, and portfolio optimization. In private equity, AI helps with deal sourcing and due diligence.",
+            'investing': "Smart investing in 2024 requires understanding ESG factors, technology trends, and global macro conditions. Diversification and long-term thinking are key.",
+            'career': "Finance careers span investment banking, private equity, asset management, and fintech. Key skills include financial modeling, data analysis, and market understanding.",
+            'interview': "To crack a finance interview: 1) Master technicals (accounting, valuation, DCF), 2) Know your 'Why Finance' story, 3) Follow market trends (inflation, rates), 4) Prepare stock pitches, and 5) Practice behavioral questions using STAR method."
+        };
+
+        for (const [key, response] of Object.entries(responses)) {
+            if (lowerQuery.includes(key)) return response;
+        }
+        return null;
+    };
+
+    // Call Gemini API
+    const getGeminiResponse = async (query) => {
+        if (!apiKey) return null;
+
+        try {
+            // Dynamic import to avoid issues if package isn't installed yet
+            const { GoogleGenerativeAI } = await import("@google/generative-ai");
+            const genAI = new GoogleGenerativeAI(apiKey);
+            const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+
+            const prompt = `You are a helpful finance assistant for a university finance society website. 
+            Answer this query concisely (max 2-3 sentences) specifically about finance/investing/economics: "${query}". 
+            If the query is not related to finance, politely redirect to finance topics. 
+            Keep the tone professional but accessible to students.`;
+
+            const result = await model.generateContent(prompt);
+            const response = await result.response;
+            return response.text();
+        } catch (error) {
+            console.error("Gemini API Error:", error);
+            return null;
+        }
     };
 
     // Smart suggestions based on query
     const getSmartSuggestions = (searchQuery) => {
         const lowerQuery = searchQuery.toLowerCase();
-        const suggestions = [];
-
         const suggestionMap = {
             'esg': ['ESG regulations 2024', 'Sustainable investing strategies', 'Green bonds explained', 'Impact measurement'],
             'blockchain': ['DeFi vs traditional banking', 'Asset tokenization', 'Crypto regulations', 'Smart contracts'],
             'private': ['PE deal structures', 'Value creation strategies', 'Due diligence process', 'Exit strategies'],
             'ai': ['AI in trading', 'Machine learning finance', 'Algorithmic investing', 'AI risk management'],
             'market': ['Market analysis 2024', 'Stock valuation', 'Economic indicators', 'Investment opportunities'],
-            'invest': ['Portfolio diversification', 'Risk management', 'Asset allocation', 'Investment strategies']
+            'invest': ['Portfolio diversification', 'Risk management', 'Asset allocation', 'Investment strategies'],
+            'interview': ['Technical interview questions', 'Valuation methods', 'Market trends 2024', 'Stock pitch tips']
         };
 
         for (const [key, sug] of Object.entries(suggestionMap)) {
-            if (lowerQuery.includes(key)) {
-                return sug;
-            }
+            if (lowerQuery.includes(key)) return sug;
         }
 
         return ['ESG investing trends', 'Blockchain in finance', 'Private equity strategies', 'Market analysis'];
     };
 
-    useEffect(() => {
-        const handleEscape = (e) => {
-            if (e.key === 'Escape') onClose();
-        };
-
-        const handleKeyDown = (e) => {
-            if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-                e.preventDefault();
-            }
-        };
-
-        if (isOpen) {
-            document.addEventListener('keydown', handleEscape);
-            document.body.style.overflow = 'hidden';
-            setTimeout(() => inputRef.current?.focus(), 100);
-        }
-
-        document.addEventListener('keydown', handleKeyDown);
-
-        return () => {
-            document.removeEventListener('keydown', handleEscape);
-            document.removeEventListener('keydown', handleKeyDown);
-            document.body.style.overflow = 'unset';
-        };
-    }, [isOpen, onClose]);
-
-    const searchSite = (searchQuery) => {
-        const lowerQuery = searchQuery.toLowerCase();
-        const siteResults = [];
-
-        siteContent.articles.forEach(article => {
-            const score =
-                (article.title.toLowerCase().includes(lowerQuery) ? 10 : 0) +
-                (article.excerpt.toLowerCase().includes(lowerQuery) ? 5 : 0) +
-                (article.keywords.some(k => k.toLowerCase().includes(lowerQuery)) ? 3 : 0);
-
-            if (score > 0) {
-                siteResults.push({ ...article, score, type: 'article' });
-            }
-        });
-
-        siteContent.pages.forEach(page => {
-            const score =
-                (page.title.toLowerCase().includes(lowerQuery) ? 10 : 0) +
-                (page.keywords.some(k => k.toLowerCase().includes(lowerQuery)) ? 5 : 0);
-
-            if (score > 0) {
-                siteResults.push({ ...page, score, type: 'page', category: 'Pages' });
-            }
-        });
-
-        return siteResults.sort((a, b) => b.score - a.score);
-    };
-
-    const searchGlobal = async (searchQuery) => {
-        const globalResults = [
-            {
-                title: `${searchQuery} - Financial Times`,
-                excerpt: "Latest analysis and insights from Financial Times",
-                url: `https://www.ft.com/search?q=${encodeURIComponent(searchQuery)}`,
-                source: "Financial Times",
-                type: 'global'
-            },
-            {
-                title: `${searchQuery} - Bloomberg Markets`,
-                excerpt: "Bloomberg's comprehensive coverage",
-                url: `https://www.bloomberg.com/search?query=${encodeURIComponent(searchQuery)}`,
-                source: "Bloomberg",
-                type: 'global'
-            },
-            {
-                title: `${searchQuery} - Reuters Finance`,
-                excerpt: "Breaking news and analysis from Reuters",
-                url: `https://www.reuters.com/search/news?blob=${encodeURIComponent(searchQuery)}`,
-                source: "Reuters",
-                type: 'global'
-            }
-        ];
-
-        return globalResults;
-    };
+    // ... existing useEffects ...
 
     const performSearch = async () => {
         if (!query.trim()) {
@@ -187,10 +157,33 @@ export default function SearchOverlay({ isOpen, onClose }) {
         setLoading(true);
         setShowAIResponse(true);
 
+        // 1. Get local results immediately
         const siteResults = searchSite(query);
-        const globalResults = await searchGlobal(query);
         const suggestions = getSmartSuggestions(query);
-        const aiResp = getAIResponse(query);
+
+        // 2. Check rate limit for AI
+        const limitCheck = checkRateLimit();
+        let aiResp = null;
+
+        if (limitCheck.allowed) {
+            // Try Gemini first
+            aiResp = await getGeminiResponse(query);
+        } else {
+            console.warn("Rate limit reached:", limitCheck.reason);
+        }
+
+        // 3. Fallback to simulated response if Gemini failed or rate limited
+        if (!aiResp) {
+            aiResp = getSimulatedResponse(query);
+            if (!aiResp && !limitCheck.allowed) {
+                aiResp = `(Offline Mode) ${limitCheck.reason} Showing local results only.`;
+            } else if (!aiResp) {
+                aiResp = `I can help you explore "${query}" in the context of finance. I've found relevant articles and resources below.`;
+            }
+        }
+
+        // 4. Get global results
+        const globalResults = await searchGlobal(query);
 
         setResults({
             site: siteResults,
@@ -204,7 +197,7 @@ export default function SearchOverlay({ isOpen, onClose }) {
     useEffect(() => {
         const debounce = setTimeout(() => {
             if (query) performSearch();
-        }, 300);
+        }, RATE_LIMITS.DEBOUNCE_TIME); // Increased debounce time
 
         return () => clearTimeout(debounce);
     }, [query]);
@@ -280,8 +273,8 @@ export default function SearchOverlay({ isOpen, onClose }) {
                             <button
                                 onClick={() => setActiveTab('all')}
                                 className={`px-4 py-2 text-sm rounded-full transition-colors ${activeTab === 'all'
-                                        ? 'bg-[#C5A059] text-white font-medium'
-                                        : 'text-gray-400 hover:text-white bg-white/5'
+                                    ? 'bg-[#C5A059] text-white font-medium'
+                                    : 'text-gray-400 hover:text-white bg-white/5'
                                     }`}
                             >
                                 All ({results.site.length + results.global.length})
@@ -289,8 +282,8 @@ export default function SearchOverlay({ isOpen, onClose }) {
                             <button
                                 onClick={() => setActiveTab('site')}
                                 className={`px-4 py-2 text-sm rounded-full transition-colors ${activeTab === 'site'
-                                        ? 'bg-[#C5A059] text-white font-medium'
-                                        : 'text-gray-400 hover:text-white bg-white/5'
+                                    ? 'bg-[#C5A059] text-white font-medium'
+                                    : 'text-gray-400 hover:text-white bg-white/5'
                                     }`}
                             >
                                 Our Site ({results.site.length})
@@ -298,8 +291,8 @@ export default function SearchOverlay({ isOpen, onClose }) {
                             <button
                                 onClick={() => setActiveTab('global')}
                                 className={`px-4 py-2 text-sm rounded-full transition-colors ${activeTab === 'global'
-                                        ? 'bg-[#C5A059] text-white font-medium'
-                                        : 'text-gray-400 hover:text-white bg-white/5'
+                                    ? 'bg-[#C5A059] text-white font-medium'
+                                    : 'text-gray-400 hover:text-white bg-white/5'
                                     }`}
                             >
                                 Global ({results.global.length})
