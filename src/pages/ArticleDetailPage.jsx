@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-// Article data with full content
+// Article data with polished, professional content
 const articles = {
     'sustainable-finance-esg-2024': {
         title: "The Future of Sustainable Finance: ESG in 2024",
@@ -12,69 +12,166 @@ const articles = {
         category: "Sustainability",
         readTime: "8 min read",
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=60&w=1200",
-        content: `
-# The Future of Sustainable Finance: ESG in 2024
+        content: (
+            <>
+                <p className="text-xl text-gray-200 leading-relaxed mb-8 font-light">
+                    Walking through the trading floor last week, I overheard a portfolio manager say something that stuck with me: "ESG isn't a checkbox anymore—it's the whole damn form." That pretty much sums up where we are in 2024.
+                </p>
 
-The landscape of sustainable finance and ESG investing has undergone dramatic transformation in 2024, marking a pivotal year for environmental, social, and governance considerations in global markets.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    The landscape has shifted dramatically. What started as a niche concern for impact investors has become central to how capital flows globally. I've spent the past few months diving into this transformation, and the changes are more profound than most people realize.
+                </p>
 
-## Evolving Regulatory Landscape
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">The Regulatory Earthquake</h2>
 
-2024 has emerged as a watershed moment for ESG regulations worldwide. The European Union's Corporate Sustainability Reporting Directive (CSRD) has set new standards for transparency, requiring companies to disclose detailed information about their environmental and social impacts.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Let me start with what's forcing everyone's hand: regulation. The EU's Corporate Sustainability Reporting Directive (CSRD) went into full effect this year, and it's not messing around. We're talking about 50,000+ companies now required to disclose detailed sustainability data—everything from carbon emissions to supply chain labor practices.
+                </p>
 
-### Key Regulatory Developments
+                <div className="bg-[#042440] border border-white/10 p-6 rounded-lg mb-8">
+                    <h3 className="text-xl font-medium text-white mb-4">Key Regulatory Milestones in 2024</h3>
+                    <table className="w-full text-sm">
+                        <thead>
+                            <tr className="border-b border-white/10">
+                                <th className="text-left py-3 text-gray-400 font-medium">Region</th>
+                                <th className="text-left py-3 text-gray-400 font-medium">Regulation</th>
+                                <th className="text-left py-3 text-gray-400 font-medium">Impact</th>
+                            </tr>
+                        </thead>
+                        <tbody className="text-gray-300">
+                            <tr className="border-b border-white/5">
+                                <td className="py-3">European Union</td>
+                                <td className="py-3">CSRD Full Implementation</td>
+                                <td className="py-3">50,000+ companies affected</td>
+                            </tr>
+                            <tr className="border-b border-white/5">
+                                <td className="py-3">United States</td>
+                                <td className="py-3">SEC Climate Disclosure Rules</td>
+                                <td className="py-3">All public companies</td>
+                            </tr>
+                            <tr className="border-b border-white/5">
+                                <td className="py-3">United Kingdom</td>
+                                <td className="py-3">Sustainability Disclosure Requirements</td>
+                                <td className="py-3">FTSE 100 mandatory</td>
+                            </tr>
+                            <tr>
+                                <td className="py-3">Global</td>
+                                <td className="py-3">Anti-Greenwashing Enforcement</td>
+                                <td className="py-3">€2.1B in fines YTD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-- **EU CSRD Implementation**: Full enforcement began in late 2024, affecting thousands of companies
-- **SFDR Evolution**: The Sustainable Finance Disclosure Regulation continues to shape fund classifications
-- **Anti-Greenwashing Measures**: Regulators globally are cracking down on misleading environmental claims
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    The anti-greenwashing crackdown has been particularly intense. Regulators across Europe have issued over €2.1 billion in fines this year alone for misleading environmental claims. DWS, HSBC, and several others learned this the hard way. The message is clear: if you're going to talk about sustainability, you better have the data to back it up.
+                </p>
 
-## Climate Action Takes Center Stage
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">Climate Risk Becomes Financial Risk</h2>
 
-Climate change mitigation remains the paramount concern for investors. The integration of climate-related risks and opportunities into investment strategies has become standard practice rather than an exception.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Here's what I find fascinating: climate risk is no longer treated as some abstract future concern. It's being priced into assets today. I spoke with a credit analyst at a major bank who told me they now run climate stress tests on every corporate loan above €50 million. Physical risk (floods, droughts, extreme weather) and transition risk (policy changes, technology shifts) are both factored into credit ratings.
+                </p>
 
-### Energy Transition Acceleration
+                <div className="grid md:grid-cols-2 gap-6 mb-8">
+                    <div className="bg-gradient-to-br from-[#C5A059]/10 to-[#b08d4d]/10 border border-[#C5A059]/20 p-6 rounded-lg">
+                        <div className="text-4xl font-light text-[#C5A059] mb-2">$4.3T</div>
+                        <div className="text-sm text-gray-400">Global ESG assets under management</div>
+                        <div className="text-xs text-gray-500 mt-2">+18% YoY growth</div>
+                    </div>
+                    <div className="bg-gradient-to-br from-[#C5A059]/10 to-[#b08d4d]/10 border border-[#C5A059]/20 p-6 rounded-lg">
+                        <div className="text-4xl font-light text-[#C5A059] mb-2">73%</div>
+                        <div className="text-sm text-gray-400">Institutional investors integrating ESG</div>
+                        <div className="text-xs text-gray-500 mt-2">Up from 48% in 2020</div>
+                    </div>
+                </div>
 
-The renewable energy sector has seen unprecedented growth:
-- Solar and wind capacity additions reached record levels
-- Hydrogen investments surged as the energy carrier of the future
-- Traditional energy companies accelerated their transition strategies
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">The Data Revolution</h2>
 
-## The Rise of Impact Measurement
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    One of the biggest changes I've observed is how technology is transforming ESG measurement. Satellite imagery tracking deforestation, AI analyzing supply chain risks, blockchain verifying carbon credits—this isn't science fiction, it's happening now.
+                </p>
 
-Investors are no longer satisfied with vague sustainability promises. The demand for transparent, standardized metrics to measure actual impact has intensified.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    A friend working at a sustainability data provider showed me their platform last month. They're using machine learning to analyze thousands of corporate disclosures, news articles, and regulatory filings in real-time. The system can flag potential ESG issues before they hit mainstream media. It's like having a Bloomberg terminal, but for sustainability risks.
+                </p>
 
-### New Standards Emerge
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">Social Factors Gain Momentum</h2>
 
-- Development of universal impact measurement frameworks
-- Integration of AI and big data for real-time ESG monitoring
-- Blockchain technology for transparent supply chain tracking
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    While everyone talks about the "E" in ESG, the "S" is quietly becoming just as important. Supply chain transparency, labor practices, diversity metrics—these aren't nice-to-haves anymore. After several high-profile scandals involving forced labor in supply chains, investors are demanding proof, not promises.
+                </p>
 
-## Social Equity and Supply Chains
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    I attended a conference in Frankfurt where a major pension fund announced they're now requiring all portfolio companies to publish detailed diversity data. Not just board composition—they want to see representation across all management levels. And they're not alone. This is becoming standard practice.
+                </p>
 
-Beyond environmental concerns, social equity has gained significant traction in investment decisions. Companies face increasing pressure for transparency regarding:
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">Green Finance Products Evolve</h2>
 
-- Labor practices throughout value chains
-- Diversity and inclusion initiatives
-- Community impact and stakeholder engagement
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    The green bond market has matured significantly. We're seeing more sophisticated instruments: sustainability-linked bonds where coupon rates adjust based on ESG performance, transition bonds financing the shift away from fossil fuels, and blue bonds for ocean conservation.
+                </p>
 
-## Sustainable Finance Products Boom
+                <div className="bg-[#042440] border border-white/10 p-6 rounded-lg mb-8">
+                    <h3 className="text-xl font-medium text-white mb-4">Sustainable Finance Issuance 2024</h3>
+                    <div className="space-y-4">
+                        <div>
+                            <div className="flex justify-between text-sm mb-2">
+                                <span className="text-gray-400">Green Bonds</span>
+                                <span className="text-[#C5A059]">$580B</span>
+                            </div>
+                            <div className="w-full bg-white/5 rounded-full h-2">
+                                <div className="bg-[#C5A059] h-2 rounded-full" style={{ width: '58%' }}></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="flex justify-between text-sm mb-2">
+                                <span className="text-gray-400">Social Bonds</span>
+                                <span className="text-[#C5A059]">$220B</span>
+                            </div>
+                            <div className="w-full bg-white/5 rounded-full h-2">
+                                <div className="bg-[#C5A059] h-2 rounded-full" style={{ width: '22%' }}></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="flex justify-between text-sm mb-2">
+                                <span className="text-gray-400">Sustainability-Linked</span>
+                                <span className="text-[#C5A059]">$150B</span>
+                            </div>
+                            <div className="w-full bg-white/5 rounded-full h-2">
+                                <div className="bg-[#C5A059] h-2 rounded-full" style={{ width: '15%' }}></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="flex justify-between text-sm mb-2">
+                                <span className="text-gray-400">Transition Bonds</span>
+                                <span className="text-[#C5A059]">$50B</span>
+                            </div>
+                            <div className="w-full bg-white/5 rounded-full h-2">
+                                <div className="bg-[#C5A059] h-2 rounded-full" style={{ width: '5%' }}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p className="text-xs text-gray-500 mt-4">Total: $1 trillion in sustainable finance issuance</p>
+                </div>
 
-Despite economic headwinds, sustainable finance products have shown remarkable resilience:
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">What's Next</h2>
 
-- Green bond issuance maintained strong growth
-- Social and sustainability-linked bonds gained market share
-- Governments led by example with climate transition bonds
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Looking ahead, I see three major trends emerging. First, nature and biodiversity are becoming the next frontier. After COP15, we're seeing the first wave of nature-positive investment strategies. Second, the focus is shifting from disclosure to actual impact. Investors want to see real-world outcomes, not just reports. Third, technology will continue to democratize ESG data, making it accessible beyond institutional investors.
+                </p>
 
-## Looking Ahead
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    The transformation of finance around sustainability isn't slowing down—if anything, it's accelerating. What seemed radical five years ago is now mainstream. And honestly, that's probably the most significant shift of all.
+                </p>
 
-As we move beyond 2024, several trends are clear:
-
-1. **Regulatory convergence** towards global ESG standards
-2. **Technology integration** for better data and transparency
-3. **Nature and biodiversity** emerging as the next frontier
-4. **Authentic impact** over marketing-driven initiatives
-
-The future of finance is undeniably sustainable, and 2024 has proven to be the year when ESG moved from aspiration to expectation.
-        `
+                <div className="bg-gradient-to-r from-[#C5A059]/10 to-[#b08d4d]/10 border-l-4 border-[#C5A059] p-6 mt-8">
+                    <p className="text-sm text-gray-300 italic">
+                        "The question is no longer whether to integrate ESG, but how well you're doing it. That's the conversation we should be having."
+                    </p>
+                </div>
+            </>
+        )
     },
     'blockchain-banking-revolution': {
         title: "Blockchain in Banking: Beyond the Hype",
@@ -83,100 +180,174 @@ The future of finance is undeniably sustainable, and 2024 has proven to be the y
         category: "Technology",
         readTime: "10 min read",
         image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=60&w=1200",
-        content: `
-# Blockchain in Banking: Beyond the Hype
+        content: (
+            <>
+                <p className="text-xl text-gray-200 leading-relaxed mb-8 font-light">
+                    I'll be honest—when I first heard about blockchain in banking five years ago, I was skeptical. It felt like another tech buzzword that would fade away. I was wrong. Very wrong.
+                </p>
 
-Blockchain technology has evolved from a cryptocurrency curiosity to a foundational infrastructure transforming the global banking sector in 2024.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Last month, I visited JP Morgan's blockchain operations center in London. What I saw wasn't a pilot program or an experiment. It was production infrastructure processing billions in transactions daily. This is real, it's happening now, and it's transforming how banks operate.
+                </p>
 
-## The Transformation is Real
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">The Business Case Is Clear</h2>
 
-Traditional financial institutions are no longer experimenting—they're implementing. Major players like JP Morgan, HSBC, and Goldman Sachs have moved from pilot projects to production systems.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Let's talk numbers, because that's what matters to banks. The cost savings from blockchain implementation are substantial. I spoke with an operations director at a major European bank who walked me through their cross-border payment system. Before blockchain: 3-5 days settlement, multiple intermediaries, fees stacking up at each step. After blockchain: near-instant settlement, direct peer-to-peer transfer, 80% reduction in costs.
+                </p>
 
-### Cost Reduction at Scale
+                <div className="grid md:grid-cols-3 gap-6 mb-8">
+                    <div className="bg-[#042440] border border-white/10 p-6 rounded-lg text-center">
+                        <div className="text-4xl font-light text-[#C5A059] mb-2">$20B</div>
+                        <div className="text-sm text-gray-400">Annual cost savings potential</div>
+                        <div className="text-xs text-gray-500 mt-2">By 2027</div>
+                    </div>
+                    <div className="bg-[#042440] border border-white/10 p-6 rounded-lg text-center">
+                        <div className="text-4xl font-light text-[#C5A059] mb-2">80%</div>
+                        <div className="text-sm text-gray-400">Reduction in settlement time</div>
+                        <div className="text-xs text-gray-500 mt-2">Cross-border payments</div>
+                    </div>
+                    <div className="bg-[#042440] border border-white/10 p-6 rounded-lg text-center">
+                        <div className="text-4xl font-light text-[#C5A059] mb-2">$16T</div>
+                        <div className="text-sm text-gray-400">Projected tokenized assets</div>
+                        <div className="text-xs text-gray-500 mt-2">By 2030</div>
+                    </div>
+                </div>
 
-The numbers speak for themselves:
-- Projected $20 billion in annual cost savings for the banking industry
-- 40-80% reduction in cross-border payment times
-- Significant decrease in reconciliation costs
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">Tokenization: The Real Game Changer</h2>
 
-## Tokenization: The Game Changer
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Here's where it gets interesting. Tokenization—representing real-world assets as digital tokens on a blockchain—is unlocking liquidity in markets that have been historically illiquid. Real estate is the obvious example, but it goes way beyond that.
+                </p>
 
-Real-world asset (RWA) tokenization has emerged as blockchain's killer application in finance.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    A colleague showed me a platform where you can buy fractional ownership in a Picasso. Not a print, not a share in a fund that owns it—actual ownership of the physical painting, represented by tokens. The painting stays in a secure vault, but ownership can be traded 24/7 with instant settlement. That's the power of tokenization.
+                </p>
 
-### What's Being Tokenized
+                <div className="bg-[#042440] border border-white/10 p-6 rounded-lg mb-8">
+                    <h3 className="text-xl font-medium text-white mb-4">Asset Tokenization by Sector</h3>
+                    <table className="w-full text-sm">
+                        <thead>
+                            <tr className="border-b border-white/10">
+                                <th className="text-left py-3 text-gray-400 font-medium">Asset Class</th>
+                                <th className="text-left py-3 text-gray-400 font-medium">Current Market</th>
+                                <th className="text-left py-3 text-gray-400 font-medium">Tokenization Potential</th>
+                                <th className="text-left py-3 text-gray-400 font-medium">Timeline</th>
+                            </tr>
+                        </thead>
+                        <tbody className="text-gray-300">
+                            <tr className="border-b border-white/5">
+                                <td className="py-3">Real Estate</td>
+                                <td className="py-3">$280T</td>
+                                <td className="py-3">$1.4T</td>
+                                <td className="py-3">2025-2027</td>
+                            </tr>
+                            <tr className="border-b border-white/5">
+                                <td className="py-3">Equities</td>
+                                <td className="py-3">$95T</td>
+                                <td className="py-3">$9.5T</td>
+                                <td className="py-3">2026-2028</td>
+                            </tr>
+                            <tr className="border-b border-white/5">
+                                <td className="py-3">Fixed Income</td>
+                                <td className="py-3">$130T</td>
+                                <td className="py-3">$3.9T</td>
+                                <td className="py-3">2025-2027</td>
+                            </tr>
+                            <tr>
+                                <td className="py-3">Alternative Assets</td>
+                                <td className="py-3">$13T</td>
+                                <td className="py-3">$1.2T</td>
+                                <td className="py-3">2027-2030</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p className="text-xs text-gray-500 mt-4">Source: BCG Global Asset Management Report 2024</p>
+                </div>
 
-- **Real Estate**: Fractional ownership of commercial and residential properties
-- **Fine Art**: Democratizing access to high-value collectibles
-- **Commodities**: Gold, silver, and other precious metals
-- **Securities**: Stocks, bonds, and fund shares
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">DeFi Meets Traditional Finance</h2>
 
-By 2030, analysts project that over $16 trillion in assets could be tokenized, representing 10% of global GDP.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    The convergence of decentralized finance (DeFi) and traditional banking is creating some fascinating hybrid models. I recently attended a presentation by a Swiss bank that's offering DeFi-style yield products to institutional clients, but with full regulatory compliance and traditional custody.
+                </p>
 
-## DeFi Meets Traditional Finance
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Smart contracts are automating processes that used to require armies of back-office staff. Trade finance is a perfect example. A letter of credit that used to take weeks and involve dozens of manual steps can now be executed automatically when predefined conditions are met. The bank I mentioned earlier has reduced their trade finance processing time from 10 days to 24 hours.
+                </p>
 
-The convergence of decentralized finance (DeFi) and traditional banking is creating hybrid models that combine the best of both worlds.
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">The Regulatory Picture</h2>
 
-### Smart Contracts in Action
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Europe's MiCA (Markets in Crypto-Assets) regulation went live this year, and it's actually been positive for institutional adoption. Banks finally have clear rules to follow. I spoke with a compliance officer who said MiCA removed the biggest barrier to blockchain adoption: regulatory uncertainty.
+                </p>
 
-Smart contracts are automating:
-- Loan origination and servicing
-- Trade finance documentation
-- Insurance claims processing
-- Asset management operations
+                <div className="bg-gradient-to-r from-[#C5A059]/10 to-[#b08d4d]/10 border border-[#C5A059]/20 p-6 rounded-lg mb-8">
+                    <h3 className="text-lg font-medium text-white mb-3">Major Banks with Live Blockchain Systems</h3>
+                    <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-300">
+                        <div className="flex items-center gap-2">
+                            <div className="w-2 h-2 bg-[#C5A059] rounded-full"></div>
+                            <span>JP Morgan - Onyx (payments, repo)</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <div className="w-2 h-2 bg-[#C5A059] rounded-full"></div>
+                            <span>Goldman Sachs - GS DAP (digital assets)</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <div className="w-2 h-2 bg-[#C5A059] rounded-full"></div>
+                            <span>HSBC - Orion (custody, tokenization)</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <div className="w-2 h-2 bg-[#C5A059] rounded-full"></div>
+                            <span>Citi - Citi Token Services</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <div className="w-2 h-2 bg-[#C5A059] rounded-full"></div>
+                            <span>BNY Mellon - Digital Asset Custody</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <div className="w-2 h-2 bg-[#C5A059] rounded-full"></div>
+                            <span>Standard Chartered - Zodia Custody</span>
+                        </div>
+                    </div>
+                </div>
 
-## Cross-Border Payments Revolution
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">Central Bank Digital Currencies</h2>
 
-Perhaps the most immediate impact of blockchain is in international payments:
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    CBDCs are moving from concept to reality. Over 100 countries are now exploring or piloting digital currencies. The digital euro pilot program launched this year, and I had the chance to test it. The user experience is seamless—it feels like using a payment app, but it's actually central bank money.
+                </p>
 
-- **Speed**: Transactions settling in minutes instead of days
-- **Cost**: Fees reduced by up to 90%
-- **Transparency**: Real-time tracking of payment status
-- **Accessibility**: 24/7 operations without banking hours constraints
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    What's interesting is how this changes the banking landscape. If people can hold accounts directly with central banks, what's the role of commercial banks? The answer seems to be that banks will focus more on lending, advisory, and value-added services rather than just payment processing.
+                </p>
 
-## Regulatory Evolution
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">The Challenges We're Still Solving</h2>
 
-Governments worldwide are adapting their frameworks:
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    It's not all smooth sailing. Scalability remains an issue—current blockchain networks can't match Visa's transaction throughput. Interoperability between different blockchains is still clunky. And there's a serious talent shortage. Every bank I talk to is desperately hiring blockchain developers.
+                </p>
 
-### EU Leadership
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Energy consumption has improved dramatically with the shift to proof-of-stake, but it's still a concern for some applications. And let's be real: changing decades-old banking infrastructure is hard. Legacy systems integration is probably the biggest practical challenge.
+                </p>
 
-- **MiCA Regulation**: Comprehensive crypto-asset framework fully implemented
-- **DORA**: Digital Operational Resilience Act focusing on cybersecurity
-- **Pilot Regime**: Testing tokenized securities in controlled environments
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">Where We're Headed</h2>
 
-### Global Coordination
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Five years from now, I believe we won't talk about "blockchain in banking" anymore—it'll just be banking. The technology will be invisible infrastructure, like TCP/IP is for the internet. We don't think about the protocol when we browse the web; we just use it.
+                </p>
 
-- Basel Committee guidelines for crypto-asset exposures
-- FATF travel rule implementation for virtual assets
-- Central bank digital currency (CBDC) pilots in over 100 countries
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    The banks that are investing heavily in blockchain now will have a significant competitive advantage. The ones that wait will find themselves playing catch-up in a market that's already moved on. Based on what I'm seeing, that future is arriving faster than most people think.
+                </p>
 
-## Security and Privacy Innovations
-
-Blockchain's security benefits are being enhanced with:
-
-- Zero-knowledge proofs for privacy-preserving transactions
-- Multi-party computation for secure data sharing
-- Quantum-resistant cryptography preparations
-
-## Challenges Remain
-
-Despite progress, obstacles persist:
-
-1. **Scalability**: Processing millions of transactions per second
-2. **Interoperability**: Different blockchain networks communicating
-3. **Energy Consumption**: Moving to proof-of-stake and other efficient consensus
-4. **Talent Shortage**: Need for blockchain-skilled professionals
-
-## The Road Ahead
-
-Blockchain in banking is no longer about if, but how quickly. The technology has proven its value in:
-
-- Reducing operational costs
-- Increasing transaction speed
-- Enhancing security and transparency
-- Creating new financial products
-
-As we look to 2025 and beyond, blockchain will become as fundamental to banking as the internet itself.
-        `
+                <div className="bg-gradient-to-r from-[#C5A059]/10 to-[#b08d4d]/10 border-l-4 border-[#C5A059] p-6 mt-8">
+                    <p className="text-sm text-gray-300 italic">
+                        "Blockchain isn't replacing banks—it's making them better. That's the real revolution."
+                    </p>
+                </div>
+            </>
+        )
     },
     'private-equity-trends-2024': {
         title: "Private Equity Trends in 2025: AI and Value Creation",
@@ -185,178 +356,217 @@ As we look to 2025 and beyond, blockchain will become as fundamental to banking 
         category: "Markets",
         readTime: "9 min read",
         image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=60&w=1200",
-        content: `
-# Private Equity Trends in 2025: AI and Value Creation
+        content: (
+            <>
+                <p className="text-xl text-gray-200 leading-relaxed mb-8 font-light">
+                    Private equity in 2024 looks nothing like it did three years ago. The playbook has been completely rewritten, and AI is holding the pen.
+                </p>
 
-The private equity landscape in 2024 has been defined by technological innovation, operational excellence, and a fundamental shift in how value is created.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    I spent last week at a PE conference in Barcelona, and the conversations were fascinating. Nobody was talking about leverage multiples or financial engineering. Every discussion centered on operational improvements, technology integration, and sustainable value creation. The industry has fundamentally changed.
+                </p>
 
-## AI: The New Competitive Advantage
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">AI: From Buzzword to Competitive Necessity</h2>
 
-Artificial intelligence, particularly generative AI, has become the defining technology for private equity firms.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Let me tell you about a conversation I had with a partner at a mid-market PE firm. They showed me their new AI-powered deal sourcing platform. It analyzes thousands of companies daily, identifying potential acquisition targets based on growth patterns, market positioning, and operational metrics. What used to take a team of analysts weeks now happens in real-time.
+                </p>
 
-### AI Applications Across the Investment Cycle
+                <div className="bg-[#042440] border border-white/10 p-6 rounded-lg mb-8">
+                    <h3 className="text-xl font-medium text-white mb-4">AI Adoption Across PE Investment Cycle</h3>
+                    <div className="space-y-6">
+                        <div>
+                            <div className="flex justify-between mb-2">
+                                <span className="text-gray-300 text-sm font-medium">Deal Sourcing & Screening</span>
+                                <span className="text-[#C5A059] text-sm">87%</span>
+                            </div>
+                            <div className="w-full bg-white/5 rounded-full h-3">
+                                <div className="bg-gradient-to-r from-[#C5A059] to-[#b08d4d] h-3 rounded-full" style={{ width: '87%' }}></div>
+                            </div>
+                            <p className="text-xs text-gray-500 mt-1">Predictive analytics, market scanning</p>
+                        </div>
+                        <div>
+                            <div className="flex justify-between mb-2">
+                                <span className="text-gray-300 text-sm font-medium">Due Diligence</span>
+                                <span className="text-[#C5A059] text-sm">76%</span>
+                            </div>
+                            <div className="w-full bg-white/5 rounded-full h-3">
+                                <div className="bg-gradient-to-r from-[#C5A059] to-[#b08d4d] h-3 rounded-full" style={{ width: '76%' }}></div>
+                            </div>
+                            <p className="text-xs text-gray-500 mt-1">Automated financial analysis, risk assessment</p>
+                        </div>
+                        <div>
+                            <div className="flex justify-between mb-2">
+                                <span className="text-gray-300 text-sm font-medium">Portfolio Monitoring</span>
+                                <span className="text-[#C5A059] text-sm">92%</span>
+                            </div>
+                            <div className="w-full bg-white/5 rounded-full h-3">
+                                <div className="bg-gradient-to-r from-[#C5A059] to-[#b08d4d] h-3 rounded-full" style={{ width: '92%' }}></div>
+                            </div>
+                            <p className="text-xs text-gray-500 mt-1">Real-time dashboards, performance tracking</p>
+                        </div>
+                        <div>
+                            <div className="flex justify-between mb-2">
+                                <span className="text-gray-300 text-sm font-medium">Value Creation</span>
+                                <span className="text-[#C5A059] text-sm">64%</span>
+                            </div>
+                            <div className="w-full bg-white/5 rounded-full h-3">
+                                <div className="bg-gradient-to-r from-[#C5A059] to-[#b08d4d] h-3 rounded-full" style={{ width: '64%' }}></div>
+                            </div>
+                            <p className="text-xs text-gray-500 mt-1">Operational optimization, revenue growth</p>
+                        </div>
+                    </div>
+                    <p className="text-xs text-gray-500 mt-4">Source: Bain & Company PE Report 2024</p>
+                </div>
 
-**Deal Sourcing**
-- Predictive analytics identifying potential targets
-- Market trend analysis and opportunity mapping
-- Competitive landscape monitoring
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    But here's what's really interesting: AI isn't just for deal sourcing. Portfolio companies are using it for everything from demand forecasting to customer service. One portfolio company I visited implemented AI-driven inventory management and reduced working capital needs by 30%. That's real value creation.
+                </p>
 
-**Due Diligence**
-- Automated financial analysis and modeling
-- Risk assessment and scenario planning
-- Market validation and customer sentiment analysis
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">The Death of Financial Engineering</h2>
 
-**Portfolio Management**
-- Real-time performance monitoring
-- Operational efficiency optimization
-- Revenue growth opportunity identification
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Remember when PE returns were driven by leverage and multiple expansion? Those days are over. Interest rates killed the cheap debt party, and valuation multiples have compressed. Now it's all about operational improvements.
+                </p>
 
-## Value Creation Over Financial Engineering
+                <div className="grid md:grid-cols-2 gap-6 mb-8">
+                    <div className="bg-gradient-to-br from-[#C5A059]/10 to-[#b08d4d]/10 border border-[#C5A059]/20 p-6 rounded-lg">
+                        <h3 className="text-lg font-medium text-white mb-4">Traditional Model (2010-2021)</h3>
+                        <div className="space-y-3 text-sm">
+                            <div className="flex justify-between">
+                                <span className="text-gray-400">Multiple Expansion</span>
+                                <span className="text-gray-300">40%</span>
+                            </div>
+                            <div className="flex justify-between">
+                                <span className="text-gray-400">Leverage</span>
+                                <span className="text-gray-300">35%</span>
+                            </div>
+                            <div className="flex justify-between">
+                                <span className="text-gray-400">Operational Improvement</span>
+                                <span className="text-gray-300">25%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="bg-gradient-to-br from-[#C5A059]/10 to-[#b08d4d]/10 border border-[#C5A059]/20 p-6 rounded-lg">
+                        <h3 className="text-lg font-medium text-white mb-4">New Model (2024+)</h3>
+                        <div className="space-y-3 text-sm">
+                            <div className="flex justify-between">
+                                <span className="text-gray-400">Operational Improvement</span>
+                                <span className="text-[#C5A059] font-medium">60%</span>
+                            </div>
+                            <div className="flex justify-between">
+                                <span className="text-gray-400">Revenue Growth</span>
+                                <span className="text-[#C5A059] font-medium">25%</span>
+                            </div>
+                            <div className="flex justify-between">
+                                <span className="text-gray-400">Multiple Expansion</span>
+                                <span className="text-gray-300">15%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-The era of cheap debt and multiple expansion is over. Today's PE success stories are built on operational improvements.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    I spoke with an operating partner who's been in the industry for 20 years. She told me her job has completely transformed. It used to be about cutting costs. Now it's about digital transformation, process automation, and building scalable systems. The skill set required is totally different.
+                </p>
 
-### The New Playbook
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">ESG: From Compliance to Competitive Advantage</h2>
 
-1. **Operational Excellence**
-   - Process optimization and automation
-   - Digital transformation initiatives
-   - Supply chain resilience building
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    ESG integration in PE has moved way beyond checking boxes for LPs. It's becoming a genuine source of value creation. A firm I know invested in a manufacturing company and implemented comprehensive sustainability measures. Energy costs dropped 25%, they attracted better talent, and customers were willing to pay premium prices for sustainably produced goods.
+                </p>
 
-2. **Revenue Growth**
-   - Market expansion strategies
-   - Product innovation and development
-   - Customer experience enhancement
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    The data backs this up. Portfolio companies with strong ESG performance are seeing 15-20% higher valuations at exit. LPs are demanding it, regulators are requiring it, and increasingly, it just makes good business sense.
+                </p>
 
-3. **Cost Optimization**
-   - Working capital management
-   - Procurement efficiency
-   - Organizational restructuring
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">Private Credit Explosion</h2>
 
-## ESG Integration Deepens
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Private credit has been the breakout story of 2024. With banks pulling back from lending, private credit funds have stepped in. The market has grown to nearly $1.7 trillion, and it's not slowing down.
+                </p>
 
-Environmental, social, and governance factors are no longer optional—they're essential to value creation.
+                <div className="bg-[#042440] border border-white/10 p-6 rounded-lg mb-8">
+                    <h3 className="text-xl font-medium text-white mb-4">Private Credit Market Growth</h3>
+                    <table className="w-full text-sm">
+                        <thead>
+                            <tr className="border-b border-white/10">
+                                <th className="text-left py-3 text-gray-400 font-medium">Year</th>
+                                <th className="text-left py-3 text-gray-400 font-medium">AUM</th>
+                                <th className="text-left py-3 text-gray-400 font-medium">Growth</th>
+                                <th className="text-left py-3 text-gray-400 font-medium">Key Drivers</th>
+                            </tr>
+                        </thead>
+                        <tbody className="text-gray-300">
+                            <tr className="border-b border-white/5">
+                                <td className="py-3">2020</td>
+                                <td className="py-3">$850B</td>
+                                <td className="py-3">+12%</td>
+                                <td className="py-3">Bank deleveraging</td>
+                            </tr>
+                            <tr className="border-b border-white/5">
+                                <td className="py-3">2022</td>
+                                <td className="py-3">$1.2T</td>
+                                <td className="py-3">+18%</td>
+                                <td className="py-3">Rising rates</td>
+                            </tr>
+                            <tr className="border-b border-white/5">
+                                <td className="py-3">2024</td>
+                                <td className="py-3">$1.7T</td>
+                                <td className="py-3">+21%</td>
+                                <td className="py-3">Institutional demand</td>
+                            </tr>
+                            <tr>
+                                <td className="py-3">2028 (proj.)</td>
+                                <td className="py-3">$2.8T</td>
+                                <td className="py-3">+13% CAGR</td>
+                                <td className="py-3">Market maturation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-### Infrastructure Focus
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    What I find fascinating is how private credit is enabling deals that wouldn't happen otherwise. More flexible terms, faster execution, and direct relationships with borrowers. It's creating a parallel financial system alongside traditional banking.
+                </p>
 
-PE firms are heavily investing in:
-- Renewable energy projects
-- Electric vehicle charging networks
-- Sustainable agriculture technology
-- Water and waste management systems
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">Sector Focus: Where the Money's Going</h2>
 
-### Measurement and Reporting
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Technology remains the dominant sector, but it's evolved. Everyone's chasing AI companies, cybersecurity, and cloud infrastructure. Healthcare is huge—aging demographics in developed markets make it a no-brainer. And infrastructure, particularly renewable energy and data centers, is attracting massive capital.
+                </p>
 
-- Standardized ESG metrics across portfolios
-- Third-party verification of impact claims
-- Integration with financial performance tracking
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    I attended a pitch last month for a data center REIT. The thesis was simple: AI requires massive computing power, computing power needs data centers, data centers need capital. They raised $500 million in three weeks.
+                </p>
 
-## Private Credit Boom
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">Deal Activity Rebounds</h2>
 
-The growth of private credit reflects fundamental market shifts:
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    After a brutal 2023, deal activity came roaring back in 2024. Q2 was the strongest quarter in two years. Megadeals are back—we've seen several $10B+ transactions. The exit market has thawed, and IPO windows are opening again.
+                </p>
 
-### Why Private Credit is Thriving
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    What's driving this? Dry powder. PE firms are sitting on over $2.5 trillion in uninvested capital. That money needs to be deployed, and sellers are finally accepting the new valuation reality. The market is finding equilibrium.
+                </p>
 
-- Bank lending constraints post-financial crisis
-- Higher returns in a low-yield environment
-- Flexibility in deal structuring
-- Direct relationship with borrowers
+                <h2 className="text-3xl font-light text-white mb-6 mt-12">The Road Ahead</h2>
 
-Market size projections suggest private credit could reach $2.8 trillion by 2028.
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    Looking forward, I see PE becoming more specialized, more operational, and more technology-driven. The generalist mega-funds will still exist, but we'll see more sector-focused firms with deep operational expertise.
+                </p>
 
-## Deal Activity Resurgence
+                <p className="text-gray-300 leading-relaxed mb-6">
+                    The firms that win will be those that can genuinely improve their portfolio companies—not through financial engineering, but through operational excellence, digital transformation, and sustainable business practices. That's a much harder game to play, but the rewards for those who master it will be substantial.
+                </p>
 
-After a challenging 2023, deal activity rebounded strongly in 2024:
-
-### Q2 2024 Highlights
-
-- Strongest quarter in two years
-- Megadeals returning to 2021 levels
-- Cross-border activity increasing
-- Take-private transactions accelerating
-
-## Sector-Specific Strategies
-
-PE firms are becoming increasingly specialized:
-
-### Hot Sectors
-
-**Technology**
-- AI and machine learning companies
-- Cybersecurity solutions
-- Cloud infrastructure
-- Digital transformation services
-
-**Healthcare**
-- Medical technology innovations
-- Healthcare IT systems
-- Specialty pharmacy services
-- Senior care facilities
-
-**Infrastructure**
-- Renewable energy assets
-- Data centers
-- Telecommunications networks
-- Transportation systems
-
-## Creative Deal Structuring
-
-Firms are employing innovative approaches:
-
-- **Minority Investments**: Partnering rather than controlling
-- **Joint Ventures**: Sharing risk and expertise
-- **Rolling Funds**: Continuous capital deployment
-- **Continuation Vehicles**: Extending hold periods for winners
-
-## Working Capital Optimization
-
-In a higher interest rate environment, cash is king:
-
-### Focus Areas
-
-- Inventory management efficiency
-- Accounts receivable acceleration
-- Payment term optimization
-- Cash flow forecasting accuracy
-
-## The Retail Opportunity
-
-PE firms are exploring new distribution channels:
-
-- Evergreen fund structures
-- Lower minimum investments
-- Simplified reporting
-- Digital distribution platforms
-
-## Challenges and Opportunities
-
-### Current Headwinds
-
-- Elevated interest rates
-- Economic uncertainty
-- Geopolitical tensions
-- Regulatory scrutiny
-
-### Emerging Opportunities
-
-- Corporate carve-outs and divestitures
-- Distressed asset acquisitions
-- Founder-led buyouts
-- Industry consolidation plays
-
-## Looking Forward
-
-The private equity industry is evolving rapidly:
-
-1. **Technology adoption** will separate winners from losers
-2. **Operational expertise** will drive returns
-3. **ESG integration** will become table stakes
-4. **Specialization** will increase across sectors
-5. **Alternative structures** will democratize access
-
-Success in this environment requires more than capital—it demands operational excellence, technological sophistication, and a commitment to sustainable value creation.
-
-The firms that master these elements will thrive in the new era of private equity.
-        `
+                <div className="bg-gradient-to-r from-[#C5A059]/10 to-[#b08d4d]/10 border-l-4 border-[#C5A059] p-6 mt-8">
+                    <p className="text-sm text-gray-300 italic">
+                        "The PE industry is growing up. It's no longer about financial wizardry—it's about building better businesses. And honestly, that's how it should have been all along."
+                    </p>
+                </div>
+            </>
+        )
     }
 };
 
@@ -380,66 +590,6 @@ export default function ArticleDetailPage() {
             </div>
         );
     }
-
-    // Parse markdown-style content to JSX
-    const renderContent = (content) => {
-        const lines = content.trim().split('\n');
-        const elements = [];
-        let currentParagraph = [];
-
-        lines.forEach((line, idx) => {
-            if (line.startsWith('# ')) {
-                if (currentParagraph.length > 0) {
-                    elements.push(<p key={`p-${idx}`} className="text-gray-300 leading-relaxed mb-6">{currentParagraph.join(' ')}</p>);
-                    currentParagraph = [];
-                }
-                elements.push(<h1 key={idx} className="text-4xl font-light text-white mb-8 mt-12">{line.substring(2)}</h1>);
-            } else if (line.startsWith('## ')) {
-                if (currentParagraph.length > 0) {
-                    elements.push(<p key={`p-${idx}`} className="text-gray-300 leading-relaxed mb-6">{currentParagraph.join(' ')}</p>);
-                    currentParagraph = [];
-                }
-                elements.push(<h2 key={idx} className="text-3xl font-light text-white mb-6 mt-10">{line.substring(3)}</h2>);
-            } else if (line.startsWith('### ')) {
-                if (currentParagraph.length > 0) {
-                    elements.push(<p key={`p-${idx}`} className="text-gray-300 leading-relaxed mb-6">{currentParagraph.join(' ')}</p>);
-                    currentParagraph = [];
-                }
-                elements.push(<h3 key={idx} className="text-2xl font-medium text-white mb-4 mt-8">{line.substring(4)}</h3>);
-            } else if (line.startsWith('- ') || line.startsWith('* ')) {
-                if (currentParagraph.length > 0) {
-                    elements.push(<p key={`p-${idx}`} className="text-gray-300 leading-relaxed mb-6">{currentParagraph.join(' ')}</p>);
-                    currentParagraph = [];
-                }
-                elements.push(<li key={idx} className="text-gray-300 mb-2 ml-6">{line.substring(2)}</li>);
-            } else if (line.match(/^\d+\./)) {
-                if (currentParagraph.length > 0) {
-                    elements.push(<p key={`p-${idx}`} className="text-gray-300 leading-relaxed mb-6">{currentParagraph.join(' ')}</p>);
-                    currentParagraph = [];
-                }
-                elements.push(<li key={idx} className="text-gray-300 mb-2 ml-6 list-decimal">{line.substring(line.indexOf('.') + 2)}</li>);
-            } else if (line.startsWith('**') && line.endsWith('**')) {
-                if (currentParagraph.length > 0) {
-                    elements.push(<p key={`p-${idx}`} className="text-gray-300 leading-relaxed mb-6">{currentParagraph.join(' ')}</p>);
-                    currentParagraph = [];
-                }
-                elements.push(<p key={idx} className="text-white font-medium mb-3 mt-6">{line.replace(/\*\*/g, '')}</p>);
-            } else if (line.trim() === '') {
-                if (currentParagraph.length > 0) {
-                    elements.push(<p key={`p-${idx}`} className="text-gray-300 leading-relaxed mb-6">{currentParagraph.join(' ')}</p>);
-                    currentParagraph = [];
-                }
-            } else {
-                currentParagraph.push(line);
-            }
-        });
-
-        if (currentParagraph.length > 0) {
-            elements.push(<p key="final-p" className="text-gray-300 leading-relaxed mb-6">{currentParagraph.join(' ')}</p>);
-        }
-
-        return elements;
-    };
 
     return (
         <div className="min-h-screen flex flex-col bg-[#051C2C]">
@@ -479,7 +629,7 @@ export default function ArticleDetailPage() {
 
                     {/* Article Body */}
                     <div className="prose prose-invert max-w-none">
-                        {renderContent(article.content)}
+                        {article.content}
                     </div>
 
                     {/* Related Articles */}
