@@ -161,24 +161,26 @@ export default function SearchOverlay({ isOpen, onClose }) {
         const siteResults = searchSite(query);
         const suggestions = getSmartSuggestions(query);
 
-        // 2. Check rate limit for AI
-        const limitCheck = checkRateLimit();
+        // 2. Try to get AI response
         let aiResp = null;
 
-        if (limitCheck.allowed) {
-            // Try Gemini first
-            aiResp = await getGeminiResponse(query);
-        } else {
-            console.warn("Rate limit reached:", limitCheck.reason);
+        // Only try Gemini if we have a key
+        if (apiKey) {
+            const limitCheck = checkRateLimit();
+            if (limitCheck.allowed) {
+                aiResp = await getGeminiResponse(query);
+            } else {
+                console.warn("Rate limit reached:", limitCheck.reason);
+            }
         }
 
-        // 3. Fallback to simulated response if Gemini failed or rate limited
+        // 3. Fallback to simulated response if no key, API failed, or rate limited
         if (!aiResp) {
             aiResp = getSimulatedResponse(query);
-            if (!aiResp && !limitCheck.allowed) {
-                aiResp = `(Offline Mode) ${limitCheck.reason} Showing local results only.`;
-            } else if (!aiResp) {
-                aiResp = `I can help you explore "${query}" in the context of finance. I've found relevant articles and resources below.`;
+
+            // If still no response (query not in simulated DB), give a generic helpful response
+            if (!aiResp) {
+                aiResp = `I can help you explore "${query}" in the context of finance. I've found relevant articles and resources below. Our site covers ESG investing, blockchain technology, private equity trends, and more.`;
             }
         }
 
