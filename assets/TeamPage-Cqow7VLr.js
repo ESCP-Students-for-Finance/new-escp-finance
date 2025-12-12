@@ -1,0 +1,19 @@
+import{u as m,j as e}from"./index-C2xT80dY.js";import{t as d,H as h,F as g}from"./Footer-BxhX4n0T.js";function u(){const[i,o]=m(),t=d,c=i.get("section"),r=t.findIndex(a=>a.name===c),l=r!==-1?r:0,n=a=>{o({section:t[a].name})};return e.jsxs("div",{className:"min-h-screen flex flex-col bg-[#051C2C]",children:[e.jsx(h,{}),e.jsx("section",{className:"bg-[#051C2C] pt-20 sm:pt-24 pb-12 sm:pb-16",children:e.jsxs("div",{className:"container mx-auto px-4 sm:px-8 max-w-7xl",children:[e.jsx("h1",{className:"text-4xl sm:text-5xl font-light tracking-tight text-white mb-2",children:"Team"}),e.jsx("p",{className:"text-gray-400 text-base sm:text-lg",children:"The people driving our vision forward"})]})}),e.jsx("section",{className:"lg:hidden border-b border-white/10 sticky top-[140px] bg-[#0A1929] z-30",children:e.jsx("div",{className:"container mx-auto px-4",children:e.jsx("nav",{className:"flex gap-2 overflow-x-auto py-4 scrollbar-hide",children:t.map((a,s)=>e.jsx("button",{onClick:()=>n(s),className:`flex-shrink-0 px-4 py-2 text-sm font-medium rounded-full transition-all touch-manipulation ${l===s?"bg-[#D4AF37] text-white":"bg-white/5 text-gray-400 hover:text-white hover:bg-white/10"}`,children:a.name},s))})})}),e.jsx("section",{className:"flex-1 py-8",children:e.jsx("div",{className:"container mx-auto px-4 sm:px-8 max-w-7xl",children:e.jsxs("div",{className:"flex gap-8 lg:gap-12",children:[e.jsx("aside",{className:"hidden lg:block w-48 flex-shrink-0 sticky top-24 self-start",children:e.jsx("nav",{className:"space-y-1",children:t.map((a,s)=>e.jsx("button",{onClick:()=>n(s),className:`w-full text-left px-4 py-3 text-sm transition-all ${l===s?"text-white bg-white/5 border-l-2 border-white":"text-gray-500 hover:text-gray-300 border-l-2 border-transparent hover:border-gray-700"}`,children:a.name},s))})}),e.jsx("main",{className:"flex-1 pb-12",children:e.jsx("div",{className:"grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8",children:t[l].members.map((a,s)=>e.jsxs("div",{className:"group",style:{animation:`fadeIn 0.4s ease-out ${s*.04}s both`},children:[e.jsx("div",{className:`aspect-square mb-3 sm:mb-4 overflow-hidden rounded-lg ${["Marina Meucci","Lucas Thai","Alex Toumasson"].includes(a.name)?"bg-white":"bg-[#042440]"}`,children:e.jsx("img",{src:a.img,alt:a.name,className:`w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700 ${["Ines Desmaretz","Edoardo Cerrano","Emanuele Ferrara","Tommaso Girani","Adriano Cogorno","Giorgio D'Innocenzo"].some(x=>a.name.includes(x))?"object-[center_35%]":""} ${a.name==="Shashank Tripathi"?"scale-125 object-[center_90%]":""} ${a.name==="Marina Meucci"?"scale-150 object-[center_98%]":""} ${a.name==="Beatrice Pelini"?"scale-125 object-[center_90%]":""} ${a.name==="Daria Iannuzzi"?"scale-125 object-[center_90%]":""} ${a.name==="Alessandra Boarolo"?"scale-125 object-[center_98%]":""}`,loading:"lazy"})}),e.jsx("h4",{className:"text-xs sm:text-sm font-medium text-white mb-1",children:a.name}),e.jsx("p",{className:"text-[10px] sm:text-xs text-gray-500",children:a.role})]},s))})})]})})}),e.jsx(g,{}),e.jsx("style",{jsx:!0,children:`
+                @keyframes fadeIn {
+                    from {
+                        opacity: 0;
+                        transform: translateY(12px);
+                    }
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+                .scrollbar-hide::-webkit-scrollbar {
+                    display: none;
+                }
+                .scrollbar-hide {
+                    -ms-overflow-style: none;
+                    scrollbar-width: none;
+                }
+            `})]})}export{u as default};
