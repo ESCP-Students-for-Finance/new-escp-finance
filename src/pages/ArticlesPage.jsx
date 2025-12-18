@@ -7,6 +7,16 @@ import { articles } from '../data/siteData';
 
 export default function ArticlesPage() {
     const articles = [
+         {
+            title: "Record Volumes of Swiss M&A Activity Defies 2025 Macroeconomic Headwinds",
+            excerpt: "With $160 Billion of transactions in M&A market, Switzerland had been the outlier in 2025",
+            category: "M&A",
+            series: "Market Momentum | Week 50",
+            author: "Giorgio Gheorghios Tsingros and Francesco Kaitsas",
+            date: "Dec 18, 2025",
+            image: "/switzerland-ma-2025.webp",
+            slug: "switzerland-ma-outlier-2025"
+        },
         {
             title: "Bending Spoons Acquires Eventbrite in a Landmark $500 Million Transaction",
             excerpt:
