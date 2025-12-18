@@ -22,6 +22,118 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+
+  'switzerland-ma-outlier-2025': (
+    <>
+      <SectionHeading>
+        With $160 Billion of transactions in M&amp;A market, Switzerland had been the outlier in 2025
+      </SectionHeading>
+
+      <SectionHeading>Record Volumes of Swiss M&amp;A Activity Defies 2025 Macroeconomic Headwinds</SectionHeading>
+      <BodyParagraph>
+        In 2025, Switzerland emerged as one of Europe’s most active hubs for M&amp;A.
+      </BodyParagraph>
+      <BodyParagraph>
+        Recent estimates put the value of deals involving Swiss companies at more than 160 billion dollars, a record reached under conditions that, on paper, should have held activity back. In fact, the Swiss franc has strengthened by about 14% against the US dollar, trade tensions with the US have led to new tariffs, and global growth remains uneven. Instead of freezing, dealmaking has adapted; Swiss groups are using a strong currency and a very stable domestic environment to consolidate at home and buy strategically abroad.
+      </BodyParagraph>
+
+      <StatGrid className="mb-8" columns="md:grid-cols-4">
+        <StatCard value="+14%" label="CHF vs USD" helper="Currency strength" />
+        <StatCard value="0%" label="Policy rate" helper="SNB rate by mid 2025" />
+        <StatCard value="15%" label="US tariffs (framework)" helper="Reduced from 39%" />
+      </StatGrid>
+
+      <SectionHeading>Monetary Policy Implications and Capitalizing on Currency Strength</SectionHeading>
+      <BodyParagraph>
+        To understand why, it helps to look at the broader context. Over the last two years, the Swiss National Bank has been trying to cool down an over-strong currency and prevent inflation from sliding too low. Between 2024 and mid 2025 it cut interest rates step by step to 0%, and signalled that it could go lower if capital kept flowing into the franc. This interest rate is expected not to increase in the future, remaining at 0% for the entire 2026, with inflation that will swing between 0 and 2%. For exporting firms, the situation is difficult: foreign revenues are worth less once converted back into francs, and tougher global demand makes it harder to protect margins. Early 2025 data showed exports under pressure, especially in the chemical and pharmaceutical industries that normally drive the trade surplus.
+        For companies that buy other businesses, however, the same environment creates an opportunity. A stronger franc means that assets earning euros or dollars cost less in Swiss currency, as long as the targets are fundamentally sound. Low interest rates at home and generally solid balance sheets also help large Swiss corporations borrow at reasonable cost, while many peers in other countries are still adjusting to higher funding costs.
+      </BodyParagraph>
+
+      <SectionHeading>Navigating US Trade Relations: Cross-Border M&amp;A as a Risk Mitigation Strategy</SectionHeading>
+      <BodyParagraph>
+        The tariff dispute with Washington adds a political dimension. The US first imposed duties of 39% on a wide range of Swiss imports, a serious blow for a country built on high-value exports in sectors such as pharmaceuticals, machinery and precision engineering. After months of talks, a framework deal cut those tariffs to 15%, thanks to the memorandum of understanding between Switzerland, Liechtenstein, and the US in exchange for a commitment that Swiss companies would invest heavily in the US in the coming years and for closer cooperation on trade rules. All these above-mentioned reasons highlight the message for corporate boards that, in a world where tariffs and regulations can change quickly, relying only on exports is risky. Therefore, owning factories, logistics networks or research centres directly inside key markets is a way to reduce that risk. Cross-border M&amp;A becomes not just a growth strategy, but a form of insurance.
+      </BodyParagraph>
+
+      <SectionHeading>An analysis of the most important transactions happened in 2025 in Switzerland</SectionHeading>
+      <BodyParagraph>
+        Within this setting, multiple acquisitions have been noteworthy, and among them, the sale of ABB’s robotics division to SoftBank Group shows how these forces work in practice. In October 2025, ABB agreed to sell the business to SoftBank for 5.375 billion dollars, abandoning earlier plans for a spin-off. The unit, positioned between industrial automation and artificial intelligence, had long been one of ABB’s flagship activities. For ABB, the deal is a way to narrow its focus on core areas like electrification and process automation; for SoftBank, it is a quick way to secure a global robotics platform that fits into its wider tech and AI strategy. The price SoftBank is willing to pay confirms that, even after the post-2021 market correction, strong automation and tech related assets can still command a premium.
+        Other important transactions occurred also in various areas. In insurance, Helvetia merged with Baloise thanks to a stock swap where Baloise shareholders received 1.0119 new Helvetia shares for each Baloise share held while Holcim, a building material group, bought the company Xella through a €1.85bn deal increasing its presence into construction and materials recycling companies. In the infrastructure business Mediterranean Shipping Company bought a major expansion in its network thanks to a deal with CK Hutchison, an Hong Kong-based conglomerate. Also Pharma companies, such as Roche and Novartis, carried out various targeted acquisitions to increase their pipeline into oncology and immunology areas.
+      </BodyParagraph>
+
+      <TableCard
+        title="Top 2025 Deals"
+        className="mb-8"
+        header={['Company', 'Deal Type', 'Value / Details']}
+        rows={[
+          ['ABB / SoftBank', 'Divestment ($5.375bn)', 'Focus on core electrification selling Robotics to SoftBank.'],
+          ['Helvetia / Baloise', 'Merger', 'Domestic consolidation via stock swap'],
+          ['Holcim / Xella', 'Acquisition (€1.85bn)', 'Bought Xella to expand into sustainable construction materials market.'],
+          ['Roche & Novartis', 'Acquisitions', 'Securing future pipelines in Oncology & Immunology.'],
+          ['MSC', 'Expansion', 'Infrastructure deal with CK Hutchison.'],
+        ]}
+      />
+
+      <SectionHeading>Comparative Analysis of Switzerland’s Outperformance in a Fragmented European Market</SectionHeading>
+      <BodyParagraph>
+        Seen against the global picture, Switzerland’s role is even more striking. Worldwide M&amp;A has recovered from the lows of 2022 and 2023, but total deal value remains far below the 2021 peak. North America accounts for most of the activity, Europe is softer and more fragmented, and many mid-sized companies still struggle to access capital on good terms. Within this weaker European environment, Switzerland stands out with record volumes and a deal mix heavily tilted toward sectors that matter politically as well as economically: industrial technology, energy-efficient construction, financial services and advanced healthcare.
+        For anyone looking at how finance interacts with politics and economics, Switzerland in 2025 is more than a niche case, it could be considered as a safe-haven currency and low rates hub, giving to its companies the firepower to act while others hesitate.
+        However, trade conflict with the USA did not stop capital from moving; it redirected it into ownership of real assets on American soil, and M&amp;A is the bridge between these forces, turning exchange rates, interest-rate decisions and tariff threats into very concrete outcomes.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        In that sense, the Swiss deal wave is not just another busy year in a small market, but it can be considered as a preview of how companies elsewhere may respond as the world becomes more fragmented: by using deals not only to grow, but to decide on which side of the new economic borders they want, and need to stand.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Written by Giorgio Gheorghios Tsingros and Francesco Kaitsas
+      </BodyParagraph>
+
+      <SectionHeading>References</SectionHeading>
+      <ul className="text-sm text-gray-400 space-y-2">
+        <li>
+          <a
+            href="https://www.ft.com/content/13bb7aca-b46e-4460-aab7-24d81410bb62?utm_social_post_id=622481744&utm_social_handle_id=4697"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            Financial Times – Swiss M&amp;A coverage
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.swissinfo.ch/eng/various/swiss-interest-rates-remain-at-0/90620169"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            swissinfo.ch – Swiss interest rates remain at 0
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.s-ge.com/en/article/news/2025-e-usa-ct10-reduction-additional-tariffs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            S-GE – Reduction / additional tariffs update
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://taxpartner.ch/en/swiss-exporters-face-rising-pressure-from-u-s-tariffs/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            Tax Partner – Swiss exporters face rising pressure from U.S. tariffs
+          </a>
+        </li>
+      </ul>
+    </>
+  ),
+
   'bending-spoons-eventbrite-2025': (
     <>
       {/* Title + lead section */}
