@@ -1,31 +1,45 @@
 {
-  "lastUpdated": "2026-01-19T09:42:29.380Z",
+  "lastUpdated": "2026-01-19T16:44:00.000Z",
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "6872.45",
-      "change": "+0.47%",
+      "value": "6,940.01",
+      "change": "+0.064%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "NASDAQ",
-      "value": "23550.12",
-      "change": "+0.58%",
+      "value": "23,515.39",
+      "change": "+0.062%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "DOW",
-      "value": "47610.20",
-      "change": "+0.29%",
+      "value": "49,359.33",
+      "change": "+0.17%",
       "positive": true,
       "type": "index"
     },
     {
+      "symbol": "GOLD",
+      "value": "2,750.00",
+      "change": "+0.50%",
+      "positive": true,
+      "type": "metal"
+    },
+    {
+      "symbol": "SILVER",
+      "value": "31.50",
+      "change": "+0.75%",
+      "positive": true,
+      "type": "metal"
+    },
+    {
       "symbol": "OIL",
-      "value": "59.12",
-      "change": "+0.77%",
+      "value": "78.50",
+      "change": "+1.20%",
       "positive": true,
       "type": "commodity"
     }
