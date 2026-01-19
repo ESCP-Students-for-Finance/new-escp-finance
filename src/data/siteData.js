@@ -2,7 +2,7 @@
 
 // Articles data
 export const articles = [
-    
+
     {
         title: "Record Volumes of Swiss M&A Activity Defies 2025 Macroeconomic Headwinds",
         excerpt: "With $160 Billion of transactions in M&A market, Switzerland had been the outlier in 2025",
@@ -50,31 +50,31 @@ export const articles = [
 // News data
 export const newsItems = [
     {
-        title: "Global Markets Rally as Inflation Hits 2-Year Low",
+        title: "Dollar Slips as Trump's Greenland Threats Reawaken 'Sell America' Fears",
         source: "Financial Times",
-        date: "Dec 05, 2025",
+        date: "Jan 19, 2026",
         category: "Markets",
-        excerpt: "Major indices hit record highs as new data shows global inflation cooling faster than unexpected, prompting optimism for rate cuts.",
-        image: "/news/markets-rally.png",
-        url: "https://www.ft.com"
+        excerpt: "Euro and sterling rise against US currency despite potential economic damage from new American tariffs as geopolitical tensions mount.",
+        image: "/news/dollar-greenland.png",
+        url: "https://www.ft.com/content/4e5440f3-e0e8-44c1-83b4-a7a131647278"
     },
     {
-        title: "Quantum Leap: Major Breakthrough in Commercial Quantum Computing",
-        source: "Bloomberg",
-        date: "Dec 04, 2025",
-        category: "Tech",
-        excerpt: "Tech giants announce a joint breakthrough in qubit stability, potentially accelerating the timeline for commercial quantum advantage.",
-        image: "/news/quantum-tech.png",
-        url: "https://www.bloomberg.com"
+        title: "European Defence Stocks Surge as Greenland Tensions Mount",
+        source: "Financial Times",
+        date: "Jan 19, 2026",
+        category: "Markets",
+        excerpt: "Defense sector sees significant gains as geopolitical uncertainty drives investor interest in European military contractors.",
+        image: "/news/defense-stocks.png",
+        url: "https://www.ft.com/content/0bea2bf7-d053-4be3-a6cb-b1ef59da871b"
     },
     {
-        title: "COP30 Discussion Heats Up: Nations Pledge Trillions for Green Transition",
-        source: "Reuters",
-        date: "Dec 03, 2025",
-        category: "Energy",
-        excerpt: "World leaders agree on a historic funding package to accelerate the transition to renewable energy in developing nations.",
-        image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&q=60&w=600",
-        url: "https://www.reuters.com"
+        title: "Retail Stampede Fuels Silver's Wild Rally",
+        source: "Financial Times",
+        date: "Jan 19, 2026",
+        category: "Commodities",
+        excerpt: "Silver prices surge to new highs as retail investors drive unprecedented demand in precious metals markets.",
+        image: "/news/silver-rally.png",
+        url: "https://www.ft.com/content/46999508-88ee-470b-902b-177bacb374da"
     }
 ];
 
