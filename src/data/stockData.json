@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-19T16:44:00.000Z",
+  "lastUpdated": "2026-01-19T16:46:00.000Z",
   "stocks": [
     {
       "symbol": "S&P 500",
@@ -23,6 +23,27 @@
       "type": "index"
     },
     {
+      "symbol": "EUR/USD",
+      "value": "1.1644",
+      "change": "+0.17%",
+      "positive": true,
+      "type": "forex"
+    },
+    {
+      "symbol": "GBP/USD",
+      "value": "1.3430",
+      "change": "+0.20%",
+      "positive": true,
+      "type": "forex"
+    },
+    {
+      "symbol": "USD/JPY",
+      "value": "158.13",
+      "change": "+0.37%",
+      "positive": true,
+      "type": "forex"
+    },
+    {
       "symbol": "GOLD",
       "value": "2,750.00",
       "change": "+0.50%",
@@ -42,6 +63,13 @@
       "change": "+1.20%",
       "positive": true,
       "type": "commodity"
+    },
+    {
+      "symbol": "BTC",
+      "value": "93,165.95",
+      "change": "-0.52%",
+      "positive": false,
+      "type": "crypto"
     }
   ]
 }
