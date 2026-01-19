@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, Suspense, lazy } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import StockTicker from './StockTicker';
-import SearchOverlay from './SearchOverlay';
 import { useTheme } from '../context/ThemeContext';
 import logo from '../assets/logo.png';
 import logoFull from '../assets/escp_logo_full.png';
+
+// Lazy load SearchOverlay to avoid loading AI SDK until needed
+const SearchOverlay = lazy(() => import('./SearchOverlay'));
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -147,8 +149,12 @@ export default function Header() {
                 </div>
             </div>
 
-            {/* Search Overlay */}
-            <SearchOverlay isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+            {/* Search Overlay - Lazy loaded */}
+            {isSearchOpen && (
+                <Suspense fallback={null}>
+                    <SearchOverlay isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+                </Suspense>
+            )}
         </header>
     );
 }
