@@ -7,6 +7,20 @@ export default defineConfig({
   base: './',
   build: {
     outDir: 'dist',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Separate heavy animation libraries
+          'vendor-animations': ['framer-motion', 'react-slick', 'slick-carousel'],
+          // Separate AI SDK (only loaded when search is used)
+          'vendor-ai': ['@google/generative-ai'],
+          // Separate markdown rendering
+          'vendor-markdown': ['react-markdown'],
+          // Core React libraries
+          'vendor-react': ['react', 'react-dom', 'react-router-dom'],
+        },
+      },
+    },
   },
   server: {
     proxy: {

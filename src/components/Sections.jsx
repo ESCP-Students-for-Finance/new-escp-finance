@@ -35,7 +35,13 @@ export default function Sections() {
                     </div>
                 </div>
                 <div className="relative h-[250px] md:h-[400px] bg-[#051C2C]">
-                    <img src="/team-photo.jpg" alt="ESCP Finance Society Team" className="absolute inset-0 w-full h-full object-cover object-center grayscale hover:grayscale-0 transition-all duration-500" />
+                    <img
+                        src="/team-photo.jpg"
+                        alt="ESCP Finance Society Team"
+                        className="absolute inset-0 w-full h-full object-cover object-center grayscale hover:grayscale-0 transition-all duration-500"
+                        loading="lazy"
+                        decoding="async"
+                    />
                 </div>
             </section>
 
@@ -66,6 +72,8 @@ export default function Sections() {
                                     src={article.image}
                                     alt={article.title}
                                     className="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-700 grayscale group-hover:grayscale-0"
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                             <span className="text-gray-400 text-xs block mb-2">{article.date}</span>
@@ -108,6 +116,8 @@ export default function Sections() {
                                     src={news.image}
                                     alt={news.title}
                                     className="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-700 grayscale group-hover:grayscale-0"
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                             <span className="text-gray-400 text-xs block mb-2">{news.source} • {news.date}</span>
