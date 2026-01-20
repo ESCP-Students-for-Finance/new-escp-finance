@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { articles, newsItems, leadershipTeam } from '../data/siteData';
+import { articles, newsItems, leadershipTeam, researchProjects } from '../data/siteData';
 
 export default function Sections() {
     return (
@@ -82,6 +82,50 @@ export default function Sections() {
                             )}
                             <h3 className="font-serif text-xl group-hover:text-white transition-colors leading-tight">
                                 {article.title}
+                            </h3>
+                        </Link>
+                    ))}
+                </div>
+            </section>
+
+            {/* Latest Research */}
+            <section className="container mx-auto px-8 py-16 border-t border-gray-200">
+                <div className="flex justify-between items-baseline mb-2">
+                    <h2 className="font-serif text-3xl">Latest Research</h2>
+                    <Link
+                        to="/research"
+                        className="text-sm text-gray-500 hover:text-white transition-colors"
+                    >
+                        View all →
+                    </Link>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-8">
+                    {researchProjects.slice(0, 2).map((project, idx) => (
+                        <Link
+                            key={idx}
+                            to={`/research/${project.slug}`}
+                            className="group cursor-pointer"
+                        >
+                            <div className="h-64 bg-gray-200 mb-4 overflow-hidden relative">
+                                <div className="absolute top-4 left-4 bg-blue-600/90 text-white text-xs px-3 py-1 uppercase tracking-widest backdrop-blur-sm shadow-sm">
+                                    {project.category}
+                                </div>
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-700 grayscale group-hover:grayscale-0"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                                {/* PDF Icon Overlay */}
+                                <div className="absolute bottom-4 right-4 bg-red-600 text-white text-[10px] uppercase font-bold px-2 py-1 rounded shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
+                                    PDF Report
+                                </div>
+                            </div>
+                            <span className="text-gray-400 text-xs block mb-2">{project.date}</span>
+                            <h3 className="font-serif text-xl group-hover:text-white transition-colors leading-tight">
+                                {project.title}
                             </h3>
                         </Link>
                     ))}
