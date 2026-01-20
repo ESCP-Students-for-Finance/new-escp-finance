@@ -47,6 +47,20 @@ export const articles = [
     }
 ];
 
+// Research data
+export const researchProjects = [
+    {
+        title: "Netflix: The Streaming Giant's Financial Outlook",
+        excerpt: "A comprehensive analysis of Netflix's market position, financial performance, and future growth strategies in the competitive streaming landscape.",
+        category: "Tech & Media",
+        author: "ESCP Finance Society Research Team",
+        date: "Jan 20, 2026",
+        image: "/research/netflix-research-cover.png",
+        slug: "netflix-financial-outlook-2026",
+        pdfUrl: "/research/netflix.pdf"
+    }
+];
+
 // News data
 export const newsItems = [
     {
