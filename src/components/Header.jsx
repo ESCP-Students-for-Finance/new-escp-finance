@@ -15,7 +15,7 @@ export default function Header() {
 
     const mainNavItems = [
         { name: 'Articles', path: '/articles' },
-        { name: 'Research', path: '/research' },
+        // { name: 'Research', path: '/research' },
         { name: 'About Us', path: '/about' },
         { name: 'Our Team', path: '/team' },
         { name: 'News', path: '/news' },

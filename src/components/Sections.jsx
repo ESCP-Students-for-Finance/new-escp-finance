@@ -88,7 +88,7 @@ export default function Sections() {
                 </div>
             </section>
 
-            {/* Latest Research */}
+            {/* Latest Research - Hidden for now
             <section className="container mx-auto px-8 py-16 border-t border-gray-200">
                 <div className="flex justify-between items-baseline mb-2">
                     <h2 className="font-serif text-3xl">Latest Research</h2>
@@ -118,7 +118,6 @@ export default function Sections() {
                                     loading="lazy"
                                     decoding="async"
                                 />
-                                {/* PDF Icon Overlay */}
                                 <div className="absolute bottom-4 right-4 bg-red-600 text-white text-[10px] uppercase font-bold px-2 py-1 rounded shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
                                     PDF Report
                                 </div>
@@ -131,6 +130,7 @@ export default function Sections() {
                     ))}
                 </div>
             </section>
+            */}
 
             {/* Latest News */}
             <section className="container mx-auto px-8 py-16 border-t border-gray-200">
