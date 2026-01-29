@@ -23,12 +23,161 @@ import { articles as siteArticles } from '../data/siteData';
 // Article content mapping
 const articleContents = {
 
+  'spacex-ipo-2026': (
+    <>
+      <LeadParagraph>
+        The $1.5 Trillion Launch Window: SpaceX’s 2026 IPO Could Become the Biggest Listing Ever
+      </LeadParagraph>
+      <TableCard
+        title="Biggest IPOs in history"
+        className="mb-8"
+        header={['Company', 'Year', 'IPO size (approx.)']}
+        rows={[
+          ['Saudi Aramco', '2019', '$25.6B initially; up to $29.4B including greenshoe'],
+          ['Alibaba', '2014', '$21.8B initially; about $25B including greenshoe'],
+          ['SoftBank Corp', '2018', 'roughly $23.5B'],
+          ['Agricultural Bank of China', '2010', 'about $22.1B (post-overallotment)'],
+          ['ICBC', '2006', 'about $21.9B'],
+          ['AIA Group', '2010', 'reported around $20.5B in some deal histories'],
+          ['General Motors', '2010', 'about $20.1B'],
+          ['Visa', '2008', 'about $17.9B'],
+        ]}
+      />
+      <BodyParagraph>
+        SpaceX has spent two decades turning a futuristic ambition into repeatable, cash-generating infrastructure. Founded in 2002 to “revolutionize space technology” and ultimately make life multiplanetary, it began as an audacious bet that rockets could be built more like products than bespoke national projects. The early years were precarious and characterized by multiple breakdowns such as the multiple failures of the rocket Falcon 1. All this until it finally reached orbit on September 28, 2008, proving a private company could iterate fast enough to compete in an industry defined by extreme technical risk and huge fixed costs. From that beachhead, SpaceX scaled to Falcon 9 and Dragon. Its commercial logic sharpened into a launch service for customers and governments, plus a longer-term push to own more of the space economy rather than simply sell rides to orbit.
+      </BodyParagraph>
+
+      <SectionHeading>
+        From “rocket company” to integrated space platform
+      </SectionHeading>
+
+      <BodyParagraph>
+        A decade later, SpaceX reset expectations by normalizing reusability. In December 2015 it landed an orbital-class first stage after a mission, unlocking higher launch cadence and lower marginal cost while improving operational reliability. The results are visible at scale: in 2025, SpaceX flew more than 160 Falcon 9 missions, with well over 120 supporting Starlink, the satellite internet constellation that has become its financial center of gravity. What makes SpaceX unusual is its vertical integration on the demand side. For example, Dragon proved itself in NASA-grade operations, like the ISS berthing in 2012 and when it crewed Demo-2 in 2020, while Starlink evolved into a global broadband service powered by SpaceX’s own launch tempo. That combination of a launch utility plus a subscription network, now anchors the IPO thesis circulating in markets.
+      </BodyParagraph>
+
+      <SectionHeading>
+        The IPO “actuality”: a 2026 timeline, a record raise, and a $1.5T ambition
+      </SectionHeading>
+
+      <BodyParagraph>
+        As of January 2026, talk around a SpaceX IPO has shifted from “if” to “how big, and how soon.” Bloomberg reports the company is advancing plans for a mid-to-late 2026 listing, aiming for about a $1.5 trillion valuation and a raise well above $30 billion. These are numbers that could make it the largest IPO on record. Reuters, separately, points to a raise of more than $25 billion and a valuation that could exceed $1 trillion, framing the debut as potentially historic if conditions hold. SpaceX is also setting a private-market benchmark: Reuters says it opened a secondary share sale valuing the firm near $800 billion, citing a shareholder letter from CFO Bret Johnsen that also warned an IPO isn’t guaranteed. The message: expectations are being anchored and price sensitivity tested before any public-market leap.
+      </BodyParagraph>
+      <TableCard
+        title="Key milestones and strategic evolution (2002–2026)"
+        className="mb-8"
+        header={['Period / Date', 'What happened', 'Why it matters for the IPO story']}
+        rows={[
+          ['2002', 'SpaceX founded with multiplanetary mission', 'Sets the long-horizon “platform” narrative investors price in'],
+          ['Sept 28, 2008', 'Falcon 1 reaches orbit after multiple failures', 'Proves iteration speed and private-sector viability in high-risk aerospace'],
+          ['2012', 'Dragon berths with the ISS', 'Validates NASA-grade execution and operational credibility'],
+          ['2020', 'Crew Dragon Demo-2 (crewed mission)', 'Confirms human spaceflight capability and deepens government relationship'],
+          ['Dec 2015', 'First successful orbital-class booster landing', 'Reusability becomes a structural cost advantage and cadence enabler'],
+          ['2025', '160+ Falcon 9 launches; 120+ support Starlink', 'Shows “aviation-like” tempo and that Starlink is the volume driver'],
+          ['Jan 2026 (reported)', 'IPO planning shifts from “if” to “how big/how soon”', 'Markets begin anchoring timeline, valuation expectations, and deal structure'],
+        ]}
+      />
+      <SectionHeading>
+        Banks “merge forces”: why this deal needs a heavyweight syndicate
+      </SectionHeading>
+
+      <BodyParagraph>
+        A $30B+ raise at a $1.5T valuation isn’t a typical IPO; it’s a system-level underwriting job. January 2026 reports say SpaceX is lining up Bank of America, Goldman Sachs, JPMorgan, and Morgan Stanley in senior roles, signaling the need for a heavyweight syndicate with global reach and political and regulatory muscle. On distribution, the deal must tap deep pools of demand, like sovereign wealth funds, pensions, and mega-asset managers, while also designing a retail-access plan that won’t backfire on optics. On execution, the banks have to manage disclosure and review in a business intertwined with government contracts, then support aftermarket stability so volatility doesn’t spiral into narrative risk. In plain terms, they wouldn’t just sell shares; they’d underwrite the credibility of “space infrastructure as a platform” in public markets.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Valuation logic: Starlink is the anchor, launches are the engine, optionality is the premium
+      </SectionHeading>
+
+      <BodyParagraph>
+        The market’s willingness to entertain a $1.5T valuation hinges on a simple shift: Starlink turns SpaceX from project-based, cyclical revenue into recurring subscription cash flow. Reporting has underscored the constellation’s scale, composed of more than 9,000 active satellites, and initiatives like direct-to-cell connectivity and space-safety adjustments, which strengthen the case that SpaceX is building durable network infrastructure, not a one-off product. Launch dominance is the engine that keeps that network growing, allowing SpaceX to deploy faster and cheaper than rivals and capture what would otherwise be supplier margin. That creates the flywheel investors are being asked to fund: launches reduce deployment cost; deployment expands Starlink; Starlink demand finances more launches and next-generation systems. If SpaceX raises “significantly more than $30B,” it would surpass Aramco’s IPO and redefine what a “mega-IPO” can be.
+      </BodyParagraph>
+
+      <SectionHeading>
+        What could still delay the window
+      </SectionHeading>
+
+      <BodyParagraph>
+        Even with momentum, an IPO isn’t a straight line. Reporting around the secondary sale and IPO preparations has stressed conditionality considering market conditions, execution risk, and the reality that SpaceX operates where public markets intersect with national security and regulation. As the company approaches anything like an S-1 filing, the narrative will shift from mythology to disclosures investors can model such as Starlink churn and pricing power, capex intensity, spectrum strategy, launch reliability, and timelines for next-generation systems. Any weakness in those metrics could widen the valuation debate or slow the process. That’s why the next months matter: not because a listing is guaranteed or immediate, but because each tender-offer price, bank mandate, and public signal narrows the range of plausible outcomes and sets expectations that are hard to unwind once they’re anchored.
+      </BodyParagraph>
+      <TableCard
+          title="Key figures"
+          className="mb-8"
+          header={['Topic', 'Key figure(s) / info']}
+          rows={[
+            ['IPO timing (reported)', 'Mid-to-late 2026'],
+            ['Target valuation (reported)', 'About $1.5T (range also discussed: >$1T)'],
+            ['Target capital raise (reported)', '>$30B (also cited: >$25B)'],
+            ['Private-market benchmark (reported)', 'Secondary sale valuation around $800B'],
+            ['2025 launch volume', '160+ Falcon 9 launches'],
+            ['Starlink-driven launches (2025)', '120+ launches supporting Starlink'],
+            ['Starlink constellation scale', '9,000+ active satellites'],
+            ['Lead banks (reported)', 'Bank of America, Goldman Sachs, JPMorgan, Morgan Stanley'],
+            ['Core valuation thesis', 'Starlink recurring revenue + launch cost/cadence flywheel'],
+          ]}
+        />
+      <SectionHeading>
+        Why this IPO would matter beyond SpaceX
+      </SectionHeading>
+
+      <BodyParagraph>
+        A SpaceX IPO near a $1.5T valuation would function as a referendum on two big questions. First, will public markets pay software-style multiples for infrastructure businesses that require heavy, sustained capital spending? Second, can a company remain mission-driven while becoming a daily-priced public asset, exposed to quarterly scrutiny and sentiment-driven volatility? SpaceX’s 2025 cadence showed it can operate more like an aviation system than a bespoke aerospace program, strengthening the argument that space is becoming an industrial category with scale economics. In 2026, the company would need to convince investors that recurring Starlink revenue and launch-driven cost advantages can coexist with regulatory complexity and geopolitical exposure. If it happens, the listing would not only be enormous, it would mark “space” as a mainstream asset class rather than a frontier bet.
+      </BodyParagraph>
+        <StatGrid className="mb-8" columns="md:grid-cols-4">
+          <StatCard value="$1.5T" label="Target valuation (reported)" helper="Discussed range: >$1T" />
+          <StatCard value=">$30B" label="Target raise (reported)" helper="Also cited: >$25B" />
+          <StatCard value="$800B" label="Secondary benchmark (reported)" helper="Private-market reference" />
+          <StatCard value="9,000+" label="Active satellites" helper="Starlink constellation scale" />
+        </StatGrid>
+      <BodyParagraph>
+        Written by Francesco Kaitsas and Giorgio Gheorghios Tsingros
+      </BodyParagraph>
+
+      <SectionHeading>References</SectionHeading>
+
+      <ul className="text-sm text-gray-400 space-y-2">
+        <li>
+          <a href="https://www.britannica.com/money/SpaceX" target="_blank" rel="noopener noreferrer" className="text-[#C5A059] hover:underline">
+            Britannica – SpaceX
+          </a>
+        </li>
+        <li>
+          <a href="https://www.bloomberg.com/news/articles/2025-12-09/spacex-said-to-pursue-2026-ipo-raising-far-above-30-billion" target="_blank" rel="noopener noreferrer" className="text-[#C5A059] hover:underline">
+            Bloomberg – SpaceX said to pursue 2026 IPO
+          </a>
+        </li>
+        <li>
+          <a href="https://www.reuters.com/business/spacex-pursue-2026-ipo-raising-above-30-billion-bloomberg-news-reports-2025-12-09/" target="_blank" rel="noopener noreferrer" className="text-[#C5A059] hover:underline">
+            Reuters – SpaceX pursue 2026 IPO
+          </a>
+        </li>
+        <li>
+          <a href="https://www.reuters.com/business/spacex-sets-800-billion-valuation-bloomberg-news-reports-2025-12-13/" target="_blank" rel="noopener noreferrer" className="text-[#C5A059] hover:underline">
+            Reuters – SpaceX sets $800 billion valuation
+          </a>
+        </li>
+        <li>
+          <a href="https://www.ft.com/content/55235da5-9a3f-4e0f-b00c-4e1f5abdc606" target="_blank" rel="noopener noreferrer" className="text-[#C5A059] hover:underline">
+            Financial Times – SpaceX IPO analysis
+          </a>
+        </li>
+        <li>
+          <a href="https://dealroom.net/blog/biggest-ipos-of-all-time" target="_blank" rel="noopener noreferrer" className="text-[#C5A059] hover:underline">
+            Dealroom – Biggest IPOs of all time
+          </a>
+        </li>
+      </ul>
+    </>
+  ),
+
+
+
+
   'switzerland-ma-outlier-2025': (
     <>
       <SectionHeading>
         With $160 Billion of transactions in M&amp;A market, Switzerland had been the outlier in 2025
       </SectionHeading>
-
+      
       <SectionHeading>Record Volumes of Swiss M&amp;A Activity Defies 2025 Macroeconomic Headwinds</SectionHeading>
       <BodyParagraph>
         In 2025, Switzerland emerged as one of Europe’s most active hubs for M&amp;A.
