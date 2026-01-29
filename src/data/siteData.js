@@ -2,7 +2,17 @@
 
 // Articles data
 export const articles = [
-
+    
+    {
+        title: "The $1.5 Trillion Launch Window: SpaceX’s 2026 IPO Could Become the Biggest Listing Ever",
+        excerpt: "SpaceX’s potential 2026 IPO could redefine public markets, anchoring valuation on Starlink’s recurring revenue and launch dominance.",
+        category: "Aerospace & Capital Markets",
+        series: "Market Momentum | Week 51",
+        author: "Francesco Kaitsas and Giorgio Gheorghios Tsingros",
+        date: "Jan 30, 2026",
+        image: "/spaceX-IPO.webp",
+        slug: "spacex-ipo-2026"
+    },
     {
         title: "Record Volumes of Swiss M&A Activity Defies 2025 Macroeconomic Headwinds",
         excerpt: "With $160 Billion of transactions in M&A market, Switzerland had been the outlier in 2025",
