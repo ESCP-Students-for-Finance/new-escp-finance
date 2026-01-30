@@ -56,7 +56,7 @@ export default function EasterEggs() {
 
         // Create a temporary toast element
         const toast = document.createElement('div');
-        toast.innerText = "👨‍💻 Shashank & Lorenzo 🚀";
+        toast.innerText = "SL 🚀";
         toast.style.position = 'fixed';
         toast.style.bottom = '20px';
         toast.style.right = '20px';

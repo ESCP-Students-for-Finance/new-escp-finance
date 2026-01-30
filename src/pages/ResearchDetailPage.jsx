@@ -7,6 +7,7 @@ import { ArticleNotFound } from '../components/articles/ArticleNotFound';
 import { SectionHeading } from '../components/ui/SectionHeading';
 import { BodyParagraph } from '../components/ui/BodyParagraph';
 import { researchProjects } from '../data/siteData';
+import SEO from '../components/SEO';
 
 export default function ResearchDetailPage() {
     const { slug } = useParams();
@@ -32,24 +33,13 @@ export default function ResearchDetailPage() {
 
     return (
         <div className="min-h-screen flex flex-col bg-[#051C2C] text-white">
-            <Helmet>
-                <title>{project.title} | ESCP Finance Society Research</title>
-                <meta name="description" content={project.excerpt} />
-
-                {/* Open Graph / Facebook / LinkedIn */}
-                <meta property="og:type" content="article" />
-                <meta property="og:url" content={canonicalUrl} />
-                <meta property="og:title" content={project.title} />
-                <meta property="og:description" content={project.excerpt} />
-                <meta property="og:image" content={imageUrl} />
-
-                {/* Twitter */}
-                <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content={canonicalUrl} />
-                <meta property="twitter:title" content={project.title} />
-                <meta property="twitter:description" content={project.excerpt} />
-                <meta property="twitter:image" content={imageUrl} />
-            </Helmet>
+            <SEO
+                title={project.title}
+                description={project.excerpt}
+                image={project.image}
+                url={`/research/${slug}`}
+                type="article"
+            />
 
             <Header />
 

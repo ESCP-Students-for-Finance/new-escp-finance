@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import SEO from '../components/SEO';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -930,24 +930,13 @@ export default function ArticleDetailPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-[#051C2C]">
-      <Helmet>
-        <title>{article.title} | ESCP Finance Society</title>
-        <meta name="description" content={article.excerpt} />
-
-        {/* Open Graph / Facebook / LinkedIn */}
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:title" content={article.title} />
-        <meta property="og:description" content={article.excerpt} />
-        <meta property="og:image" content={imageUrl} />
-
-        {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={canonicalUrl} />
-        <meta property="twitter:title" content={article.title} />
-        <meta property="twitter:description" content={article.excerpt} />
-        <meta property="twitter:image" content={imageUrl} />
-      </Helmet>
+      <SEO
+        title={article.title}
+        description={article.excerpt}
+        image={article.image}
+        url={`/articles/${slug}`}
+        type="article"
+      />
 
       <Header />
       <ArticleLayout article={article} relatedArticles={relatedArticles} />
