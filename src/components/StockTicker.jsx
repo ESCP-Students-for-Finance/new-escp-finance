@@ -14,76 +14,19 @@ export default function StockTicker() {
         { symbol: 'BLK', value: stockDataFile.stocks.find(s => s.symbol === 'BlackRock (BLK)')?.value || '$950.00', change: stockDataFile.stocks.find(s => s.symbol === 'BlackRock (BLK)')?.change || '+1.5%', positive: true, type: 'stock' },
         { symbol: 'LVMH', value: stockDataFile.stocks.find(s => s.symbol === 'LVMH (MC.PA)')?.value || '€600.00', change: stockDataFile.stocks.find(s => s.symbol === 'LVMH (MC.PA)')?.change || '-0.5%', positive: false, type: 'stock' },
         { symbol: 'BTC', value: '$95,000', change: '+2.80%', positive: true, type: 'crypto' }
-        { symbol: 'BTC', value: '$91,000', change: '+2.80%', positive: true, type: 'crypto' }
     ]);
 
     // Update Forex rates (this API works reliably)
     useEffect(() => {
         const fetchForex = async () => {
-            try {
-                const response = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
-                const data = await response.json();
-
-                if (data.rates) {
-                    setStocks(prev => prev.map(stock => {
-                        if (stock.type === 'forex' && stock.forexKey) {
-                            const rate = stock.forexKey === 'JPY'
-                                ? data.rates[stock.forexKey]
-                                : 1 / data.rates[stock.forexKey];
-
-                            return {
-                                ...stock,
-                                value: rate.toFixed(4)
-                            };
-                        }
-                        return stock;
-                    }));
-                }
-            } catch (err) {
-                console.log("Forex update failed:", err);
-            }
+            // ... existing code ...
         };
-
-        fetchForex();
-        const interval = setInterval(fetchForex, 300000); // Every 5 minutes
-        return () => clearInterval(interval);
+        // ...
     }, []);
 
-    // Update Bitcoin (CoinGecko is reliable)
-    useEffect(() => {
-        const fetchBitcoin = async () => {
-            try {
-                const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true');
-                const data = await response.json();
+    // ...
 
-                if (data.bitcoin) {
-                    const price = data.bitcoin.usd;
-                    const change = data.bitcoin.usd_24h_change;
-
-                    setStocks(prev => prev.map(stock => {
-                        if (stock.type === 'crypto') {
-                            return {
-                                ...stock,
-                                value: '$' + Math.round(price).toLocaleString(),
-                                change: `${change >= 0 ? '+' : ''}${change.toFixed(2)}%`,
-                                positive: change >= 0
-                            };
-                        }
-                        return stock;
-                    }));
-                }
-            } catch (err) {
-                console.log("Bitcoin update failed:", err);
-            }
-        };
-
-        fetchBitcoin();
-        const interval = setInterval(fetchBitcoin, 60000); // Every minute
-        return () => clearInterval(interval);
-    }, []);
-
-    // Simulate realistic market movements for indices, metals, and oil
-    // (Since free APIs for these are unreliable, we'll use realistic simulation)
+    // Simulate realistic market movements
     useEffect(() => {
         const interval = setInterval(() => {
             setStocks(prevStocks =>
@@ -95,7 +38,7 @@ export default function StockTicker() {
                     const volatility = 0.0001; // 0.01% movement
                     const randomMove = (Math.random() - 0.5) * volatility;
 
-                    let currentValue = parseFloat(stock.value.replace(/[$,]/g, ''));
+                    let currentValue = parseFloat(stock.value.replace(/[$,€]/g, ''));
                     const newValue = currentValue * (1 + randomMove);
 
                     // Update change percentage slightly
@@ -103,8 +46,6 @@ export default function StockTicker() {
                     const newChange = (currentChange + (randomMove * 100)).toFixed(2);
                     const isPositive = parseFloat(newChange) >= 0;
 
-                    // Format value
-                    let formattedValue;
                     // Format value
                     let formattedValue;
                     if (stock.type === 'stock') {
