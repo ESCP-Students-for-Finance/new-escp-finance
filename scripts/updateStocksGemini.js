@@ -13,11 +13,11 @@ if (!API_KEY) {
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 // Use Gemini 2.5 Flash as requested, assuming user has access.
-// We enable the 'googleSearchRetrieval' tool to ensure real-time data.
+// We enable the 'googleSearch' tool (newer syntax) to ensure real-time data.
 const model = genAI.getGenerativeModel({
     model: "gemini-2.5-flash",
     // Note: To prompt for real-time data effectively, we need to declare the tool.
-    tools: [{ googleSearchRetrieval: {} }]
+    tools: [{ googleSearch: {} }]
 });
 
 async function updateStocks() {
