@@ -30,14 +30,14 @@ async function updateStocks() {
     Assets to check:
     1. S&P 500 Index
     2. NASDAQ Composite
-    3. Dow Jones Industrial Average
-    4. Gold (Spot Price per Ounce USD)
-    5. Silver (Spot Price per Ounce USD)
-    6. Crude Oil (WTI)
-    7. Bitcoin (BTC/USD)
-    8. EUR/USD
-    9. GBP/USD
-    10. USD/JPY
+    3. STOXX Europe 600
+    4. US 10-Year Treasury Yield
+    5. EUR/USD
+    6. Bitcoin (BTC/USD)
+    7. JPMorgan Chase (JPM)
+    8. Goldman Sachs (GS)
+    9. BlackRock (BLK)
+    10. LVMH (MC.PA) - as a major European stock representative
 
     The output MUST be strictly valid JSON with this exact structure (no markdown code blocks):
     {
@@ -48,11 +48,11 @@ async function updateStocks() {
     }
     
     Rules:
-    - "value": formatted string with commas (e.g. "6,940.01"). Add "$" for commodities/metals/crypto. No symbol for indices/forex.
+    - "value": formatted string. Add "$" or "€" or "%" as appropriate.
     - "change": formatted string with sign and % (e.g. "+0.50%").
     - "positive": boolean true if change >= 0.
-    - "type": "index", "metal", "commodity", "crypto", "forex".
-    - "forexKey": for forex, add the base currency key e.g. "EUR", "GBP", "JPY".
+    - "type": "index", "forex", "crypto", "stock", "rate".
+    - "forexKey": for forex only.
     `;
 
     try {
