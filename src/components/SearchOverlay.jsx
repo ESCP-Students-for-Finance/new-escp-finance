@@ -77,12 +77,16 @@ export default function SearchOverlay({ isOpen, onClose }) {
     };
 
     const getGeminiResponse = async (query) => {
-        if (!apiKey) return null;
+        if (!apiKey) {
+            console.error("API Key is missing! Check .env file.");
+            alert("API Key is missing! Please checking your .env file and restart the server.");
+            return null;
+        }
         try {
             const { GoogleGenerativeAI } = await import("@google/generative-ai");
             const genAI = new GoogleGenerativeAI(apiKey);
-            const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
+            const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
             const prompt = `You are an expert financial analyst. Provide a concise, insightful answer to: "${query}". Keep it under 100 words, sophisticated yet accessible.`;
 
             const timeoutPromise = new Promise((_, reject) =>
@@ -92,7 +96,10 @@ export default function SearchOverlay({ isOpen, onClose }) {
             const result = await Promise.race([model.generateContent(prompt), timeoutPromise]);
             const response = await result.response;
             return response.text();
+
         } catch (error) {
+            console.error("Gemini Search Error:", error);
+            console.error("Error Details:", error.response ? await error.response.text() : error.message);
             return null;
         }
     };
