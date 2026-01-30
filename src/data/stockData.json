@@ -2,77 +2,77 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "5,225.10",
+      "value": "5,280.70",
       "change": "+0.35%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "16,395.00",
-      "change": "-0.15%",
-      "positive": false,
+      "value": "16,735.02",
+      "change": "+0.52%",
+      "positive": true,
       "type": "index"
     },
     {
       "symbol": "Dow Jones Industrial Average",
-      "value": "38,520.45",
-      "change": "+0.20%",
+      "value": "39,125.67",
+      "change": "+0.28%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "Gold",
-      "value": "$2,325.80",
-      "change": "+0.60%",
+      "value": "$2,354.20",
+      "change": "+0.70%",
       "positive": true,
       "type": "metal"
     },
     {
       "symbol": "Silver",
-      "value": "$27.95",
-      "change": "-0.25%",
-      "positive": false,
+      "value": "$28.25",
+      "change": "+1.15%",
+      "positive": true,
       "type": "metal"
     },
     {
       "symbol": "Crude Oil (WTI)",
-      "value": "$79.12",
-      "change": "+1.10%",
-      "positive": true,
+      "value": "$78.90",
+      "change": "-0.40%",
+      "positive": false,
       "type": "commodity"
     },
     {
       "symbol": "Bitcoin",
-      "value": "$66,123.45",
-      "change": "-1.80%",
-      "positive": false,
+      "value": "$69,500.75",
+      "change": "+2.10%",
+      "positive": true,
       "type": "crypto"
     },
     {
       "symbol": "EUR/USD",
       "value": "1.0850",
-      "change": "+0.08%",
-      "positive": true,
+      "change": "-0.15%",
+      "positive": false,
       "type": "forex",
       "forexKey": "EUR"
     },
     {
       "symbol": "GBP/USD",
-      "value": "1.2715",
-      "change": "-0.05%",
-      "positive": false,
+      "value": "1.2675",
+      "change": "+0.05%",
+      "positive": true,
       "type": "forex",
       "forexKey": "GBP"
     },
     {
       "symbol": "USD/JPY",
-      "value": "156.88",
-      "change": "+0.12%",
+      "value": "155.20",
+      "change": "+0.20%",
       "positive": true,
       "type": "forex",
-      "forexKey": "JPY"
+      "forexKey": "USD"
     }
   ],
-  "lastUpdated": "2026-01-30T18:46:01.871Z"
+  "lastUpdated": "2026-01-30T18:52:05.286Z"
 }
