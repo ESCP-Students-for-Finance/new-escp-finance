@@ -1,75 +1,78 @@
 {
-  "lastUpdated": "2026-01-19T16:46:00.000Z",
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "6,940.01",
-      "change": "+0.064%",
+      "value": "5,225.10",
+      "change": "+0.35%",
       "positive": true,
       "type": "index"
     },
     {
-      "symbol": "NASDAQ",
-      "value": "23,515.39",
-      "change": "+0.062%",
-      "positive": true,
+      "symbol": "NASDAQ Composite",
+      "value": "16,395.00",
+      "change": "-0.15%",
+      "positive": false,
       "type": "index"
     },
     {
-      "symbol": "DOW",
-      "value": "49,359.33",
-      "change": "+0.17%",
-      "positive": true,
-      "type": "index"
-    },
-    {
-      "symbol": "EUR/USD",
-      "value": "1.1644",
-      "change": "+0.17%",
-      "positive": true,
-      "type": "forex"
-    },
-    {
-      "symbol": "GBP/USD",
-      "value": "1.3430",
+      "symbol": "Dow Jones Industrial Average",
+      "value": "38,520.45",
       "change": "+0.20%",
       "positive": true,
-      "type": "forex"
+      "type": "index"
     },
     {
-      "symbol": "USD/JPY",
-      "value": "158.13",
-      "change": "+0.37%",
-      "positive": true,
-      "type": "forex"
-    },
-    {
-      "symbol": "GOLD",
-      "value": "2,750.00",
-      "change": "+0.50%",
+      "symbol": "Gold",
+      "value": "$2,325.80",
+      "change": "+0.60%",
       "positive": true,
       "type": "metal"
     },
     {
-      "symbol": "SILVER",
-      "value": "31.50",
-      "change": "+0.75%",
-      "positive": true,
+      "symbol": "Silver",
+      "value": "$27.95",
+      "change": "-0.25%",
+      "positive": false,
       "type": "metal"
     },
     {
-      "symbol": "OIL",
-      "value": "78.50",
-      "change": "+1.20%",
+      "symbol": "Crude Oil (WTI)",
+      "value": "$79.12",
+      "change": "+1.10%",
       "positive": true,
       "type": "commodity"
     },
     {
-      "symbol": "BTC",
-      "value": "93,165.95",
-      "change": "-0.52%",
+      "symbol": "Bitcoin",
+      "value": "$66,123.45",
+      "change": "-1.80%",
       "positive": false,
       "type": "crypto"
+    },
+    {
+      "symbol": "EUR/USD",
+      "value": "1.0850",
+      "change": "+0.08%",
+      "positive": true,
+      "type": "forex",
+      "forexKey": "EUR"
+    },
+    {
+      "symbol": "GBP/USD",
+      "value": "1.2715",
+      "change": "-0.05%",
+      "positive": false,
+      "type": "forex",
+      "forexKey": "GBP"
+    },
+    {
+      "symbol": "USD/JPY",
+      "value": "156.88",
+      "change": "+0.12%",
+      "positive": true,
+      "type": "forex",
+      "forexKey": "JPY"
     }
-  ]
+  ],
+  "lastUpdated": "2026-01-30T18:46:01.871Z"
 }
