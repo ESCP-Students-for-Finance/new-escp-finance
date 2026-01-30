@@ -24,3 +24,7 @@ node_modules
 .env
 .env.production
 .vercel
+
+# Build outputs (may contain embedded env vars)
+dist
+docs
