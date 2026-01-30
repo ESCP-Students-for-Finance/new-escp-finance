@@ -2,7 +2,8 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { articles } from '../src/data/siteData.js';
+// Import site data
+import { articles, researchProjects } from '../src/data/siteData.js';
 
 // Resolve paths
 const __filename = fileURLToPath(import.meta.url);
@@ -16,9 +17,6 @@ const rawSiteUrl = process.env.VITE_SITE_URL
 
 // Trim whitespace/newlines and drop trailing slashes
 const SITE_URL = rawSiteUrl.trim().replace(/\/+$/, '');
-
-// Import research projects as well
-import { articles, researchProjects } from '../src/data/siteData.js';
 
 async function prerender() {
     console.log('Starting prerender...');
