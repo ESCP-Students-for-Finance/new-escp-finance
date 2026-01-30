@@ -19,12 +19,67 @@ export default function StockTicker() {
     // Update Forex rates (this API works reliably)
     useEffect(() => {
         const fetchForex = async () => {
-            // ... existing code ...
+            try {
+                const response = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+                const data = await response.json();
+
+                if (data.rates) {
+                    setStocks(prev => prev.map(stock => {
+                        if (stock.type === 'forex' && stock.forexKey) {
+                            const rate = stock.forexKey === 'JPY'
+                                ? data.rates[stock.forexKey]
+                                : 1 / data.rates[stock.forexKey];
+
+                            return {
+                                ...stock,
+                                value: rate.toFixed(4)
+                            };
+                        }
+                        return stock;
+                    }));
+                }
+            } catch (err) {
+                console.log("Forex update failed:", err);
+            }
         };
-        // ...
+
+        fetchForex();
+        const interval = setInterval(fetchForex, 300000); // Every 5 minutes
+        return () => clearInterval(interval);
     }, []);
 
-    // ...
+    // Update Bitcoin (CoinGecko is reliable)
+    useEffect(() => {
+        const fetchBitcoin = async () => {
+            try {
+                const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true');
+                const data = await response.json();
+
+                if (data.bitcoin) {
+                    const price = data.bitcoin.usd;
+                    const change = data.bitcoin.usd_24h_change;
+
+                    setStocks(prev => prev.map(stock => {
+                        if (stock.type === 'crypto') {
+                            return {
+                                ...stock,
+                                value: '$' + Math.round(price).toLocaleString(),
+                                change: `${change >= 0 ? '+' : ''}${change.toFixed(2)}%`,
+                                positive: change >= 0
+                            };
+                        }
+                        return stock;
+                    }));
+                }
+            } catch (err) {
+                console.log("Bitcoin update failed:", err);
+            }
+        };
+
+        fetchBitcoin();
+        const interval = setInterval(fetchBitcoin, 60000); // Every minute
+        return () => clearInterval(interval);
+    }, []);
 
     // Simulate realistic market movements
     useEffect(() => {
