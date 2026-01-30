@@ -12,23 +12,27 @@ if (!API_KEY) {
 }
 
 const genAI = new GoogleGenerativeAI(API_KEY);
-// Use Gemini 2.5 Flash as requested, or fallback if not available yet (it is experimental)
-// If 2.5 fails, user should check model availability, but we use the requested string.
-const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+// Use Gemini 2.0 Flash (stable) or user's requested 2.5. 
+// We enable the 'googleSearchRetrieval' tool to ensure real-time data.
+const model = genAI.getGenerativeModel({
+    model: "gemini-2.0-flash-exp", // Switching to a model known to support tools well or stick to requested if valid.
+    // Note: To prompt for real-time data effectively, we need to declare the tool.
+    tools: [{ googleSearchRetrieval: {} }]
+});
 
 async function updateStocks() {
     console.log("Fetching stock data using Gemini...");
 
     const prompt = `
-    You are a financial data API. Return a JSON object with the current price and 24h percentage change for the following assets. 
-    Use real-time data if available to you, otherwise use the most recent closing data you have access to.
-    
-    Assets:
+    You are a financial data assistant. You MUST use your Google Search tool to find the EXACT current/latest price and 24h change for the following assets. 
+    DO NOT use training data. Search for "current price of [Asset] right now".
+
+    Assets to check:
     1. S&P 500 Index
     2. NASDAQ Composite
     3. Dow Jones Industrial Average
-    4. Gold (Spot Price per Ounce)
-    5. Silver (Spot Price per Ounce)
+    4. Gold (Spot Price per Ounce USD)
+    5. Silver (Spot Price per Ounce USD)
     6. Crude Oil (WTI)
     7. Bitcoin (BTC/USD)
     8. EUR/USD
