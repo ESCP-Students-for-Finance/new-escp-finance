@@ -12,10 +12,10 @@ if (!API_KEY) {
 }
 
 const genAI = new GoogleGenerativeAI(API_KEY);
-// Use Gemini 2.0 Flash (stable) or user's requested 2.5. 
+// Use Gemini 2.0 Flash
 // We enable the 'googleSearchRetrieval' tool to ensure real-time data.
 const model = genAI.getGenerativeModel({
-    model: "gemini-2.0-flash-exp", // Switching to a model known to support tools well or stick to requested if valid.
+    model: "gemini-2.0-flash",
     // Note: To prompt for real-time data effectively, we need to declare the tool.
     tools: [{ googleSearchRetrieval: {} }]
 });
