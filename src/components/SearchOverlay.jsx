@@ -77,9 +77,12 @@ export default function SearchOverlay({ isOpen, onClose }) {
     };
 
     const getGeminiResponse = async (query) => {
+        // Debugging: Log build time to verify deployment age
+        console.log("Search Component Build: [CURRENT_DATE_TIME]");
+
         if (!apiKey) {
-            console.error("API Key is missing! Check .env file.");
-            alert("API Key is missing! Please checking your .env file and restart the server.");
+            console.error("CRITICAL ERROR: VITE_GEMINI_API_KEY is missing.");
+            console.error("If you are on Vercel: Check Settings -> Environment Variables. Name MUST be 'VITE_GEMINI_API_KEY'.");
             return null;
         }
         try {
