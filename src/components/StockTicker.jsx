@@ -4,15 +4,16 @@ import stockDataFile from '../data/stockData.json';
 export default function StockTicker() {
     // Initialize with data from JSON file (updated daily by GitHub Action)
     const [stocks, setStocks] = useState([
-        { symbol: 'S&P 500', value: stockDataFile.stocks.find(s => s.symbol === 'S&P 500')?.value || '6,849.00', change: stockDataFile.stocks.find(s => s.symbol === 'S&P 500')?.change || '+0.50%', positive: true, type: 'index' },
-        { symbol: 'NASDAQ', value: stockDataFile.stocks.find(s => s.symbol === 'NASDAQ')?.value || '23,365.69', change: stockDataFile.stocks.find(s => s.symbol === 'NASDAQ')?.change || '+0.80%', positive: true, type: 'index' },
-        { symbol: 'DOW', value: stockDataFile.stocks.find(s => s.symbol === 'DOW')?.value || '47,716.00', change: stockDataFile.stocks.find(s => s.symbol === 'DOW')?.change || '+0.61%', positive: true, type: 'index' },
+        { symbol: 'S&P 500', value: stockDataFile.stocks.find(s => s.symbol === 'S&P 500')?.value || '6,900.00', change: stockDataFile.stocks.find(s => s.symbol === 'S&P 500')?.change || '+0.50%', positive: true, type: 'index' },
+        { symbol: 'NASDAQ', value: stockDataFile.stocks.find(s => s.symbol === 'NASDAQ')?.value || '23,500.00', change: stockDataFile.stocks.find(s => s.symbol === 'NASDAQ')?.change || '+0.80%', positive: true, type: 'index' },
+        { symbol: 'STOXX 600', value: stockDataFile.stocks.find(s => s.symbol === 'STOXX Europe 600')?.value || '520.00', change: stockDataFile.stocks.find(s => s.symbol === 'STOXX Europe 600')?.change || '+0.40%', positive: true, type: 'index' },
         { symbol: 'EUR/USD', value: '1.0480', change: '-0.12%', positive: false, type: 'forex', forexKey: 'EUR' },
-        { symbol: 'GBP/USD', value: '1.2580', change: '+0.05%', positive: true, type: 'forex', forexKey: 'GBP' },
-        { symbol: 'USD/JPY', value: '154.20', change: '-0.25%', positive: false, type: 'forex', forexKey: 'JPY' },
-        { symbol: 'GOLD', value: '$' + (stockDataFile.stocks.find(s => s.symbol === 'GOLD')?.value || '4,256.40'), change: stockDataFile.stocks.find(s => s.symbol === 'GOLD')?.change || '+1.10%', positive: true, type: 'metal' },
-        { symbol: 'SILVER', value: '$' + (stockDataFile.stocks.find(s => s.symbol === 'SILVER')?.value || '57.09'), change: stockDataFile.stocks.find(s => s.symbol === 'SILVER')?.change || '+5.60%', positive: true, type: 'metal' },
-        { symbol: 'OIL', value: '$' + (stockDataFile.stocks.find(s => s.symbol === 'OIL')?.value || '59.00'), change: stockDataFile.stocks.find(s => s.symbol === 'OIL')?.change || '-1.50%', positive: false, type: 'commodity' },
+        { symbol: 'US 10Y', value: stockDataFile.stocks.find(s => s.symbol === 'US 10-Year Treasury Yield')?.value || '4.50%', change: stockDataFile.stocks.find(s => s.symbol === 'US 10-Year Treasury Yield')?.change || '+0.05%', positive: false, type: 'rate' },
+        { symbol: 'JPM', value: stockDataFile.stocks.find(s => s.symbol === 'JPMorgan Chase (JPM)')?.value || '$240.00', change: stockDataFile.stocks.find(s => s.symbol === 'JPMorgan Chase (JPM)')?.change || '+1.2%', positive: true, type: 'stock' },
+        { symbol: 'GS', value: stockDataFile.stocks.find(s => s.symbol === 'Goldman Sachs (GS)')?.value || '$520.00', change: stockDataFile.stocks.find(s => s.symbol === 'Goldman Sachs (GS)')?.change || '+0.9%', positive: true, type: 'stock' },
+        { symbol: 'BLK', value: stockDataFile.stocks.find(s => s.symbol === 'BlackRock (BLK)')?.value || '$950.00', change: stockDataFile.stocks.find(s => s.symbol === 'BlackRock (BLK)')?.change || '+1.5%', positive: true, type: 'stock' },
+        { symbol: 'LVMH', value: stockDataFile.stocks.find(s => s.symbol === 'LVMH (MC.PA)')?.value || '€600.00', change: stockDataFile.stocks.find(s => s.symbol === 'LVMH (MC.PA)')?.change || '-0.5%', positive: false, type: 'stock' },
+        { symbol: 'BTC', value: '$95,000', change: '+2.80%', positive: true, type: 'crypto' }
         { symbol: 'BTC', value: '$91,000', change: '+2.80%', positive: true, type: 'crypto' }
     ]);
 
@@ -104,8 +105,15 @@ export default function StockTicker() {
 
                     // Format value
                     let formattedValue;
-                    if (stock.type === 'metal' || stock.type === 'commodity') {
-                        formattedValue = '$' + newValue.toFixed(2);
+                    // Format value
+                    let formattedValue;
+                    if (stock.type === 'stock') {
+                        // Keep existing currency symbol if present, simplistic check
+                        const hasEuro = stock.value.includes('€');
+                        const currency = hasEuro ? '€' : '$';
+                        formattedValue = currency + newValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+                    } else if (stock.type === 'rate') {
+                        formattedValue = newValue.toFixed(2) + '%';
                     } else {
                         formattedValue = newValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
                     }
