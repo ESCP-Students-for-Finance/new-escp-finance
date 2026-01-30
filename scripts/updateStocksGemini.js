@@ -3,10 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import fs from 'fs';
 import path from 'path';
 
-// Load environment variables if running locally, otherwise rely on process.env
-// Note: In GitHub Actions, secrets are passed as env vars. locally we might need dotenv if not using `vite` or similar.
-// But for this script, we'll assume GEMINI_API_KEY is present in env.
-
+// Load environment variables if running locally
 const API_KEY = process.env.VITE_GEMINI_API_KEY || process.env.GEMINI_API_KEY;
 
 if (!API_KEY) {
@@ -15,6 +12,8 @@ if (!API_KEY) {
 }
 
 const genAI = new GoogleGenerativeAI(API_KEY);
+// Use Gemini 2.5 Flash as requested, or fallback if not available yet (it is experimental)
+// If 2.5 fails, user should check model availability, but we use the requested string.
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 async function updateStocks() {
