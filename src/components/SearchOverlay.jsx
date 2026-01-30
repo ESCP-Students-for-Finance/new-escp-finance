@@ -81,7 +81,7 @@ export default function SearchOverlay({ isOpen, onClose }) {
         try {
             const { GoogleGenerativeAI } = await import("@google/generative-ai");
             const genAI = new GoogleGenerativeAI(apiKey);
-            const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+            const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
             const prompt = `You are an expert financial analyst. Provide a concise, insightful answer to: "${query}". Keep it under 100 words, sophisticated yet accessible.`;
 

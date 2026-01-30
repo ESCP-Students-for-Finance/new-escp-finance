@@ -25,8 +25,13 @@ jobs:
         with:
           node-version: '18'
           
+      - name: Install Dependencies
+        run: npm install @google/generative-ai
+          
       - name: Update stock data
-        run: node scripts/updateStocks.js
+        env:
+            GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/updateStocksGemini.js
         
       - name: Commit and push if changed
         run: |

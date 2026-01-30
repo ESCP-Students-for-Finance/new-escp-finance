@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import { ThemeProvider } from './context/ThemeContext';
 import Loading from './components/ui/Loading';
@@ -18,8 +18,8 @@ const ResearchDetailPage = lazy(() => import('./pages/ResearchDetailPage'));
 function App() {
   return (
     <ThemeProvider>
-      {/* HashRouter keeps routes working when deployed under /escp-finance/ */}
-      <HashRouter>
+      {/* BrowserRouter for clean URLs and better SEO */}
+      <BrowserRouter>
         <ScrollToTop />
         <Suspense fallback={<Loading />}>
           <Routes>
@@ -34,7 +34,7 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </Suspense>
-      </HashRouter>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
