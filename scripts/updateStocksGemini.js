@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 
 // Load environment variables if running locally
-const API_KEY = process.env.VITE_GEMINI_API_KEY || process.env.GEMINI_API_KEY;
+const API_KEY = process.env.GEMINI_API_KEY;
 
 if (!API_KEY) {
     console.error("Error: GEMINI_API_KEY is not set.");

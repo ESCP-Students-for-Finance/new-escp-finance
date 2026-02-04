@@ -28,3 +28,4 @@ node_modules
 # Build outputs (may contain embedded env vars)
 dist
 docs
+assets

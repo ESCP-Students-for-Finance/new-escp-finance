@@ -59,8 +59,6 @@ export default function SearchOverlay({ isOpen, onClose }) {
         team: allTeamMembers
     };
 
-    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
-
     const getSimulatedResponse = (searchQuery) => {
         const lowerQuery = searchQuery.toLowerCase();
         const responses = {
@@ -77,33 +75,28 @@ export default function SearchOverlay({ isOpen, onClose }) {
     };
 
     const getGeminiResponse = async (query) => {
-        // Debugging: Log build time to verify deployment age
-        console.log("Search Component Build: [CURRENT_DATE_TIME]");
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 8000);
 
-        if (!apiKey) {
-            console.error("CRITICAL ERROR: VITE_GEMINI_API_KEY is missing.");
-            console.error("If you are on Vercel: Check Settings -> Environment Variables. Name MUST be 'VITE_GEMINI_API_KEY'.");
-            return null;
-        }
         try {
-            const { GoogleGenerativeAI } = await import("@google/generative-ai");
-            const genAI = new GoogleGenerativeAI(apiKey);
+            const response = await fetch('/api/gemini', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ query }),
+                signal: controller.signal
+            });
 
-            const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
-            const prompt = `You are an expert financial analyst. Provide a concise, insightful answer to: "${query}". Keep it under 100 words, sophisticated yet accessible.`;
+            if (!response.ok) {
+                throw new Error(`Gemini request failed: ${response.status}`);
+            }
 
-            const timeoutPromise = new Promise((_, reject) =>
-                setTimeout(() => reject(new Error("Timeout")), 8000)
-            );
-
-            const result = await Promise.race([model.generateContent(prompt), timeoutPromise]);
-            const response = await result.response;
-            return response.text();
-
+            const data = await response.json();
+            return typeof data.text === 'string' ? data.text : null;
         } catch (error) {
             console.error("Gemini Search Error:", error);
-            console.error("Error Details:", error.response ? await error.response.text() : error.message);
             return null;
+        } finally {
+            clearTimeout(timeoutId);
         }
     };
 
