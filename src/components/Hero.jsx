@@ -224,6 +224,7 @@ const Hero = memo(() => {
                     muted
                     playsInline
                     poster="/hero-poster.jpg"
+                    fetchpriority="high"
                     preload={prefersReducedMotion ? "metadata" : "auto"}
                     onPlaying={() => {
                         // Only show video when it is ACTUALLY playing
