@@ -3,63 +3,9 @@ import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import { articles } from '../data/siteData';
+import { articles as articlesData } from '../data/siteData';
 
 export default function ArticlesPage() {
-    const articles = [
-         {
-            title: "The $1.5 Trillion Launch Window: SpaceX’s 2026 IPO Could Become the Biggest Listing Ever",
-            excerpt: "SpaceX’s potential 2026 IPO could redefine public markets, anchoring valuation on Starlink’s recurring revenue and launch dominance.",
-            category: "Aerospace & Capital Markets",
-            series: "Market Momentum | Week 51",
-            author: "Francesco Kaitsas and Giorgio Gheorghios Tsingros",
-            date: "Jan 30, 2026",
-            image: "/spaceX-IPO.webp",
-            slug: "spacex-ipo-2026"
-        },{
-            title: "Record Volumes of Swiss M&A Activity Defies 2025 Macroeconomic Headwinds",
-            excerpt: "With $160 Billion of transactions in M&A market, Switzerland had been the outlier in 2025",
-            category: "M&A",
-            series: "Market Momentum | Week 50",
-            author: "Giorgio Gheorghios Tsingros and Francesco Kaitsas",
-            date: "Dec 18, 2025",
-            image: "/switzerland-ma-2025.webp",
-            slug: "switzerland-ma-outlier-2025"
-        },
-        {
-            title: "Bending Spoons Acquires Eventbrite in a Landmark $500 Million Transaction",
-            excerpt:
-                "The Milan-based tech company makes a bold $500M move to acquire Eventbrite, signaling a new era of European tech consolidation.",
-            category: "Tech & M&A",
-            series: "Market Momentum | Week 49",
-            author: "Luca Citton & Federico Furioso",
-            date: "Dec 12, 2025",
-            image: "/Bending-Spoons-Eventbrite.png",
-            slug: "bending-spoons-eventbrite-2025"
-        },
-        {
-            title: "S&P Downgrades Tether’s Assets to Lowest Level",
-            excerpt:
-                "S&P lowers its assessment of USDT’s reserves amid rising exposure to volatile assets and ongoing transparency concerns.",
-            category: "Crypto & Stablecoins",
-            series: "Market Momentum | Week 48",
-            author: "Francesco Baci Paci & Giovanni Ciccarello",
-            date: "Dec 5, 2025",
-            image: "/Article-Cover-Website-SP500.jpeg",
-            slug: "tether-sp-downgrade-2025"
-        },
-        {
-            title: "A $10 Billion Bet: Pfizer Enters the Anti-Obesity Drug Market",
-            excerpt: "Pfizer acquires Metsera for nearly $10 billion, entering the booming anti-obesity drug market and challenging industry leaders.",
-            category: "Healthcare",
-            series: "Market Momentum | Week 47",
-            author: "Francesco Kaitsas",
-            date: "Nov 28, 2025",
-            image: "/pfizer-article.jpeg",
-            slug: "sustainable-finance-esg-2024"
-        }
-    ];
-
     return (
         <div className="min-h-screen flex flex-col bg-[#051C2C]">
             <Header />
@@ -76,13 +22,15 @@ export default function ArticlesPage() {
             <section className="py-16 flex-1">
                 <div className="container mx-auto px-8 max-w-7xl">
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {articles.map((article, idx) => (
+                        {articlesData.map((article, idx) => (
                             <Link key={idx} to={`/articles/${article.slug}`} className="group">
                                 <article>
                                     <div className="aspect-video mb-4 overflow-hidden bg-[#042440]">
                                         <img
                                             src={article.image}
                                             alt={article.title}
+                                            loading="lazy"
+                                            decoding="async"
                                             className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700"
                                         />
                                     </div>

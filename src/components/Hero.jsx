@@ -1,69 +1,110 @@
-import React, { memo, useState, useEffect, useRef } from 'react';
+import React, { memo, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Slider from 'react-slick';
-import { motion, AnimatePresence } from 'framer-motion';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { motion } from 'framer-motion';
+
+const usePrefersReducedMotion = () => {
+    const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+
+    useEffect(() => {
+        if (typeof window === 'undefined' || !window.matchMedia) return undefined;
+
+        const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+        const handleChange = (event) => setPrefersReducedMotion(event.matches);
+
+        setPrefersReducedMotion(mediaQuery.matches);
+        mediaQuery.addEventListener('change', handleChange);
+
+        return () => mediaQuery.removeEventListener('change', handleChange);
+    }, []);
+
+    return prefersReducedMotion;
+};
 
 const Hero = memo(() => {
     const [currentSlide, setCurrentSlide] = useState(0);
+    const [SlickSlider, setSlickSlider] = useState(null);
     const videoRef = useRef(null);
     const [videoLoaded, setVideoLoaded] = useState(false);
+    const prefersReducedMotion = usePrefersReducedMotion();
 
-    // Retry playback if it fails or stalls
+    // Lazily load carousel + CSS on idle to keep the first paint lean
     useEffect(() => {
-        if (videoRef.current) {
-            const video = videoRef.current;
+        let cancelled = false;
+        let idleId;
+        let timeoutId;
 
-            const handleTouch = () => {
-                if (video.paused) {
-                    video.play().catch(() => { });
+        const loadSlider = async () => {
+            try {
+                const [{ default: Slider }] = await Promise.all([
+                    import('react-slick'),
+                    import('slick-carousel/slick/slick.css'),
+                    import('slick-carousel/slick/slick-theme.css'),
+                ]);
+                if (!cancelled) {
+                    setSlickSlider(() => Slider);
                 }
-            };
+            } catch (error) {
+                console.error('Failed to load carousel', error);
+            }
+        };
 
-            // Try to play immediately
-            video.play().catch(() => { });
-
-            // Retry after 1s if still paused
-            const retryTimer = setTimeout(() => {
-                if (video.paused) {
-                    video.play().catch(() => { });
-                }
-            }, 1000);
-
-            // Add touch listener for mobile/Safari strict autoplay policies
-            window.addEventListener('touchstart', handleTouch, { once: true });
-            window.addEventListener('click', handleTouch, { once: true });
-
-            return () => {
-                clearTimeout(retryTimer);
-                window.removeEventListener('touchstart', handleTouch);
-                window.removeEventListener('click', handleTouch);
-            };
+        if (typeof window !== 'undefined') {
+            if ('requestIdleCallback' in window) {
+                idleId = window.requestIdleCallback(loadSlider, { timeout: 1000 });
+            } else {
+                timeoutId = window.setTimeout(loadSlider, 0);
+            }
         }
+
+        return () => {
+            cancelled = true;
+            if (idleId && 'cancelIdleCallback' in window) {
+                window.cancelIdleCallback(idleId);
+            }
+            if (timeoutId) {
+                clearTimeout(timeoutId);
+            }
+        };
     }, []);
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 1000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 6000,
-        fade: true,
-        arrows: false,
-        pauseOnHover: false,
-        beforeChange: (current, next) => setCurrentSlide(next),
-        appendDots: dots => (
-            <div style={{ bottom: "40px" }}>
-                <ul className="m-0 p-0 flex justify-center gap-3"> {dots} </ul>
-            </div>
-        ),
-        customPaging: i => (
-            <div className={`w-12 h-1 transition-all duration-300 rounded-full cursor-pointer ${i === currentSlide ? 'bg-white' : 'bg-white/30 hover:bg-white/50'}`}></div>
-        )
-    };
+    // Retry playback if it fails or stalls, but respect reduced-motion
+    useEffect(() => {
+        const video = videoRef.current;
+        if (!video || prefersReducedMotion) return undefined;
+
+        const handleTouch = () => {
+            if (video.paused) {
+                video.play().catch(() => { });
+            }
+        };
+
+        const tryPlay = () => video.play().catch(() => { });
+
+        tryPlay();
+
+        const retryTimer = setTimeout(() => {
+            if (video.paused) {
+                tryPlay();
+            }
+        }, 1000);
+
+        window.addEventListener('touchstart', handleTouch, { once: true });
+        window.addEventListener('click', handleTouch, { once: true });
+
+        return () => {
+            clearTimeout(retryTimer);
+            window.removeEventListener('touchstart', handleTouch);
+            window.removeEventListener('click', handleTouch);
+        };
+    }, [prefersReducedMotion]);
+
+    useEffect(() => {
+        const video = videoRef.current;
+        if (!video) return;
+        if (prefersReducedMotion) {
+            video.pause();
+        }
+    }, [prefersReducedMotion]);
 
     const slides = [
         {
@@ -85,6 +126,68 @@ const Hero = memo(() => {
             link: "/articles"
         }
     ];
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: prefersReducedMotion ? 450 : 900,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: !prefersReducedMotion,
+        autoplaySpeed: prefersReducedMotion ? 8000 : 6000,
+        fade: !prefersReducedMotion,
+        arrows: false,
+        pauseOnHover: false,
+        beforeChange: (_, next) => setCurrentSlide(next),
+        appendDots: dots => (
+            <div style={{ bottom: "40px" }}>
+                <ul className="m-0 p-0 flex justify-center gap-3"> {dots} </ul>
+            </div>
+        ),
+        customPaging: i => (
+            <div className={`w-12 h-1 transition-all duration-300 rounded-full cursor-pointer ${i === currentSlide ? 'bg-white' : 'bg-white/30 hover:bg-white/50'}`}></div>
+        )
+    };
+
+    const renderSlideContent = (slide, isActive) => (
+        <div className="h-full flex items-center justify-center text-center">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-12">
+                <div className="max-w-5xl mx-auto">
+                    <motion.h1
+                        initial={{ opacity: 0, y: 40 }}
+                        animate={isActive ? { opacity: 1, y: 0 } : { opacity: 0.6, y: 12 }}
+                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                        className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light tracking-tight text-white mb-8 drop-shadow-2xl"
+                    >
+                        {slide.title}
+                    </motion.h1>
+
+                    <motion.p
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={isActive ? { opacity: 1, y: 0 } : { opacity: 0.6, y: 10 }}
+                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.35 }}
+                        className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-10 font-light tracking-wide max-w-3xl mx-auto leading-relaxed drop-shadow-md"
+                    >
+                        {slide.subtitle}
+                    </motion.p>
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={isActive ? { opacity: 1, y: 0 } : { opacity: 0.6, y: 8 }}
+                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
+                        className="flex justify-center"
+                    >
+                        <Link
+                            to={slide.link}
+                            className="px-8 py-4 bg-white text-black rounded-full text-base font-bold uppercase tracking-widest hover:bg-gray-200 transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
+                        >
+                            {slide.cta}
+                        </Link>
+                    </motion.div>
+                </div>
+            </div>
+        </div>
+    );
 
     return (
         <section
@@ -116,16 +219,17 @@ const Hero = memo(() => {
                 {/* Video - Loads After (z-3) */}
                 <video
                     ref={videoRef}
-                    autoPlay
+                    autoPlay={!prefersReducedMotion}
                     loop
                     muted
                     playsInline
-                    preload="auto"
+                    preload={prefersReducedMotion ? "metadata" : "auto"}
                     onPlaying={() => {
                         // Only show video when it is ACTUALLY playing
                         setVideoLoaded(true);
                     }}
                     onLoadedData={() => {
+                        if (prefersReducedMotion) return;
                         // Attempt play when data is loaded
                         const video = videoRef.current;
                         if (video) {
@@ -148,54 +252,19 @@ const Hero = memo(() => {
 
             {/* Slider Content (Z-20) */}
             <div className="relative z-20 h-full">
-                <Slider {...settings} className="h-full">
-                    {slides.map((slide, index) => (
-                        <div key={index} className="relative w-full h-[85vh] min-h-[600px] outline-none">
-                            <div className="h-full flex items-center justify-center text-center">
-                                <div className="container mx-auto px-4 sm:px-6 lg:px-12">
-                                    <div className="max-w-5xl mx-auto">
-                                        {/* Animate content only when slide is active */}
-                                        {index === currentSlide && (
-                                            <>
-                                                <motion.h1
-                                                    initial={{ opacity: 0, y: 40 }}
-                                                    animate={{ opacity: 1, y: 0 }}
-                                                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-                                                    className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light tracking-tight text-white mb-8 drop-shadow-2xl"
-                                                >
-                                                    {slide.title}
-                                                </motion.h1>
-
-                                                <motion.p
-                                                    initial={{ opacity: 0, y: 30 }}
-                                                    animate={{ opacity: 1, y: 0 }}
-                                                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-                                                    className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-10 font-light tracking-wide max-w-3xl mx-auto leading-relaxed drop-shadow-md"
-                                                >
-                                                    {slide.subtitle}
-                                                </motion.p>
-
-                                                <motion.div
-                                                    initial={{ opacity: 0, y: 20 }}
-                                                    animate={{ opacity: 1, y: 0 }}
-                                                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
-                                                    className="flex justify-center"
-                                                >
-                                                    <Link
-                                                        to={slide.link}
-                                                        className="px-8 py-4 bg-white text-black rounded-full text-base font-bold uppercase tracking-widest hover:bg-gray-200 transition-all transform hover:-translate-y-1 shadow-lg hover:shadow-xl"
-                                                    >
-                                                        {slide.cta}
-                                                    </Link>
-                                                </motion.div>
-                                            </>
-                                        )}
-                                    </div>
-                                </div>
+                {SlickSlider ? (
+                    <SlickSlider {...settings} className="h-full">
+                        {slides.map((slide, index) => (
+                            <div key={index} className="relative w-full h-[85vh] min-h-[600px] outline-none">
+                                {renderSlideContent(slide, index === currentSlide)}
                             </div>
-                        </div>
-                    ))}
-                </Slider>
+                        ))}
+                    </SlickSlider>
+                ) : (
+                    <div className="relative w-full h-[85vh] min-h-[600px] outline-none">
+                        {renderSlideContent(slides[currentSlide], true)}
+                    </div>
+                )}
             </div>
 
             {/* Scroll Indicator */}

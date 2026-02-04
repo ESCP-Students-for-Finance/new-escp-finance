@@ -24,6 +24,8 @@ export function RelatedArticlesSection({ articles, currentSlug }) {
               <img
                 src={article.image}
                 alt={article.title}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700"
               />
             </div>

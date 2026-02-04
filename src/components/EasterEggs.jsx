@@ -1,8 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import confetti from 'canvas-confetti';
+import React, { useEffect, useRef, useState } from 'react';
 
 export default function EasterEggs() {
     const [keySequence, setKeySequence] = useState([]);
+    const confettiLoader = useRef(null);
+
+    const loadConfetti = async () => {
+        if (!confettiLoader.current) {
+            confettiLoader.current = import('canvas-confetti').then(mod => mod.default);
+        }
+        return confettiLoader.current;
+    };
 
     useEffect(() => {
         const handleKeyDown = (event) => {
@@ -23,7 +30,10 @@ export default function EasterEggs() {
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, []);
 
-    const triggerEasterEgg = () => {
+    const triggerEasterEgg = async () => {
+        const confetti = await loadConfetti().catch(() => null);
+        if (!confetti) return;
+
         // Confetti explosion
         const duration = 3000;
         const animationEnd = Date.now() + duration;
