@@ -223,6 +223,7 @@ const Hero = memo(() => {
                     loop
                     muted
                     playsInline
+                    poster="/hero-poster.jpg"
                     preload={prefersReducedMotion ? "metadata" : "auto"}
                     onPlaying={() => {
                         // Only show video when it is ACTUALLY playing
@@ -230,6 +231,7 @@ const Hero = memo(() => {
                     }}
                     onLoadedData={() => {
                         if (prefersReducedMotion) return;
+                        setVideoLoaded(true);
                         // Attempt play when data is loaded
                         const video = videoRef.current;
                         if (video) {

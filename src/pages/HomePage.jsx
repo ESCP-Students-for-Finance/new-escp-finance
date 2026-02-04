@@ -2,9 +2,9 @@ import React, { Suspense, lazy } from 'react';
 import Header from '../components/Header';
 import Sections from '../components/Sections';
 import Footer from '../components/Footer';
+import Hero from '../components/Hero';
 
 // Lazy load heavy components to reduce initial bundle size
-const Hero = lazy(() => import('../components/Hero'));
 const EasterEggs = lazy(() => import('../components/EasterEggs'));
 
 export default function HomePage() {
@@ -15,9 +15,7 @@ export default function HomePage() {
             </Suspense>
             <Header />
             <main className="flex-grow">
-                <Suspense fallback={<div className="h-[85vh] min-h-[600px] bg-[#003366]" />}>
-                    <Hero />
-                </Suspense>
+                <Hero />
                 <Sections />
             </main>
             <Footer />
