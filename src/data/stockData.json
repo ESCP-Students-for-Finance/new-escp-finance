@@ -2,52 +2,48 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "6,976.44",
-      "change": "+0.54%",
+      "value": "$6,923.69",
+      "change": "+0.17%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "23,592.11",
-      "change": "+0.56%",
-      "positive": true,
+      "value": "23,255.19",
+      "change": "N/A",
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "617.30",
-      "change": "+1.03%",
-      "positive": true,
+      "value": "617.92",
+      "change": "N/A",
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.29%",
-      "change": "0.00%",
-      "positive": true,
+      "value": "4.278%",
+      "change": "N/A",
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1811",
-      "change": "+0.17%",
-      "positive": true,
+      "value": "1.1834",
+      "change": "N/A",
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$78,754.00",
-      "change": "+2.69%",
-      "positive": true,
+      "value": "$77,672.36",
+      "change": "-1.62%",
+      "positive": false,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$305.89",
-      "change": "-0.17%",
-      "positive": false,
+      "value": "$308.18",
+      "change": "+0.85%",
+      "positive": true,
       "type": "stock"
     },
     {
@@ -59,18 +55,18 @@
     },
     {
       "symbol": "BlackRock (BLK)",
-      "value": "$1,119.66",
-      "change": "+0.06%",
-      "positive": true,
+      "value": "$1,122.96",
+      "change": "-1.47%",
+      "positive": false,
       "type": "stock"
     },
     {
       "symbol": "LVMH (MC.PA)",
-      "value": "€538.30",
-      "change": "-0.60%",
-      "positive": false,
+      "value": "€530.70",
+      "change": "+0.32%",
+      "positive": true,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-02-03T09:38:42.345Z"
+  "lastUpdated": "2026-02-04T09:40:57.193Z"
 }
