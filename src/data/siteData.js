@@ -136,7 +136,7 @@ export const teamSections = [
     {
         name: "Strategy",
         members: [
-            { name: "Tommaso Girani", role: "Head of Strategy", img: "/team/tommaso-girani.png" },
+            { name: "Tommaso Girani", role: "Head of Strategy", img: "/team/tommaso-girani.jpg" },
             { name: "Carlo Giulio Rizzuto", role: "Strategy Associate", img: "/team/carlo-giulio-rizzuto.jpg" }
         ]
     },
@@ -155,7 +155,7 @@ export const teamSections = [
         name: "Research 1",
         members: [
             { name: "Adriano Cogorno", role: "Head of Research 1", img: "/team/adriano-cogorno.jpg" },
-            { name: "Andrea Savo", role: "Research Associate", img: "/team/andrea-savo.png" },
+            { name: "Andrea Savo", role: "Research Associate", img: "/team/andrea-savo.jpg" },
             { name: "Federico Tempestini", role: "Research Associate", img: "/team/federico-tempestini.jpg" }
         ]
     },
@@ -171,8 +171,8 @@ export const teamSections = [
         name: "Research 3",
         members: [
             { name: "Davide Biselli", role: "Head of Research 3", img: "/team/davide-biselli.jpg" },
-            { name: "Mehdi Zahid", role: "Research Associate", img: "/team/mehdi-zahid.png" },
-            { name: "Yahya Ouenzar", role: "Research Associate", img: "/team/yahya-guemar.png" }
+            { name: "Mehdi Zahid", role: "Research Associate", img: "/team/mehdi-zahid.jpg" },
+            { name: "Yahya Ouenzar", role: "Research Associate", img: "/team/yahya-guemar.jpg" }
         ]
     },
     {
@@ -205,22 +205,22 @@ export const teamSections = [
         name: "Tech",
         members: [
             { name: "Shashank Tripathi", role: "Head of Tech", img: "/team/shashank-tripathi.jpg" },
-            { name: "Augustin Mons", role: "Tech Associate", img: "/team/augustin-mons.png" },
-            { name: "Andrea Pescarmona", role: "Tech Associate", img: "/team/andrea-pescarmona.png" }
+            { name: "Augustin Mons", role: "Tech Associate", img: "/team/augustin-mons.jpg" },
+            { name: "Andrea Pescarmona", role: "Tech Associate", img: "/team/andrea-pescarmona.jpg" }
         ]
     },
     {
         name: "Affiliates",
         members: [
             { name: "Valentina Petrini", role: "Head of Marketing", img: "/team/valentina-petrini.jpg" },
-            { name: "Beatrice Pelini", role: "Head of Instagram", img: "/team/beatrice-pelini.png" },
-            { name: "Marina Meucci", role: "Head of LinkedIn", img: "/team/marina-meucci.png" },
+            { name: "Beatrice Pelini", role: "Head of Instagram", img: "/team/beatrice-pelini.jpg" },
+            { name: "Marina Meucci", role: "Head of LinkedIn", img: "/team/marina-meucci.jpg" },
             { name: "Camilla Barra", role: "Instagram Associate", img: "/team/camilla-barra.jpg" },
             { name: "Giulio Bonifacio", role: "LinkedIn Associate", img: "/team/giulio-bonifacio.jpg" },
-            { name: "Flavio Antonuzzo", role: "Heads of Strategy", img: "/team/flavio-antonuzzo.png" },
+            { name: "Flavio Antonuzzo", role: "Heads of Strategy", img: "/team/flavio-antonuzzo.jpg" },
             { name: "Francesco Baci Paci", role: "Articles Associate", img: "/team/francesco-baci-paci.jpg" },
             { name: "Federico Furioso", role: "Articles Associate", img: "/team/federico-furioso.jpg" },
-            { name: "Giuseppe Mansueto", role: "Heads of Research", img: "/team/giuseppe-mansueto.png" },
+            { name: "Giuseppe Mansueto", role: "Heads of Research", img: "/team/giuseppe-mansueto.jpg" },
             { name: "Giorgio D'Innocenzo", role: "Research Associate", img: "/team/giorgio-dinnocenzo.jpg" },
             { name: "Jingyi Wang", role: "Tech Associate", img: "/team/jingyi-wang.jpg" }
         ]

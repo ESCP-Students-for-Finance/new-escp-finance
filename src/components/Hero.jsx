@@ -102,9 +102,15 @@ const Hero = memo(() => {
                 />
 
                 {/* Poster Background - Loads from network (z-2) */}
-                <div
-                    className="absolute inset-0 w-full h-full bg-cover bg-center z-[2]"
-                    style={{ backgroundImage: 'url(/hero-poster.jpg)' }}
+                <img
+                    src="/hero-poster.jpg"
+                    alt="Hero Background"
+                    fetchpriority="high"
+                    loading="eager"
+                    className="absolute inset-0 w-full h-full object-cover z-[2]"
+                    onLoad={() => {
+                        // Poster is visible immediately due to z-index
+                    }}
                 />
 
                 {/* Video - Loads After (z-3) */}
