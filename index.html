@@ -12,7 +12,8 @@
   <!-- Preload hero poster for instant visual feedback -->
   <link rel="preload" href="/hero-poster.jpg" as="image" />
   <!-- Preload hero video to start download before JS hydrates -->
-  <link rel="preload" href="/hero-video.mp4" as="video" type="video/mp4" />
+  <link rel="preload" href="/hero-video-480.mp4" as="video" type="video/mp4" media="(max-width: 640px)" />
+  <link rel="preload" href="/hero-video-720.mp4" as="video" type="video/mp4" media="(min-width: 641px)" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

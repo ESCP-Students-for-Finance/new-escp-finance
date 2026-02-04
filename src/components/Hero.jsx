@@ -244,7 +244,8 @@ const Hero = memo(() => {
                     className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 z-[3] ${videoLoaded ? 'opacity-90 visible' : 'opacity-0 invisible'}`}
                     style={{ backgroundColor: 'transparent' }}
                 >
-                    <source src="/hero-video.mp4" type="video/mp4" />
+                    <source src="/hero-video-480.mp4" type="video/mp4" media="(max-width: 640px)" />
+                    <source src="/hero-video-720.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 
