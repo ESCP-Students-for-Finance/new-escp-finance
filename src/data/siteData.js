@@ -2,12 +2,21 @@
 
 // Articles data
 export const articles = [
-
+    {
+        title: "EQT’s Coller Capital Acquisition: A $3.2bn Move to Build a Secondaries Powerhouse",
+        excerpt: "EQT’s $3.2bn acquisition of Coller Capital is designed to create “Coller EQT” and establish a dedicated secondaries segment amid a surging liquidity-driven market.",
+        category: "Private Markets & Secondaries",
+        series: "Liquidity Era | Week 05",
+        author: "Federico Spogler and Francesco Kaitsas",
+        date: "Feb 5, 2026",
+        image: "/eqt-coller-secondaries.jpg",
+        slug: "eqt-coller-secondaries-2026"
+    },
     {
         title: "The $1.5 Trillion Launch Window: SpaceX’s 2026 IPO Could Become the Biggest Listing Ever",
         excerpt: "SpaceX’s potential 2026 IPO could redefine public markets, anchoring valuation on Starlink’s recurring revenue and launch dominance.",
         category: "Aerospace & Capital Markets",
-        series: "Market Momentum | Week 51",
+        series: "Market Momentum | Week 04",
         author: "Francesco Kaitsas and Giorgio Gheorghios Tsingros",
         date: "Jan 30, 2026",
         image: "/spaceX-IPO.webp",

@@ -23,6 +23,150 @@ import { articles as siteArticles } from '../data/siteData';
 // Article content mapping
 const articleContents = {
 
+  'eqt-coller-secondaries-2026': (
+    <>
+      <LeadParagraph>
+        EQT’s Coller Capital Acquisition: A $3.2bn Move to Build a Secondaries Powerhouse
+      </LeadParagraph>
+
+      <SectionHeading>
+        A $3.2bn gateway into the “liquidity era”
+      </SectionHeading>
+
+      <BodyParagraph>
+        EQT’s agreement to acquire Coller Capital may seem as a straightforward headline as the latest is one of Europe’s largest private markets firms buying a secondaries pioneer, but the strategic intent is broader. Signed on 22 January 2026, the deal allows EQT to have an immediate impact in the fast growing market for buying and selling existing stakes in private funds and other private-market assets. EQT plans to create a new section inside the group, branded “Coller EQT”, in order to add a dedicated Secondaries segment alongside its Private Capital and Real Assets core businesses. Moreover, the timing of this choice is not accidental. In fact, a market survey by Evercore pointed out that secondary transaction volume reached $226 billion, up 41% year on year. In fact, slower exits and the desire to rebalance portfolios pushed both limited partners and GPs to seek liquidity solutions. For EQT, entering now also diversifies fee streams and keeps clients engaged when distributions stay muted. Against that backdrop, EQT is positioning secondaries not as a tactical add on, but as the connective tissue of a modern private markets offering, with the transaction expected to close in Q3 2026 subject to approvals and investor consents.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Coller Capital: a pure-play specialist with global scale
+      </SectionHeading>
+
+      <BodyParagraph>
+        Coller’s core strength lies in long-lived relationships and underwriting depth, a very difficult asset to replicate. Founded in 1990, it built its reputation by specialising exclusively in secondaries: purchasing interests in existing private equity funds, structuring GP-led continuation vehicles, and increasingly applying similar approaches in private credit. Moreover, Coller estimates that, as of 31 December 2025, it had nearly $50 billion in total assets under management (AUM), including $33 billion in fee-generating AUM, and a global team of about 330 professionals, including 77 investment professionals, across 11 offices. It is also known for data-driven pricing and bespoke liquidity structuring across complex portfolios. One important concept is that the franchise extends beyond institutional investors. Coller’s Private Wealth Secondaries Solutions business offers perpetual vehicles for eligible private wealth investors, and the firm also provides insurance dedicated solutions. Its most recent flagship, Coller International Partners IX, reached a final close on 31 December 2025 with $10.2 billion in fee generating commitments and $14.2 billion in total size including related capital, underscoring why EQT chose to acquire rather than build these capabilities internally.
+      </BodyParagraph>
+
+      <SectionHeading>
+        EQT’s platform logic and the “Coller EQT” operating model
+      </SectionHeading>
+
+      <BodyParagraph>
+        For EQT, the appeal is less about adding another product line and more about completing a full set of private-markets capabilities. The firm describes itself as a purpose-driven global investment organisation focused on active ownership, with strategies spanning from start up to maturity and operations across Europe, Asia and the Americas. As of 30 September 2025, EQT reported €267 billion in total assets under management and €139 billion in fee generating AUM, supported by a distribution platform that few European peers can match. The combination is intended to use that reach to build a dedicated Secondaries segment, with Coller Capital operating as a standalone platform within EQT under the “Coller EQT” brand. Governance is meant to signal continuity rather than disruption. Jeremy Coller is set to become Head of Coller EQT, reporting directly to CEO and Managing Partner Per Franzén and joining EQT’s Executive Committee, while the origination and investment process remains independent. EQT has even indicated an ambition to double Coller’s business in less than four years, an unusually explicit growth target for an M&A announcement.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Deal anatomy: shares up front, cash earn-out later
+      </SectionHeading>
+
+      <BodyParagraph>
+        The deal economics indicate that EQT is effectively purchasing Coller’s management fee stream while leaving its investment platform largely unchanged. EQT will acquire 100% of Coller’s management company and the general partner entities controlling its funds, plus 10% of carried interest in the latest flagship private equity secondaries fund, CIP IX. Moreover, it will also be entitled to invest in 35% of carried interest in Coller’s future closed ended funds. The base consideration is $3.2 billion on a cash and debt free basis. In fact, it will be funded mainly with newly issued EQT ordinary shares at a fixed price of SEK 355, that is a value around 81 million shares and roughly 7% of shares outstanding, with about $65 million payable in cash at completion. A further earn-out of up to $500 million, payable in cash, is tied to business performance over the 12 months ending March 2029. Key Coller individuals who are expected to receive most of the earn-out have agreed to reinvest their net proceeds into EQT shares. The seller group includes founder Jeremy Coller, minority investors, including State Street, and management. EQT expects the transaction to deliver mid-single-digit growth in fee-related earnings.
+      </BodyParagraph>
+
+      <SectionHeading>
+        UBS as adviser, and the milestones that decide whether the bet pays off
+      </SectionHeading>
+
+      <BodyParagraph>
+        UBS acted as financial adviser to EQT on the transaction, while Morgan Stanley advised Coller, reflecting the challenges of valuing an asset manager and aligning incentives within a listed group. The deal is expected to close in Q3 2026, but only after regulatory approvals and certain Coller’s fund investor consents. If closing is delayed beyond EQT’s annual shareholders’ meeting on 12 May 2026, shareholders will also need to approve the share issuance used for the base consideration. From a balance-sheet perspective, the structure is conservative. Fitch has said that the acquisition should be rating neutral because the $3.2 billion base is funded through a share issue with no additional debt raised, while the earn out is deferred and settled in cash. The real questions come after closing: can Coller EQT preserve an independent investment process while leveraging EQT’s distribution, and can it expand secondaries solutions into areas like real assets and insurance channels without diluting returns? In a market where secondaries are increasingly used for portfolio construction, EQT is betting that greater scale and deeper specialisation will reinforce each other.
+      </BodyParagraph>
+
+      <TableCard
+        title="Key dates, market backdrop, and process"
+        className="mb-8"
+        header={['Topic', 'Key data / number', 'Why it matters']}
+        rows={[
+          ['Deal announcement / signing', '22 Jan 2026', 'Marks EQT’s formal entry into secondaries via acquisition (not build).'],
+          ['Expected closing', 'Q3 2026', 'Completion is subject to approvals and investor consents.'],
+          ['Secondary market activity', '$226bn secondary transaction volume', 'Shows the scale of the “liquidity era” opportunity.'],
+          ['YoY growth in secondaries', '+41%', 'Indicates rapid expansion in secondaries demand and usage.'],
+          ['Key closing conditions', 'Regulatory approvals + Coller fund investor consents', 'Main gating items before completion.'],
+          ['Shareholder approval trigger', 'If delayed beyond 12 May 2026 (EQT AGM)', 'Share issuance may need shareholder approval if closing slips past the AGM.'],
+          ['Credit view (Fitch)', 'Expected rating-neutral', 'Base funded via equity; earn-out deferred and paid in cash.'],
+          ['Advisers', 'UBS (EQT) / Morgan Stanley (Coller)', 'Reflects complexity of valuing an asset manager and aligning incentives.'],
+        ]}
+      />
+
+      <TableCard
+        title="Buyer/seller scale, platform metrics, and deal economics"
+        className="mb-8"
+        header={['Category', 'Key data / number', 'Notes']}
+        rows={[
+          ['New unit / brand', '“Coller EQT”', 'Secondaries becomes a dedicated segment alongside EQT’s Private Capital and Real Assets.'],
+          ['EQT scale (AUM)', '€267bn total AUM (as of 30 Sep 2025)', 'Large distribution reach to scale secondaries globally.'],
+          ['EQT fee-generating AUM', '€139bn (as of 30 Sep 2025)', 'Core driver of recurring management fees.'],
+          ['Coller scale (AUM)', '~$50bn total AUM (as of 31 Dec 2025)', 'Pure-play secondaries specialist with global footprint.'],
+          ['Coller fee-generating AUM', '$33bn', 'Highlights strength of fee base being acquired.'],
+          ['Coller team / presence', '~330 professionals (77 investment) / 11 offices', 'Indicates operating scale and sourcing coverage.'],
+          ['Flagship fund (CIP IX)', 'Final close 31 Dec 2025', '$10.2bn fee-generating commitments; $14.2bn total size incl. related capital.'],
+          ['Base purchase price', '$3.2bn (cash- & debt-free)', 'Primarily buying the management-fee stream/platform economics.'],
+          ['Consideration mix', 'Mostly new EQT shares at SEK 355', '~81m shares, ~7% of shares outstanding; plus ~$65m cash at completion.'],
+          ['Earn-out', 'Up to $500m cash', 'Based on performance over 12 months ending Mar 2029; key individuals reinvest net proceeds into EQT shares.'],
+          ['What EQT acquires', '100% of management company + GP entities', 'Also 10% of carry in CIP IX and entitlement to invest in 35% of carry in future closed-ended funds.'],
+          ['Leadership / governance', 'Jeremy Coller to lead Coller EQT', 'Reports to CEO/Managing Partner Per Franzén; investment process intended to remain independent.'],
+          ['Explicit growth target', 'Double Coller’s business in <4 years', 'Unusually specific post-deal ambition.'],
+          ['Earnings impact', 'Mid-single-digit growth in fee-related earnings', 'EQT’s stated expectation from the transaction.'],
+        ]}
+      />
+
+      <BodyParagraph>
+        Written by Federico Spogler and Francesco Kaitsas
+      </BodyParagraph>
+      <ul className="text-sm text-gray-400 space-y-2">
+        <li>
+          <a
+            href="https://eqtgroup.com/news/eqt-to-combine-with-coller-capital-to-enter-secondaries-marking-the-next-step-in-eqts-strategic-evolution-2026-01-22"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            EQT – EQT to combine with Coller Capital
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.collercapital.com/coller-capital-combines-with-eqt-to-drive-secondaries-growth/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            Coller Capital – Coller Capital combines with EQT
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.prnewswire.com/news-releases/eqt-to-combine-with-coller-capital-to-enter-secondaries-marking-the-next-step-in-eqts-strategic-evolution-302667689.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            PR Newswire – EQT to combine with Coller Capital
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.bloomberg.com/news/articles/2026-01-22/eqt-to-acquire-secondaries-firm-coller-capital-for-3-2-billion"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            Bloomberg – EQT to acquire secondaries firm Coller Capital
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.ft.com/content/45fca5a4-4422-4c24-8f26-afc3392afcbe"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            Financial Times – EQT / Coller deal coverage
+          </a>
+        </li>
+      </ul>
+    </>
+  ),
+
+
+
   'spacex-ipo-2026': (
     <>
       <LeadParagraph>
