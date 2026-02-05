@@ -2,71 +2,61 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$6,923.69",
-      "change": "+0.17%",
-      "positive": true,
+      "value": "$6,886.38",
+      "change": "-0.38%",
+      "positive": false,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "23,255.19",
-      "change": "N/A",
+      "value": "22,904.58",
+      "change": "-1.51%",
+      "positive": false,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "617.92",
-      "change": "N/A",
+      "value": "616.8 EUR",
+      "change": "-0.51%",
+      "positive": false,
       "type": "index"
     },
     {
-      "symbol": "US 10-Year Treasury Yield",
-      "value": "4.278%",
-      "change": "N/A",
-      "type": "rate"
-    },
-    {
       "symbol": "EUR/USD",
-      "value": "1.1834",
-      "change": "N/A",
+      "value": "1.1798",
+      "change": "-0.08%",
+      "positive": false,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$77,672.36",
-      "change": "-1.62%",
-      "positive": false,
+      "value": "$70,783",
+      "change": "+0.48%",
+      "positive": true,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$308.18",
-      "change": "+0.85%",
+      "value": "$317.30",
+      "change": "+0.91%",
       "positive": true,
       "type": "stock"
     },
     {
       "symbol": "Goldman Sachs (GS)",
-      "value": "$947.20",
+      "value": "$940.00",
       "change": "+0.12%",
       "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "BlackRock (BLK)",
-      "value": "$1,122.96",
-      "change": "-1.47%",
-      "positive": false,
-      "type": "stock"
-    },
-    {
       "symbol": "LVMH (MC.PA)",
-      "value": "€530.70",
-      "change": "+0.32%",
+      "value": "536.10€",
+      "change": "0.00%",
       "positive": true,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-02-04T09:40:57.193Z"
+  "lastUpdated": "2026-02-05T09:41:51.882Z"
 }
