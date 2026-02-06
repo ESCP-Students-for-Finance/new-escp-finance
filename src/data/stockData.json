@@ -2,61 +2,75 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$6,886.38",
-      "change": "-0.38%",
+      "value": "6,798.40",
+      "change": "-1.23%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "22,904.58",
-      "change": "-1.51%",
+      "value": "22,540.59",
+      "change": "-1.59%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "616.8 EUR",
-      "change": "-0.51%",
-      "positive": false,
+      "value": "618.12",
+      "change": "+0.03%",
+      "positive": true,
       "type": "index"
+    },
+    {
+      "symbol": "US 10-Year Treasury Yield",
+      "value": "4.196%",
+      "change": "-0.17%",
+      "positive": false,
+      "type": "rate"
     },
     {
       "symbol": "EUR/USD",
       "value": "1.1798",
-      "change": "-0.08%",
+      "change": "-0.2%",
       "positive": false,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$70,783",
-      "change": "+0.48%",
-      "positive": true,
+      "value": "$65,066.00",
+      "change": "-7.91%",
+      "positive": false,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$317.30",
-      "change": "+0.91%",
-      "positive": true,
+      "value": "$310.16",
+      "change": "-2.24%",
+      "positive": false,
       "type": "stock"
     },
     {
       "symbol": "Goldman Sachs (GS)",
-      "value": "$940.00",
-      "change": "+0.12%",
-      "positive": true,
+      "value": "$890.41",
+      "change": "-2.51%",
+      "positive": false,
+      "type": "stock"
+    },
+    {
+      "symbol": "BlackRock (BLK)",
+      "value": "$1,122.96",
+      "change": "-1.47%",
+      "positive": false,
       "type": "stock"
     },
     {
       "symbol": "LVMH (MC.PA)",
-      "value": "536.10€",
-      "change": "0.00%",
+      "value": "€538.20",
+      "change": "+0.39%",
       "positive": true,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-02-05T09:41:51.882Z"
+  "lastUpdated": "2026-02-06T09:40:20.933Z"
 }
