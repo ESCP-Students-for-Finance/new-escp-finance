@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "Novo Nordisk Against Hims & Hers: The GLP-1 Lawsuit That Could Reshape the Obesity-Drug Playbook",
+        excerpt: "Novo Nordisk's lawsuit against Hims & Hers over compounded semaglutide tests the boundaries between telehealth access and pharmaceutical IP in the booming obesity-drug market.",
+        category: "Healthcare & Pharma",
+        series: "Market Momentum | Week 06",
+        author: "Giorgio Gheorghios Tsingros and Francesco Kaitsas",
+        date: "Feb 14, 2026",
+        image: "/novo-nordisk-headquarters.webp",
+        slug: "novo-nordisk-hims-glp1-lawsuit-2026"
+    },
+    {
         title: "EQT’s Coller Capital Acquisition: A $3.2bn Move to Build a Secondaries Powerhouse",
         excerpt: "EQT’s $3.2bn acquisition of Coller Capital is designed to create “Coller EQT” and establish a dedicated secondaries segment amid a surging liquidity-driven market.",
         category: "Private Markets & Secondaries",

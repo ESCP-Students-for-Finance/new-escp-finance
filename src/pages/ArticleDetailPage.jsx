@@ -244,21 +244,21 @@ const articleContents = {
         Even with momentum, an IPO isn’t a straight line. Reporting around the secondary sale and IPO preparations has stressed conditionality considering market conditions, execution risk, and the reality that SpaceX operates where public markets intersect with national security and regulation. As the company approaches anything like an S-1 filing, the narrative will shift from mythology to disclosures investors can model such as Starlink churn and pricing power, capex intensity, spectrum strategy, launch reliability, and timelines for next-generation systems. Any weakness in those metrics could widen the valuation debate or slow the process. That’s why the next months matter: not because a listing is guaranteed or immediate, but because each tender-offer price, bank mandate, and public signal narrows the range of plausible outcomes and sets expectations that are hard to unwind once they’re anchored.
       </BodyParagraph>
       <TableCard
-          title="Key figures"
-          className="mb-8"
-          header={['Topic', 'Key figure(s) / info']}
-          rows={[
-            ['IPO timing (reported)', 'Mid-to-late 2026'],
-            ['Target valuation (reported)', 'About $1.5T (range also discussed: >$1T)'],
-            ['Target capital raise (reported)', '>$30B (also cited: >$25B)'],
-            ['Private-market benchmark (reported)', 'Secondary sale valuation around $800B'],
-            ['2025 launch volume', '160+ Falcon 9 launches'],
-            ['Starlink-driven launches (2025)', '120+ launches supporting Starlink'],
-            ['Starlink constellation scale', '9,000+ active satellites'],
-            ['Lead banks (reported)', 'Bank of America, Goldman Sachs, JPMorgan, Morgan Stanley'],
-            ['Core valuation thesis', 'Starlink recurring revenue + launch cost/cadence flywheel'],
-          ]}
-        />
+        title="Key figures"
+        className="mb-8"
+        header={['Topic', 'Key figure(s) / info']}
+        rows={[
+          ['IPO timing (reported)', 'Mid-to-late 2026'],
+          ['Target valuation (reported)', 'About $1.5T (range also discussed: >$1T)'],
+          ['Target capital raise (reported)', '>$30B (also cited: >$25B)'],
+          ['Private-market benchmark (reported)', 'Secondary sale valuation around $800B'],
+          ['2025 launch volume', '160+ Falcon 9 launches'],
+          ['Starlink-driven launches (2025)', '120+ launches supporting Starlink'],
+          ['Starlink constellation scale', '9,000+ active satellites'],
+          ['Lead banks (reported)', 'Bank of America, Goldman Sachs, JPMorgan, Morgan Stanley'],
+          ['Core valuation thesis', 'Starlink recurring revenue + launch cost/cadence flywheel'],
+        ]}
+      />
       <SectionHeading>
         Why this IPO would matter beyond SpaceX
       </SectionHeading>
@@ -266,12 +266,12 @@ const articleContents = {
       <BodyParagraph>
         A SpaceX IPO near a $1.5T valuation would function as a referendum on two big questions. First, will public markets pay software-style multiples for infrastructure businesses that require heavy, sustained capital spending? Second, can a company remain mission-driven while becoming a daily-priced public asset, exposed to quarterly scrutiny and sentiment-driven volatility? SpaceX’s 2025 cadence showed it can operate more like an aviation system than a bespoke aerospace program, strengthening the argument that space is becoming an industrial category with scale economics. In 2026, the company would need to convince investors that recurring Starlink revenue and launch-driven cost advantages can coexist with regulatory complexity and geopolitical exposure. If it happens, the listing would not only be enormous, it would mark “space” as a mainstream asset class rather than a frontier bet.
       </BodyParagraph>
-        <StatGrid className="mb-8" columns="md:grid-cols-4">
-          <StatCard value="$1.5T" label="Target valuation (reported)" helper="Discussed range: >$1T" />
-          <StatCard value=">$30B" label="Target raise (reported)" helper="Also cited: >$25B" />
-          <StatCard value="$800B" label="Secondary benchmark (reported)" helper="Private-market reference" />
-          <StatCard value="9,000+" label="Active satellites" helper="Starlink constellation scale" />
-        </StatGrid>
+      <StatGrid className="mb-8" columns="md:grid-cols-4">
+        <StatCard value="$1.5T" label="Target valuation (reported)" helper="Discussed range: >$1T" />
+        <StatCard value=">$30B" label="Target raise (reported)" helper="Also cited: >$25B" />
+        <StatCard value="$800B" label="Secondary benchmark (reported)" helper="Private-market reference" />
+        <StatCard value="9,000+" label="Active satellites" helper="Starlink constellation scale" />
+      </StatGrid>
       <BodyParagraph>
         Written by Francesco Kaitsas and Giorgio Gheorghios Tsingros
       </BodyParagraph>
@@ -321,7 +321,7 @@ const articleContents = {
       <SectionHeading>
         With $160 Billion of transactions in M&amp;A market, Switzerland had been the outlier in 2025
       </SectionHeading>
-      
+
       <SectionHeading>Record Volumes of Swiss M&amp;A Activity Defies 2025 Macroeconomic Headwinds</SectionHeading>
       <BodyParagraph>
         In 2025, Switzerland emerged as one of Europe’s most active hubs for M&amp;A.
@@ -1038,6 +1038,175 @@ const articleContents = {
       </ul>
     </>
 
+  ),
+
+  'novo-nordisk-hims-glp1-lawsuit-2026': (
+    <>
+      <LeadParagraph>
+        NOVO NORDISK AGAINST HIMS & HERS: THE GLP-1 LAWSUIT THAT COULD RESHAPE THE OBESITY-DRUG PLAYBOOK
+      </LeadParagraph>
+
+      <BodyParagraph>
+        In February 2026, Novo Nordisk escalated its conflict with telehealth provider Hims & Hers after the platform promoted a low-priced, compounded semaglutide pill positioned as "Wegovy-like," while continuing to offer compounded semaglutide injections. The episode unfolded in days: launch, regulatory scrutiny, withdrawal, and litigation. Yet it raises larger questions about how far telehealth "access" models can go before colliding with pharmaceutical intellectual property and the FDA's framework for approval, quality control, and promotion. This article argues that the lawsuit is not merely a corporate dispute: it is a test case for the post-shortage GLP-1 market and for the evolving relationship between consumerized healthcare platforms and branded drug franchises.
+      </BodyParagraph>
+
+      <SectionHeading>A TWO-DAY PRICE SHOCK THAT TURNED INTO A COURTROOM EVENT</SectionHeading>
+
+      <BodyParagraph>
+        The immediate flashpoint was speed and price. Hims advertised an oral semaglutide program with a headline entry price that was far below Novo's branded positioning for its newly launched Wegovy pill. In a consumerized drug category, that number mattered as much as any clinical headline, as it reframed patient expectations and signaled that a lower-cost substitute pathway could scale quickly. Novo responded with unusual urgency, arguing that the product was an unapproved imitation that risked misleading consumers and undermining the protections that make innovation financially viable.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Regulatory attention arrived almost instantly. Federal officials publicly signaled that the matter was being reviewed, and the FDA issued strong messaging about its intention to act against mass-marketed, non-FDA-approved compounded GLP-1 products. Over the weekend, Hims reversed course and said it would stop offering access to the compounded pill. On Monday, Novo filed a patent-infringement lawsuit in Delaware seeking to halt sales and recover damages. Markets treated the sequence as a signal about enforcement: Hims' shares fell sharply while Novo's stock rose, as investors interpreted the litigation as a defense of branded pricing power and of the approval framework that supports it.
+      </BodyParagraph>
+
+      <StatGrid className="mb-8" columns="md:grid-cols-3">
+        <StatCard value="$49" label="Hims intro price" helper="First month offer" />
+        <StatCard value="$149" label="Wegovy pill price" helper="Branded monthly cost" />
+        <StatCard value="−15%" label="Hims stock drop" helper="Same-day reaction" />
+      </StatGrid>
+
+      <SectionHeading>WHY COMPOUNDING BECAME THE LOOPHOLE AND WHY IT'S NARROWING</SectionHeading>
+
+      <BodyParagraph>
+        Compounding exists for legitimate reasons. Some patients need tailored formulations, and shortages can justify temporary alternatives. During the GLP-1 supply crunch that followed surging demand from 2022 onward, compounded semaglutide became a lucrative side market, especially when paired with telehealth prescribing and subscription-style support services. The "loophole" was not only scientific; it was regulatory and logistical. Patients struggled to obtain branded products consistently, insurance coverage was uneven, and cash-pay options were expensive. Compounding filled the gap.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        However, the shortage rationale has been weakening. Regulators have increasingly emphasized that once branded supply stabilizes, large-scale compounding begins to look less like individualized pharmacy practice and more like mass commercialization. The FDA's posture has also shifted from passive tolerance to active scrutiny, focusing on quality risks, dosing concerns, and especially marketing language that implies equivalence to FDA-approved products. The central question is no longer whether compounding can exist, but whether it can be promoted at scale as a substitute for a blockbuster drug without triggering enforcement.
+      </BodyParagraph>
+
+      <SectionHeading>NOVO'S MOAT: FORMULATION, SUPPLY, AND THE LOGIC OF EXCLUSIVITY</SectionHeading>
+
+      <BodyParagraph>
+        Novo Nordisk's legal strategy is inseparable from the economics of obesity drugs. Semaglutide has defined the company's growth story, and the new Wegovy pill is designed to expand adoption among patients who prefer oral treatment over injections. Novo argues that oral delivery is not a trivial variation: the company's pill relies on proprietary absorption technology and is supported by an FDA approval package, clinical evidence, manufacturing controls, and standardized dosing, that compounded versions do not share.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        This is where industry commentary has been blunt. Regulators and former FDA leaders have stressed that "same ingredient" does not mean "same product," particularly when delivery technology determines whether a peptide drug is absorbed effectively. Novo's executives have framed the dispute as protecting patients from misleading equivalence claims and protecting the integrity of an innovation system that depends on time-limited exclusivity. In this view, the lawsuit is an attempt to re-draw the boundary between individualized compounding and what Novo describes as copycat manufacturing under a healthcare-tech brand.
+      </BodyParagraph>
+
+      <SectionHeading>HIMS' ACCESS MODEL: CONSUMER HEALTH MEETS DRUG INTELLECTUAL POWER</SectionHeading>
+
+      <BodyParagraph>
+        Hims & Hers represents a broader trend in U.S. healthcare: medicine delivered as a consumer product. Its growth strategy relies on simplified onboarding, predictable pricing, and an experience designed to remove friction and stigma. In obesity care, those features are powerful. The company's public messaging framed the compounded pill as a solution for affordability, pairing prescribing access with ongoing support and a lower entry price.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Yet the model collides with two hard constraints. The first is regulatory: the moment marketing implies equivalence to an approved drug, it risks being treated as misleading promotion rather than patient education. The second is legal: patents define who can sell what, and in which form, during exclusivity. A platform can innovate in user experience, but it cannot re-engineer the exclusivity rules without consequences. The speed with which Hims retreated from the pill highlights the vulnerability of consumerized medicine when the underlying product sits in a high-enforcement zone.
+      </BodyParagraph>
+
+      <TableCard
+        title="Key Timeline & Market Reaction"
+        className="mb-8"
+        header={['Item', 'Value', 'Notes']}
+        rows={[
+          ['Lawsuit filed (Novo vs. Hims)', 'Feb 9, 2026', 'Filed in Delaware district court'],
+          ['Hims "Wegovy-like" oral program (intro price)', '$49 (first month)', 'Hims marketed an introductory offer at $49'],
+          ['Hims oral program (after intro)', '$99/month', 'Reported pricing after the first month'],
+          ['Branded Wegovy pill (Novo)', '$149/month', 'Comparison point vs. Hims\' $49 offer'],
+          ['Hims share move (same-day)', '−15%', 'To about $19.65'],
+          ['Novo share move (same-day)', '+6.7%', 'Reaction cited in market coverage'],
+          ['Eli Lilly share move (same-day)', '+2.2%', 'Peer read-through for branded GLP-1 players'],
+          ['Regulatory escalation', 'HHS → DOJ referral', 'Referral for potential federal law violations'],
+        ]}
+      />
+
+      <SectionHeading>THE LAST FIVE YEARS IN PHARMA: WHY THIS CASE FEELS BIGGER</SectionHeading>
+
+      <BodyParagraph>
+        Over the past five years, pharma has shifted from pandemic-era urgency toward chronic-disease dominance, especially cardiometabolic diseases. GLP-1s turned obesity into a blockbuster category with consumer visibility rarely seen in prescription medicine. At the same time, policy pressure on drug pricing has intensified, and investors have become more sensitive to threats that could erode net prices, whether from competitors, payers, or gray-market substitutes.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The other major shift is distribution. Telehealth platforms have moved from the periphery toward the center of demand creation, shaping what patients ask for and how quickly products scale. This has pushed regulators to focus more on promotional claims and has pushed manufacturers to treat channel control as strategic, not operational. In that context, the Novo–Hims conflict is not an anomaly; it is a preview of the channel wars that tend to emerge whenever a drug class becomes culturally mainstream and economically massive.
+      </BodyParagraph>
+
+      <SectionHeading>WHAT GETS REPRICED NEXT: ENFORCEMENT, CHANNEL CONTROL, AND THE ORAL-GLP-1 RACE</SectionHeading>
+
+      <BodyParagraph>
+        In the short term, the market impact is straightforward. If Novo secures an injunction or forces a settlement that constrains compounded semaglutide distribution, branded demand may consolidate and pricing pressure could ease, especially as Novo tries to scale the Wegovy pill. The more consequential effects are structural. A strong legal outcome for Novo could become a template for broader enforcement against mass-market compounded GLP-1 channels, accelerating a shift from "shortage-era workaround" to "post-shortage compliance."
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Meanwhile, competition is widening. The obesity market is no longer a two-product story; new therapies, new formulations, and especially the race for convenient oral options are intensifying. As additional oral candidates approach regulatory milestones, companies will compete not only on efficacy and safety but also on payer access, pharmacy distribution, and consumer trust. That environment will likely push telehealth platforms toward partnerships with manufacturers and away from business models that depend on regulatory gray zones.
+      </BodyParagraph>
+
+      <SectionHeading>CONCLUSION</SectionHeading>
+
+      <BodyParagraph>
+        The Novo Nordisk versus Hims & Hers lawsuit is less about one compounded pill than about the future rules of the obesity-drug market. It tests whether telehealth platforms can scale "access" narratives around compounded GLP-1s once shortages recede, and it tests how aggressively branded manufacturers will defend intellectual property and the FDA approval framework. The episode marks a transition from scarcity economics, when any supply was valuable, to rule-of-law economics, where marketing claims, manufacturing controls, and exclusivity boundaries determine who gets to compete, and on what terms.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Written by Giorgio Gheorghios Tsingros and Francesco Kaitsas
+      </BodyParagraph>
+
+      <SectionHeading>References</SectionHeading>
+
+      <ul className="text-sm text-gray-400 space-y-2">
+        <li>
+          <a
+            href="https://www.cnbc.com/2026/02/09/novo-nordisk-sues-hims-hers-compounded-obesity-drugs.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            CNBC – Novo Nordisk sues Hims & Hers over compounded obesity drugs
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://uk.finance.yahoo.com/news/novo-nordisk-shares-rise-hims-074530459.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            Yahoo Finance – Novo Nordisk shares rise as Hims falls
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.reuters.com/legal/litigation/novo-nordisk-sues-hims-hers-over-patent-infringement-2026-02-09/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            Reuters – Novo Nordisk sues Hims & Hers over patent infringement
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.novomedlink.com/content/dam/novomedlink/semaglutide/02-05-2026-company-statement.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            Novo Nordisk – Company statement on semaglutide
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.investopedia.com/hims-and-hers-stock-plunges-while-novo-nordisk-gains-as-weight-loss-drug-wars-take-new-turn-11902449"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            Investopedia – Hims and Hers stock plunges while Novo Nordisk gains
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.barrons.com/articles/hims-hers-stock-price-wight-loss-drug-novo-nordisk-llilly-wegovy-9b7e26db"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            Barron's – Weight loss drug wars take new turn
+          </a>
+        </li>
+      </ul>
+    </>
   ),
 };
 
