@@ -2,7 +2,7 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$6,836.17",
+      "value": "6,836.17",
       "change": "+0.05%",
       "positive": true,
       "type": "index"
@@ -10,58 +10,58 @@
     {
       "symbol": "NASDAQ Composite",
       "value": "22,546.67",
-      "change": "+0.22%",
-      "positive": true,
+      "change": "-0.22%",
+      "positive": false,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "€617.70",
+      "value": "617.70",
       "change": "-0.13%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.06%",
-      "change": "-0.98%",
+      "value": "4.04%",
+      "change": "-1.22%",
       "positive": false,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1866",
-      "change": "-0.01%",
+      "value": "1.18667",
+      "change": "-0.03%",
       "positive": false,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$68,841.85",
-      "change": "+3.52%",
+      "value": "$70,567.65",
+      "change": "+0.93%",
       "positive": true,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$302.75",
-      "change": "+0.09%",
-      "positive": true,
+      "value": "$302.55",
+      "change": "-0.03%",
+      "positive": false,
       "type": "stock"
     },
     {
       "symbol": "Goldman Sachs (GS)",
       "value": "$905.14",
-      "change": "-4.24%",
-      "positive": false,
+      "change": "+0.07%",
+      "positive": true,
       "type": "stock"
     },
     {
       "symbol": "BlackRock (BLK)",
-      "value": "$1,066.82",
-      "change": "+0.99%",
-      "positive": true,
+      "value": "$1,063.00",
+      "change": "-0.80%",
+      "positive": false,
       "type": "stock"
     },
     {
@@ -72,5 +72,5 @@
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-02-14T09:28:08.419Z"
+  "lastUpdated": "2026-02-15T09:28:43.616Z"
 }
