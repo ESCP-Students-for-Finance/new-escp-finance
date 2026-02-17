@@ -28,7 +28,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-xs">
-                    <p>&copy; 2025 ESCP Students for Finance. All rights reserved.</p>
+                    <p>&copy; 2026 ESCP Students for Finance. All rights reserved.</p>
                     <div className="flex gap-6 mt-4 md:mt-0">
                         <Link to="/contact" className="hover:text-white transition-colors">Contact</Link>
                     </div>
