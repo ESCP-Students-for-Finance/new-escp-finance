@@ -171,25 +171,15 @@ export const teamSections = [
         ]
     },
     {
-        name: "Research 1",
+        name: "Research",
         members: [
             { name: "Adriano Cogorno", role: "Head of Research 1", img: "/team/adriano-cogorno.jpg" },
-            { name: "Andrea Savo", role: "Research Associate", img: "/team/andrea-savo.jpg" },
-            { name: "Federico Tempestini", role: "Research Associate", img: "/team/federico-tempestini.jpg" }
-        ]
-    },
-    {
-        name: "Research 2",
-        members: [
             { name: "Francesco Pio Trama", role: "Head of Research 2", img: "/team/francesco-pio-trama.jpg" },
-            { name: "Frederic Wessling Melonari", role: "Research Associate", img: "/team/frederic-wessling-melonari.jpg" },
-            { name: "Miao Andrea Wang", role: "Research Associate", img: "/team/miao-andrea-wang.jpg" }
-        ]
-    },
-    {
-        name: "Research 3",
-        members: [
             { name: "Davide Biselli", role: "Head of Research 3", img: "/team/davide-biselli.jpg" },
+            { name: "Andrea Savo", role: "Research Associate", img: "/team/andrea-savo.jpg" },
+            { name: "Federico Tempestini", role: "Research Associate", img: "/team/federico-tempestini.jpg" },
+            { name: "Frederic Wessling Melonari", role: "Research Associate", img: "/team/frederic-wessling-melonari.jpg" },
+            { name: "Miao Andrea Wang", role: "Research Associate", img: "/team/miao-andrea-wang.jpg" },
             { name: "Mehdi Zahid", role: "Research Associate", img: "/team/mehdi-zahid.jpg" },
             { name: "Yahya Ouenzar", role: "Research Associate", img: "/team/yahya-guemar.jpg" }
         ]
