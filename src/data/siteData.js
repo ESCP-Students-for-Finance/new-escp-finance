@@ -7,7 +7,7 @@ export const articles = [
     excerpt: "Alphabet raises $20bn across multiple currencies to fund AI infrastructure and explores a rare 100-year bond, signaling a structural shift in the capital intensity of big tech.",
     category: "Tech & Capital Markets",
     series: "Market Momentum | Week 07",
-    author: "Mattia Malandugno and Luca Accossato",
+    author: "Mattia Malandugno and Luca Accossato and Federico Spogler and Francesco Kaitsas",
     date: "Feb 20, 2026",
     image: "/alphabet-ai-bonds.jpg",
     slug: "alphabet-debt-markets-ai-2126"
