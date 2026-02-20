@@ -23,6 +23,236 @@ import { articles as siteArticles } from '../data/siteData';
 // Article content mapping
 const articleContents = {
 
+    'alphabet-debt-markets-ai-2126': (
+    <>
+      <LeadParagraph>
+        ALPHABET TURNS TO DEBT MARKETS TO FINANCE AI EXPANSION AND EXPLORES  ULTRA-LONG-TERM FUNDING
+      </LeadParagraph>
+
+      <BodyParagraph>
+        The $20bn bond issuance and the potential 100-year maturity reflect a structural shift in the capital intensity of large technology platforms
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Alphabet has raised $20bn in the bond market as part of a broader effort to finance its accelerating investment in the AI infrastructure. At the same time, the company is reportedly considering to issue a 100-year bond, a rare instrument in corporate finance that would extend the maturity of its liabilities far beyond conventional horizons. Taken together, these moves reflect not merely a tactical funding decision, but a deeper transformation in the capital requirements and financial architecture of leading technology companies.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Deal architecture, positioning and funding diversification
+      </SectionHeading>
+
+      <BodyParagraph>
+        Alphabet structured the fundraising in three currencies. The largest component was a USD $20bn, seven-tranche senior unsecured bond offering. Separately, the issuer launched a £5.5bn, five-tranche sterling deal and is this sterling package that included the 100-year note due 2126. Alphabet also completed a CHF 3.055bn debut Swiss franc issuance in five tranches, as described in deal counsel summaries.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        A key point to bear in mind is that the ‘$20bn’ headline refers to the US dollar transaction. The 100-year maturity is in the sterling deal, not the USD deal. In fact, the longest dated USD tranche will mature in 2066, while the century bond will mature in 2126.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The USD notes are senior unsecured obligations where interest is paid semi-annually under the terms disclosed in the prospectus supplement. Market reporting linked the issuance to an environment of rising AI infrastructure spending and large capital expenditure needs.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The 2126 note is the defining feature of the sterling transaction. Century maturities are uncommon in corporate credit markets. Deal commentary framed investor demand as supported by scarcity of long-duration, high-grade supply in sterling and by liability-driven investors’ appetite for duration.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Alphabet also placed a CHF 3.055bn inaugural Swiss franc offering in five tranches. Public deal counsel communications confirm the overall size, debut status, and tranche count.
+      </BodyParagraph>
+
+      <SectionHeading>
+        The financial logic behind the $20bn issuance
+      </SectionHeading>
+
+      <BodyParagraph>
+        Artificial intelligence development is no longer limited to incremental software upgrades , in fact, it requires sustained and large-scale investment in computing capacity, specialised semiconductors, data centres, and energy-intensive infrastructure. Training and deploying advanced AI models demands a physical backbone that resembles industrial infrastructure more than traditional software development.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Alphabet has progressively increased capital expenditure to support its cloud business, generative AI initiatives, and integration of advanced models into core products. Although the company generates substantial operating cash flow and holds significant liquidity, issuing debt allows it to preserve cash buffers while continuing to invest aggressively.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        From a capital structure perspective, accessing the bond market can be rational even for a company with strong internal liquidity. Debt financing may lower the overall cost of capital, provide tax advantages through deductible interest payments, and diversify funding sources. In addition, extending the maturity profile reduces refinancing risk and aligns liabilities with the long-term nature of AI-related investments. 
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Alphabet’s $20bn offering: principal by maturity (coupon shown above each tranche).
+      </BodyParagraph>
+
+      <SectionHeading>
+        The strategic significance of a 100-year bond
+      </SectionHeading>
+
+      <BodyParagraph>
+        Ultra-long maturities are uncommon and typically associated with entities that possess durable business models and predictable long-term cash generation. Locking in funding over such an extended horizon would signal confidence in the sustainability of Alphabet’s revenue streams and in the structural role that artificial intelligence will play in its future growth.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        At the same time, such a move would effectively transfer duration risk to investors, stabilising the company’s financing costs over decades. In an environment where technological competition requires persistent and capital-intensive investment, the ability to secure ultra-long-term financing could become a competitive advantage.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Why a century bond matters: longer duration means bigger price swings when rates move (illustrative).
+      </BodyParagraph>
+
+      <SectionHeading>
+        AI as an infrastructure race
+      </SectionHeading>
+
+      <BodyParagraph>
+        Artificial intelligence development increasingly resembles an infrastructure race, in which scale, computing power, and energy capacity determine competitive positioning. This evolution reduces the gap between technology platforms and traditional capital-intensive industries such as utilities or telecommunications.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Access to deep capital markets, therefore becomes a strategic differentiator. Firms capable of raising large volumes of debt at attractive rates can accelerate investment cycles, secure supply chains for advanced chips, and expand data centre networks more rapidly than competitors with weaker balance sheets.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        However, greater capital intensity also alters risk perceptions. As debt-funded investment grows, technology firms may gradually exhibit financial characteristics closer to infrastructure operators than to asset-light software companies. While Alphabet’s leverage remains manageable relative to its earnings and cash flow, sustained large-scale financing will require careful balance sheet management to preserve credit quality and investor confidence.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        AI buildout positioning: capex vs balance-sheet liquidity (gross cash vs net cash after debt)
+      </BodyParagraph>
+
+      <SectionHeading>
+        Market conditions and investor appetite
+      </SectionHeading>
+
+      <BodyParagraph>
+        The scale of the bond issuance reflects continued investor demand for high-quality corporate debt, particularly from issuers with strong cash flows and dominant market positions. In a global environment characterised by large pools of institutional capital seeking stable yield, leading technology companies retain favourable access to financing.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The possibility of a century-long bond further indicates confidence in both market depth and Alphabet’s long-term viability. Investors willing to commit capital for such durations effectively express belief in the company’s structural resilience and capacity to adapt over multiple economic cycles
+      </BodyParagraph>
+
+      <SectionHeading>
+        Conclusion and takeaways
+      </SectionHeading>
+
+      <BodyParagraph>
+        Alphabet’s $20bn bond issuance, combined with the exploration of ultra-long-term financing, underscores a structural transition in the technology sector. Artificial intelligence is not only a technological transformation but also a financial one, requiring capital allocation strategies aligned with long-duration infrastructure investment.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Three conclusions emerge: first, AI expansion is increasing the capital intensity of large technology platforms, second, financial strategy is becoming integral to competitive positioning in the AI race, third, ultra-long-term funding instruments may play a growing role in supporting sustained technological investment.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The evolution of artificial intelligence will be shaped not only by breakthroughs in algorithms and models, but also by the structure and depth of corporate balance sheets that sustain them.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Written by Mattia Malandugno and Luca Accossato and Federico Spogler and Francesco Kaitsas
+      </BodyParagraph>
+
+      <TableCard
+        title="Item	Value	Notes"
+        className="mb-8"
+        header={['Item', 'Value', 'Notes']}
+        rows={[
+          ['Bond issuance (Alphabet)', '$20bn', 'Seven-part USD deal to support AI infrastructure investment.'],
+          ['Deal structure', '7 tranches (USD)', 'Split across 2029–2066 maturities;           shows maturity extension to reduce refi risk.'],
+          ['2036 tranche', '$4.25bn @ 4.800%', 'Largest USD tranche; core “terming-out” bucket.'],
+          ['2056 tranche', '$4.0bn @ 5.650%', 'Heavy size at 30y+ highlights investor appetite for long duration from a “quality” issuer.'],
+          ['Century-bond angle', '100-year bond (reported / explored)', 'Duration transfer” to investors.'],
+          ['Why ultra-long matters', 'Duration risk shifts to investors', 'Stabilises Alphabet’s funding cost profile over decades while investors absorb rate sensitivity.'],
+          ['Alphabet liquidity (context)', '$126.8bn cash reserves (reported)', 'Debt issuance can be rational even with strong internal liquidity.'],
+          ['AI capex signal (context)', '$91.447bn capex (FY2025)', 'Capex anchor.'],
+        ]}
+      />
+
+      <SectionHeading>
+        Table 1 — USD $20bn issuance (7 tranches)
+      </SectionHeading>
+
+      <BodyParagraph>
+        Reference period: February 2026. Source: Alphabet Inc. SEC prospectus supplement for USD notes.
+      </BodyParagraph>
+
+      <TableCard
+        title="Table 1 — USD $20bn issuance (7 tranches)"
+        className="mb-8"
+        header={['Maturity year', 'Coupon']}
+        rows={[
+          ['2029', '3.700%'],
+          ['2031', '3.950%'],
+          ['2034', '4.250%'],
+          ['2037', '4.500%'],
+          ['2046', '4.900%'],
+          ['2056', '5.250%'],
+          ['2066', '5.750%'],
+        ]}
+      />
+
+      <SectionHeading>
+        Table 2 — GBP £5.5bn sterling issuance (5 tranches, including 100-year note)
+      </SectionHeading>
+
+      <BodyParagraph>
+        Reference period: February 2026. Source: Alphabet Inc. SEC prospectus supplement for GBP notes.
+      </BodyParagraph>
+
+      <TableCard
+        title="Table 2 — GBP £5.5bn sterling issuance (5 tranches, including 100-year note)"
+        className="mb-8"
+        header={['Maturity year', 'Size', 'Coupon']}
+        rows={[
+          ['2029', '£750m', '4.125%'],
+          ['2032', '£1.25bn', '4.625%'],
+          ['2041', '£1.25bn', '5.500%'],
+          ['2058', '£1.25bn', '5.875%'],
+          ['2126', '£1.00bn', '6.125% (100-year)'],
+        ]}
+      />
+
+      
+      <SectionHeading>
+        Sources
+      </SectionHeading>
+
+      <ul className="text-sm text-gray-400 space-y-2 mb-8">
+        <li>Reuters (10 February 2026), “Alphabet sells bonds worth $20bn to fund AI spending.”</li>
+        <li>Milano Finanza (10 February 2026), “Alphabet sta pianificando un bond a 100 anni.”</li>
+        <li>Alphabet Inc., SEC prospectus supplement for USD senior notes (February 2026).</li>
+        <li>Alphabet Inc., SEC prospectus supplement for GBP senior notes (February 2026).</li>
+        <li>
+          <a
+            href="https://www.clearygottlieb.com/news-and-insights/news-listing/alphabet-in-record-inaugural-5-5-billion-and-chf-3-055-billion-bonds-issuances"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.clearygottlieb.com/news-and-insights/news-listing/alphabet-in-record-inaugural-5-5-billion-and-chf-3-055-billion-bonds-issuances
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.legal500.com/developments/press-releases/homburger-advises-alphabet-on-its-issuance-of-chf-3-055-bn-in-inaugural-five-tranche-chf-offering/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.legal500.com/developments/press-releases/homburger-advises-alphabet-on-its-issuance-of-chf-3-055-bn-in-inaugural-five-tranche-chf-offering/
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.berghahnjournals.com/view/journals/focaal/2022/93/fcl930101.xml"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.berghahnjournals.com/view/journals/focaal/2022/93/fcl930101.xml
+          </a>
+        </li>
+      </ul>
+    </>
+  ),
+
   'eqt-coller-secondaries-2026': (
     <>
       <LeadParagraph>

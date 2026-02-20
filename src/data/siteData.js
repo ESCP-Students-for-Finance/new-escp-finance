@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+    title: "Alphabet Turns to Debt Markets to Finance AI Expansion and Explores Ultra-Long-Term Funding",
+    excerpt: "Alphabet raises $20bn across multiple currencies to fund AI infrastructure and explores a rare 100-year bond, signaling a structural shift in the capital intensity of big tech.",
+    category: "Tech & Capital Markets",
+    series: "Market Momentum | Week 07",
+    author: "Mattia Malandugno and Luca Accossato",
+    date: "Feb 20, 2026",
+    image: "/alphabet-ai-bonds.jpg",
+    slug: "alphabet-debt-markets-ai-2126"
+    },
+    {
         title: "Novo Nordisk Against Hims & Hers: The GLP-1 Lawsuit That Could Reshape the Obesity-Drug Playbook",
         excerpt: "Novo Nordisk's lawsuit against Hims & Hers over compounded semaglutide tests the boundaries between telehealth access and pharmaceutical IP in the booming obesity-drug market.",
         category: "Healthcare & Pharma",
