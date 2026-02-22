@@ -2,7 +2,7 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$6,909.51",
+      "value": "6,909.51",
       "change": "+0.69%",
       "positive": true,
       "type": "index"
@@ -16,30 +16,30 @@
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "630.56",
-      "change": "+0.83%",
+      "value": "€630.3",
+      "change": "+0.93%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.090%",
-      "change": "+0.25%",
+      "value": "4.08%",
+      "change": "0.00%",
       "positive": true,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.17843",
+      "value": "$1.17843",
       "change": "+0.16%",
       "positive": true,
       "type": "forex",
-      "forexKey": "EURUSD"
+      "forexKey": "EUR/USD"
     },
     {
       "symbol": "BTC/USD",
-      "value": "$67,894.00",
-      "change": "+1.29%",
+      "value": "$67,869.27",
+      "change": "+0.08%",
       "positive": true,
       "type": "crypto"
     },
@@ -52,25 +52,25 @@
     },
     {
       "symbol": "GS",
-      "value": "$922.24",
-      "change": "+0.61%",
+      "value": "$918.56",
+      "change": "+0.29%",
       "positive": true,
       "type": "stock"
     },
     {
       "symbol": "BLK",
-      "value": "$1,079.99",
-      "change": "-0.12%",
-      "positive": false,
+      "value": "$1,093.64",
+      "change": "+1.14%",
+      "positive": true,
       "type": "stock"
     },
     {
       "symbol": "MC.PA",
-      "value": "€554.70",
-      "change": "+4.37%",
+      "value": "€527.1",
+      "change": "+0.38%",
       "positive": true,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-02-21T09:27:47.608Z"
+  "lastUpdated": "2026-02-22T09:28:04.588Z"
 }
