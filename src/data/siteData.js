@@ -3,14 +3,14 @@
 // Articles data
 export const articles = [
     {
-    title: "Alphabet Turns to Debt Markets to Finance AI Expansion and Explores Ultra-Long-Term Funding",
-    excerpt: "Alphabet raises $20bn across multiple currencies to fund AI infrastructure and explores a rare 100-year bond, signaling a structural shift in the capital intensity of big tech.",
-    category: "Tech & Capital Markets",
-    series: "Market Momentum | Week 07",
-    author: "Mattia Malandugno and Luca Accossato and Federico Spogler and Francesco Kaitsas",
-    date: "Feb 20, 2026",
-    image: "/alphabet-ai-bonds.jpg",
-    slug: "alphabet-debt-markets-ai-2126"
+        title: "Alphabet Turns to Debt Markets to Finance AI Expansion and Explores Ultra-Long-Term Funding",
+        excerpt: "Alphabet raises $20bn across multiple currencies to fund AI infrastructure and explores a rare 100-year bond, signaling a structural shift in the capital intensity of big tech.",
+        category: "Tech & Capital Markets",
+        series: "Market Momentum | Week 07",
+        author: "Mattia Malandugno and Luca Accossato and Federico Spogler and Francesco Kaitsas",
+        date: "Feb 20, 2026",
+        image: "/alphabet-ai-bonds.jpg",
+        slug: "alphabet-debt-markets-ai-2126"
     },
     {
         title: "Novo Nordisk Against Hims & Hers: The GLP-1 Lawsuit That Could Reshape the Obesity-Drug Playbook",
@@ -191,7 +191,10 @@ export const teamSections = [
             { name: "Frederic Wessling Melonari", role: "Research Associate", img: "/team/frederic-wessling-melonari.jpg" },
             { name: "Miao Andrea Wang", role: "Research Associate", img: "/team/miao-andrea-wang.jpg" },
             { name: "Mehdi Zahid", role: "Research Associate", img: "/team/mehdi-zahid.jpg" },
-            { name: "Yahya Ouenzar", role: "Research Associate", img: "/team/yahya-guemar.jpg" }
+            { name: "Yahya Ouenzar", role: "Research Associate", img: "/team/yahya-guemar.jpg" },
+            { name: "Federico Priori", role: "Research Associate", img: "/team/federico-priori.jpg" },
+            { name: "Andrea Conti Taguali", role: "Research Associate", img: "/team/andrea-conti-taguali.jpg" },
+            { name: "Vittorio Benozzi", role: "Research Associate", img: "/team/vittorio-benozzi.png" }
         ]
     },
     {
