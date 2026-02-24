@@ -62,7 +62,7 @@ export default function EasterEggs() {
         }, 250);
 
         // Optional: Show a small toast or log
-        console.log("Credits: Shashank & Lorenzo - ESCP Finance Society");
+        console.log("Credits: Shashank & Lorenzo - ESCP Students for Finance");
 
         // Create a temporary toast element
         const toast = document.createElement('div');

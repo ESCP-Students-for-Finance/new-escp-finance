@@ -37,7 +37,7 @@ export default function Sections() {
                 <div className="relative h-[250px] md:h-[400px] bg-[#051C2C]">
                     <img
                         src="/team-photo.jpg"
-                        alt="ESCP Finance Society Team"
+                        alt="ESCP Students for Finance Team"
                         className="absolute inset-0 w-full h-full object-cover object-center grayscale hover:grayscale-0 transition-all duration-500"
                         loading="lazy"
                         decoding="async"

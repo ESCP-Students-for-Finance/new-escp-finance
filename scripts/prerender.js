@@ -40,7 +40,7 @@ async function prerender() {
 
             // Replace meta tags in valid HTML
             const ogTags = `
-      <title>${item.title} | ESCP Finance Society</title>
+      <title>${item.title} | ESCP Students for Finance</title>
       <meta name="description" content="${item.excerpt.replace(/"/g, '&quot;')}" />
       <meta property="og:type" content="article" />
       <meta property="og:url" content="${SITE_URL}/${basePath}/${slug}" />
