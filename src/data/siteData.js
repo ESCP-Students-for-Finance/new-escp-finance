@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "From Pyramid to Diamond: How AI Is Reshaping Investment Banking Teams",
+        excerpt: "Generative AI is making entry-level production more replicable, pushing banks toward leaner analyst classes and a thicker judgment layer.",
+        category: "Banking & Workforce",
+        series: "Market Momentum | Week 09",
+        author: "Tommaso Girani and Martina Proietti Silvestri",
+        date: "Feb 27, 2026",
+        image: "/pyramid-to-diamond-ai-ib.jpg",
+        slug: "pyramid-to-diamond-ai-ib-teams"
+    },
+    {
         title: "Alphabet Turns to Debt Markets to Finance AI Expansion and Explores Ultra-Long-Term Funding",
         excerpt: "Alphabet raises $20bn across multiple currencies to fund AI infrastructure and explores a rare 100-year bond, signaling a structural shift in the capital intensity of big tech.",
         category: "Tech & Capital Markets",

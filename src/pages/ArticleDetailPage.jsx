@@ -22,7 +22,265 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+    // 1) Add this to your articleContents mapping (do not change the text)
+'pyramid-to-diamond-ai-ib-teams': (
+  <>
+    <LeadParagraph>
+      From Pyramid to Diamond: How AI Is Reshaping Investment Banking Teams Generative AI is making entry-level production more replicable, pushing banks toward leaner analyst classes and a thicker judgment layer. Written by Tommaso Girani and Martina Proietti Silvestri, ESCP Students for Finance
+    </LeadParagraph>
 
+    <SectionHeading>
+      Introduction
+    </SectionHeading>
+
+    <BodyParagraph>
+      Investment banking is often described as a people business. That is true at the top of the house: relationships, credibility, and accountability still rest with senior bankers.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      But most of the organization has always functioned as an industrial machine for turning information into decisions. The classic model is a based on pyramidal hierarchy: many analysts at the base, fewer associates in the middle, and a small apex of VPs and MDs. Generative AI does not need to replace the apex to change the shape; it only needs to compress the base and shift value toward roles that frame problems, validate outputs, and exercise judgment. The emerging end state looks less like a pyramid and more like a diamond.
+    </BodyParagraph>
+
+    <SectionHeading>
+      Opening thesis: a structural, not cyclical, shift
+    </SectionHeading>
+
+    <BodyParagraph>
+      This is better understood as a structural shift, not a cyclical one. A downturn can pause hiring. A technology that reduces the marginal hours required to produce analysis changes unit economics. Three recent signals point in the same direction. First, Wall Street firms are deploying internal assistants to automate drafting and synthesis. Goldman Sachs has rolled out a firmwide generative AI assistant, according to reporting that cited an internal memo. Second, some owners of financial and software assets are communicating the labour implications more directly. Financial Times reported that Vista Equity Partners planned to cut staff while adopting AI tools. Third, the entry-level layer is already under scrutiny for reasons unrelated to AI: long hours, retention issues, and new attempts to cap workloads. Taken together, the incentive is clear. If banks can deliver the same output with fewer junior hours, the analyst base becomes negotiable.
+    </BodyParagraph>
+
+    <SectionHeading>
+      2. The classical pyramid: why it worked
+    </SectionHeading>
+
+    <BodyParagraph>
+      The pyramid worked because it combined leverage with training. Leverage came from scale at the bottom. Analysts built models, drafted pitch materials, and produced repeatable outputs. Associates managed execution and quality. Seniors focused on client coverage and deal leadership. Training came from repetition. The analyst programme functioned as an apprenticeship. Juniors learned valuation, structure, and process by doing the work, often under time pressure. The firm benefited twice: it extracted production in the present and built a pipeline for the future. Economically, the model relied on a simple trade-off. Low-cost analytical labour supported high-revenue senior time. The system depended on the assumption that the base could not be replicated cheaply by technology.
+    </BodyParagraph>
+
+    <SectionHeading>
+      3. AI enters the production chain
+    </SectionHeading>
+
+    <BodyParagraph>
+      Generative AI targets precisely the layer that was designed for scale. Industry research has converged on a common list of early use cases: drafting first versions of pitch books, summarising research, producing comparable-company tables, synthesising notes, and generating variations of standard slides. McKinsey describes a case in which a gen-AI tool helps analysts produce first drafts of pitch books and saves a meaningful share of their time. Deloitte similarly frames investment banking as a document-intensive environment where gen-AI can accelerate content creation and knowledge retrieval. The impact is not that AI runs a deal end-to-end. The impact is that it can reduce the number of junior hours required per deliverable. That changes the cost structure of knowledge work. It also shifts the location of the bottleneck. When the base becomes technologically replicable, its scale stops being a requirement and becomes a choice.
+    </BodyParagraph>
+
+    <SectionHeading>
+      4. Diverging executive narratives, converging structural outcomes
+    </SectionHeading>
+
+    <SectionHeading>
+      4.1 The repositioning narrative (Goldman Sachs and peers)
+    </SectionHeading>
+
+    <BodyParagraph>
+      Some banks frame AI as augmentation. They emphasise higher productivity, better service, and redeployment. Goldman Sachs CEO David Solomon has publicly argued that AI is more likely to reshape work than to eliminate banking jobs. He has described the competitive edge as having 'high-value people' who can effectively use the tools. In that view, headcount discipline can coexist with an ambition to invest more in roles tied to clients and judgment. On the operational side, internal assistants and search tools push in the same direction. Goldman’s firmwide AI assistant and Morgan Stanley’s AskResearchGPT are both designed to reduce time spent on drafting and retrieval. Even if the message is 'augmentation', the workflow change targets junior production first.
+    </BodyParagraph>
+
+    <SectionHeading>
+      4.2 The explicit efficiency narrative (Vista Equity Partners)
+    </SectionHeading>
+
+    <BodyParagraph>
+      Other owners are more explicit about efficiency. Financial Times reported that Vista Equity Partners planned to reduce its workforce as it adopts AI tools across the firm and its portfolio. The report said the effort aims to automate tasks such as investor materials, marketing content and data aggregation, and could extend to certain junior analyst and investor-relations functions. This is a different narrative. It links technology directly to staff compression, rather than to redeployment. Different messaging leads to a similar structural outcome. If AI absorbs a meaningful portion of entry-level production, firms recalibrate the density of analysts at the base.
+    </BodyParagraph>
+
+    <SectionHeading>
+      5. From pyramid to diamond: the emerging organisational geometry
+    </SectionHeading>
+
+    <BodyParagraph>
+      The 'diamond' is a useful mental model because it captures what changes and what remains. A narrower base: fewer analysts are required to produce standard materials and the analysts who remain tend to look different ad they spend less time on formatting and more time on orchestrating tools, checking outputs and accelerating iterations. A thicker middle: ss first drafts become cheaper, value moves to the layer that defines the question and validates the answer. Associates and VPs become the control centre of the process: setting assumptions, stress-testing cases, and translating analysis into a client narrative. A stable top. origination and trust remain hard to automate. Senior bankers still own accountability, they continue to sell advice. This is not simple 'job destruction'. It is structural compression at entry level and strategic thickening in the middle. The organization does not flatten, it rebalances.
+    </BodyParagraph>
+
+    <SectionHeading>
+      6. Implications for talent formation and career entry
+    </SectionHeading>
+
+    <BodyParagraph>
+      The most important long-term effect may concern talent formation. If the base shrinks, the gateway narrows. Entry becomes more selective. Firms may hire fewer analysts but demand more from day one: stronger reasoning, better communication, and fluency with AI tools and controls. The traditional apprenticeship ladder becomes harder to sustain at scale. If juniors do less repetitive production, they may learn less through repetition. Banks will need to redesign training intentionally, not as a by-product of long hours. There is also a timing question. In some markets, banks are still planning to hire large graduate cohorts. The near term can therefore appear stable even as the workflow changes underneath. The transition may show up first as a different mix of tasks, and later as a different mix of roles. The strategic question is simple: if fewer people enter at the base, who populates the summit ten years from now?
+    </BodyParagraph>
+
+    <SectionHeading>
+      7. Strategic risks and institutional trade-offs
+    </SectionHeading>
+
+    <BodyParagraph>
+      The shift introduces trade-offs that are often obscured when the discussion focuses narrowly on productivity gains. Greater efficiency can come at the expense of cultivation: if the analyst layer shrinks, banks must deliberately create alternative mechanisms to develop judgment and preserve institutional memory. Similarly, productivity improvements may weaken the long-term pipeline. Lean teams can prove brittle during cyclical upswings, and scaling capacity becomes more difficult when the junior bench is thin. There is also a tension between concentration and resilience. A narrower gateway can increase average quality, yet it may simultaneously reduce the diversity of backgrounds and pathways into finance. Finally, reputational risk cannot be ignored. While external messaging tends to emphasise augmentation, internal economics often point toward compression. Firms will ultimately be judged on how transparently and coherently they manage that transition.
+    </BodyParagraph>
+
+    <SectionHeading>
+      Conclusion and takeaways
+    </SectionHeading>
+
+    <BodyParagraph>
+      AI is altering organisational structure in investment banking, not just individual workflows. Three shifts stand out:
+    </BodyParagraph>
+
+    <BodyParagraph>
+      1.	Automation of standardised analytical work reduces the economic need for a wide analyst base.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      2.	Value shifts toward judgment-intensive roles, thickening the associate-to-VP layer.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      3.	Entry-level hiring compresses, raising selectivity and forcing a rethink of apprenticeship.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      In the next decade, banks will compete on clients and capital. They will also compete on internal design: how well they turn AI into capacity without breaking the talent pipeline.
+    </BodyParagraph>
+
+    <TableCard
+      title="Dimension	Pyramid model	Diamond model (AI era)"
+      className="mb-8"
+      header={['Dimension', 'Pyramid model', 'Diamond model (AI era)']}
+      rows={[
+        ['Core logic', 'Leverage through a large analyst base', 'Leverage through AI-enabled production + mid-layer judgment'],
+        ['Entry level', 'High intake; analysts as production engine', 'Thinner intake; analysts as tool-orchestrators & QC'],
+        ['Middle layer', 'Workflow management and review', 'Judgment layer: framing, validation, synthesis, risk checks'],
+        ['Top layer', 'Client relationships, origination, accountability', 'Largely stable; AI supports but does not replace trust'],
+        ['Work output', 'Decks/models built largely manually', 'First drafts automated; humans iterate and challenge assumptions'],
+        ['Skills premium', 'Speed, endurance, technical repetition', 'Reasoning, communication, oversight, AI fluency'],
+        ['Training model', 'Apprenticeship via repetition', 'Training redesigned: less repetition, more deliberate coaching'],
+        ['Hiring signal', 'Scale at the bottom', 'Selectivity at entry; earlier emphasis on judgment'],
+      ]}
+    />
+
+    <SectionHeading>
+      Sources
+    </SectionHeading>
+
+    <ul className="text-sm text-gray-400 space-y-2 mb-8">
+  <li>
+    <a
+      href="https://www.ft.com/content/7e8764f3-7a6d-4d7a-8273-734655bedff2"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      Financial Times (12 Nov 2025) – Vista Equity Partners plans staff cuts alongside AI adoption
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.axios.com/2025/10/27/goldman-sachs-jobs-ai"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      Axios (27 Oct 2025) – David Solomon on AI reshaping (not replacing) banking jobs
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.businessinsider.com/david-solomon-ai-goldman-sachs-high-value-people-2025-10"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      Business Insider (Oct 2025) – Solomon on hiring “high-value people” in the AI era
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.nasdaq.com/articles/goldman-sachs-unveils-firmwide-ai-assistant-boost-productivity"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      Reuters (24 Jun 2025) – Goldman Sachs rolls out firmwide “GS AI Assistant”
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.mckinsey.com/industries/financial-services/our-insights/been-there-doing-that-how-corporate-and-investment-banks-are-tackling-gen-ai"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      McKinsey (2024) – Gen-AI in corporate and investment banking; pitch book drafting use case
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.deloitte.com/us/en/insights/industry/financial-services/generative-ai-in-investment-banking.html"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      Deloitte Insights (2023/2024) – Generative AI applications in investment banking
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.cio.com/article/2089550/ai-poised-to-replace-entry-level-positions-at-large-financial-institutions.html"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      CIO (2024) – Banks consider replacing parts of entry-level analyst work with AI
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      Morgan Stanley (23 Oct 2024) – Press release on AskResearchGPT for research and banking staff
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.wsj.com/finance/banking/bank-america-jpmorgan-overtime-work-hours-f9f204a7"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      Wall Street Journal (2024) – Banks move to monitor/cap junior banker hours after overwork outcry
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.businessinsider.com/junior-bankers-work-hours-shiber-centerview-wall-street-lawsuit-2026-2"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      Business Insider (Feb 2026) – Centerview settlement renews scrutiny of junior banker hours
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.fnlondon.com/articles/city-investment-banks-set-to-hire-record-number-of-graduates-in-2026-5728957f"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#C5A059] hover:underline"
+    >
+      Financial News London (Feb 2026) – UK investment banks’ graduate hiring outlook for 2026
+    </a>
+  </li>
+</ul>
+
+    <BodyParagraph>
+      Written by Tommaso Girani and Martina Proietti Silvestri, ESCP Students for Finance
+    </BodyParagraph>
+  </>
+),
     'alphabet-debt-markets-ai-2126': (
     <>
       <LeadParagraph>
