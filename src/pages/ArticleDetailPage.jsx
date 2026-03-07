@@ -22,7 +22,275 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
-    // 1) Add this to your articleContents mapping (do not change the text)
+'us-iran-war-global-financial-markets-2026': (
+  <>
+    <LeadParagraph>
+      THE US–IRAN WAR AND ITS IMPACT ON GLOBAL FINANCIAL MARKETS
+    </LeadParagraph>
+
+    <BodyParagraph>
+      The coordinated strikes on Tehran restructure cross-asset risk pricing across energy, precious metals, fixed income, and equities.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      On February 28, 2026, the United States and Israel launched coordinated strikes on Iranian government and military infrastructure in Tehran, and reports indicated that Supreme Leader Ayatollah Khamenei had been killed. Financial markets responded within hours.
+    </BodyParagraph>
+
+    <SectionHeading>
+      The Strait of Hormuz: the critical variable
+    </SectionHeading>
+
+    <BodyParagraph>
+      Approximately 13 million barrels of crude oil per day transit the Strait of Hormuz: this represents roughly 31% of all global seaborne oil flows. Saudi Arabia, Iraq, Kuwait, and the UAE all depend on the passage for exports, and a prolonged closure would not affect Iranian shipments alone; it would structurally reduce global supply.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      The precedent most relevant is not Venezuela or Libya but the 1973 Arab oil embargo. Analysts at Quantum Strategy outlined two scenarios: a short, contained conflict producing a temporary oil spike, or a three-to-five-week engagement requiring markets to reprice a structural energy supply shock.
+    </BodyParagraph>
+
+
+  <figure className="mb-8">
+    <img
+      src="/Picture4-Article10.jpg"
+      alt="Strait of Hormuz: daily oil transit volume (mbd) and share of global seaborne flows (%)"
+      className="w-full rounded-2xl shadow-lg"
+    />
+  </figure>
+    <BodyParagraph>
+      Strait of Hormuz: daily oil transit volume (mbd) and share of global seaborne flows (%)
+    </BodyParagraph>
+
+    <SectionHeading>
+      Oil markets: an immediate and acute repricing
+    </SectionHeading>
+
+    <BodyParagraph>
+      West Texas Intermediate crude closed at $71.23 per barrel on March 2, 2026, a gain of 6.3% on the session. At the Sunday futures open, prices had spiked as much as 13% before partially
+       
+      reversing. Natural gas markets also rose, driven by potential disruption to LNG (liquefied natural gas) shipping in the Gulf.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      Before the strikes, WTI (West Texas Intermediate) had traded in the $63-67 range throughout February. The move represented the largest single-session price increase since the onset of the COVID-19 pandemic, and analysts cited $80-110 per barrel as a plausible range should Hormuz flows face sustained disruption.
+    </BodyParagraph>
+    <figure className="mb-8">
+    <img
+      src="/Picture3-Article10.jpg"
+      alt="WTI crude oil spot price (USD/barrel) with key event markers"
+      className="w-full rounded-2xl shadow-lg"
+    />
+  </figure>
+    <BodyParagraph>
+      WTI crude oil spot price (USD/barrel) with key event markers
+    </BodyParagraph>
+
+    <SectionHeading>
+      Gold: a safe-haven rally of historic proportions
+    </SectionHeading>
+
+    <BodyParagraph>
+      Gold entered the conflict already up approximately 22% YTD. The February 28 strikes triggered a single-session gain of over $200 per ounce, and spot gold rose from approximately $5,100 to above $5,300, briefly touching $5,400 on March 2 before paring gains.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      JPMorgan analysts maintained their year-end 2026 forecast of $6,300 per ounce, but analysts at Saxo Bank and City Index cited near-term targets of $5,500–$6,000.
+    </BodyParagraph>
+    <figure className="mb-8">
+    <img
+      src="/Picture2-Article10.jpg"
+      alt="Gold spot price (USD/oz) with geopolitical event markers and JPMorgan year-end target"
+      className="w-full rounded-2xl shadow-lg"
+    />
+  </figure>
+    <BodyParagraph>
+      Gold spot price (USD/oz) with geopolitical event markers and JPMorgan year-end target
+       
+    </BodyParagraph>
+
+    <SectionHeading>
+      Equity markets: a bifurcated sectoral response
+    </SectionHeading>
+
+    <BodyParagraph>
+      The S&P 500 closed broadly flat after an intraday decline exceeding 1%, the Nasdaq edged marginally positive (+0.36%), and European markets suffered larger losses: the Stoxx 600 fell 1.61%, Japan's Nikkei 225 dropped 1.35%.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      The conflict produced a clear sectoral split: defence stocks were the most notable beneficiaries. Northrop Grumman rose 6.0%, RTX Corporation gained 4.7%, and Lockheed Martin added 3.37%. Airline stocks collapsed: American Airlines fell 4.2%, Air France dropped 9.4%, and Lufthansa fell 5.2%. Fuel cost pressures and reduced Middle East travel demand drove the moves.
+    </BodyParagraph>
+     <figure className="mb-8">
+    <img
+      src="/Picture1-Article10.jpg"
+      alt="Equity sector performance on March 2, 2026: defence, energy vs. airlines vs. broad market (%)"
+      className="w-full rounded-2xl shadow-lg"
+    />
+  </figure>
+    <BodyParagraph>
+      Equity sector performance on March 2, 2026: defence, energy vs. airlines vs. broad market (%)
+    </BodyParagraph>
+
+    <SectionHeading>
+      Currencies and fixed income: competing pressures
+    </SectionHeading>
+
+    <BodyParagraph>
+      The US dollar index gained 0.95% on March 2, erasing its YTD losses and reaching its highest level in five weeks. The Swiss franc and Japanese yen also attracted safe-haven flows, consistent with historical patterns during geopolitical stress.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      US Treasuries presented a more complex picture: flight-to-quality demand supported prices. Oil- driven inflation expectations put upward pressure on yields simultaneously, and the ten-year yield recorded its largest single-day rise since October 2025 (Bloomberg, March 2026). Markets began pricing in a reduced probability of Federal Reserve rate cuts in the near term.
+    </BodyParagraph>
+
+    <SectionHeading>
+      Monetary policy: a new constraint for the Federal Reserve
+    </SectionHeading>
+
+    <BodyParagraph>
+      The conflict introduces a direct complication for the Federal Reserve. Prior to the strikes, the policy debate centred on the balance between slowing growth and residual inflation from trade tariffs. The addition of an oil supply shock reopens the stagflation risk scenario.
+       
+      Oxford Economics maintained the view that the conflict will not extend beyond two months (Alpine Macro, March 2026). It recommended against extreme risk-off positioning. The base case assumes oil stabilises around $80 per barrel with limited long-term macro damage.
+    </BodyParagraph>
+
+    <SectionHeading>
+      Conclusion and takeaways
+    </SectionHeading>
+
+    <BodyParagraph>
+      The US-Iran military conflict represents one of the most significant geopolitical shock to global financial markets since the COVID-19 pandemic. The medium-term outlook depends on two variables: the duration of the conflict and the operational status of the Strait of Hormuz.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      Three conclusions emerge: first, the Strait of Hormuz is the single most important variable for global energy markets ,its status will determine whether the current oil price shock is transitory or structural; second, geopolitical risk has replaced tariff and growth narratives as the dominant cross-asset macro driver and third, the conflict has reinforced the structural case for precious metals allocation. Gold's performance during the strike period confirms its role as a primary hedge against geopolitical tail risk.
+    </BodyParagraph>
+
+    <TableCard
+      title="Item	Value	Notes"
+      className="mb-8"
+      header={['Item', 'Value', 'Notes']}
+      rows={[
+        ['Event', 'US–Israel strikes on Iran', 'Major combat operations confirmed by President Trump; Khamenei reported killed.'],
+        ['WTI crude oil', '+6.3% → $71.23/bbl', 'Highest level since June 2025. Intraday spike reached +13% at Sunday open.'],
+        ['Gold spot', '+2.0% → ~$5,400/oz', 'YTD performance ~+22%. JPMorgan year-end forecast: $6,300/oz.'],
+        ['USD Index (DXY)', '+0.95%', 'Erased YTD losses. Reached 5-week high on safe- haven demand.'],
+        ['US 10yr yield', 'Largest 1-day rise since Oct 2025', 'Oil-driven inflation fears outweighed flight-to- quality support.'],
+        ['S&P 500', '~Flat (–0.04%)', 'Recovered from intraday –1%+ drawdown. Nasdaq:\n+0.36%.'],
+        ['Defence stocks', '+3.37% to +6.0%', 'Northrop Grumman +6%; RTX +4.7%; Lockheed\nMartin +3.37%.'],
+        ['Airlines', '–2.2% to –9.4%', 'Air France –9.4%; Lufthansa –5.2%; American\nAirlines –4.2%.'],
+        ['Hormuz flows', '~13m bbl/day at risk', '~31% of global seaborne crude. Closure = structural oil shock.'],
+      ]}
+    />
+
+    <BodyParagraph>
+      Written by Mattia Malandugno and Giovanni Ciccarello.
+    </BodyParagraph>
+
+    <SectionHeading>
+      Sources
+    </SectionHeading>
+
+    <li>
+  <a
+    href="https://www.bloomberg.com/news/articles/2026-03-01/treasuries-sink-as-oil-jump-stokes-inflation-fears-markets-wrap"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#C5A059] hover:underline"
+  >
+    Bloomberg (1 March 2026) – Treasuries Sink as Oil Jump Stokes Inflation Fears: Markets Wrap
+  </a>
+</li>
+
+<li>
+  <a
+    href="https://www.cnbc.com/2026/02/28/markets-brace-for-impact-following-us-military-strikes-against-iran.html"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#C5A059] hover:underline"
+  >
+    CNBC (28 February 2026) – Markets brace for impact following US military strikes against Iran
+  </a>
+</li>
+
+<li>
+  <a
+    href="https://www.cnn.com/2026/03/02/business/us-stocks-gold-oil-iran-war/index.html"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#C5A059] hover:underline"
+  >
+    CNN Business (2 March 2026) – US stocks recover, gold rises, and oil surges as war with Iran spreads
+  </a>
+</li>
+
+<li>
+  <a
+    href="https://www.fxempire.com/forecasts/article/how-the-us-iran-conflict-could-drive-oil-gold-currencies-and-global-equities-2026"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#C5A059] hover:underline"
+  >
+    FX Empire (March 2026) – How the US–Iran Conflict Could Drive Oil, Gold, Currencies, and Global Equities
+  </a>
+</li>
+
+<li>
+  <a
+    href="https://www.intellectia.ai/news/how-the-us-iran-war-affects-gold-price-safe-haven-rush-2026"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#C5A059] hover:underline"
+  >
+    Intellectia.ai (March 2026) – How the US–Iran War Affects Gold Price: Safe Haven Rush
+  </a>
+</li>
+
+<li>
+  <a
+    href="https://markets.jpmorgan.com/research/gold-year-end-target-update-march-2026"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#C5A059] hover:underline"
+  >
+    JPMorgan Markets Research (March 2026) – Gold year-end target update
+  </a>
+</li>
+
+<li>
+  <a
+    href="https://www.oxfordeconomics.com/resource/the-2026-iran-war-an-initial-take-and-implications/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#C5A059] hover:underline"
+  >
+    Oxford Economics / Alpine Macro (2 March 2026) – The 2026 Iran War: An Initial Take and Implications
+  </a>
+</li>
+
+<li>
+  <a
+    href="https://www.reuters.com/world/middle-east/us-israel-launch-coordinated-strikes-iran-2026-02-28/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#C5A059] hover:underline"
+  >
+    Reuters (28 February 2026) – The US and Israel launch coordinated strikes on Iran
+  </a>
+</li>
+
+<li>
+  <a
+    href="https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints.php"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#C5A059] hover:underline"
+  >
+    U.S. Energy Information Administration – EIA (2025) – World oil transit chokepoints
+  </a>
+</li>
+  </>
+),
+
+
+
 'pyramid-to-diamond-ai-ib-teams': (
   <>
     <LeadParagraph>
@@ -88,7 +356,13 @@ const articleContents = {
     <SectionHeading>
       5. From pyramid to diamond: the emerging organisational geometry
     </SectionHeading>
-
+    <figure className="my-8">
+      <img 
+        src="/pyramid-to-diamond.jpeg" 
+        alt="WTI crude oil spot price March 2026"
+        className="rounded-xl shadow-lg"
+      />
+     </figure>
     <BodyParagraph>
       The 'diamond' is a useful mental model because it captures what changes and what remains. A narrower base: fewer analysts are required to produce standard materials and the analysts who remain tend to look different ad they spend less time on formatting and more time on orchestrating tools, checking outputs and accelerating iterations. A thicker middle: ss first drafts become cheaper, value moves to the layer that defines the question and validates the answer. Associates and VPs become the control centre of the process: setting assumptions, stress-testing cases, and translating analysis into a client narrative. A stable top. origination and trust remain hard to automate. Senior bankers still own accountability, they continue to sell advice. This is not simple 'job destruction'. It is structural compression at entry level and strategic thickening in the middle. The organization does not flatten, it rebalances.
     </BodyParagraph>

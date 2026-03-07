@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "The US–Iran War and Its Impact on Global Financial Markets",
+        excerpt: "Coordinated US–Israel strikes on Tehran triggered an immediate cross-asset repricing across oil, gold, equities, currencies, and fixed income markets.",
+        category: "Geopolitics & Markets",
+        series: "Market Momentum | Week 10",
+        author: "Mattia Malandugno and Giovanni Ciccarello",
+        date: "Mar 3, 2026",
+        image: "/oil-article.jpg",
+        slug: "us-iran-war-global-financial-markets-2026"
+    },
+    {
         title: "From Pyramid to Diamond: How AI Is Reshaping Investment Banking Teams",
         excerpt: "Generative AI is making entry-level production more replicable, pushing banks toward leaner analyst classes and a thicker judgment layer.",
         category: "Banking & Workforce",
