@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "The First Repurchase After Buffett: Berkshire’s Buyback Reboots Under Greg Abel",
+        excerpt: "Berkshire Hathaway resumes share buybacks in March 2026, marking the first capital-allocation signal of the Greg Abel era after Warren Buffett stepped down as CEO.",
+        category: "Equities",
+        series: "Market Momentum | Week 10",
+        author: "Francesco Kaitsas and Federico Spogler",
+        date: "Mar 10, 2026",
+        image: "/berkshire-buyback-abel.webp",
+        slug: "berkshire-buyback-greg-abel-2026"
+        },
+    {
         title: "The US–Iran War and Its Impact on Global Financial Markets",
         excerpt: "Coordinated US–Israel strikes on Tehran triggered an immediate cross-asset repricing across oil, gold, equities, currencies, and fixed income markets.",
         category: "Geopolitics & Markets",

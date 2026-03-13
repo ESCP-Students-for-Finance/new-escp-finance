@@ -22,6 +22,165 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+  // Add this entry inside `articleContents` (pick/adjust the slug as you prefer)
+'berkshire-buyback-greg-abel-2026': (
+  <>
+
+    <SectionHeading>
+      A succession-era signal: the buyback that breaks the silence
+    </SectionHeading>
+
+    <BodyParagraph>
+      Berkshire Hathaway rarely communicates capital-allocation moves in real time, confirming that its March 2026 disclosure was a deliberate marker. In an SEC filing dated March the 4th, the company said it had “commenced repurchasing” its Class A and Class B shares that Wednesday, framing the announcement as “in the interest of transparency” during a leadership transition. The timing matters because Greg Abel took over as chief executive in January 2026 after Warren Buffett stepped down as CEO, and Berkshire had not repurchased shares since May 2024. At year-end 2025, the group had roughly $370 billion in cash and Treasury bills. Alongside the issuer buyback, Abel delivered a personal vote of confidence, with his revocable trust buying 21 Class A shares on March 4 at prices roughly between $725,000 and $733,000 each. News reports put the purchase at about $15.3 million, matching Abel’s stated net pay, and Abel indicated he intends to repeat the gesture annually. For investors interested in the “post-Buffett” era beginning, the message is simple as the buyback lever still exists, and management is willing to pull it.
+    </BodyParagraph>
+
+    <SectionHeading>
+      How the mechanism works: intrinsic value first, flexibility always
+    </SectionHeading>
+
+    <BodyParagraph>
+      Unlike many large-cap repurchase programs, Berkshire’s is not a fixed, multi-year authorization with a headline dollar target. The company’s March 2026 filing stresses the opposite because the policy does not oblige Berkshire to acquire any specific number of shares, and repurchases can occur either in open-market trades or in privately negotiated transactions, including under Rule 10b5-1 trading plans, that are SEC-sanctioned, written, pre-planned agreements allowing corporate insiders to sell or buy company stock at predetermined times and prices. Moreover, they can also be paused without notice. All activity is later detailed in quarterly and annual filings. Berkshire’s 2025 annual report notes the program was amended so that the Chief Executive Officer, after consultation with the Chairman of the Board, can authorize repurchases when the price is below Berkshire’s “intrinsic value, conservatively determined,” and the company will not buy back stock if doing so would take consolidated cash, cash equivalents and U.S. Treasury bills below $30 billion. The dual-class structure adds another important insight. In fact, Class A is convertible into 1,500 Class B shares, and the B shares carry 1/1,500th of A’s economic rights, giving Berkshire two liquid instruments for executing buybacks.
+    </BodyParagraph>
+
+    <SectionHeading>
+      A brief history of Berkshire buybacks: from book value caps to scale
+    </SectionHeading>
+
+    <BodyParagraph>
+      The Abel-era restart lays its foundations on top of a long, evolving strategy carefully built by Buffett and Charlie Munger. In 2011, Buffett wrote that Berkshire would repurchase shares only if they were equal or below the 110% of book value. Even then, the company only stayed active in the market for a few days, buying just $67 million worth of shares before the price climbed past the set limit. The board lifted that ceiling in 2012 to 120% of book value, a threshold Buffett later argued still sat meaningfully below intrinsic value. The biggest structural pivot arrived in 2018, when Berkshire replaced the book-value cap with an intrinsic-value test and kept a minimum cash-and-T-bill buffer, that was $20 billion. With the term cash-and-T-bill buffer we refer to a financial strategy involving holding a portion of a portfolio in highly liquid, low-risk assets, specifically cash and U.S. Treasury bills (T-bills), to cover short-term expenses or provide income during market downturns. As soon as market valuations became favorable, the buyback program expanded significantly: in 2020 Berkshire repurchased the equivalent of 80,998 “A” shares, spending $24.7 billion, and in 2020–2021 it spent $51.7 billion to retire about 9% of the shares outstanding at year-end 2019. More recently, repurchases slowed, with about $2.9 billion in the first half of 2024, none in 2025, making 2026’s restart feel like a strategic re-opening.
+    </BodyParagraph>
+
+    <SectionHeading>
+      What Berkshire is buying back: a conglomerate built to allocate capital
+    </SectionHeading>
+
+    <BodyParagraph>
+      A Berkshire buyback is never just a bet on a stock chart; it is a wager on a sprawling machine that mixes operating companies with a massive investment portfolio. The group’s businesses span from insurance and reinsurance (including GEICO and large reinsurance operations), to freight rail transportation (BNSF), utilities and energy (Berkshire Hathaway Energy), and a wide set of manufacturing, service and retail brands. Those operating cash flows are paired with a balance sheet designed for optionality. In its 2025 annual report, Berkshire reported shareholders’ equity of $717.4 billion and net earnings attributable to shareholders of $67.0 billion, while its insurance and other businesses held $369.0 billion of cash, cash equivalents and U.S. Treasury bills, net of payables for unsettled purchases. The same filing put its investments in equity and fixed-maturity securities, excluding equity-method stakes, at $315.6 billion. Both share classes trade on the New York Stock Exchange. This architecture explains why buybacks are so closely watched. When Berkshire retires shares, remaining owners inherit a slightly larger slice of both the operating “real economy” businesses and the portfolio of financial assets.
+    </BodyParagraph>
+
+    <SectionHeading>
+      Why this matters in the post-Buffett era: capital allocation as the new storyline
+    </SectionHeading>
+
+    <BodyParagraph>
+      For decades, Berkshire&apos;s core strength has been the artistic precision of its investment decisions. Greg Abel’s initial share buyback represents a critical early milestone in his leadership, proving whether he can maintain the company’s legendary standards. With a cash-and-T-bill stockpile around $370 billion, every decision competes with an alternative, like Treasuries, while investors also remember that Berkshire has not paid a regular dividend since 1967. Buybacks, then, are the cleanest way to return capital without changing the culture, but only if the stock is cheap enough to raise intrinsic value per share for continuing owners. The 2025 amendment that shifts day-to-day authority to the CEO effectively codifies the succession plan in financial form, keeping Buffett’s valuation discipline in the loop even after he left the CEO role. The March 2026 filing also preserves maximum flexibility, with no minimum, no maximum, and the ability to stop at any time, suggesting that investors should read this move less as a promise of constant repurchases and more as a reactivated tool. If Berkshire’s shares stay below management’s estimate of intrinsic value, buybacks can scale; if not, the cash will wait.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      Written by Francesco Kaitsas and Federico Spogler
+    </BodyParagraph>
+
+    <TableCard
+      title="Table 1"
+      className="mb-8"
+      header={['Date / period', 'Event', 'Key figures / details', 'Why it matters']}
+      rows={[
+        ['1967', 'Last regular dividend', 'No regular dividend since 1967', 'Reinforces why buybacks are Berkshire’s primary “return of capital” tool'],
+        ['2011', 'First modern repurchase policy (book-value cap)', 'Buy only at/under 110% of book value; repurchased about $67M before price moved above limit', 'Establishes conservative repurchase discipline'],
+        ['2012', 'Book-value cap raised', 'Cap increased to 120% of book value', 'Expands capacity to buy when shares look undervalued'],
+        ['2018', 'Structural pivot to intrinsic value', 'Cap replaced with intrinsic-value test; minimum cash/T-bill buffer set at $20B', 'Moves from a mechanical rule to a valuation-driven framework'],
+        ['2020', 'Buybacks scale sharply', 'Repurchased 80,998 “A-share equivalents”; spent $24.7B', 'Demonstrates repurchases can become a major capital-allocation lever'],
+        ['2020–2021', 'Peak multi-year repurchase wave', '$51.7B spent; about 9% of shares (vs. year-end 2019) retired', 'Shows the compounding effect on per-share value over time'],
+        ['May 2024', 'Last repurchase before pause', 'Repurchases stop after May 2024', 'Sets up the significance of a later “restart”'],
+        ['H1 2024', 'Reduced pace', 'About $2.9B repurchased', 'Confirms deceleration before a full stop'],
+        ['Year-end 2025', 'Balance-sheet context', 'Roughly $370B in cash & T-bills', 'Provides the “dry powder” backdrop for renewed buybacks'],
+        ['Jan 2026', 'Leadership transition', 'Greg Abel becomes CEO', 'Frames the first repurchase as a succession-era signal'],
+        ['Mar 4, 2026', 'Buybacks resume + Abel’s personal buy', 'Repurchases “commenced”; Abel trust buys 21 Class A at ~$725k–$733k each (≈ $15.3M)', 'First repurchase action of the post-Buffett CEO era; insider alignment message'],
+      ]}
+    />
+
+    <TableCard
+      title="Table 2"
+      className="mb-8"
+      header={['Topic', 'Key detail from the text', 'Practical implication']}
+      rows={[
+        ['Program structure', 'No fixed dollar target; not obligated to buy any set number of shares', 'Maximum flexibility; repurchases can accelerate or stop quickly'],
+        ['Execution channels', 'Open-market or privately negotiated; may use Rule 10b5-1 plans', 'Enables disciplined, pre-planned execution and reduces timing/optics risk'],
+        ['Authorization', 'CEO can authorize after consultation with the Chairman', 'Codifies succession-era decision-making while preserving oversight'],
+        ['Valuation trigger', 'Buybacks when price is below “intrinsic value, conservatively determined”', 'Protects remaining shareholders by aiming for accretive repurchases'],
+        ['Liquidity floor', 'No repurchase if it would push cash, cash equivalents & U.S. T-bills below $30B', 'Preserves Berkshire’s core resilience/optionality'],
+        ['Share-class mechanics', 'Class A convertible into 1,500 Class B; B has 1/1,500 of A’s economic rights', 'Two liquid instruments to execute repurchases while preserving control structure'],
+        ['Core businesses', 'Insurance (incl. GEICO), rail (BNSF), utilities/energy (BHE), manufacturing/services/retail', 'Explains why buybacks are tied to long-run cash generation, not just “stock support”'],
+        ['Shareholders’ equity (2025)', '$717.4B', 'Indicates balance-sheet scale underlying per-share value'],
+        ['Net earnings (2025)', '$67.0B attributable to shareholders', 'Profit base supporting reinvestment, liquidity, and buybacks'],
+        ['Cash & T-bills (2025)', '$369.0B (net of payables for unsettled purchases)', 'Confirms extraordinary liquidity and capacity to act opportunistically'],
+        ['Investments (2025)', '$315.6B in equity & fixed-maturity securities (ex-equity method)', 'Shows buybacks also concentrate exposure to a large investment portfolio'],
+      ]}
+    />
+
+    <SectionHeading>
+      References:
+    </SectionHeading>
+
+    <ul className="text-sm text-gray-400 space-y-2 mb-8">
+      <li>
+        <a
+          href="https://www.ft.com/content/84eb99e9-160e-4bb7-9da3-41ccbda5d42b"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.ft.com/content/84eb99e9-160e-4bb7-9da3-41ccbda5d42b
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://qz.com/berkshire-hathaway-stock-buybacks-greg-abel-warren-buffett"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://qz.com/berkshire-hathaway-stock-buybacks-greg-abel-warren-buffett
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://www.cnbc.com/2026/03/05/berkshire-hathaway-begins-repurchasing-shares-ceo-greg-abel-buys-15-million-in-stock-.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.cnbc.com/2026/03/05/berkshire-hathaway-begins-repurchasing-shares-ceo-greg-abel-buys-15-million-in-stock-.html
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://finance.yahoo.com/news/greg-abel-just-bought-15-165506813.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAAa6jaFMtmg7ERRh8yMNIH8yxMNjD4c3rra1J4l1bbtnKMmFKqZfI_HCMpjByt4v_-piyU4qxQC92DLRpIwFG7cN2go6wQqfIKJbCClHfmoGT-fKaUhs6AWctAFCgMUgOeXDxGRvnrbNc2bUm_BXP9DyU79jN-NqiUE5LM8XKx0L"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://finance.yahoo.com/news/greg-abel-just-bought-15-165506813.html?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAAAa6jaFMtmg7ERRh8yMNIH8yxMNjD4c3rra1J4l1bbtnKMmFKqZfI_HCMpjByt4v_-piyU4qxQC92DLRpIwFG7cN2go6wQqfIKJbCClHfmoGT-fKaUhs6AWctAFCgMUgOeXDxGRvnrbNc2bUm_BXP9DyU79jN-NqiUE5LM8XKx0L
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://www.sec.gov/Archives/edgar/data/1067983/000119312526092557/d82599d8k.htm"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.sec.gov/Archives/edgar/data/1067983/000119312526092557/d82599d8k.htm
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="https://www.thetimes.com/business/companies-markets/article/warren-buffett-greg-abel-berkshire-hathaway-0v93lmnpv"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.thetimes.com/business/companies-markets/article/warren-buffett-greg-abel-berkshire-hathaway-0v93lmnpv
+        </a>
+      </li>
+    </ul>
+  </>
+),
 'us-iran-war-global-financial-markets-2026': (
   <>
     <LeadParagraph>
