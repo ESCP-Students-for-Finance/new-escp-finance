@@ -83,7 +83,7 @@ export default function ResearchDetailPage() {
                             href={project.pdfUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            download={`${project.title}.pdf`}
+                            download={`${project.title.replace(/: /g, ' - ')}.pdf`}
                             className="whitespace-nowrap px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-medium rounded transition-all shadow-lg shadow-blue-900/20 flex items-center gap-2 group"
                         >
                             <svg className="w-5 h-5 group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
