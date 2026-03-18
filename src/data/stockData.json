@@ -2,75 +2,75 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "6,699.37",
-      "change": "+1.01%",
+      "value": "6,699.38",
+      "change": "+0.25%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "22,374.18",
-      "change": "+1.22%",
+      "value": "22,479.53",
+      "change": "+0.47%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "598.46",
+      "value": "602.46",
       "change": "0.00%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.25%",
-      "change": "+0.03%",
-      "positive": true,
+      "value": "4.176%",
+      "change": "-0.025%",
+      "positive": false,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1494",
-      "change": "-0.09%",
+      "value": "1.1533",
+      "change": "-0.06%",
       "positive": false,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$75,312.81",
-      "change": "+3.71%",
+      "value": "$74,360.00",
+      "change": "+0.46%",
       "positive": true,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$286.16",
-      "change": "+0.19%",
-      "positive": true,
+      "value": "$283.10",
+      "change": "-2.15%",
+      "positive": false,
       "type": "stock"
     },
     {
       "symbol": "Goldman Sachs (GS)",
-      "value": "$787.44",
-      "change": "-4.2%",
+      "value": "$807.50",
+      "change": "-1.94%",
       "positive": false,
       "type": "stock"
     },
     {
       "symbol": "BlackRock (BLK)",
-      "value": "$924.07",
-      "change": "+0.15%",
-      "positive": true,
+      "value": "$957.70",
+      "change": "-0.19%",
+      "positive": false,
       "type": "stock"
     },
     {
       "symbol": "LVMH (MC.PA)",
       "value": "€473.70",
-      "change": "-4.3%",
+      "change": "-4.30%",
       "positive": false,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-03-17T09:53:43.529Z"
+  "lastUpdated": "2026-03-18T09:51:44.625Z"
 }
