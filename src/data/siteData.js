@@ -11,7 +11,7 @@ export const articles = [
         date: "Mar 10, 2026",
         image: "/berkshire-buyback-abel.webp",
         slug: "berkshire-buyback-greg-abel-2026"
-        },
+    },
     {
         title: "The US–Iran War and Its Impact on Global Financial Markets",
         excerpt: "Coordinated US–Israel strikes on Tehran triggered an immediate cross-asset repricing across oil, gold, equities, currencies, and fixed income markets.",
@@ -119,14 +119,14 @@ export const articles = [
 // Research data
 export const researchProjects = [
     {
-        title: "Netflix: The Streaming Giant's Financial Outlook",
-        excerpt: "A comprehensive analysis of Netflix's market position, financial performance, and future growth strategies in the competitive streaming landscape.",
-        category: "Tech & Media",
-        author: "ESCP Students for Finance Research Team",
-        date: "Jan 20, 2026",
+        title: "Netflix & WBD: An Antitrust Overview",
+        excerpt: "This note examines the war bid dynamic surrounding Netflix’s planned $82.7bn move for Warner Bros. Discovery (WBD), framing the transaction as a strategic pivot toward direct ownership of premium intellectual property. However, antitrust concerns are critical to the success of the deal.",
+        category: "M&A",
+        author: "Adriano Cogorno, Giuseppe Mansueto, et al.",
+        date: "Mar 18, 2026",
         image: "/research/netflix-research-cover.png",
-        slug: "netflix-financial-outlook-2026",
-        pdfUrl: "/research/netflix.pdf"
+        slug: "netflix-wbd-antitrust-2026",
+        pdfUrl: "/research/netflix-wbd-antitrust.pdf"
     }
 ];
 
