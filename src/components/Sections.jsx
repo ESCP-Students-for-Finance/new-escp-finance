@@ -88,7 +88,7 @@ export default function Sections() {
                 </div>
             </section>
 
-            {/* Latest Research - Hidden for now
+            {/* Latest Research */}
             <section className="container mx-auto px-8 py-16 border-t border-gray-200">
                 <div className="flex justify-between items-baseline mb-2">
                     <h2 className="font-serif text-3xl">Latest Research</h2>
@@ -130,7 +130,6 @@ export default function Sections() {
                     ))}
                 </div>
             </section>
-            */}
 
             {/* Latest News */}
             <section className="container mx-auto px-8 py-16 border-t border-gray-200">
