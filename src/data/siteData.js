@@ -119,7 +119,7 @@ export const articles = [
 // Research data
 export const researchProjects = [
     {
-        title: "Netflix & WBD: An Antitrust Overview",
+        title: "The War Bid Between Netflix And Paramount: An Antitrust Overview",
         excerpt: "This note examines the war bid dynamic surrounding Netflix’s planned $82.7bn move for Warner Bros. Discovery (WBD), framing the transaction as a strategic pivot toward direct ownership of premium intellectual property. However, antitrust concerns are critical to the success of the deal.",
         category: "M&A",
         author: "Adriano Cogorno, Giuseppe Mansueto, et al.",
