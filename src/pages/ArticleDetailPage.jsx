@@ -23,6 +23,196 @@ import { articles as siteArticles } from '../data/siteData';
 // Article content mapping
 const articleContents = {
   // Add this entry inside `articleContents` (pick/adjust the slug as you prefer)
+  'amplifon-gn-hearing-deal-2026': (
+  <>
+    <LeadParagraph>
+      Amplifon’s Boldest Bet Yet: Why the GN Hearing Deal Makes Strategic Sense While the Market Stays Unconvinced
+    </LeadParagraph>
+
+    <BodyParagraph>
+      From retail leadership to vertical integration under market pressure
+    </BodyParagraph>
+
+    <SectionHeading>
+      Amplifon’s Evolution and a Difficult Starting Point
+    </SectionHeading>
+
+    <BodyParagraph>
+      Few Italian healthcare companies have turned expansion into an identity as effectively as Amplifon. Founded in Milan in 1950 by Algernon Charles Holland to help people who had suffered hearing loss after the war, the company has grown into the global leader in hearing-care retail, with more than 10,000 points of sale, around 20,900 employees, operations in 26 countries and roughly 13% of the global retail hearing-care market. That leadership, however, has always rested on a very specific model: Amplifon was above all a retailer and service platform, not a manufacturer. That distinction is precisely what the company is now trying to change.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      The timing is striking because Amplifon is not making this move from a position of market euphoria. Its 2025 results reflected a difficult year for the hearing-care industry: revenues came in at about €2.4 billion, adjusted EBITDA at €540.4 million, adjusted net profit at €159.2 million, while net debt stood at €1.045 billion and leverage at 1.92x. Management said the market should gradually improve in 2026, with demand growth around 3%, helped by a recovery in the US private market and the ongoing Fit4Growth efficiency plan. Yet investors had already become cautious. Reuters reported a 7.9% fall in fourth-quarter net profit, and Morningstar noted that the lack of detailed 2026 guidance reduced confidence in the pace of recovery. The damage to the share price had begun well before the GN announcement: Amplifon had already suffered a near-24% one-day plunge after cutting guidance in July 2025, and by mid-March 2026 the stock was down roughly a quarter year-to-date and about half over twelve months.
+    </BodyParagraph>
+
+    <SectionHeading>
+      The GN Hearing Acquisition That Changes the Company’s Shape
+    </SectionHeading>
+
+    <BodyParagraph>
+      Against that backdrop, the acquisition of GN Hearing is not just another bolt-on deal. It is an attempt to change the shape of the company. On 16 March 2026, Amplifon announced a definitive agreement to buy GN Hearing from Denmark’s GN Store Nord in a transaction valuing the business at about €2.3 billion on a cash-and-debt-free basis. Under the agreed structure, GN will receive €1.69 billion in cash and 56 million newly issued Amplifon shares, with closing expected by the end of 2026 once the hearing business has been legally separated from the rest of GN and all required approvals have been obtained. The combined group is expected to generate around €3.3 billion in revenue and about €830 million in pro-forma adjusted EBITDA, with more than 20,000 employees, over 700 people in research and development, more than 2,800 patents and a presence in over 100 countries. GN Hearing itself generated DKK 7.21 billion of revenue in 2025 and includes the ReSound and Beltone brands, together with manufacturing, intellectual property and R&D capabilities that Amplifon did not previously own.
+    </BodyParagraph>
+
+    <SectionHeading>
+      Why this move is backed by a strong logic into the industry
+    </SectionHeading>
+
+    <BodyParagraph>
+      That is why the industrial logic is easy to understand. Amplifon has long been the strongest player in retail hearing care, while GN Hearing brings the product side of the business: technology, manufacturing and innovation. In simple terms, Amplifon is moving from selling other people’s hearing aids to controlling a much larger part of the value chain itself. According to Jefferies, cited by Investing.com, GN currently supplies around one-third of Amplifon’s hearing-aid volumes, which makes the transaction not only strategic but also deeply operational. It turns Amplifon into a vertically integrated player, much closer in structure to groups such as Sonova and Demant. It also strengthens the company in the United States, which CEO Enrico Vita described as the largest market in the sector and one of Amplifon’s long-standing strategic priorities. In a business driven by ageing populations, rising awareness of hearing loss and steady technological improvement, this is the kind of move that can reshape competitive positioning for years, not quarters.
+    </BodyParagraph>
+
+    <SectionHeading>
+      Balance Sheet Pressure and Investor Scepticism After the GN Announcement
+    </SectionHeading>
+
+    <BodyParagraph>
+      And yet the market’s first reaction was brutal. While GN shares surged, Amplifon fell sharply on Piazza Affari. Morningstar noted a 14% drop in Amplifon on the day after the announcement, while other market reports showed the stock down more than 8% during trading. The reason is not that investors fail to see the strategic rationale. It is that they are focusing on the price of that rationale. A €2.3 billion acquisition is enormous for a company whose market value had already dropped below €3 billion in March. The market is therefore pricing the financing burden before it prices the long-term benefits. The bridge loan covering the cash part can run up to 24 months, the company has flagged a possible capital increase of up to €750 million, GN will become a large shareholder through the 56 million new shares, and pro-forma leverage is expected to rise to around 3x at closing. Add to that roughly €80 million of one-off integration costs over two to three years and it becomes easier to understand why equity holders reacted nervously. In short, the deal may be strategically right, but it arrives at a moment when Amplifon’s shareholders are especially sensitive to dilution, debt and execution risk.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      This is the key point for the stock. Amplifon is not being punished because the acquisition lacks industrial logic; it is being punished because investors believe the company is asking the market to absorb too much uncertainty at once. The group is still emerging from a weaker operating phase, still trying to prove that Fit4Growth can restore margins, and still dealing with the credibility gap opened in 2025 when softer demand and lower visibility hit the share price. A large acquisition at that stage inevitably shifts the debate from strategy to balance sheet discipline. Morningstar’s view captures this tension well: it kept its fair value estimate at €14.80 and described the stock as moderately undervalued, but also warned that the goodwill created by such a large transaction could weigh on returns for several years, even if free cash flow should keep leverage manageable. The same mixed picture appears in broader analyst data, where the average 12-month target remains meaningfully above current levels, but with a heavy concentration of hold ratings rather than outright conviction.
+    </BodyParagraph>
+
+    <SectionHeading>
+      Long-Term Strategic Value Versus Short-Term Execution Risk
+    </SectionHeading>
+
+    <BodyParagraph>
+      That leaves Amplifon in an unusual position. The long-term story is still attractive: the hearing-care market remains supported by demographics, the company’s retail leadership is real, and vertical integration could ultimately improve margins, product control and bargaining power. S&P’s decision to confirm Amplifon’s BB+ rating with a stable outlook after the announcement is important for precisely that reason: it suggests the market’s worst fears about financial fragility may be overstated, and that a credible deleveraging path still exists if execution is solid. But the short-term equity story is much harder. Between now and closing, investors will want answers on four fronts: the exact financing mix, the terms of the capital increase, the pace of deleveraging, and the extent to which synergies actually translate into cash rather than PowerPoint optimism. Until those answers arrive, the stock is likely to remain caught between a compelling industrial narrative and a cautious financial market.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      Seen from this angle, the sell-off in Amplifon is not a verdict on the strategic quality of the deal. It is the classic response of the market when a company with a weakened share price announces the largest and most ambitious transaction in its history. The industrial case is persuasive. The financial case still needs to be earned. If management delivers on integration, protects margins and brings leverage down quickly, this acquisition may eventually be remembered as the move that turned Amplifon from a world-class retailer into a fully fledged hearing-care champion. If not, the market will say what it usually says in these moments: that even the right deal can become the wrong trade when timing, confidence and capital structure do not line up.
+    </BodyParagraph>
+
+    <BodyParagraph>
+      Written by Giorgio Gheorghios Tsingros and Francesco Kaitsas
+    </BodyParagraph>
+
+    <SectionHeading>
+      References:
+    </SectionHeading>
+
+    <ul className="text-sm text-gray-400 space-y-2 mb-8">
+      <li>
+        <a
+          href="https://www.teleborsa.it/azioni/amplifon-amp-it0004056880-SVQwMDA0MDU2ODgw"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.teleborsa.it/azioni/amplifon-amp-it0004056880-SVQwMDA0MDU2ODgw
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.ansa.it/sito/notizie/economia/2026/03/17/sp-conferma-il-rating-bb-di-amplifon-dopo-lacquisizione-di-gn-hearing_bdf76c1d-df3d-4b0e-84f1-a552fd5f84b8.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.ansa.it/sito/notizie/economia/2026/03/17/sp-conferma-il-rating-bb-di-amplifon-dopo-lacquisizione-di-gn-hearing_bdf76c1d-df3d-4b0e-84f1-a552fd5f84b8.html
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://global.morningstar.com/it/azioni/trimestrale-amplifon-mancano-guidance-dettagliate-titolo-forte-calo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://global.morningstar.com/it/azioni/trimestrale-amplifon-mancano-guidance-dettagliate-titolo-forte-calo
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://ng.investing.com/news/stock-market-news/gn-store-nord-shares-surge-36-on-17-bln-crown-hearing-sale-to-amplifon-2393090"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://ng.investing.com/news/stock-market-news/gn-store-nord-shares-surge-36-on-17-bln-crown-hearing-sale-to-amplifon-2393090
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://tg24.sky.it/economia/2026/03/16/amplifon-gn-hearing-acquisizione"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://tg24.sky.it/economia/2026/03/16/amplifon-gn-hearing-acquisizione
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.emarketstorage.it/sites/default/files/comunicati/2026-03/20260304_178171.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.emarketstorage.it/sites/default/files/comunicati/2026-03/20260304_178171.pdf
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://corporate.amplifon.com/en/our-identity/our-history"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://corporate.amplifon.com/en/our-identity/our-history
+        </a>
+      </li>
+    </ul>
+
+    <TableCard
+      title="Table 1. Amplifon at a Glance"
+      className="mb-8"
+      header={['Topic', 'Key Information']}
+      rows={[
+        ['Founded', '1950, Milan'],
+        ['Founder', 'Algernon Charles Holland'],
+        ['Core identity', 'Global leader in hearing-care retail'],
+        ['Points of sale', 'More than 10,000'],
+        ['Employees', 'Around 20,900'],
+        ['Countries of operation', '26'],
+        ['Global retail hearing-care market share', 'Roughly 13%'],
+        ['2025 revenues', 'About €2.4 billion'],
+        ['2025 adjusted EBITDA', '€540.4 million'],
+        ['2025 adjusted net profit', '€159.2 million'],
+        ['Net debt', '€1.045 billion'],
+        ['Leverage', '1.92x'],
+      ]}
+    />
+
+    <TableCard
+      title="Table 2. GN Hearing Deal: Key Numbers and Market Reaction"
+      className="mb-8"
+      header={['Topic', 'Key Information']}
+      rows={[
+        ['Announcement date', '16 March 2026'],
+        ['Target', 'GN Hearing'],
+        ['Seller', 'GN Store Nord'],
+        ['Deal value', 'About €2.3 billion'],
+        ['Cash component', '€1.69 billion'],
+        ['Share component', '56 million newly issued Amplifon shares'],
+        ['Expected closing', 'By the end of 2026'],
+        ['Combined revenue', 'Around €3.3 billion'],
+        ['Pro-forma adjusted EBITDA', 'About €830 million'],
+        ['R&D employees', 'Over 700'],
+        ['Patents', 'More than 2,800'],
+        ['Presence', 'Over 100 countries'],
+        ['GN Hearing 2025 revenue', 'DKK 7.21 billion'],
+        ['Main brands', 'ReSound and Beltone'],
+        ['Expected leverage at closing', 'Around 3x'],
+        ['One-off integration costs', 'Roughly €80 million'],
+        ['Possible capital increase', 'Up to €750 million'],
+        ['Market reaction', 'Amplifon fell sharply while GN shares surged'],
+      ]}
+    />
+  </>
+),
 'berkshire-buyback-greg-abel-2026': (
   <>
 
