@@ -2,52 +2,52 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$6,591.90",
-      "change": "+0.54%",
-      "positive": true,
+      "value": "6,368.85",
+      "change": "-1.67%",
+      "positive": false,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "$21,929.83",
-      "change": "+0.77%",
-      "positive": true,
+      "value": "20,948.36",
+      "change": "-2.15%",
+      "positive": false,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "€575.30",
-      "change": "-0.95%",
+      "value": "575.84",
+      "change": "-0.86%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.440%",
-      "change": "+0.54%",
-      "positive": true,
+      "value": "4.40%",
+      "change": "-0.90%",
+      "positive": false,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1507",
-      "change": "-0.18%",
-      "positive": false,
+      "value": "1.1515",
+      "change": "+0.06%",
+      "positive": true,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$67,060.96",
-      "change": "+1.81%",
+      "value": "$67,747.00",
+      "change": "+1.63%",
       "positive": true,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$291.73",
-      "change": "-0.44%",
-      "positive": false,
+      "value": "$282.84",
+      "change": "+0.72%",
+      "positive": true,
       "type": "stock"
     },
     {
@@ -60,7 +60,7 @@
     {
       "symbol": "BlackRock (BLK)",
       "value": "$933.85",
-      "change": "-3.57%",
+      "change": "-3.54%",
       "positive": false,
       "type": "stock"
     },
@@ -72,5 +72,5 @@
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-03-29T09:34:29.254Z"
+  "lastUpdated": "2026-03-30T10:14:43.923Z"
 }
