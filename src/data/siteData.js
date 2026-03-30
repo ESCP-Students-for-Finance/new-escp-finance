@@ -3,15 +3,25 @@
 // Articles data
 export const articles = [
     {
-    title: "Amplifon’s Boldest Bet Yet: The GN Hearing Deal That Redefines Its Strategy",
-    excerpt: "Amplifon’s €2.3 billion acquisition of GN Hearing marks a shift toward vertical integration, but investors remain cautious amid balance sheet pressure and execution risk.",
-    category: "M&A",
-    series: "Market Momentum | Week 11",
-    author: "Giorgio Gheorghios Tsingros and Francesco Kaitsas",
-    date: "Mar 20, 2026",
-    image: "/amplifon-gn-hearing.jpg",
-    slug: "amplifon-gn-hearing-deal-2026"
-},
+        title: "Poste Italiane’s OPAS on TIM and Its Impact on Financial Markets",
+        excerpt: "The €10.8 billion takeover offer for TIM reshapes Poste Italiane’s risk profile, triggers asymmetric market reactions, and reinforces the State’s role in Italy’s strategic infrastructure.",
+        category: "M&A",
+        series: "Market Momentum | Week 12",
+        author: "Mattia Malandugno and Luca Accossato",
+        date: "Mar 30, 2026",
+        image: "/article8.jpg",
+        slug: "poste-italiane-tim-opas-2026"
+    },
+    {
+        title: "Amplifon’s Boldest Bet Yet: The GN Hearing Deal That Redefines Its Strategy",
+        excerpt: "Amplifon’s €2.3 billion acquisition of GN Hearing marks a shift toward vertical integration, but investors remain cautious amid balance sheet pressure and execution risk.",
+        category: "M&A",
+        series: "Market Momentum | Week 11",
+        author: "Giorgio Gheorghios Tsingros and Francesco Kaitsas",
+        date: "Mar 20, 2026",
+        image: "/amplifon-gn-hearing.jpg",
+        slug: "amplifon-gn-hearing-deal-2026"
+    },
     {
         title: "The First Repurchase After Buffett: Berkshire’s Buyback Reboots Under Greg Abel",
         excerpt: "Berkshire Hathaway resumes share buybacks in March 2026, marking the first capital-allocation signal of the Greg Abel era after Warren Buffett stepped down as CEO.",
