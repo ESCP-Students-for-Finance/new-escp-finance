@@ -2,51 +2,51 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "6,368.85",
-      "change": "-1.67%",
-      "positive": false,
+      "value": "$6,396.58",
+      "change": "+0.96%",
+      "positive": true,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "20,948.36",
-      "change": "-2.15%",
+      "value": "20,794.64",
+      "change": "-0.73%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "575.84",
-      "change": "-0.86%",
+      "value": "580.72",
+      "change": "-0.00%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.40%",
-      "change": "-0.90%",
+      "value": "4.317%",
+      "change": "-0.58%",
       "positive": false,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1515",
-      "change": "+0.06%",
+      "value": "$1.14713",
+      "change": "+0.11%",
       "positive": true,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$67,747.00",
-      "change": "+1.63%",
+      "value": "$67,205.94",
+      "change": "+1.11%",
       "positive": true,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$282.84",
-      "change": "+0.72%",
+      "value": "$283.70",
+      "change": "+0.30%",
       "positive": true,
       "type": "stock"
     },
@@ -60,17 +60,17 @@
     {
       "symbol": "BlackRock (BLK)",
       "value": "$933.85",
-      "change": "-3.54%",
+      "change": "-3.57%",
       "positive": false,
       "type": "stock"
     },
     {
       "symbol": "LVMH (MC.PA)",
-      "value": "€455.75",
-      "change": "-0.56%",
+      "value": "€462.65",
+      "change": "-0.17%",
       "positive": false,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-03-30T10:14:43.923Z"
+  "lastUpdated": "2026-03-31T10:04:08.668Z"
 }
