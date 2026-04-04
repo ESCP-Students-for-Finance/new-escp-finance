@@ -22,7 +22,149 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
-  // Add this entry inside `articleContents` (pick/adjust the slug as you prefer)
+  'equitable-corebridge-merger-2026': (
+    <>
+      <LeadParagraph>
+        EQUITABLE AND COREBRIDGE’S $22 BILLION MERGER AND ITS IMPACT ON FINANCIAL MARKETS
+      </LeadParagraph>
+
+      <BodyParagraph>
+        The all-stock deal creates a new financial heavyweight, testing the market for large-scale M&A.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        On 26 March 2026, Equitable Holdings and Corebridge Financial announced a definitive all-stock merger that values the combined group at approximately $22 billion. The transaction is one of the most significant financial-services deals announced in the United States this quarter and comes at a time when insurers are increasingly pursuing scale, diversification and asset-management capabilities to defend margins and compete in retirement and wealth markets. Financial markets reacted positively, with both stocks rising on the day of the announcement.
+      </BodyParagraph>
+
+      <SectionHeading>
+        THE TRANSACTION: STRUCTURE, CONSIDERATION AND STRATEGIC RATIONALE
+      </SectionHeading>
+
+      <BodyParagraph>
+        The deal is structured as an all-stock merger through a newly formed parent company that will operate under the Equitable name. Each Corebridge share will be exchanged for 1.0 share of the new parent company, while each Equitable share will be exchanged for 1.55516 shares. The boards of both companies unanimously approved the merger agreement. After closing, Corebridge shareholders are expected to own about 51% of the combined company, with Equitable shareholders holding roughly 49%.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The industrial logic is straightforward but powerful. Corebridge brings scale in retirement and insurance products, while Equitable contributes a stronger fee-based mix and control of AllianceBernstein, one of the best-known names in asset management. Management argues that the combined group will be better diversified across retirement, life insurance, wealth management and asset management, with a more balanced earnings profile between spread-based and fee-based revenues.
+      </BodyParagraph>
+
+      <SectionHeading>
+        THE IMMEDIATE MARKET REACTION: BOTH STOCKS ADVANCE
+      </SectionHeading>
+       <figure className="mb-8">
+        <img
+          src="/mktReaction.png"
+          alt=""
+          className="w-full rounded-2xl shadow-lg"
+        />
+      </figure>
+      <BodyParagraph>
+        Unlike many traditional acquisitions, this transaction was received positively by the market. On the announcement day, Corebridge shares rose 1.4% and Equitable shares rose 2.1%, suggesting that investors saw the deal less as a value transfer from buyer to seller and more as a merger of complementary franchises with credible synergy potential. Reuters also noted that the two companies entered the deal with market capitalisations of roughly $11.6 billion for Corebridge and $10.7 billion for Equitable.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The positive reaction can be explained by four factors. First, the merger is all-stock, which reduces immediate balance-sheet strain. Second, investors appear to appreciate the greater diversification of the combined earnings base. Third, the transaction offers a clearer scale story in a sector where size increasingly matters. Fourth, management presented measurable financial targets rather than vague strategic promises.
+      </BodyParagraph>
+
+      <SectionHeading>
+        THE COMBINED GROUP: SIZE, SYNERGIES AND FINANCIAL PROFILE
+      </SectionHeading>
+
+      <BodyParagraph>
+        The combined company will have more than $1.5 trillion in assets under management and administration, serve over 12 million customers, and generate more than $5 billion of operating earnings, according to company materials and reporting on the transaction. Management also expects the merger to generate over $4 billion of cash, improving flexibility for reinvestment and capital returns.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Expected expense synergies are significant. The companies guided to more than $500 million of run-rate expense synergies by the end of 2028, mainly from consolidating functions, IT systems and vendor relationships. In addition, management expects the deal to boost earnings by more than 10% by the end of 2028 after closing. One of the most notable strategic elements is the planned transfer of $100 billion of Corebridge assets to AllianceBernstein over time, helping create an asset manager approaching $1 trillion in scale.
+      </BodyParagraph>
+
+      <SectionHeading>
+        ANALYST ASSESSMENTS AND THE STRATEGIC DEBATE
+      </SectionHeading>
+
+      <BodyParagraph>
+        Analysts have generally framed the deal as strategically coherent. Reuters cited Evercore analyst Thomas Gallagher, who argued that combining Corebridge’s more spread-heavy business with Equitable’s more fee-oriented platform improves the balance between earnings stability and risk. Fitch went further, revising Corebridge’s outlook to Positive from Stable, saying the merger should strengthen its market position, diversification and earnings profile.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Still, the strategic case is not risk-free. The merger depends on execution across businesses with different cultures, distribution models and capital structures. Integration risk is especially relevant because the value proposition depends not only on cost savings, but also on the successful coordination of insurance manufacturing, retirement distribution and asset management under one group structure. The companies themselves flagged integration, regulatory approvals and the ability to realise expected synergies as material risks in the SEC filing.
+      </BodyParagraph>
+
+      <SectionHeading>
+        MARKET IMPLICATIONS: SCALE, DISTRIBUTION AND INSURANCE M&A
+      </SectionHeading>
+
+      <BodyParagraph>
+        This merger says a great deal about where financial-services M&A is going. Rather than pursuing pure cost-cutting consolidation, firms are increasingly buying or merging for scale, distribution reach and business mix diversification. In this case, the deal combines insurance liabilities, retirement product manufacturing, advisor distribution and asset management into one platform. That is especially relevant in a market shaped by an aging population, growing retirement demand and pressure on insurers to secure differentiated yield sources and fee income.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The merger also tightens competitive pressure across U.S. retirement and insurance markets. The companies said the combined group is expected to originate around $75 billion to $80 billion in retirement liabilities annually, which signals substantial scale. At the same time, Corebridge’s existing partnerships with BlackRock and Blackstone will remain in place, suggesting that the combined company is not retreating from alternative-asset sourcing even as it deepens its in-house asset-management capabilities through AllianceBernstein.
+      </BodyParagraph>
+
+      <SectionHeading>
+        GOVERNANCE, CLOSING CONDITIONS AND DEAL CERTAINTY
+      </SectionHeading>
+
+      <BodyParagraph>
+        Governance was carefully balanced. The future board will have 14 directors, split evenly between designees from Corebridge and Equitable. Corebridge CEO Marc Costantini will become President and CEO of the combined company, while Equitable CEO Mark Pearson will serve as Executive Chair. The combined group will be headquartered in Houston.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The deal is expected to close by the end of 2026, subject to shareholder and regulatory approvals. The SEC filing shows a relatively robust commitment structure: the merger agreement includes a $475 million termination fee payable by either side in specified circumstances, and it sets an outside date of 26 December 2026, subject to automatic extensions if only regulatory conditions remain outstanding. Closing conditions also include approvals from multiple insurance regulators and consent from Equitable clients representing 75% of certain recurring advisory fees.
+      </BodyParagraph>
+
+      <SectionHeading>
+        CONCLUSIONS AND KEY TAKEAWAYS
+      </SectionHeading>
+
+      <BodyParagraph>
+        Equitable’s merger with Corebridge is one of the clearest examples this year of how financial-services M&A is being reshaped by the search for scale, earnings diversification and asset-management integration. The market’s positive initial reaction suggests that investors see this as more than a defensive transaction. Instead, it is being interpreted as a strategic attempt to build a more resilient, better-balanced financial-services platform.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Three conclusions stand out. First, the deal reflects a broader shift toward convergence between insurance, retirement and asset management. Second, investors appear to believe that this combination can create value without the typical acquirer penalty seen in many M&A transactions. Third, the transaction reinforces the idea that in financial services, scale is no longer optional: it is increasingly becoming the core competitive advantage.
+      </BodyParagraph>
+
+      <TableCard
+        title="KEY DEAL SNAPSHOT"
+        className="mb-8"
+        header={['Item', 'Value', 'Notes']}
+        rows={[
+          ['Event', 'Equitable–Corebridge merger', 'Announced 26 March 2026'],
+          ['Total value', '~$22 billion', 'All-stock transaction'],
+          ['Exchange ratio', '1.0x for Corebridge; 1.55516x for Equitable', 'Through new parent company'],
+          ['Ownership split', '51% Corebridge / 49% Equitable', 'Post-closing'],
+          ['Market reaction', 'CRBG +1.4%; EQH +2.1%', 'Announcement-day reaction'],
+          ['Customers', '12+ million', 'Combined'],
+          ['AUM/AUA', '$1.5 trillion+', 'Combined platform'],
+          ['Operating earnings', '$5 billion+', 'Company target/pro forma'],
+          ['Cash generation', '$4 billion+', 'Expected combined cash'],
+          ['Expense synergies', '$500 million+ run-rate', 'By end-2028'],
+          ['EPS impact', '10%+ earnings uplift by end-2028', 'Management target'],
+          ['Asset-management angle', '$100 billion of Corebridge assets to AB over time', 'Toward ~$1 trillion asset manager'],
+          ['Breakup fee', '$475 million', 'Symmetrical fee structure'],
+          ['Expected closing', 'End-2026', 'Subject to approvals'],
+        ]}
+      />
+
+      <BodyParagraph>
+        Written by Giovanni Ciccarello e Luca Accossato.
+      </BodyParagraph>
+
+      <SectionHeading>
+        SOURCES
+      </SectionHeading>
+
+      <ul className="text-sm text-gray-400 space-y-2 mb-8">
+        <li>Reuters, 26 March 2026, Equitable, Corebridge set to merge, create $22 billion US insurance giant.</li>
+        <li>SEC Form 8-K filed by Corebridge Financial, 26 March 2026.</li>
+        <li>Barron’s, 26 March 2026, Equitable and Corebridge Plan to Merge. Their Shares Are Rising.</li>
+        <li>Wall Street Journal, 26 March 2026, Corebridge Financial, Equitable Holdings to Merge.</li>
+        <li>Business Wire / company announcement summary, 26 March 2026.</li>
+      </ul>
+    </>
+  ),
   'poste-italiane-tim-opas-2026': (
     <>
       <LeadParagraph>

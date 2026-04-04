@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "Equitable and Corebridge’s $22 Billion Merger and Its Impact on Financial Markets",
+        excerpt: "The $22 billion all-stock merger between Equitable and Corebridge highlights a structural shift toward scale, diversification and asset-management integration in financial services.",
+        category: "M&A",
+        series: "Market Momentum | Week 13",
+        author: "Giovanni Ciccarello and Luca Accossato",
+        date: "Apr 4, 2026",
+        image: "/article9.jpg",
+        slug: "equitable-corebridge-merger-2026"
+    },
+    {
         title: "Poste Italiane’s OPAS on TIM and Its Impact on Financial Markets",
         excerpt: "The €10.8 billion takeover offer for TIM reshapes Poste Italiane’s risk profile, triggers asymmetric market reactions, and reinforces the State’s role in Italy’s strategic infrastructure.",
         category: "M&A",
