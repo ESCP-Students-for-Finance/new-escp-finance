@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "Leonardo’s Iveco Defence Move: An Acquisition That Says as Much About Europe as It Does About M&A",
+        excerpt: "Leonardo’s €1.6bn acquisition of Iveco Defence marks a strategic shift toward full-spectrum land systems integration as Europe accelerates its rearmament cycle.",
+        category: "M&A",
+        series: "Market Momentum | Week 15",
+        author: "Giorgio Gheorghios Tsingros, Federico Spogler and Francesco Kaitsas",
+        date: "Apr 10, 2026",
+        image: "/article-leonardo.jpeg",
+        slug: "leonardo-iveco-defence-deal-2026"
+    },
+    {
         title: "Equitable and Corebridge’s $22 Billion Merger and Its Impact on Financial Markets",
         excerpt: "The $22 billion all-stock merger between Equitable and Corebridge highlights a structural shift toward scale, diversification and asset-management integration in financial services.",
         category: "M&A",

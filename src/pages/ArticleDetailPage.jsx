@@ -22,6 +22,231 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+  'leonardo-iveco-defence-deal-2026': (
+    <>
+      <LeadParagraph>
+        Leonardo’s Iveco Defence Move: An Acquisition That Says as Much About Europe as It Does About M&A
+      </LeadParagraph>
+
+      <BodyParagraph>
+        A landmark defence deal that reshapes Leonardo’s industrial position and tests Europe’s rearmament story
+      </BodyParagraph>
+
+      <SectionHeading>
+        Leonardo Bets on Scale in Europe’s Defence Reset
+      </SectionHeading>
+
+      <BodyParagraph>
+        Leonardo is one of those companies whose present is impossible to separate from its history. Founded in 1948 as Finmeccanica and renamed Leonardo in 2017, the group evolved from a post-war Italian industrial holding into one of Europe’s central aerospace and defence players, with businesses spanning helicopters, defence electronics, aircraft, cyber and space. That long transformation matters because it explains the logic behind the company’s latest move as Leonardo is no longer just trying to defend its position in European defence, but it is actually trying to redefine and improve it.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        That is why the acquisition of Iveco Group’s defence business is more than a routine industrial transaction. First announced in July 2025 and completed on 18 March 2026, the deal gives Leonardo full control of IDV and Astra, the two brands at the core of Iveco’s military vehicle activities. The transaction was agreed at an enterprise value of €1.7 billion and closed at a price of €1.6 billion after contractual adjustments, with Leonardo funding the purchase through available cash rather than a capital increase. At closing, the acquired business brought with it €1.368 billion of 2025 revenues, around 2,000 employees, six manufacturing sites in Italy, Germany, Romania and Brazil, and 12 commercial offices across Europe, the United States and Brazil. Even before that final closing, the asset had already shown why it was strategically attractive: in 2024 it had generated €1.133 billion in revenue and €108 million in EBIT.
+      </BodyParagraph>
+
+      <SectionHeading>
+        A Vehicle Maker is able to fill Leonardo’s Missing Piece
+      </SectionHeading>
+
+      <BodyParagraph>
+        The industrial logic is straightforward and powerful. Leonardo has long had strong positions in mission systems, turrets, sensors, electronics and battlefield integration, but it lacked full control over the platform side of land defence. Iveco Defence fills that gap. It brings protected mobility, wheeled and tracked vehicle capabilities, industrial know-how and a more direct role in military vehicle manufacturing. In practical terms, Leonardo moves closer to being a fully integrated land-defence OEM, able to combine the vehicle, the electronics and the mission payload inside a single industrial structure. That matters not only for margins and product control, but also for credibility in major public procurement programmes, where governments increasingly favour suppliers that can deliver complete systems rather than only subsystems.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The timing is just as important as the target. This acquisition lands in the middle of a profound shift in Europe’s security architecture. The European Commission’s ReArm Europe / Readiness 2030 plan aims to mobilise up to €800 billion for defence investment, while NATO’s 2025 commitment raised the longer-term ambition to 3.5% of GDP for core defence spending plus up to 1.5% for related security and resilience by 2035. In that environment, scale is becoming strategic. Governments are no longer thinking only in terms of price and delivery time; they are thinking in terms of sovereignty, interoperability, domestic industrial capacity and the ability to sustain long procurement cycles. Italy’s preference that Iveco’s defence assets remain in domestic hands made that clear from the outset, turning the sale into a geopolitical decision as much as a financial one.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Europe’s Rearmament Push Gives the Deal Its Real Weight
+      </SectionHeading>
+
+      <BodyParagraph>
+        Seen from this angle, Leonardo’s purchase of Iveco Defence is part of a broader European consolidation wave in which defence assets are being reorganised around national champions and cross-border alliances. Leonardo had already moved in that direction through its 50:50 joint venture with Rheinmetall, created to develop and produce new combat vehicles for the Italian Army and for wider European markets. In November 2025, that joint venture secured its first contract for 21 A2CS armoured vehicles, inside a broader Italian programme that foresees the renewal of the Army’s heavy fleet. The Iveco acquisition strengthens Leonardo’s hand within exactly this land-systems ecosystem: it gives the group more manufacturing depth, greater control over mobility platforms and a stronger negotiating position in what is becoming one of Europe’s most strategic defence segments.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        For equity investors, the deal arrives at a moment when Leonardo is already in a very different market position from just a few years ago. The group closed 2025 with orders of €23.8 billion, revenues of €19.5 billion, EBITA of €1.75 billion, free operating cash flow of €1.0 billion and net debt reduced to €1.0 billion, down 44% from the prior year. For 2026, management guided to roughly €25 billion of orders, €21 billion of revenues and €2.03 billion of EBITA, while the updated 2026–2030 industrial plan points to €32 billion of annual orders and €30 billion of revenues by 2030. That plan also makes explicit that Leonardo sees itself moving beyond traditional defence manufacturing into a higher-value model built around cyber, AI, data and integrated multi-domain security. In other words, the market is not rewarding Leonardo only for selling hardware; it is rewarding it for becoming a more complete, more digital and more scalable defence platform.
+      </BodyParagraph>
+
+      <SectionHeading>
+        A Soaring Stock Now Meets the Test of Delivery
+      </SectionHeading>
+
+      <BodyParagraph>
+        This is the real reason why the stock has been so strong on Piazza Affari. Leonardo’s shares surged to a record high after the March 2026 industrial-plan update, with Reuters reporting a jump of about 9% in early Milan trading on the day of the announcement. Morningstar described the company as one of the FTSE MIB’s top performers in early 2026, noting that the rally had been supported by rising military budgets and stronger-than-expected 2025 results. As of 9 April 2026, Leonardo’s official investor page showed the stock trading around €57–58 per share, below the recent peak but still far above its 52-week low, while Morningstar data placed the 52-week range at €39.27 to €66.26. The current share-price story, then, is not hard to decode: the market is already discounting a structural European defence upcycle, a healthier balance sheet, better execution under Roberto Cingolani and a more ambitious strategic profile.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        That also explains why the Iveco deal is important for Leonardo’s future stock performance, but not in the simplistic sense of “big acquisition equals higher share price.” The acquisition helps because it gives substance to the investment case. It deepens Leonardo’s exposure to land systems just as Europe is rearming. It improves the group’s ability to bid for complete programmes rather than only parts of them. It reinforces its role in the Italian and European defence-industrial architecture. And, crucially, because the transaction was financed with cash rather than equity, it avoids the kind of immediate dilution that often undermines market confidence in large deals. Leonardo entered the operation with roughly €2.62 billion of available liquidity and a significantly de-risked balance sheet, which makes the funding choice easier for investors to accept.
+      </BodyParagraph>
+
+      <SectionHeading>
+        After the Rally, Leonardo Faces Its Moment of Truth
+      </SectionHeading>
+
+      <BodyParagraph>
+        Still, this is where the equity story becomes more nuanced. The stock’s easy rerating may already be behind it. Morningstar noted in March that Leonardo’s rally had brought the shares close to fair value, which suggests that future upside will depend less on macro enthusiasm and more on execution. Investors will now want proof that the Iveco assets can be integrated without weakening cash generation, that land-defence margins can be expanded, and that Europe’s political commitment to higher defence budgets translates into actual signed contracts rather than just rhetoric. There is also an accounting point worth watching: Leonardo’s 2026 net-debt guidance excludes the cash outflow linked to the Iveco acquisition, meaning the market will focus closely on how quickly the group rebuilds financial flexibility after the deal. In other words, the strategic logic is clear, but the next phase of the stock will be shaped by delivery, not by headlines.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        What makes this operation especially interesting is that it captures the direction in which European defence M&A is moving. This is not a private-equity style transaction designed around cost cutting and multiple expansion. It is a state-sensitive, strategically timed industrial acquisition executed in the middle of a geopolitical reset. Leonardo is buying more than a business; it is buying industrial depth in a segment that Europe increasingly considers essential. The market has already recognised part of that logic, which is why the stock has re-rated so strongly. But if the integration works and if the new spending cycle in Europe turns into durable orders, Leonardo may look back on the Iveco deal not as an opportunistic purchase, but as the move that completed its transition from diversified defence group to one of the continent’s central security platforms.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Table 1 - Deal Metric and Financial Profile
+      </SectionHeading>
+
+      <TableCard
+        title="Table 1 - Deal Metric and Financial Profile"
+        className="mb-8"
+        header={['Metric', 'Value']}
+        rows={[
+          ['Announcement date', 'July 2025'],
+          ['Closing date', '18 March 2026'],
+          ['Agreed enterprise value', '€1.7bn'],
+          ['Final closing price', '€1.6bn'],
+          ['Difference vs agreed EV', '-€0.1bn'],
+          ['Funding method', 'Cash'],
+          ['Leonardo available liquidity before deal', '€2.62bn'],
+          ['Employees acquired', '~2,000'],
+          ['Manufacturing sites acquired', '6'],
+          ['Commercial offices acquired', '12'],
+          ['Price / 2025 sales', '1.17x'],
+        ]}
+      />
+
+      <SectionHeading>
+        Table 2 – Leonardo: Pre-Deal Strength, Market Re-Rating, and Forward Targets
+      </SectionHeading>
+
+      <TableCard
+        title="Table 2 – Leonardo: Pre-Deal Strength, Market Re-Rating, and Forward Targets"
+        className="mb-8"
+        header={['Indicator', '2025 Actual', '2026 Guidance', '2030 Plan / Market Reference']}
+        rows={[
+          ['Orders', '€23.8bn', '~€25bn', '€32bn'],
+          ['Revenues', '€19.5bn', '~€21bn', '€30bn'],
+          ['EBITA', '€1.75bn', '~€2.03bn', '—'],
+          ['Free operating cash flow', '€1.0bn', '—', '—'],
+          ['Net debt', '€1.0bn', 'Guidance excludes Iveco cash outflow', '—'],
+          ['Net debt / 2025 revenues', '0.05x', '—', '—'],
+          ['Share price on 9 Apr 2026', '~€57–58', '—', '—'],
+          ['Reported jump after plan update', 'about +9%', '—', '—'],
+        ]}        
+      />
+          <BodyParagraph>
+      Written by Giorgio Gheorghios Tsingros, Federico Spogler and Francesco Kaitsas
+    </BodyParagraph>
+
+    <SectionHeading>
+      Sources:
+    </SectionHeading>
+
+    <ul className="text-sm text-gray-400 space-y-2 mb-8">
+      <li>
+        <a
+          href="https://global.morningstar.com/en-eu/stocks/leonardo-shares-are-up-17-2026-is-this-italian-defense-stock-buy"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://global.morningstar.com/en-eu/stocks/leonardo-shares-are-up-17-2026-is-this-italian-defense-stock-buy
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.ft.com/content/e79cb966-7a87-4d9b-8e24-f90e8642ba3a"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.ft.com/content/e79cb966-7a87-4d9b-8e24-f90e8642ba3a
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.nato.int/en/what-we-do/introduction-to-nato/defence-expenditures-and-natos-5-commitment"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.nato.int/en/what-we-do/introduction-to-nato/defence-expenditures-and-natos-5-commitment
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://commission.europa.eu/topics/defence/future-european-defence_en"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://commission.europa.eu/topics/defence/future-european-defence_en
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.investing.com/news/stock-market-news/leonardo-sees-strong-growth-in-2026-proposes-063-euroshare-dividend-4556090"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.investing.com/news/stock-market-news/leonardo-sees-strong-growth-in-2026-proposes-063-euroshare-dividend-4556090
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.ivecogroup.com/media/corporate_press_releases/2026/march/iveco_group_transfers_its_defence_business_to_leonardo_to_create_a_european_champion_in_the_defence_segment"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.ivecogroup.com/media/corporate_press_releases/2026/march/iveco_group_transfers_its_defence_business_to_leonardo_to_create_a_european_champion_in_the_defence_segment
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.leonardo.com/en/press-release-detail/-/detail/12-03-2026-leonardo-board-of-directors-approves-fy2025-results-and-2026-guidance"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.leonardo.com/en/press-release-detail/-/detail/12-03-2026-leonardo-board-of-directors-approves-fy2025-results-and-2026-guidance
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.ivecogroup.com/media/corporate_press_releases/2025/july/iveco_group_announces_agreement_to_sell_defence_business-to_leonardo/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.ivecogroup.com/media/corporate_press_releases/2025/july/iveco_group_announces_agreement_to_sell_defence_business-to_leonardo/
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.leonardo.com/en/press-release-detail/-/detail/18-03-2026-leonardo-completes-the-acquisition-of-iveco-group-s-defence-business"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.leonardo.com/en/press-release-detail/-/detail/18-03-2026-leonardo-completes-the-acquisition-of-iveco-group-s-defence-business
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.leonardo.com/en/about/history"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#C5A059] hover:underline"
+        >
+          https://www.leonardo.com/en/about/history
+        </a>
+      </li>
+    </ul>
+    </>
+  ),
+
   'equitable-corebridge-merger-2026': (
     <>
       <LeadParagraph>
