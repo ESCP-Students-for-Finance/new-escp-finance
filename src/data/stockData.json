@@ -2,75 +2,75 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$6611.83",
-      "change": "+0.44%",
-      "positive": true,
+      "value": "6,816.89",
+      "change": "-0.11%",
+      "positive": false,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "21,996.34",
-      "change": "+0.54%",
+      "value": "22,902.90",
+      "change": "+0.35%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "601.08",
-      "change": "0.00%",
+      "value": "614.28",
+      "change": "+0.27%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.33%",
-      "change": "-0.02%",
-      "positive": false,
+      "value": "4.31%",
+      "change": "+0.47%",
+      "positive": true,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "$1.1572",
-      "change": "+0.26%",
+      "value": "1.1718",
+      "change": "+0.20%",
       "positive": true,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$69,484.00",
-      "change": "+3.87%",
+      "value": "$72,768.22",
+      "change": "+1.49%",
       "positive": true,
       "type": "crypto"
     },
     {
-      "symbol": "JPM",
-      "value": "$294.99",
+      "symbol": "JPMorgan Chase (JPM)",
+      "value": "$309.04",
       "change": "+0.8%",
       "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "GS",
-      "value": "$865.00",
-      "change": "+0.33%",
+      "symbol": "Goldman Sachs (GS)",
+      "value": "$903.78",
+      "change": "+0.14%",
       "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "BLK",
-      "value": "$966.56",
-      "change": "+0.96%",
-      "positive": true,
-      "type": "stock"
-    },
-    {
-      "symbol": "MC.PA",
-      "value": "€463.1",
-      "change": "-0.12%",
+      "symbol": "BlackRock (BLK)",
+      "value": "$999.31",
+      "change": "-0.23%",
       "positive": false,
+      "type": "stock"
+    },
+    {
+      "symbol": "LVMH (MC.PA)",
+      "value": "€489.85",
+      "change": "+0.70%",
+      "positive": true,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-04-07T10:05:47.856Z"
+  "lastUpdated": "2026-04-11T09:37:03.821Z"
 }
