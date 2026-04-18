@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "BPER Banca Absorbs Banca Popolare di Sondrio: Italy’s Banking Consolidation Reaches a Defining Milestone",
+        excerpt: "The €5.4bn all-share merger creates Italy’s third-largest banking group by assets, accelerating consolidation in a fragmented domestic banking system.",
+        category: "M&A",
+        series: "Market Momentum | Week 16",
+        author: "Mattia Malandugno and Luca Accossato",
+        date: "Apr 20, 2026",
+        image: "/article10.avif",
+        slug: "bper-popolare-sondrio-merger-2026"
+    },
+    {
         title: "Leonardo’s Iveco Defence Move: An Acquisition That Says as Much About Europe as It Does About M&A",
         excerpt: "Leonardo’s €1.6bn acquisition of Iveco Defence marks a strategic shift toward full-spectrum land systems integration as Europe accelerates its rearmament cycle.",
         category: "M&A",

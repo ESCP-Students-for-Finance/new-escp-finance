@@ -22,6 +22,274 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+  'bper-popolare-sondrio-merger-2026': (
+    <>
+      <LeadParagraph>
+        BPER BANCA ABSORBS BANCA POPOLARE DI SONDRIO: ITALY'S BANKING CONSOLIDATION REACHES A DEFINING MILESTONE
+      </LeadParagraph>
+
+      <BodyParagraph>
+        The merger, effective 20 April 2026 creates Italy's third-largest banking group by assets, bringing €200 billion in combined resources and reshaping the competitive landscape of domestic retail banking.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        On 20 April 2026, the merger by absorption of Banca Popolare di Sondrio into BPER Banca takes full legal effect. Following the approval of both extraordinary shareholders' assemblies on 12 March 2026 and the European Central Bank's clearance, the transaction concludes a process that began in February 2025 with BPER's initial all-share bid of €4.3 billion. The combined entity, with approximately €200 billion in total assets, consolidates BPER's position as the third-largest banking group in Italy by assets, behind Intesa Sanpaolo and UniCredit.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The transaction represents one of the most significant instances of Italian banking sector consolidation since Intesa Sanpaolo's acquisition of UBI Banca in 2020, and it reinforces a structural trend that has been reshaping Italian financial markets for the better part of a decade: the gradual reduction in the number of mid-tier regional lenders and the emergence of larger, more operationally efficient banking groups.
+      </BodyParagraph>
+
+      <SectionHeading>
+        The strategic context: consolidation in Italian banking
+      </SectionHeading>
+
+      <BodyParagraph>
+        Italy entered 2025 with one of the most fragmented banking systems in the European Union. The country's heritage of locally-rooted cooperative and savings banks — the banche popolari and casse di risparmio — had historically produced a large number of small and mid-size lenders with significant geographic overlap, duplicated cost structures, and limited economies of scale in technology, compliance, and capital deployment.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        BPER Banca had already demonstrated its appetite for consolidation by absorbing assets from Unipol Banca in 2019 and acquiring branches divested as part of the Intesa–UBI merger in 2020. The pursuit of Banca Popolare di Sondrio was consistent with this strategy: Sondrio provided a complementary branch network in Lombardy and northern Italy, a retail deposit base with historically low funding costs, and a relatively conservative loan book with limited exposure to high-risk segments.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Unipol Assicurazioni, which held approximately 19.8% of BPER and 19.7% of Banca Popolare di Sondrio at the time of the bid, provided the critical alignment of interests that made the transaction viable. Its board's approval in June 2025 — despite initial resistance from Popolare di Sondrio's management — signalled strategic consensus among the principal shareholders of both institutions.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Financial terms and exchange ratio
+      </SectionHeading>
+
+      <BodyParagraph>
+        The final terms of the transaction reflect the evolution of negotiations across the first half of 2025. BPER's initial offer, announced in February 2025, valued Banca Popolare di Sondrio at approximately €4.3 billion on an all-share basis. Following resistance from Sondrio's management and pressure from institutional shareholders seeking higher consideration, BPER raised its offer to €5.4 billion — an uplift of approximately 26% — before securing the requisite acceptance thresholds.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The agreed exchange ratio of 1.45 BPER ordinary shares for every Banca Popolare di Sondrio ordinary share implies an issuance of 121,798,164 new BPER shares, resulting in a capital increase of €183.1 million. Post-merger, the total share capital of BPER Banca will stand at 2,086,184,466 ordinary shares. Accounting and fiscal effects have been backdated to 1 January 2026, meaning that the pro-forma 2026 financial statements will reflect the combined entity from the start of the year.
+      </BodyParagraph>
+      <figure className="mb-8">
+        <img
+          src="/Picture1_bperArticle.png"
+          alt="Post-merger BPER Banca shareholder structure (% of total capital)"
+          className="w-full rounded-2xl shadow-lg"
+        />
+      </figure>
+      <SectionHeading>
+        Shareholder structure and governance post-merger
+      </SectionHeading>
+
+      <BodyParagraph>
+        Following the completion of the merger, Unipol Assicurazioni emerges as the single largest shareholder of the combined group with an 18.7% stake, reinforcing the insurance-banking nexus that has characterised BPER's ownership structure for several years. The Fondazione di Sardegna retains a 7.0% position, providing institutional continuity and a regional anchor. International institutional investors are also prominently represented: BlackRock holds 4.7% and JPMorgan 3.3%, while the remaining 66.3% constitutes the free float.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The delisting of Banca Popolare di Sondrio from Borsa Italiana, effective simultaneously with the merger, marks the end of a listed presence that dated back several decades. Former Sondrio shareholders receive BPER shares in exchange through standard post-merger settlement procedures. The removal of a mid-cap banking name from the Italian equity market further concentrates investor exposure to the sector around the three principal domestic groups.
+      </BodyParagraph>
+
+      <SectionHeading>
+        The synergy case: €290 million at regime
+      </SectionHeading>
+
+      <BodyParagraph>
+        The financial rationale for the transaction rests on an expected synergy package of €290 million at regime, comprising €190 million of cost synergies and €100 million of revenue synergies. Cost savings are expected to materialise primarily through the rationalisation of branch networks, the elimination of duplicated head office functions, and the consolidation of technology infrastructure onto a single core banking platform. Revenue synergies reflect cross-selling opportunities, particularly in bancassurance — an area in which Unipol's product suite provides a structural advantage.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        One-off integration costs are estimated at €400 million in total, of which approximately 75% have already been recognised in the 2025 financial statements. The residual €100 million will be absorbed in 2026. Management has guided for a net profit exceeding €2 billion for the combined group by 2027, with a return on tangible equity (ROTE) approaching 15% — a level that would position BPER among the better-performing mid-to-large European banks on this metric.
+      </BodyParagraph>
+      <figure className="mb-8">
+        <img
+          src="/Picture2_bperArticle.png"
+          alt="BPER–Banca Popolare di Sondrio: expected synergies at regime (€ million)"
+          className="w-full rounded-2xl shadow-lg"
+        />
+      </figure>
+      <SectionHeading>
+        Deal timeline: from bid to completion
+      </SectionHeading>
+
+      <BodyParagraph>
+        The transaction progressed through several distinct phases over approximately fourteen months. BPER's initial all-share offer in February 2025 was met with resistance from Banca Popolare di Sondrio's incumbent management, who argued that the exchange terms undervalued the institution. Notwithstanding this opposition, Unipol's board approval in June 2025 provided sufficient momentum for the bid to proceed. BPER crossed the majority ownership threshold in July 2025, acquiring a 58.49% stake, subsequently increased to 80.69% by the end of that month. The boards of both institutions formally approved the merger by absorption on 5 November 2025, with the extraordinary shareholder assemblies ratifying the plan on 12 March 2026.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Key transaction metrics at a glance
+      </SectionHeading>
+      <figure className="mb-8">
+        <img
+          src="/Picture3_bperArticle.png"
+          alt="BPER–Banca Popolare di Sondrio: key transaction milestones"
+          className="w-full rounded-2xl shadow-lg"
+        />
+      </figure>
+      <TableCard
+        title="Key transaction metrics at a glance"
+        className="mb-8"
+        header={['Item', 'Value', 'Notes']}
+        rows={[
+          ['Initial bid value', '€4.3 billion', 'All-share offer announced February 2025'],
+          ['Final offer value', '€5.4 billion', 'Raised to secure sufficient acceptance threshold'],
+          ['Exchange ratio', '1.45 BPER shares per BPSO share', 'Approved 12 March 2026'],
+          ['New BPER shares issued', '121,798,164', 'Capital increase of €183.1 million'],
+          ['Combined total assets', '~€200 billion', 'Third-largest Italian bank'],
+          ['Net profit target (2027)', '>€2 billion', 'Pro-forma target'],
+          ['ROTE target', '~15%', 'At regime'],
+          ['Total synergies', '€290 million', '€190m cost + €100m revenue'],
+          ['Integration costs', '€400 million', '75% in 2025'],
+          ['Merger effective date', '20 April 2026', 'Legal effect'],
+          ['Listing status', 'Delisted', 'BPSO removed from Borsa Italiana'],
+        ]}
+      />
+
+      <SectionHeading>
+        Implications for the Italian banking sector
+      </SectionHeading>
+
+      <BodyParagraph>
+        The completion of this merger accelerates a broader structural trend. The Italian banking sector has been under regulatory and market pressure to reduce its fragmentation for over a decade, with the ECB and the Bank of Italy consistently highlighting the need for improved profitability, stronger capital buffers, and greater operational efficiency. The BPER–Sondrio combination leaves the Italian market increasingly concentrated around a small number of national and regional champions.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        For smaller regional lenders still operating independently, the message from the market is unambiguous: scale confers a competitive advantage in technology investment, funding costs, and regulatory compliance capacity. Analysts have suggested that the next chapter of consolidation is likely to involve Banco BPM.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        From a European perspective, the transaction reflects the ongoing fragmentation of the EU's single market for banking services. While the ECB has long advocated for cross-border mergers, most consolidation remains domestic.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Conclusion and takeaways
+      </SectionHeading>
+
+      <BodyParagraph>
+        The merger represents a structurally significant moment for the Italian banking industry. It validates the consolidation thesis and demonstrates that large-scale domestic combinations can be completed with broad institutional support when the strategic logic and financial terms are compelling.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Three conclusions emerge. First, Unipol’s dual stake was the decisive enabling factor. Second, the €290 million synergy target implies a rapid payback. Third, achieving a 15% ROTE by 2027 will require disciplined execution.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Written by Mattia Malandugno and Luca Accossato
+      </BodyParagraph>
+
+      <SectionHeading>
+        Sources
+      </SectionHeading>
+
+      <ul className="text-sm text-gray-400 space-y-2 mb-8">
+        <li>
+          <a
+            href="https://www.bper.it/en/media/press-releases/2025/bper-launches-offer-for-banca-popolare-di-sondrio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.bper.it/en/media/press-releases/2025/bper-launches-offer-for-banca-popolare-di-sondrio
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.bper.it/en/media/press-releases/2025/approval-of-merger-by-absorption-of-banca-popolare-di-sondrio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.bper.it/en/media/press-releases/2025/approval-of-merger-by-absorption-of-banca-popolare-di-sondrio
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.bper.it/en/media/press-releases/2026/merger-effective-banca-popolare-di-sondrio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.bper.it/en/media/press-releases/2026/merger-effective-banca-popolare-di-sondrio
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.bancaditalia.it/pubblicazioni/proiezioni-macroeconomiche/2026-aprile/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.bancaditalia.it/pubblicazioni/proiezioni-macroeconomiche/2026-aprile/index.html
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.teleborsa.it/News/2026/04/13/bper-fusione-con-popolare-di-sondrio-efficace-dal-20-aprile-13.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.teleborsa.it/News/2026/04/13/bper-fusione-con-popolare-di-sondrio-efficace-dal-20-aprile-13.html
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.bankingsupervision.europa.eu/press/pr/date/2025/html/ecb.pr2500xx~bper-sondrio.en.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.bankingsupervision.europa.eu/press/pr/date/2025/html/ecb.pr2500xx~bper-sondrio.en.html
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.imf.org/en/Publications/WEO/Issues/2026/04/01/world-economic-outlook-april-2026"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.imf.org/en/Publications/WEO/Issues/2026/04/01/world-economic-outlook-april-2026
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.milanofinanza.it/news/bper-sondrio-fusione-approvata-202511051234567890"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.milanofinanza.it/news/bper-sondrio-fusione-approvata-202511051234567890
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.retailbankerinternational.com/news/bper-raises-offer-for-popolare-di-sondrio/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.retailbankerinternational.com/news/bper-raises-offer-for-popolare-di-sondrio/
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.soldionline.it/notizie/azioni-italia/bper-banca-fusione-popolare-sondrio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline"
+          >
+            https://www.soldionline.it/notizie/azioni-italia/bper-banca-fusione-popolare-sondrio
+          </a>
+        </li>
+      </ul>
+    </>
+  ),
   'leonardo-iveco-defence-deal-2026': (
     <>
       <LeadParagraph>
