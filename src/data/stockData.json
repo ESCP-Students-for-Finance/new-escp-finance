@@ -2,7 +2,7 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$7,165.08",
+      "value": "7,165.08",
       "change": "+0.80%",
       "positive": true,
       "type": "index"
@@ -16,7 +16,7 @@
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "610.65",
+      "value": "619.95",
       "change": "+0.99%",
       "positive": true,
       "type": "index"
@@ -30,47 +30,47 @@
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1719",
-      "change": "+0.33%",
+      "value": "$1.172",
+      "change": "+0.31%",
       "positive": true,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
-      "symbol": "Bitcoin",
-      "value": "$77,638.00",
-      "change": "+0.44%",
-      "positive": true,
+      "symbol": "Bitcoin (BTC/USD)",
+      "value": "$77,601.65",
+      "change": "-0.02%",
+      "positive": false,
       "type": "crypto"
     },
     {
-      "symbol": "JPM",
+      "symbol": "JPMorgan Chase (JPM)",
       "value": "$313.62",
       "change": "+0.21%",
       "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "GS",
-      "value": "$940.82",
-      "change": "+0.64%",
-      "positive": true,
-      "type": "stock"
-    },
-    {
-      "symbol": "BLK",
-      "value": "$1,044.97",
-      "change": "-0.81%",
+      "symbol": "Goldman Sachs (GS)",
+      "value": "$926.91",
+      "change": "-0.47%",
       "positive": false,
       "type": "stock"
     },
     {
-      "symbol": "LVMH",
+      "symbol": "BlackRock (BLK)",
+      "value": "$1,044.00",
+      "change": "-0.89%",
+      "positive": false,
+      "type": "stock"
+    },
+    {
+      "symbol": "LVMH (MC.PA)",
       "value": "€491.75",
       "change": "-1.53%",
       "positive": false,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-04-25T09:50:17.642Z"
+  "lastUpdated": "2026-04-26T09:52:20.992Z"
 }
