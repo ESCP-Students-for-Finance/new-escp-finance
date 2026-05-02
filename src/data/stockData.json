@@ -2,59 +2,59 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$7,209.01",
-      "change": "+1.02%",
+      "value": "$7,230.12",
+      "change": "+0.29%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "24,892.31",
+      "value": "$25,114.44",
       "change": "+0.89%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "611.28",
-      "change": "+1.38%",
+      "value": "€1,545.59",
+      "change": "+1.44%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
       "value": "4.39%",
-      "change": "+0.02%",
-      "positive": true,
+      "change": "-0.01%",
+      "positive": false,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "$1.17359",
-      "change": "+0.06%",
-      "positive": true,
+      "value": "1.1735",
+      "change": "-0.08%",
+      "positive": false,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$77,066.00",
-      "change": "+1.33%",
+      "value": "$78,315.37",
+      "change": "+1.67%",
       "positive": true,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$313.23",
-      "change": "+1.29%",
-      "positive": true,
+      "value": "$312.47",
+      "change": "-0.24%",
+      "positive": false,
       "type": "stock"
     },
     {
       "symbol": "Goldman Sachs (GS)",
-      "value": "$923.77",
-      "change": "+2.01%",
-      "positive": true,
+      "value": "$923.71",
+      "change": "-0.01%",
+      "positive": false,
       "type": "stock"
     },
     {
@@ -72,5 +72,5 @@
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-05-01T10:21:05.831Z"
+  "lastUpdated": "2026-05-02T09:57:05.521Z"
 }
