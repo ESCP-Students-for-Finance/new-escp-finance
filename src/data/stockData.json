@@ -2,8 +2,8 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$7,396.01",
-      "change": "+0.73%",
+      "value": "$7,398.93",
+      "change": "+0.84%",
       "positive": true,
       "type": "index"
     },
@@ -16,61 +16,61 @@
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "€616.42",
-      "change": "+1.01%",
-      "positive": true,
+      "value": "612.14",
+      "change": "N/A",
+      "positive": null,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.364%",
-      "change": "-0.68%",
+      "value": "4.36%",
+      "change": "-0.04%",
       "positive": false,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.17775",
-      "change": "+0.44%",
+      "value": "1.17852",
+      "change": "+0.52%",
       "positive": true,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
-      "symbol": "Bitcoin",
-      "value": "$80,458.27",
-      "change": "+1.12%",
+      "symbol": "Bitcoin (BTC/USD)",
+      "value": "$80,821.00",
+      "change": "+0.81%",
       "positive": true,
       "type": "crypto"
     },
     {
-      "symbol": "JPMorgan Chase",
-      "value": "$302.71",
-      "change": "-1.16%",
+      "symbol": "JPMorgan Chase (JPM)",
+      "value": "$302.10",
+      "change": "-1.36%",
       "positive": false,
       "type": "stock"
     },
     {
-      "symbol": "Goldman Sachs",
-      "value": "$935.48",
-      "change": "+1.04%",
+      "symbol": "Goldman Sachs (GS)",
+      "value": "$936.48",
+      "change": "+1.15%",
       "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "BlackRock",
+      "symbol": "BlackRock (BLK)",
       "value": "$1,084.83",
       "change": "+1.60%",
       "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "LVMH",
-      "value": "€478.30",
-      "change": "+0.91%",
-      "positive": true,
+      "symbol": "LVMH (MC.PA)",
+      "value": "€472.70",
+      "change": "-1.17%",
+      "positive": false,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-05-09T10:03:46.496Z"
+  "lastUpdated": "2026-05-10T10:11:12.647Z"
 }
