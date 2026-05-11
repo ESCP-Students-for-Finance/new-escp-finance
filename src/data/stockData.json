@@ -16,30 +16,30 @@
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "612.14",
-      "change": "N/A",
-      "positive": null,
+      "value": "€612.14",
+      "change": "-0.69%",
+      "positive": false,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.36%",
-      "change": "-0.04%",
-      "positive": false,
+      "value": "4.39%",
+      "change": "+0.03%",
+      "positive": true,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.17852",
-      "change": "+0.52%",
-      "positive": true,
+      "value": "$1.1772",
+      "change": "-0.11%",
+      "positive": false,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$80,821.00",
-      "change": "+0.81%",
+      "value": "$80,748.17",
+      "change": "+0.02%",
       "positive": true,
       "type": "crypto"
     },
@@ -59,9 +59,9 @@
     },
     {
       "symbol": "BlackRock (BLK)",
-      "value": "$1,084.83",
-      "change": "+1.60%",
-      "positive": true,
+      "value": "$1,067.74",
+      "change": "-0.54%",
+      "positive": false,
       "type": "stock"
     },
     {
@@ -72,5 +72,5 @@
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-05-10T10:11:12.647Z"
+  "lastUpdated": "2026-05-11T12:08:32.443Z"
 }
