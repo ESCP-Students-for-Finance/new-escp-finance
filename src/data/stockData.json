@@ -2,75 +2,75 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$7,398.93",
-      "change": "+0.84%",
+      "value": "7,412.84",
+      "change": "+0.19%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "$26,247.08",
-      "change": "+1.71%",
+      "value": "26,274.13",
+      "change": "+0.10%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "€612.14",
-      "change": "-0.69%",
+      "value": "608.86",
+      "change": "-0.64%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.39%",
-      "change": "+0.03%",
+      "value": "4.431%",
+      "change": "+0.41%",
       "positive": true,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "$1.1772",
-      "change": "-0.11%",
+      "value": "1.1746",
+      "change": "-0.32%",
       "positive": false,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$80,748.17",
-      "change": "+0.02%",
+      "value": "$80,854.37",
+      "change": "+0.38%",
       "positive": true,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$302.10",
-      "change": "-1.36%",
+      "value": "$300.00",
+      "change": "-0.70%",
       "positive": false,
       "type": "stock"
     },
     {
       "symbol": "Goldman Sachs (GS)",
-      "value": "$936.48",
-      "change": "+1.15%",
+      "value": "$944.86",
+      "change": "+0.89%",
       "positive": true,
       "type": "stock"
     },
     {
       "symbol": "BlackRock (BLK)",
-      "value": "$1,067.74",
-      "change": "-0.54%",
-      "positive": false,
+      "value": "$1,084.83",
+      "change": "+1.60%",
+      "positive": true,
       "type": "stock"
     },
     {
       "symbol": "LVMH (MC.PA)",
-      "value": "€472.70",
-      "change": "-1.17%",
+      "value": "€452.00",
+      "change": "-4.38%",
       "positive": false,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-05-11T12:08:32.443Z"
+  "lastUpdated": "2026-05-12T11:19:22.826Z"
 }
