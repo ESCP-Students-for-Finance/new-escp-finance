@@ -2,45 +2,45 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$7,408.50",
+      "value": "7,408.50",
       "change": "-1.24%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "$26,225.14",
+      "value": "26,225.14",
       "change": "-1.54%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "€606.92",
+      "value": "606.92",
       "change": "-1.48%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.60%",
-      "change": "+3.05%",
+      "value": "4.59%",
+      "change": "+2.68%",
       "positive": true,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "$1.1626",
-      "change": "-0.37%",
+      "value": "1.16206",
+      "change": "-0.41%",
       "positive": false,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$80,643.85",
-      "change": "+1.61%",
-      "positive": true,
+      "value": "$78,268.11",
+      "change": "-1.30%",
+      "positive": false,
       "type": "crypto"
     },
     {
@@ -66,11 +66,11 @@
     },
     {
       "symbol": "LVMH (MC.PA)",
-      "value": "€455.30",
-      "change": "-1.24%",
+      "value": "€455.60",
+      "change": "-1.14%",
       "positive": false,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-05-16T10:11:56.916Z"
+  "lastUpdated": "2026-05-17T10:20:44.377Z"
 }
