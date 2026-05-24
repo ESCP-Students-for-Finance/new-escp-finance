@@ -9,68 +9,68 @@
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "$26,343.97",
+      "value": "26,343.97",
       "change": "+0.19%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "€625.12",
-      "change": "+0.73%",
-      "positive": true,
+      "value": "N/A",
+      "change": "N/A",
+      "positive": null,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
       "value": "4.56%",
-      "change": "-0.26%",
+      "change": "-0.01%",
       "positive": false,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1604",
-      "change": "-0.04%",
-      "positive": false,
+      "value": "1.1609",
+      "change": "+0.04%",
+      "positive": true,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
-      "symbol": "Bitcoin",
-      "value": "$75,506.31",
-      "change": "-2.64%",
-      "positive": false,
+      "symbol": "Bitcoin (BTC/USD)",
+      "value": "$76,764.33",
+      "change": "+1.66%",
+      "positive": true,
       "type": "crypto"
     },
     {
-      "symbol": "JPM",
+      "symbol": "JPMorgan Chase (JPM)",
       "value": "$306.38",
       "change": "+1.12%",
       "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "GS",
-      "value": "$996.73",
-      "change": "+0.87%",
+      "symbol": "Goldman Sachs (GS)",
+      "value": "$988.49",
+      "change": "+0.54%",
       "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "BLK",
+      "symbol": "BlackRock (BLK)",
       "value": "$1,073.00",
       "change": "+0.87%",
       "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "MC.PA",
-      "value": "€453.95",
-      "change": "-1.3%",
+      "symbol": "LVMH (MC.PA)",
+      "value": "€472.60",
+      "change": "-0.201%",
       "positive": false,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-05-23T10:24:44.685Z"
+  "lastUpdated": "2026-05-24T10:29:05.549Z"
 }
