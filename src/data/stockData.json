@@ -2,35 +2,35 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "7,609.78",
-      "change": "+0.13%",
-      "positive": true,
+      "value": "7,553.68",
+      "change": "-0.74%",
+      "positive": false,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "27,093.90",
-      "change": "+0.03%",
-      "positive": true,
+      "value": "26,853.98",
+      "change": "-0.89%",
+      "positive": false,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "625.34",
-      "change": "+0.66%",
+      "value": "621.60",
+      "change": "+0.06%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.494%",
-      "change": "+0.83%",
-      "positive": true,
+      "value": "4.467%",
+      "change": "-0.60%",
+      "positive": false,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.16045",
+      "value": "1.1609",
       "change": "-0.01%",
       "positive": false,
       "type": "forex",
@@ -38,22 +38,22 @@
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$67,097.68",
-      "change": "-4.13%",
+      "value": "$64,238.74",
+      "change": "-3.22%",
       "positive": false,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$300.96",
-      "change": "+1.48%",
-      "positive": true,
+      "value": "$300.85",
+      "change": "-0.04%",
+      "positive": false,
       "type": "stock"
     },
     {
       "symbol": "Goldman Sachs (GS)",
-      "value": "$1,064.95",
-      "change": "+1.41%",
+      "value": "$1,048.58",
+      "change": "+2.24%",
       "positive": true,
       "type": "stock"
     },
@@ -66,11 +66,11 @@
     },
     {
       "symbol": "LVMH (MC.PA)",
-      "value": "€475.00",
-      "change": "+1.11%",
-      "positive": true,
+      "value": "€468.50",
+      "change": "-1.37%",
+      "positive": false,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-06-03T13:13:54.217Z"
+  "lastUpdated": "2026-06-04T11:49:57.272Z"
 }
