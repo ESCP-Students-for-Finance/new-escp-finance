@@ -2,35 +2,35 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "7,386.65",
-      "change": "-0.26%",
-      "positive": false,
+      "value": "7,394.30",
+      "change": "+1.75%",
+      "positive": true,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "25,678.82",
-      "change": "-0.97%",
-      "positive": false,
+      "value": "25,809.66",
+      "change": "+2.54%",
+      "positive": true,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "618.64",
-      "change": "-0.50%",
-      "positive": false,
+      "value": "629.48",
+      "change": "+1.28%",
+      "positive": true,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.545%",
-      "change": "+0.35%",
-      "positive": true,
+      "value": "4.452%",
+      "change": "-0.20%",
+      "positive": false,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1554",
+      "value": "1.1586",
       "change": "+0.10%",
       "positive": true,
       "type": "forex",
@@ -38,9 +38,9 @@
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$61,504.89",
-      "change": "-1.75%",
-      "positive": false,
+      "value": "$63,431.00",
+      "change": "+2.76%",
+      "positive": true,
       "type": "crypto"
     },
     {
@@ -59,9 +59,9 @@
     },
     {
       "symbol": "BlackRock (BLK)",
-      "value": "$1,014.94",
-      "change": "-0.57%",
-      "positive": false,
+      "value": "$1,017.61",
+      "change": "+0.11%",
+      "positive": true,
       "type": "stock"
     },
     {
@@ -72,5 +72,5 @@
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-06-10T12:18:03.556Z"
+  "lastUpdated": "2026-06-12T12:16:52.400Z"
 }
