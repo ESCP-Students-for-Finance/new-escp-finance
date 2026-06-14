@@ -2,8 +2,8 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "$7,434.49",
-      "change": "+0.54%",
+      "value": "$7,431.46",
+      "change": "+0.50%",
       "positive": true,
       "type": "index"
     },
@@ -16,30 +16,30 @@
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "633.21",
-      "change": "+1.30%",
+      "value": "€633.21",
+      "change": "+1.88%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.485%",
-      "change": "+0.45%",
+      "value": "4.49%",
+      "change": "+0.02%",
       "positive": true,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "$1.15677",
-      "change": "-0.06%",
+      "value": "1.1569",
+      "change": "-0.00%",
       "positive": false,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$63,847.29",
-      "change": "+0.30%",
+      "value": "$64,487.23",
+      "change": "+1.19%",
       "positive": true,
       "type": "crypto"
     },
@@ -52,15 +52,15 @@
     },
     {
       "symbol": "Goldman Sachs (GS)",
-      "value": "$1,056.98",
-      "change": "+1.04%",
+      "value": "$1,062.75",
+      "change": "+2.62%",
       "positive": true,
       "type": "stock"
     },
     {
       "symbol": "BlackRock (BLK)",
-      "value": "$1,017.61",
-      "change": "+0.11%",
+      "value": "$1,016.58",
+      "change": "+0.58%",
       "positive": true,
       "type": "stock"
     },
@@ -72,5 +72,5 @@
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-06-13T11:12:08.120Z"
+  "lastUpdated": "2026-06-14T11:28:21.845Z"
 }
