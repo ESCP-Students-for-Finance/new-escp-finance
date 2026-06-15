@@ -169,6 +169,16 @@ export const articles = [
 // Research data
 export const researchProjects = [
     {
+        title: "Leonardo SpA (BIT: LDO) – A European Defense Champion",
+        excerpt: "We initiate coverage on Leonardo SpA with a BUY and a 12-month target price of €65, ~26% above the current €51.62. Leonardo sits at the intersection of three durable forces: the largest peacetime expansion of European defense spending since the Cold War, a management-executed industrial transformation closing the margin gap to peers, and a portfolio of long-duration, high-value programs (GCAP, helicopter aftermarket, DRS submarine propulsion) that the market still misprices.",
+        category: "Equity Research",
+        author: "Adriano Cogorno, Andrea Savo, Federico Tempestini, Vittorio Benozzi",
+        date: "Jun 15, 2026",
+        image: "/research/leonardo-spa-cover.png",
+        slug: "leonardo-spa-defense-champion-2026",
+        pdfUrl: "/research/leonardo-spa.pdf"
+    },
+    {
         title: "The War Bid Between Netflix And Paramount: An Antitrust Overview",
         excerpt: "This note examines the war bid dynamic surrounding Netflix’s planned $82.7bn move for Warner Bros. Discovery (WBD), framing the transaction as a strategic pivot toward direct ownership of premium intellectual property. However, antitrust concerns are critical to the success of the deal.",
         category: "M&A",
