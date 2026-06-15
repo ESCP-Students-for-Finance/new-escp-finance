@@ -60,8 +60,14 @@ async function updateStocks() {
         const response = await result.response;
         let text = response.text();
 
-        // Clean up markdown if present
-        text = text.replace(/```json/g, '').replace(/```/g, '').trim();
+        // Extract JSON using regex to handle conversational text or citations
+        const jsonMatch = text.match(/\{[\s\S]*\}/);
+        if (jsonMatch) {
+            text = jsonMatch[0];
+        } else {
+            // Fallback: clean up markdown if present
+            text = text.replace(/```json/gi, '').replace(/```/g, '').trim();
+        }
 
         const data = JSON.parse(text);
 
