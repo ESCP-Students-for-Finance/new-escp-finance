@@ -169,6 +169,16 @@ export const articles = [
 // Research data
 export const researchProjects = [
     {
+        title: "ASML Holding N.V. [ASML.AS] – The Irreplaceable Monopoly in Semiconductor Capital Equipment",
+        excerpt: "We initiate on ASML Holding N.V. (ticker ASML.AS) with a BUY rating and a 12-month target price of €1,500, implying approximately +7.6% upside versus the €1,394 closing price on 01 June 2026. ASML is the sole global supplier of EUV lithography systems, the critical bottleneck equipment required to manufacture leading-edge semiconductors below 7nm.",
+        category: "Equity Research",
+        author: "Davide Biselli, Andrea Conti Taguali, Yahya Ouenzar, Mehdi Zahid",
+        date: "Jun 02, 2026",
+        image: "/research/asml-cover.png",
+        slug: "asml-holding-monopoly-2026",
+        pdfUrl: "/research/ASML_Equity_Research_D.pdf"
+    },
+    {
         title: "Leonardo SpA (BIT: LDO) – A European Defense Champion",
         excerpt: "We initiate coverage on Leonardo SpA with a BUY and a 12-month target price of €65, ~26% above the current €51.62. Leonardo sits at the intersection of three durable forces: the largest peacetime expansion of European defense spending since the Cold War, a management-executed industrial transformation closing the margin gap to peers, and a portfolio of long-duration, high-value programs (GCAP, helicopter aftermarket, DRS submarine propulsion) that the market still misprices.",
         category: "Equity Research",
