@@ -170,9 +170,9 @@ export const articles = [
 export const researchProjects = [
     {
         title: "ASML Holding N.V. [ASML.AS] – The Irreplaceable Monopoly in Semiconductor Capital Equipment",
-        excerpt: "We initiate on ASML Holding N.V. (ticker ASML.AS) with a BUY rating and a 12-month target price of €1,500, implying approximately +7.6% upside versus the €1,394 closing price on 01 June 2026. ASML is the sole global supplier of EUV lithography systems, the critical bottleneck equipment required to manufacture leading-edge semiconductors below 7nm.",
+        excerpt: "We initiate coverage on ASML Holding N.V. with a BUY rating and a 12-month target price of €1,500, implying a ~7.6% upside. ASML sits at the core of the global technology supply chain as the sole provider of EUV lithography systems. Our thesis rests on three main pillars: structurally higher demand driven by the AI megatrend, a significant ASP uplift from the upcoming High-NA upgrade cycle, and an impenetrable technological moat that guarantees pricing power.",
         category: "Equity Research",
-        author: "Davide Biselli, Andrea Conti Taguali, Yahya Ouenzar, Mehdi Zahid",
+        author: "Davide Biselli, et al.",
         date: "Jun 02, 2026",
         image: "/research/asml-cover.png",
         slug: "asml-holding-monopoly-2026",

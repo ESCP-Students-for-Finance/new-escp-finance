@@ -50,9 +50,9 @@ export default function ResearchPage() {
                                         {project.excerpt}
                                     </p>
 
-                                    <div className="flex items-center justify-between text-xs text-gray-500 mt-auto pt-4 border-t border-white/5">
-                                        <span>{project.author}</span>
-                                        <span>{project.date}</span>
+                                    <div className="flex items-center justify-between gap-4 text-xs text-gray-500 mt-auto pt-4 border-t border-white/5">
+                                        <span className="truncate">{project.author}</span>
+                                        <span className="whitespace-nowrap flex-shrink-0">{project.date}</span>
                                     </div>
                                 </article>
                             </Link>
