@@ -169,6 +169,16 @@ export const articles = [
 // Research data
 export const researchProjects = [
     {
+        title: "GE Vernova Inc (NYSE: GEV) – Power, Grid, and AI: the backbone of the electricity supercycle",
+        excerpt: "GE Vernova (NYSE: GEV) is a purpose-built global energy-technology platform, spun out of General Electric on 2 April 2024, sitting at the intersection of three secular forces: global electrification, the energy transition, and AI-driven power demand. We initiate with a BUY.",
+        category: "Equity Research",
+        author: "Francesco Pio Trama, Federico Priori, Frederic Wessling Melonari, Miao Andrea Wang",
+        date: "May 2026",
+        image: "/research/gev-cover.png",
+        slug: "ge-vernova-electricity-supercycle-2026",
+        pdfUrl: "/research/gev-research.pdf"
+    },
+    {
         title: "ASML Holding N.V. [ASML.AS] – The Irreplaceable Monopoly in Semiconductor Capital Equipment",
         excerpt: "We initiate coverage on ASML Holding N.V. with a BUY rating and a 12-month target price of €1,500, implying a ~7.6% upside. ASML sits at the core of the global technology supply chain as the sole provider of EUV lithography systems. Our thesis rests on three main pillars: structurally higher demand driven by the AI megatrend, a significant ASP uplift from the upcoming High-NA upgrade cycle, and an impenetrable technological moat that guarantees pricing power.",
         category: "Equity Research",
