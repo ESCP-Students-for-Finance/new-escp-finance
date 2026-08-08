@@ -2,51 +2,51 @@
   "stocks": [
     {
       "symbol": "S&P 500",
-      "value": "7,709.96",
-      "change": "-0.18%",
-      "positive": false,
+      "value": "7,757.64",
+      "change": "+0.62%",
+      "positive": true,
       "type": "index"
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "26,348.35",
-      "change": "-0.06%",
-      "positive": false,
+      "value": "26,690.62",
+      "change": "+1.30%",
+      "positive": true,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "657.28",
-      "change": "+0.00%",
+      "value": "660.25",
+      "change": "+0.31%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.67%",
-      "change": "-0.01%",
+      "value": "4.658%",
+      "change": "-0.26%",
       "positive": false,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1522",
-      "change": "-0.02%",
-      "positive": false,
+      "value": "1.15580",
+      "change": "+0.29%",
+      "positive": true,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$63,670.69",
-      "change": "+1.64%",
+      "value": "$64,985.77",
+      "change": "+1.11%",
       "positive": true,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$356.30",
-      "change": "+0.48%",
+      "value": "$357.52",
+      "change": "+0.34%",
       "positive": true,
       "type": "stock"
     },
@@ -59,18 +59,18 @@
     },
     {
       "symbol": "BlackRock (BLK)",
-      "value": "$1,129.30",
-      "change": "-0.63%",
+      "value": "$1,127.50",
+      "change": "-0.49%",
       "positive": false,
       "type": "stock"
     },
     {
       "symbol": "LVMH (MC.PA)",
-      "value": "€481.45",
-      "change": "+0.85%",
-      "positive": true,
+      "value": "€480.00",
+      "change": "-0.42%",
+      "positive": false,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-08-07T09:58:47.109Z"
+  "lastUpdated": "2026-08-08T09:33:31.014Z"
 }
