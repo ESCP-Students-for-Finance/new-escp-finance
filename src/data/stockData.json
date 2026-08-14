@@ -16,61 +16,61 @@
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "660.51",
-      "change": "+0.01%",
-      "positive": true,
+      "value": "659.24",
+      "change": "-0.04%",
+      "positive": false,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.68%",
-      "change": "-0.01%",
-      "positive": false,
+      "value": "4.66%",
+      "change": "+0.02%",
+      "positive": true,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1538",
-      "change": "-0.04%",
-      "positive": false,
+      "value": "1.1556",
+      "change": "+0.24%",
+      "positive": true,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin",
-      "value": "$63,482.30",
-      "change": "-0.65%",
-      "positive": false,
+      "value": "$63,486.00",
+      "change": "+0.10%",
+      "positive": true,
       "type": "crypto"
     },
     {
-      "symbol": "JPM",
-      "value": "$362.10",
-      "change": "+0.89%",
+      "symbol": "JPMorgan Chase",
+      "value": "$363.11",
+      "change": "-0.38%",
+      "positive": false,
+      "type": "stock"
+    },
+    {
+      "symbol": "Goldman Sachs",
+      "value": "$1,043.51",
+      "change": "+0.11%",
       "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "GS",
-      "value": "$1,034.41",
-      "change": "-0.02%",
-      "positive": false,
+      "symbol": "BlackRock",
+      "value": "$1,182.84",
+      "change": "+1.89%",
+      "positive": true,
       "type": "stock"
     },
     {
-      "symbol": "BLK",
-      "value": "$1,148.37",
-      "change": "-0.44%",
-      "positive": false,
-      "type": "stock"
-    },
-    {
-      "symbol": "MC.PA",
-      "value": "€481.00",
-      "change": "-0.8%",
+      "symbol": "LVMH",
+      "value": "€460.00",
+      "change": "-1.07%",
       "positive": false,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-08-12T09:58:48.391Z"
+  "lastUpdated": "2026-08-14T09:56:53.338Z"
 }
