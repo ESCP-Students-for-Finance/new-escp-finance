@@ -9,68 +9,68 @@
     },
     {
       "symbol": "NASDAQ Composite",
-      "value": "26,427.16",
-      "change": "-0.43%",
+      "value": "26,402.42",
+      "change": "-0.52%",
       "positive": false,
       "type": "index"
     },
     {
       "symbol": "STOXX Europe 600",
-      "value": "654.83",
-      "change": "+0.46%",
+      "value": "655.16",
+      "change": "+0.51%",
       "positive": true,
       "type": "index"
     },
     {
       "symbol": "US 10-Year Treasury Yield",
-      "value": "4.727%",
-      "change": "+1.18%",
+      "value": "4.73%",
+      "change": "+1.28%",
       "positive": true,
       "type": "rate"
     },
     {
       "symbol": "EUR/USD",
-      "value": "1.1607",
-      "change": "-0.40%",
+      "value": "1.1584",
+      "change": "-0.57%",
       "positive": false,
       "type": "forex",
       "forexKey": "EUR/USD"
     },
     {
       "symbol": "Bitcoin (BTC/USD)",
-      "value": "$79,281.93",
-      "change": "-0.57%",
+      "value": "$77,696.00",
+      "change": "-3.32%",
       "positive": false,
       "type": "crypto"
     },
     {
       "symbol": "JPMorgan Chase (JPM)",
-      "value": "$357.75",
-      "change": "-0.64%",
-      "positive": false,
+      "value": "$357.62",
+      "change": "+0.54%",
+      "positive": true,
       "type": "stock"
     },
     {
       "symbol": "Goldman Sachs (GS)",
-      "value": "$1,034.25",
+      "value": "$1,033.99",
       "change": "+0.04%",
       "positive": true,
       "type": "stock"
     },
     {
       "symbol": "BlackRock (BLK)",
-      "value": "$1,167.57",
-      "change": "-0.48%",
+      "value": "$1,163.38",
+      "change": "-0.36%",
       "positive": false,
       "type": "stock"
     },
     {
       "symbol": "LVMH (MC.PA)",
-      "value": "447.40€",
-      "change": "-1.41%",
-      "positive": false,
+      "value": "€481.45",
+      "change": "+0.365%",
+      "positive": true,
       "type": "stock"
     }
   ],
-  "lastUpdated": "2026-08-28T20:41:21.389Z"
+  "lastUpdated": "2026-08-29T14:11:19.984Z"
 }
