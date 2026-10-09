@@ -1,0 +1,99 @@
+Anthropic Opens Its Books Ahead of a Potential IPO After Confidentially Filing a Draft S-1 with the SEC
+Anthropic Takes Its First Major Step Toward a Public Listing
+Anthropic has taken its clearest step yet towards becoming a public company. On June 1, 2026, the artificial-intelligence group behind Claude announced that it had confidentially submitted a draft registration statement on Form S-1 to the US Securities and Exchange Commission for a proposed initial public offering. The company stressed that the number of shares, price range and timing of the deal had not yet been determined, meaning the process remains subject to SEC review and market conditions. This distinction is important because Anthropic has not yet published its S-1 through the SEC’s EDGAR system. Much of what investors currently know instead comes from a confidential prospectus reviewed by Reuters in late September. The filing offers the first detailed look at Anthropic’s financial profile and makes clear why the listing could become one of the most closely watched technology IPOs of the cycle. The company has moved rapidly from private-market funding to formal IPO preparation, following a $30 billion Series G financing in February 2026 at a $380 billion post-money valuation and a further $65 billion Series H round in May that valued Anthropic at $965 billion. A public listing would therefore test whether investors are willing to support another substantial step-up in valuation.
+Explosive Revenue Growth Comes With Heavy and Rising Losses
+The financial picture is both impressive and difficult. According to the confidential prospectus reviewed by Reuters, Anthropic generated almost $4.6 billion of revenue in 2025, roughly twelve times the prior year, but posted an operating loss of more than $8 billion as operating expenses climbed to around $12.65 billion. Compute and infrastructure alone accounted for about $7.33 billion, underlining how costly it is to compete at the frontier of artificial intelligence. Anthropic also reported a net loss of roughly $42 billion, though about $34 billion of that amount reflected an accounting charge linked to the rising value of financing instruments that could convert into equity. The operating loss therefore provides a clearer view of the underlying economics than the headline net-loss figure. At the same time, the company’s growth trajectory remains extraordinary. Anthropic said in May 2026 that its annualised revenue run rate had exceeded $47 billion, suggesting a dramatic acceleration from the prior year. That combination creates the core IPO debate because investors are not deciding whether demand for Claude exists, but whether Anthropic can convert rapid growth into sustainable margins while continuing to fund the enormous computing requirements needed to train and operate increasingly capable models.
+A $518 Billion Infrastructure Bet Raises the Stakes for Anthropic’s Future
+The clearest example of that challenge is Anthropic’s infrastructure strategy. The confidential prospectus indicates that the company expects to spend at least $518 billion over roughly the next decade on cloud services, computing infrastructure and related obligations with six partners. Reuters reported that about 80 per cent of those commitments are either non-cancellable or payable regardless of how much capacity Anthropic ultimately uses. The largest disclosed commitments include approximately $111.1 billion to Google, $110 billion to Amazon and $31.4 billion to Microsoft, alongside around $161.2 billion in largely non-cancellable equipment lease obligations related to Broadcom. For Anthropic, these contracts are designed to solve what it sees as the central constraint in frontier AI, that is the access to enough computing power to train and serve future models. For shareholders, however, the same contracts introduce substantial fixed-cost risk. If demand grows more slowly than expected, model efficiency improves faster than anticipated or competition forces pricing lower, Anthropic could still remain locked into enormous infrastructure payments. The company is therefore making a long-duration bet not simply on artificial intelligence as a market, but on its own ability to maintain a leading position within that market over many years.
+Big Tech Dependence and Founder Control Shape the IPO Story
+Anthropic is also deeply dependent on the technology companies that both support and compete with it. Amazon and Google are investors, infrastructure providers, distribution partners and rivals through their own AI businesses. In 2025, approximately 47 per cent of Anthropic’s sales were routed through Amazon Web Services and Google Cloud marketplaces, generating around $2.16 billion of revenue while Anthropic paid roughly $351 million in distribution fees. That dependence has increased sharply, from 11 per cent of sales in 2023 to 32 per cent in 2024 and nearly half in 2025. The prospectus also revealed customer concentration, with two unnamed clients each representing about 12 per cent of annual revenue. The governance structure adds another layer of complexity. Anthropic is expected to remain a Delaware Public Benefit Corporation and create Founder LLC, an entity controlled by its seven co-founders. That structure would hold a Class F share carrying 50.1 per cent of total voting power over significant corporate matters. Public investors would therefore receive economic exposure to Anthropic without equivalent control, reflecting management’s argument that decisions around advanced AI may at times need to prioritise safety and long-term public benefit over short-term shareholder returns.
+Anthropic’s IPO Will Test Whether Frontier AI Can Satisfy Public Markets
+The prospective IPO is therefore becoming a test not only of Anthropic, but of how public markets value frontier AI. Reuters has reported that the company has discussed an offering that could raise as much as $100 billion at a valuation of around $2 trillion, though those figures remain preliminary and have not been confirmed in a public registration statement. More recently, Bloomberg reported that Anthropic was planning meetings with prospective institutional investors in October and could begin formal IPO marketing in November, although the timetable remains fluid. The eventual public S-1 will be decisive because it should provide audited financial statements, more complete risk disclosures, the proposed capital structure and the actual number of shares and pricing range. Until then, the central investment case is already visible. Anthropic combines exceptional revenue growth with very high operating losses, extraordinary infrastructure commitments, concentrated distribution channels and founder-controlled governance. If it eventually lists near the valuations currently discussed, investors will be betting not simply that AI demand continues to expand, but that Anthropic can grow fast enough, improve margins sufficiently and retain enough competitive advantage to justify one of the largest technology valuations ever presented to public markets.
+Written by Federico Spogler and Francesco Kaitsas
+References:
+	•	https://www.anthropic.com/news/confidential-draft-s1-sec
+	•	https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation
+	•	https://www.anthropic.com/news/series-h
+	•	https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/
+	•	https://www.reuters.com/business/anthropics-518-billion-ai-buildout-hinges-largely-deals-that-cannot-be-canceled-2026-09-29/
+	•	https://www.reuters.com/world/anthropic-ipo-prospectus-lays-bare-deep-dependence-big-tech-partners-2026-09-29/
+	•	https://www.reuters.com/legal/transactional/anthropic-leaders-control-ai-lab-via-founder-llc-promote-public-good-over-market-2026-09-29/
+	•	https://www.bloomberg.com/news/articles/2026-10-01/anthropic-is-said-to-plan-pre-ipo-investor-day-as-listing-nears
+	•	https://www.bloomberg.com/news/articles/2026-10-01/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday
+	•	https://www.ft.com/content/b8924d77-364b-46c1-b783-5db73a91f351?syn-25a6b1a6=1
+Tables: 
+Table 1 - Anthropic’s IPO process and market context
+Topic
+Key data / number
+Why it matters
+Confidential S-1 submission
+1 June 2026
+Anthropic formally began the IPO process by submitting a draft registration statement to the SEC.
+Public SEC filing
+Not yet available
+Investors cannot yet review the company’s full registration statement through EDGAR.
+Latest private funding round
+$65bn Series H
+Announced on 28 May 2026; valued Anthropic at $965bn post-money
+Previous private funding round
+$30bn Series G
+The February 2026 round valued Anthropic at $380bn post-money.
+Potential IPO proceeds
+Up to $100bn
+The figure is preliminary and could change before the offering.
+Potential IPO valuation
+Around $2tn
+The proposed valuation would represent a substantial increase over Anthropic’s latest reported private valuation.
+Expected timing
+Possibly November 2026
+Reports indicate that the timetable remains fluid and depends on market conditions and the SEC review. 
+Investor meetings
+October 2026
+Bloomberg reportedly indicated that Anthropic was planning meetings with prospective institutional investors ahead of possible IPO marketing.
+Key unresolved terms
+Share count, price range, exchange and timing
+None of these terms had been finalized in the confidential filing stage.
+Table 2 - Anthropic’s financial profile, infrastructure exposure and governance
+Category
+Key data / number
+Why it matters
+2025 revenue
+Approximately $4.6bn
+Revenue increased roughly twelvefold from the previous year.
+2025 operating loss
+More than $8bn
+Shows that Anthropic’s rapid expansion has not yet translated into operating profitability.
+2025 operating expenses
+Approximately $12.65bn
+Provides context for the scale of the company’s cost base.
+Compute and infrastructure costs
+Approximately $7.33bn
+Represents more than half of reported operating expenses and highlights the capital intensity of frontier AI.
+2025 net loss
+Approximately $42bn
+The headline loss was heavily affected by accounting adjustments related to financing instruments.
+Accounting charge
+Approximately $34bn
+A large portion of the net loss reflected the rising value of financing instruments that could convert into equity.
+Annualized revenue run rate
+More than $47bn in May 2026
+Suggests that revenue accelerated sharply after the 2025 financial year.
+Future infrastructure commitments
+At least $518bn
+The reported prospectus describes long-term obligations for cloud services, computing and infrastructure.
+Non-cancellable or usage-independent commitments
+Approximately 80%
+These obligations could create substantial fixed-cost risk if demand or pricing weakens.
+Amazon infrastructure obbligations
+Approximately $110bn
+Illustrates Anthropic’s dependence on external computing capacity.
+Google infrastructure obbligations
+Approximately $111.1bn
+Reflects Google’s role as both infrastructure provider and strategic investor.
+Microsoft infrastructure obbligations
+Approximately $31.4bn
+Adds another major technology partner to Anthropic’s infrastructure network.
+Sales through Amazon and Google marketplaces
+47% of 2025 sales
+Nearly half of Anthropic’s sales were routed through the two cloud platforms.
+

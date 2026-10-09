@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "Anthropic Opens Its Books Ahead of a Potential IPO After Confidentially Filing a Draft S-1 with the SEC",
+        excerpt: "Anthropic generated almost $4.6 billion of revenue in 2025, but the confidential S-1 reveals $8bn+ operating losses and $518bn in infrastructure commitments — setting the stage for what could be the largest technology IPO in history.",
+        category: "Tech & Capital Markets",
+        series: "Market Momentum | Week 40",
+        author: "Federico Spogler and Francesco Kaitsas",
+        date: "Oct 9, 2026",
+        image: "/alphabet-ai-bonds.jpg",
+        slug: "anthropic-ipo-s1-filing-2026"
+    },
+    {
         title: "BPER Banca Absorbs Banca Popolare di Sondrio: Italy’s Banking Consolidation Reaches a Defining Milestone",
         excerpt: "The €5.4bn all-share merger creates Italy’s third-largest banking group by assets, accelerating consolidation in a fragmented domestic banking system.",
         category: "M&A",
