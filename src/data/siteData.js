@@ -9,7 +9,7 @@ export const articles = [
         series: "Market Momentum | Week 40",
         author: "Federico Spogler and Francesco Kaitsas",
         date: "Oct 9, 2026",
-        image: "/anthropic-ipo.png",
+        image: "/alphabet-ai-bonds.jpg",
         slug: "anthropic-ipo-s1-filing-2026"
     },
     {
