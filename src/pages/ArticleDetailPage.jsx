@@ -22,6 +22,160 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+    'gcap-edgewing-sixth-generation-fighter-2026': (
+    <>
+      <LeadParagraph>
+        BUILDING THE FUTURE OF DEFENCE: INSIDE THE GLOBAL COMBAT AIR PROGRAMME
+      </LeadParagraph>
+
+      <BodyParagraph>
+        Italy, the United Kingdom and Japan are committing billions to a common fighter programme, balancing the cost of development with the ambition to retain technological control.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Developing a combat aircraft commits a country to decades of research, engineering and public expenditure, with decisions made today shaping what its armed forces will be able to operate and upgrade well into the future. The Global Combat Air Programme (GCAP), announced in 2022, brings Italy, the United Kingdom and Japan into such a commitment, with entry into service targeted for 2035.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The aircraft is being designed to combine stealth, advanced sensors and artificial intelligence with the ability to coordinate uncrewed aircraft. Developing these capabilities together gives the partners an opportunity to preserve the industrial expertise behind modern air power while sharing the considerable cost of doing so.
+      </BodyParagraph>
+
+      <StatGrid className="mb-8" columns="md:grid-cols-4">
+        <StatCard value="3" label="Partner nations" helper="Italy, United Kingdom and Japan" />
+        <StatCard value="2022" label="Programme announced" helper="Global Combat Air Programme" />
+        <StatCard value="2035" label="Target entry into service" helper="Sixth-generation fighter" />
+        <StatCard value="1/3" label="Each partner's stake in Edgewing" helper="BAE Systems, Leonardo, JAIEC" />
+      </StatGrid>
+
+      <SectionHeading>
+        Building Sovereignty Together
+      </SectionHeading>
+
+      <BodyParagraph>
+        The three countries enter the partnership with related industrial ambitions. Britain wants to maintain the expertise of its combat-air sector, while Italy is seeking to preserve its involvement in the design of complete aircraft and their systems. Japan faces the replacement of its F-2 fleet and places particular importance on being able to modify and upgrade its successor. These priorities fit within the partners' existing alliances, including their relationships with the United States, as the aircraft is intended to remain interoperable with allied forces.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Government oversight rests with the GCAP International Government Organisation (GIGO), whose agency manages contracts on behalf of the three countries. Industrial delivery is led by Edgewing, launched in 2025 and owned equally by BAE Systems, Leonardo S.p.A. and Japan Aircraft Industrial Enhancement Co. Ltd. (JAIEC). Edgewing is responsible for aircraft design and development, with production involving national partners and their supply chains, an arrangement intended to keep responsibility for the overall design within a single organisation.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        BAE Systems contributes its experience in combat-air engineering and integration, while Leonardo combines aircraft capabilities with defence electronics, sensors and communications. JAIEC represents Japan's aerospace ecosystem, with Mitsubishi Heavy Industries providing major engineering capabilities. For these companies, continued involvement in design, upgrades and support could sustain valuable work throughout the aircraft's life, although their equal stakes in Edgewing do not determine how every contract or industrial benefit will be distributed.
+      </BodyParagraph>
+
+      <TableCard
+        title="Edgewing: who owns it and what each partner brings"
+        className="mb-8"
+        header={["Shareholder", "Country", "Stake", "Main contribution"]}
+        rows={[
+          ["BAE Systems", "United Kingdom", "One third", "Combat-air engineering and integration"],
+          ["Leonardo S.p.A.", "Italy", "One third", "Aircraft capabilities, defence electronics, sensors and communications"],
+          ["JAIEC", "Japan", "One third", "Japan's aerospace ecosystem, with major engineering from Mitsubishi Heavy Industries"],
+        ]}
+      />
+
+      <BodyParagraph>
+        The experience of the Franco-German-Spanish Future Combat Air System (FCAS) shows how difficult these arrangements can become when disagreements emerge over industrial leadership and operational requirements. GCAP's single design authority is intended to make cooperation easier, though national priorities will still influence decisions about technology and work allocation. Its success will depend on whether the partners can resolve those differences without allowing them to delay development or undermine the value of working together.
+      </BodyParagraph>
+
+      <SectionHeading>
+        The Financial Case
+      </SectionHeading>
+
+      <BodyParagraph>
+        Sharing development costs allows the partners to pursue capabilities that would be harder to fund independently, although each country also becomes exposed to the others' budgetary decisions and progress. For investors following the programme, understanding what the announced commitments cover is therefore an important starting point.
+      </BodyParagraph>
+
+      <TableCard
+        title="Disclosed GCAP funding commitments"
+        caption="Figures cover different periods and funding categories and should not be added together."
+        className="mb-8"
+        header={["Disclosed item", "Amount", "What it represents"]}
+        rows={[
+          ["Edgewing contract, July 2026", "£4.6bn", "Jointly funded development work over 18 months."],
+          ["UK commitment", "£8.6bn", "National investment over four years."],
+          ["Italian development estimate", "€18.6bn", "First two programme phases, at 2025 prices; not fully financed."],
+        ]}
+      />
+
+      <BodyParagraph>
+        These figures refer to different periods and funding categories, with national budgets potentially supporting the same work covered by international contracts. Adding them would risk double counting, while using them to infer Edgewing's valuation would overlook the costs and obligations attached to the awards. Italy's development estimate also includes expenditure for which funding has yet to be secured.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Edgewing's immediate revenues come principally from government-funded design and integration work. Its shareholders and suppliers may also earn revenue from equipment, engineering and eventual production or support contracts, which helps explain Leonardo's interest in the programme through its electronics business as well as its equity stake. Exports could expand that opportunity over time, although future overseas orders remain uncertain.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Long-term revenue visibility is attractive to investors when it is accompanied by sustainable margins and cash generation. Development delays can postpone payments, rising costs can reduce profitability, and changes in national budgets can interrupt work across the partnership. The available announcements disclose too little about margins and payment schedules to support a reliable standalone valuation of Edgewing, leaving considerable uncertainty over the financial return that the programme could generate.
+      </BodyParagraph>
+
+      <QuoteBlock className="mb-8">
+        « The available announcements disclose too little about margins and payment schedules to support a reliable standalone valuation of Edgewing. »
+      </QuoteBlock>
+
+      <BodyParagraph>
+        The allocation of development risk also deserves attention, since the contracts will determine how additional costs are shared between governments and industrial partners. Shareholders' exposure and taxpayers' eventual bill will depend on those terms, making the management of costs and contractual responsibilities central to the investment case throughout the programme.
+      </BodyParagraph>
+
+      <TableCard
+        title="What could weaken the investment case"
+        className="mb-8"
+        header={["Risk", "Effect on the programme"]}
+        rows={[
+          ["Development delays", "Payments to industrial partners are postponed"],
+          ["Rising costs", "Profitability for contractors is reduced"],
+          ["Changes in national budgets", "Work can be interrupted across the whole partnership"],
+          ["Allocation of extra costs", "Contract terms decide how much falls on shareholders versus taxpayers"],
+        ]}
+      />
+
+      <SectionHeading>
+        The Industrial and Economic Return
+      </SectionHeading>
+
+      <BodyParagraph>
+        Governments are committing public money with security and long-term industrial capacity in mind. Through engineering contracts and subcontracting, that expenditure can support specialised suppliers, research and skilled employment. In July 2026, the UK government reported around 4,500 jobs across its wider future combat-air activities, including GCAP. The figure describes the wider industrial effort and should be distinguished from Edgewing's own workforce or any estimate of net additional employment.
+      </BodyParagraph>
+
+      <StatGrid className="mb-8" columns="md:grid-cols-1">
+        <StatCard value="~4,500" label="UK jobs across wider future combat-air activities, including GCAP" helper="Reported by the UK government in July 2026; not Edgewing's own workforce" />
+      </StatGrid>
+
+      <BodyParagraph>
+        For engineers joining the programme today, its duration could mean spending much of their careers developing and supporting the aircraft. Expertise acquired over those years, together with relationships between suppliers and research teams, is difficult to rebuild once it has been lost. Preserving that continuity gives GCAP an industrial significance that deserves attention alongside the more immediate questions of orders and employment.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Assessing the economic benefit still requires an allowance for imported inputs and the alternative uses of public funds. Research in sensors, communications and materials may find civilian applications, although the extent of those benefits remains uncertain. The security rationale is more direct, as governments seek to maintain deterrence and airspace protection while gradually replacing existing fleets. Public support will depend on their ability to explain why the expected capabilities justify the expenditure.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        GCAP should therefore be assessed against other ways of meeting those defence needs, taking account of their cost, the degree of technological control they offer and the freedom to adapt equipment over time. That comparison provides a firmer basis for evaluating the programme than treating the volume of spending or the number of contracts as evidence of success.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Conclusion: Is GCAP a Sustainable Bet on the Future?
+      </SectionHeading>
+
+      <BodyParagraph>
+        GCAP's sustainability will depend on reconciling the commercial expectations of its industrial partners with the strategic reasons governments have chosen to fund it. Companies need contracts that generate earnings and cash, while governments expect usable capabilities and lasting industrial value from their expenditure. Maintaining funding, agreeing clear responsibilities and controlling development costs will be necessary to sustain both interests over the programme's long life.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The experience of Anduril and Palantir in US defence also raises a relevant question about access to major programmes. Europe's established aerospace and defence companies possess substantial engineering expertise, and procurement and financing arrangements could give smaller innovators more scope to work alongside them. GCAP offers an opportunity to develop those relationships within a long-term industrial partnership, allowing new suppliers to contribute while building businesses capable of supporting their technologies over time.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Yet one question remains: when Europe truly opens up to this kind of dynamic, how much value could be unlocked by combining the agility of new entrants with the know-how and engineering excellence of world-class European players like Leonardo, Airbus and Thales?
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Written by Giorgio Gheorghios Tsingros
+      </BodyParagraph>
+
+    </>
+  ),
   'anthropic-ipo-s1-filing-2026': (
     <>
       <LeadParagraph>
