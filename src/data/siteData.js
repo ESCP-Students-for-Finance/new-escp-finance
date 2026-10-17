@@ -6,7 +6,7 @@ export const articles = [
         title: "Building the Future of Defence: Inside the Global Combat Air Programme",
         excerpt: "Italy, the United Kingdom and Japan are committing billions to a common fighter programme, balancing the cost of development with the ambition to retain technological control.",        category: "Aerospace & Defence",
         series: "Market Momentum | Week 42",
-        author: "Giorgio Tsingros",
+        author: "Giorgio Gheorghios Tsingros",
         date: "Oct 17, 2026",
         image: "/gcap-edgewing.jpg",
         slug: "gcap-edgewing-sixth-generation-fighter-2026"
