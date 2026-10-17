@@ -2,6 +2,15 @@
 
 // Articles data
 export const articles = [
+        {
+        title: "Building the Future of Defence: Inside the Global Combat Air Programme",
+        excerpt: "Italy, the United Kingdom and Japan are committing billions to a common fighter programme, balancing the cost of development with the ambition to retain technological control.",        category: "Aerospace & Defence",
+        series: "Market Momentum | Week 42",
+        author: "Giorgio Gheorghios Tsingros",
+        date: "Oct 17, 2026",
+        image: "/gcap-edgewing.jpg",
+        slug: "gcap-edgewing-sixth-generation-fighter-2026"
+    },
     {
         title: "Anthropic Opens Its Books Ahead of a Potential IPO After Confidentially Filing a Draft S-1 with the SEC",
         excerpt: "Anthropic generated almost $4.6 billion of revenue in 2025, but the confidential S-1 reveals $8bn+ operating losses and $518bn in infrastructure commitments — setting the stage for what could be the largest technology IPO in history.",
