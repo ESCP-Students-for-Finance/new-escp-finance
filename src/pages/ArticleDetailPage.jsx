@@ -22,12 +22,292 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+  'bank-of-america-aml-penalty-earnings-2026': (
+    <>
+      <SectionHeading>
+        A Compliance Shock Lands Before Earnings
+      </SectionHeading>
+
+      <BodyParagraph>
+        Bank of America’s recent share-price decline was driven by two shocks arriving almost simultaneously. These two shocks are a major regulatory enforcement action and a weaker-than-expected quarterly report. On 13 October 2026, the U.S. Department of the Treasury announced enforcement actions imposing more than $1.21 billion in penalties on the second-largest U.S. bank. The package included a $1.2 billion Financial Crimes Enforcement Network penalty for failing to mitigate and report priority national-security risks that includes $750 million civil money penalty from the Office of the Comptroller of the Currency for an ineffective Bank Secrecy Act and anti-money-laundering programme, and an $11.6 million Office of Foreign Assets Control settlement over 475 apparent sanctions violations. Treasury said Bank of America had failed to report more than $5 billion in suspicious transactions, including more than $1 billion linked to priority illicit-finance risks. The bank said that it had invested billions of dollars in technology and employed thousands of people in financial-crime compliance, but the immediate market reaction was negative. Shares fell about 1.1% on the day of the announcement and then dropped as much as 8.7% after the earnings release on 14 October, before closing 4.7% lower. The fall was amplified by the fact that investors were reacting to both a one-off fine and to the evidence that the bank’s underlying quarter had missed expectations.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/bofa-figure-1.png"
+          alt="Bank of America share-price reaction, 13–14 October 2026"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 1: Bank of America share-price reaction, 13–14 October 2026</figcaption>
+      </figure>
+
+      <SectionHeading>
+        Bank of America’s Scale Makes the Setback More Significant
+      </SectionHeading>
+
+      <BodyParagraph>
+        Bank of America’s business remains broad and fundamentally important, spanning consumer banking, wealth management, commercial lending, investment banking and global markets. Their third-quarter results show exactly why the franchise is so resilient—but also why investors are feeling let down. Reported net income fell to $6.9 billion from $8.3 billion a year earlier, while reported earnings per share declined to $0.91 from $1.04. Even after excluding the regulatory charge, adjusted EPS was $1.08, below the roughly $1.10 expected by analysts, and revenue of about $30.0 billion was below consensus near $30.6 billion. Net interest income rose 8% to $16.4 billion, but the stronger lending and deposit performance was offset by weaker capital-markets activity as fixed-income, currencies and commodities revenue fell 17%, sales and trading revenue declined 5%, and investment-banking fees decreased 11%. The charge itself reduced quarterly EPS by approximately 17 cents, but the adjusted miss showed that the fine was not the only problem. Moreover, the penalty is particularly serious because, in December 2024, regulators had already ordered Bank of America to improve its anti-money-laundering controls. Bank of America has faced other major legal and regulatory episodes, including the $16.65 billion Justice Department settlement in 2014 over mortgage-related conduct before and during the financial crisis, concerning mortgage securities and lending practices rather than the current anti-money laundering failures.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/bofa-figure-2.png"
+          alt="Bank of America Q3 2026: EPS versus expectations and business-line trends"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 2: Bank of America Q3 2026: EPS versus expectations and business-line trends</figcaption>
+      </figure>
+
+      <SectionHeading>
+        What Money Laundering Rules Require From Banks
+      </SectionHeading>
+
+      <BodyParagraph>
+        Money laundering is the process of disguising the origin, ownership or movement of money generated through criminal activity so that it can re-enter the legitimate economy. It is often described through three stages: placement, when illicit proceeds enter the financial system; layering, when transactions are used to obscure their source; and integration, when the funds appear to have a legitimate economic origin. U.S. law does not expect a bank to prove that a customer is a criminal before taking action. Instead, the Bank Secrecy Act of 1970 requires financial institutions to keep records and maintain systems that help the government detect and prevent financial crime. In practice, banks must understand the nature and purpose of customer relationships, identify beneficial owners, monitor transactions, file Suspicious Activity Reports when red flags meet the reporting threshold, and submit Currency Transaction Reports for qualifying cash activity. Correspondent accounts and higher-risk customers require enhanced due diligence. Sanctions compliance is related but distinct: under Office of Foreign Assets Control (OFAC) programmes, banks must screen customers and payments against restrictions covering countries, entities and individuals, and must avoid processing prohibited transactions unless an authorization applies. Treasury’s findings against Bank of America focus on a failure of these controls in operation. Its transaction-monitoring system did not properly monitor trillions of dollars of activity, suspicious cases accumulated without timely investigation, and the bank relied too heavily on external inquiries instead of its own controls.
+      </BodyParagraph>
+
+      <SectionHeading>
+        A Strong but Uneven Bank Earnings Season Highlights the Contrast
+      </SectionHeading>
+
+      <BodyParagraph>
+        The other major U.S. banks reporting during the same week provide a useful benchmark. JPMorgan Chase reported third-quarter net income of $15.3 billion, or $5.57 per share, on reported revenue of $50.2 billion; net income rose 6% year over year, and investment-banking fees and markets revenue increased 14% and 15%, respectively, although the bank recorded a $658 million after-tax loss on investment securities. Wells Fargo reported net income of $6.0 billion, or $1.87 per share, on revenue of $21.87 billion. Its earnings per share rose 13% and net income rose 6%, but revenue increased only 2% and its provision for credit losses rose to $1.03 billion from $681 million a year earlier. Citigroup produced $23.8 billion of revenue and $5.2 billion of net income, with EPS of $2.85; revenue increased 8%, while EPS rose 27% excluding a prior-year goodwill impairment. Goldman Sachs was the strongest capital-markets comparator, reporting $18.68 billion in net revenue, $5.29 billion in net earnings, EPS of $17.01 and an annualized return on equity of 18.7%. These results were not uniformly perfect, particularly because bond-market volatility and higher rates affected fixed-income businesses, but they showed that peers could still deliver growth across lending, wealth management, equities, payments or dealmaking. Bank of America’s combination of a regulatory charge, a fixed-income revenue drop and lower investment-banking fees consequently looked company-specific rather than simply the unavoidable result of the macroeconomic environment.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/bofa-figure-3.png"
+          alt="Major U.S. banks, Q3 2026 revenue and net income"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 3: Major U.S. banks, Q3 2026 revenue and net income</figcaption>
+      </figure>
+
+      <TableCard
+        title="Major U.S. Banks: Q3 2026 Financial Comparison"
+        caption="Source: Company Q3 2026 earnings releases."
+        className="mb-8"
+        header={["Bank", "Net income", "EPS", "Revenue", "Other financial data"]}
+        rows={[
+          ["Bank of America", "$6.9bn", "$0.91 reported / $1.08 adjusted", "Approx. $30.0bn", "FICC revenue -17%; investment banking fees -11%"],
+          ["JPMorgan Chase", "$15.3bn", "$5.57", "$50.2bn reported / $50.9bn managed", "Net income +6%; investment banking fees +14%; markets revenue +15%; $658m after-tax securities loss"],
+          ["Wells Fargo", "$6.0bn", "$1.87", "$21.87bn", "Net income +6%; EPS +13%; revenue +2%; credit-loss provision $1.03bn"],
+          ["Citigroup", "$5.2bn", "$2.85", "$23.8bn", "Revenue +8%; EPS +27% excluding prior-year impairment; $4.1bn returned to shareholders"],
+          ["Goldman Sachs", "$5.29bn", "$17.01", "$18.68bn", "Return on equity (ROE) 18.7%"],
+        ]}
+      />
+
+      <SectionHeading>
+        The Market Is Pricing More Than a One-Off Fine
+      </SectionHeading>
+
+      <BodyParagraph>
+        For investors, the central question is not whether Bank of America can absorb a $1.2 billion charge. A bank with its scale can manage that direct cost, and the regulatory action does not by itself erase the strength of its deposits, consumer franchise or wealth-management business. The harder question is how much future cost and uncertainty the enforcement action creates. Treasury requires a third-party lookback to identify suspicious transactions that were not detected, together with independent reviews of transaction monitoring, customer due diligence, foreign-correspondent controls and related data governance. Those processes can increase technology, staffing, audit and legal expenses, while also distracting management and constraining capital that might otherwise support buybacks or growth. The case may also affect the price investors are willing to pay for the bank’s earnings as a one-time penalty can be modelled, but repeated control failures are more difficult to value because they raise the possibility of further remediation, additional penalties and reputational damage. The comparison with TD Bank’s 2024 $1.8 billion resolution for Bank Secrecy Act and money-laundering violations shows why markets pay attention to the quality of a bank’s compliance infrastructure, not just its current profit. Bank of America’s next task is therefore to demonstrate that the weaknesses identified by regulators have been corrected in a durable way. If it can complete the lookback, improve monitoring and restore confidence, the sell-off may eventually be viewed as a sharp reaction to a concentrated setback. If progress is slow, the market may continue to treat compliance risk as part of the bank’s recurring operating model.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/bofa-figure-4.png"
+          alt="Recent U.S. anti-money-laundering penalties"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 4: Recent U.S. anti-money-laundering penalties</figcaption>
+      </figure>
+
+      <BodyParagraph>
+        Written by Francesco Kaitsas and Luca Accossato
+      </BodyParagraph>
+
+      <SectionHeading>
+        References
+      </SectionHeading>
+
+      <ul className="text-sm text-gray-400 space-y-2 mb-8">
+        <li>
+          <a
+            href="https://home.treasury.gov/news/press-releases/sb0657/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://home.treasury.gov/news/press-releases/sb0657/
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://investor.bankofamerica.com/regulatory-and-other-filings/select-sec-filings/content/0000070858-26-000481/bac09302026ex991.htm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://investor.bankofamerica.com/regulatory-and-other-filings/select-sec-filings/content/0000070858-26-000481/bac09302026ex991.htm
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q32026/2026prqtr3rslt.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q32026/2026prqtr3rslt.pdf
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.fincen.gov/resources/statutes-and-regulations/bank-secrecy-act"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.fincen.gov/resources/statutes-and-regulations/bank-secrecy-act
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/02
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/04"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://bsaaml.ffiec.gov/manual/AssessingComplianceWithBSARegulatoryRequirements/04
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.law.cornell.edu/uscode/text/18/1956"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.law.cornell.edu/uscode/text/18/1956
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.justice.gov/archives/opa/pr/bank-america-pay-1665-billion-historic-justice-department-settlement-financial-fraud-leading"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.justice.gov/archives/opa/pr/bank-america-pay-1665-billion-historic-justice-department-settlement-financial-fraud-leading
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.justice.gov/criminal/case/united-states-america-v-td-bank-na"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.justice.gov/criminal/case/united-states-america-v-td-bank-na
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.theguardian.com/business/2026/oct/14/bank-of-america-fined-money-laundering
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.pbs.org/newshour/economy/u-s-hits-bank-of-america-with-1-2-billion-fine-saying-it-violated-money-laundering-and-sanctions-laws"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.pbs.org/newshour/economy/u-s-hits-bank-of-america-with-1-2-billion-fine-saying-it-violated-money-laundering-and-sanctions-laws
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://edition.cnn.com/2026/10/13/investing/bank-of-america-billion-dollar-fine"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://edition.cnn.com/2026/10/13/investing/bank-of-america-billion-dollar-fine
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.reuters.com/legal/legalindustry/bofa-fined-12-billion-by-us-government-failing-police-suspicious-activity-2026-10-13/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.reuters.com/legal/legalindustry/bofa-fined-12-billion-by-us-government-failing-police-suspicious-activity-2026-10-13/
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.bbc.com/news/articles/cm3wvxy6n3z8o"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.bbc.com/news/articles/cm3wvxy6n3z8o
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.nbcnews.com/business/corporations/bank-america-sanctions-violations-penalty-rcna603251"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.nbcnews.com/business/corporations/bank-america-sanctions-violations-penalty-rcna603251
+          </a>
+        </li>
+      </ul>
+    </>
+  ),
     'gcap-edgewing-sixth-generation-fighter-2026': (
     <>
-      <LeadParagraph>
-        BUILDING THE FUTURE OF DEFENCE: INSIDE THE GLOBAL COMBAT AIR PROGRAMME
-      </LeadParagraph>
-
       <BodyParagraph>
         Italy, the United Kingdom and Japan are committing billions to a common fighter programme, balancing the cost of development with the ambition to retain technological control.
       </BodyParagraph>
@@ -88,7 +368,6 @@ const articleContents = {
 
       <TableCard
         title="Disclosed GCAP funding commitments"
-        caption="Figures cover different periods and funding categories and should not be added together."
         className="mb-8"
         header={["Disclosed item", "Amount", "What it represents"]}
         rows={[
@@ -109,10 +388,6 @@ const articleContents = {
       <BodyParagraph>
         Long-term revenue visibility is attractive to investors when it is accompanied by sustainable margins and cash generation. Development delays can postpone payments, rising costs can reduce profitability, and changes in national budgets can interrupt work across the partnership. The available announcements disclose too little about margins and payment schedules to support a reliable standalone valuation of Edgewing, leaving considerable uncertainty over the financial return that the programme could generate.
       </BodyParagraph>
-
-      <QuoteBlock className="mb-8">
-        « The available announcements disclose too little about margins and payment schedules to support a reliable standalone valuation of Edgewing. »
-      </QuoteBlock>
 
       <BodyParagraph>
         The allocation of development risk also deserves attention, since the contracts will determine how additional costs are shared between governments and industrial partners. Shareholders' exposure and taxpayers' eventual bill will depend on those terms, making the management of costs and contractual responsibilities central to the investment case throughout the programme.
@@ -138,10 +413,6 @@ const articleContents = {
         Governments are committing public money with security and long-term industrial capacity in mind. Through engineering contracts and subcontracting, that expenditure can support specialised suppliers, research and skilled employment. In July 2026, the UK government reported around 4,500 jobs across its wider future combat-air activities, including GCAP. The figure describes the wider industrial effort and should be distinguished from Edgewing's own workforce or any estimate of net additional employment.
       </BodyParagraph>
 
-      <StatGrid className="mb-8" columns="md:grid-cols-1">
-        <StatCard value="~4,500" label="UK jobs across wider future combat-air activities, including GCAP" helper="Reported by the UK government in July 2026; not Edgewing's own workforce" />
-      </StatGrid>
-
       <BodyParagraph>
         For engineers joining the programme today, its duration could mean spending much of their careers developing and supporting the aircraft. Expertise acquired over those years, together with relationships between suppliers and research teams, is difficult to rebuild once it has been lost. Preserving that continuity gives GCAP an industrial significance that deserves attention alongside the more immediate questions of orders and employment.
       </BodyParagraph>
@@ -155,7 +426,7 @@ const articleContents = {
       </BodyParagraph>
 
       <SectionHeading>
-        Conclusion: Is GCAP a Sustainable Bet on the Future?
+        Is GCAP a Sustainable Bet on the Future?
       </SectionHeading>
 
       <BodyParagraph>
@@ -178,10 +449,6 @@ const articleContents = {
   ),
   'anthropic-ipo-s1-filing-2026': (
     <>
-      <LeadParagraph>
-        ANTHROPIC OPENS ITS BOOKS AHEAD OF A POTENTIAL IPO AFTER CONFIDENTIALLY FILING A DRAFT S-1 WITH THE SEC
-      </LeadParagraph>
-
       <SectionHeading>
         Anthropic Takes Its First Major Step Toward a Public Listing
       </SectionHeading>
@@ -374,10 +641,6 @@ const articleContents = {
   ),
   'bper-popolare-sondrio-merger-2026': (
     <>
-      <LeadParagraph>
-        BPER BANCA ABSORBS BANCA POPOLARE DI SONDRIO: ITALY'S BANKING CONSOLIDATION REACHES A DEFINING MILESTONE
-      </LeadParagraph>
-
       <BodyParagraph>
         The merger, effective 20 April 2026 creates Italy's third-largest banking group by assets, bringing €200 billion in combined resources and reshaping the competitive landscape of domestic retail banking.
       </BodyParagraph>
@@ -642,10 +905,6 @@ const articleContents = {
   ),
   'leonardo-iveco-defence-deal-2026': (
     <>
-      <LeadParagraph>
-        Leonardo’s Iveco Defence Move: An Acquisition That Says as Much About Europe as It Does About M&A
-      </LeadParagraph>
-
       <BodyParagraph>
         A landmark defence deal that reshapes Leonardo’s industrial position and tests Europe’s rearmament story
       </BodyParagraph>
@@ -867,10 +1126,6 @@ const articleContents = {
 
   'equitable-corebridge-merger-2026': (
     <>
-      <LeadParagraph>
-        EQUITABLE AND COREBRIDGE’S $22 BILLION MERGER AND ITS IMPACT ON FINANCIAL MARKETS
-      </LeadParagraph>
-
       <BodyParagraph>
         The all-stock deal creates a new financial heavyweight, testing the market for large-scale M&A.
       </BodyParagraph>
@@ -1010,10 +1265,6 @@ const articleContents = {
   ),
   'poste-italiane-tim-opas-2026': (
     <>
-      <LeadParagraph>
-        POSTE ITALIANE'S OPAS ON TIM AND ITS IMPACT ON FINANCIAL MARKETS
-      </LeadParagraph>
-
       <BodyParagraph>
         The €10.8 billion public takeover and exchange offer repositions Piazza Affari&apos;s risk profile and reshapes the landscape of Italian digital infrastructure.
       </BodyParagraph>
@@ -1139,10 +1390,6 @@ const articleContents = {
   ),
   'amplifon-gn-hearing-deal-2026': (
   <>
-    <LeadParagraph>
-      Amplifon’s Boldest Bet Yet: Why the GN Hearing Deal Makes Strategic Sense While the Market Stays Unconvinced
-    </LeadParagraph>
-
     <BodyParagraph>
       From retail leadership to vertical integration under market pressure
     </BodyParagraph>
@@ -1487,10 +1734,6 @@ const articleContents = {
 ),
 'us-iran-war-global-financial-markets-2026': (
   <>
-    <LeadParagraph>
-      THE US–IRAN WAR AND ITS IMPACT ON GLOBAL FINANCIAL MARKETS
-    </LeadParagraph>
-
     <BodyParagraph>
       The coordinated strikes on Tehran restructure cross-asset risk pricing across energy, precious metals, fixed income, and equities.
     </BodyParagraph>
@@ -1756,9 +1999,9 @@ const articleContents = {
 
 'pyramid-to-diamond-ai-ib-teams': (
   <>
-    <LeadParagraph>
-      From Pyramid to Diamond: How AI Is Reshaping Investment Banking Teams Generative AI is making entry-level production more replicable, pushing banks toward leaner analyst classes and a thicker judgment layer. Written by Tommaso Girani and Martina Proietti Silvestri, ESCP Students for Finance
-    </LeadParagraph>
+    <BodyParagraph>
+      Generative AI is making entry-level production more replicable, pushing banks toward leaner analyst classes and a thicker judgment layer.
+    </BodyParagraph>
 
     <SectionHeading>
       Introduction
@@ -2020,10 +2263,6 @@ const articleContents = {
 ),
     'alphabet-debt-markets-ai-2126': (
     <>
-      <LeadParagraph>
-        ALPHABET TURNS TO DEBT MARKETS TO FINANCE AI EXPANSION AND EXPLORES  ULTRA-LONG-TERM FUNDING
-      </LeadParagraph>
-
       <BodyParagraph>
         The $20bn bond issuance and the potential 100-year maturity reflect a structural shift in the capital intensity of large technology platforms
       </BodyParagraph>
@@ -2250,10 +2489,6 @@ const articleContents = {
 
   'eqt-coller-secondaries-2026': (
     <>
-      <LeadParagraph>
-        EQT’s Coller Capital Acquisition: A $3.2bn Move to Build a Secondaries Powerhouse
-      </LeadParagraph>
-
       <SectionHeading>
         A $3.2bn gateway into the “liquidity era”
       </SectionHeading>
@@ -2394,9 +2629,6 @@ const articleContents = {
 
   'spacex-ipo-2026': (
     <>
-      <LeadParagraph>
-        The $1.5 Trillion Launch Window: SpaceX’s 2026 IPO Could Become the Biggest Listing Ever
-      </LeadParagraph>
       <TableCard
         title="Biggest IPOs in history"
         className="mb-8"
@@ -2875,9 +3107,6 @@ const articleContents = {
   'tether-sp-downgrade-2025': (
     <>
       {/* Original text, unchanged */}
-      <LeadParagraph>
-        S&amp;P DOWNGRADES TETHER’S ASSETS TO LOWEST LEVEL
-      </LeadParagraph>
 
       <SectionHeading>A Critical Moment for the World’s Largest Stablecoin</SectionHeading>
       <BodyParagraph>
@@ -3053,10 +3282,6 @@ const articleContents = {
 
   'sustainable-finance-esg-2024': (
     <>
-      <LeadParagraph>
-        A 10 billion dollar transaction insert Pfizer in the business of Anti-Obesity drugs
-      </LeadParagraph>
-
       <BodyParagraph>
         The American Pharmaceutical company Pfizer had completed the acquisition of the obesity drugs
         start-up Metsera for nearly 10 billion dollars overcoming its strongest competitor the Danish
@@ -3267,10 +3492,6 @@ const articleContents = {
 
   'novo-nordisk-hims-glp1-lawsuit-2026': (
     <>
-      <LeadParagraph>
-        NOVO NORDISK AGAINST HIMS & HERS: THE GLP-1 LAWSUIT THAT COULD RESHAPE THE OBESITY-DRUG PLAYBOOK
-      </LeadParagraph>
-
       <BodyParagraph>
         In February 2026, Novo Nordisk escalated its conflict with telehealth provider Hims & Hers after the platform promoted a low-priced, compounded semaglutide pill positioned as "Wegovy-like," while continuing to offer compounded semaglutide injections. The episode unfolded in days: launch, regulatory scrutiny, withdrawal, and litigation. Yet it raises larger questions about how far telehealth "access" models can go before colliding with pharmaceutical intellectual property and the FDA's framework for approval, quality control, and promotion. This article argues that the lawsuit is not merely a corporate dispute: it is a test case for the post-shortage GLP-1 market and for the evolving relationship between consumerized healthcare platforms and branded drug franchises.
       </BodyParagraph>
