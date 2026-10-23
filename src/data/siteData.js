@@ -330,7 +330,7 @@ export const teamSections = [
             { name: "Emanuele Ferrara", role: "Research Associate – PE & Private Credit", img: "/team/emanuele-ferrara.jpg" },
             { name: "Niccolò De Vito", role: "Research Associate – PE & Private Credit", img: "/team/niccolo-de-vito.jpg" },
             { name: "Carlo Alberto Sartori", role: "Research Associate – PE & Private Credit", img: "/team/carlo-alberto-sartori.jpg" },
-            { name: "Elliot Burnham", role: "Research Associate – PE & Private Credit", img: "/team/placeholder.svg" },
+            { name: "Elliot Burnham", role: "Research Associate – PE & Private Credit", img: "/team/elliot-burnham.jpg" },
             { name: "Andrea Sirtori", role: "Research Associate – PE & Private Credit", img: "/team/andrea-sirtori.jpg" }
         ]
     },
