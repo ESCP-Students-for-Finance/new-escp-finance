@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "Tesla and SpaceX Explore a $3.5tn Merger: Musk’s Empire Moves Closer Together",
+        excerpt: "Independent committees at Tesla and SpaceX are examining a possible combination, bringing a long-discussed idea into the boardroom. The harder questions are likely to be valuation, governance and who ultimately gets what.",
+        category: "Tech & M&A",
+        series: "Market Momentum | Week 44",
+        author: "Federico Spogler and Giorgio Gheorghios Tsingros",
+        date: "Oct 30, 2026",
+        image: "/tesla-spacex-merger.webp",
+        slug: "tesla-spacex-merger-2026"
+    },
+    {
         title: "Bank of America’s Double Shock of Regulatory Penalty and Earnings Miss Send Shares Lower",
         excerpt: "A $1.21bn US Treasury penalty for anti-money-laundering and sanctions failures, followed a day later by a third-quarter earnings miss, sent Bank of America shares down 4.7%.",
         category: "Banking & Regulation",
