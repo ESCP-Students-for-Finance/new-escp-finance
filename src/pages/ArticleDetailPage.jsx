@@ -22,6 +22,217 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+  'tesla-spacex-merger-2026': (
+    <>
+      <BodyParagraph>
+        Independent committees at Tesla and SpaceX are examining a possible combination, bringing a long-discussed idea into the boardroom. The industrial case is becoming easier to see as the two companies move closer around AI, energy and semiconductors. The harder questions are likely to be valuation, governance and who ultimately gets what.
+      </BodyParagraph>
+
+      <StatGrid className="mb-8" columns="md:grid-cols-4">
+        <StatCard value="$3.5tn" label="Possible combined value" helper="Reuters estimate" />
+        <StatCard value="$14.6bn" label="SpaceX Q3 2026 revenue" helper="Up 161% year on year" />
+        <StatCard value="$626m" label="Tesla revenue from SpaceX" helper="Jan–Sep 2026, mainly Megapacks" />
+        <StatCard value="19.8%" label="Musk’s beneficial stake in Tesla" helper="2026 proxy statement" />
+      </StatGrid>
+
+      <SectionHeading>
+        From Rumour to Boardroom
+      </SectionHeading>
+
+      <BodyParagraph>
+        Tesla disclosed in its third-quarter filing that its board had created a special committee of disinterested directors to examine a closer relationship with SpaceX, including a possible business combination. SpaceX made a similar disclosure, saying that its own board had established a committee to consider a potential deal with Tesla.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        No transaction has been agreed, and both companies have been careful to say that one may never happen. Tesla says any deal would need the recommendation of its special committee and, where required, shareholder approval. SpaceX has said a transaction would also need approval from its committee, board and controlling shareholder.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Reuters has reported that the companies could be worth around $3.5 trillion combined. The more important figure will be the exchange ratio, how much of the combined company belongs to Tesla shareholders and how much belongs to SpaceX investors.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Analysts cited by Reuters have floated outcomes ranging from almost no premium for Tesla shareholders to premiums as high as 35 per cent.
+      </BodyParagraph>
+
+      <SectionHeading>
+        A Relationship Already Taking Shape
+      </SectionHeading>
+
+      <BodyParagraph>
+        Tesla invested $2 billion in SpaceX common stock in March 2026, taking a stake of less than 1 per cent. The investment was originally connected to xAI before xAI became part of SpaceX. At the same time, SpaceX has become a sizable customer of Tesla’s energy business.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        During the first nine months of 2026, Tesla recognised $626 million of revenue from SpaceX, mainly from Megapack energy-storage systems.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Tesla and SpaceX are also working together on Terafab, a semiconductor manufacturing project launched in March and later joined by Intel. The long-term ambition is unusually large: the companies envisage building enough capacity to produce as much as one terawatt of computing hardware each year.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The project is still early. SpaceX has said that individual investments, timelines and project commitments remain to be decided, and neither Tesla nor Intel is locked into indefinite participation.
+      </BodyParagraph>
+
+      <SectionHeading>
+        SpaceX Is No Longer Just a Space Company
+      </SectionHeading>
+
+      <BodyParagraph>
+        The company reported $14.6 billion of third-quarter revenue, up 161 per cent from a year earlier, and about $4.4 billion of net income.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        SpaceX’s Super Intelligence division generated $7.56 billion of revenue in the quarter, more than the $5.25 billion produced by Connectivity and the $1.77 billion from the traditional Space business.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The business now includes AI infrastructure, Grok, Cursor and X. By the end of September, SpaceX had expanded its nameplate computing capacity to 1.7 gigawatts and had spent close to $40 billion on Super Intelligence capital expenditure in the first nine months of the year. Total company capex over that period reached roughly $48 billion.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Put together, the two companies could potentially control a much larger part of the physical infrastructure behind AI: chips through Terafab, batteries and energy storage through Tesla, compute through SpaceX, models and software through Grok and Cursor, robotics through Optimus, and connectivity through Starlink.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        That is the most compelling strategic argument for a deal. It is also highly dependent on businesses that are evolving quickly and, in several cases, are still far from mature.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/tesla-spacex-figure-1.png"
+          alt="SpaceX Q3 2026 revenue by division"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 1: SpaceX Q3 2026 revenue by division</figcaption>
+      </figure>
+
+      <SectionHeading>
+        Two Companies With Very Different Capital Needs
+      </SectionHeading>
+
+      <BodyParagraph>
+        Tesla remains the larger company by quarterly revenue. It generated about $28 billion in the third quarter, although GAAP net income attributable to common shareholders fell to $787 million.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Tesla generated $14.9 billion of operating cash flow over the first nine months of 2026 while capital expenditure more than doubled to $13 billion, reflecting spending on AI, manufacturing, semiconductors, Optimus and other projects.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        A combined company could make it easier to move capital across Musk’s businesses. Tesla’s Megapacks could support SpaceX’s data centres. SpaceX’s computing infrastructure could be used by Tesla’s autonomy and robotics programmes. Semiconductor investment could be planned jointly rather than through a series of related-party agreements.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Tesla shareholders currently own a business still driven largely by automotive and energy revenues. SpaceX investors are exposed to launch services, Starlink, AI infrastructure and software. Once combined, cash generated in one area could be deployed into another business with a completely different risk profile and investment horizon.
+      </BodyParagraph>
+
+      <TableCard
+        title="Revenue and capital expenditure (US$ billion)"
+        caption="Source: Tesla and SpaceX Q3 2026 filings."
+        className="mb-8"
+        header={["Metric", "Period", "Tesla", "SpaceX"]}
+        rows={[
+          ["Revenue", "Q3 2026", "About 28", "14.6"],
+          ["Capital expenditure", "Jan–Sep 2026", "13", "Roughly 48"],
+        ]}
+      />
+
+      <SectionHeading>
+        Where the Deal Gets Difficult
+      </SectionHeading>
+
+      <BodyParagraph>
+        The hardest part of any transaction may not be strategy. It may simply be agreeing on price.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Tesla investors could argue that they deserve a premium for giving up a separately listed company and taking on SpaceX’s very large investment requirements. SpaceX shareholders could make the opposite case: Starlink and the company’s AI businesses are growing far faster than Tesla’s core operations and could justify a larger share of the combined group.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        SpaceX is growing quickly, but its AI infrastructure programme requires enormous amounts of capital. Tesla’s valuation, meanwhile, already incorporates expectations around autonomous driving, robotics and other businesses that still contribute relatively little to present-day profits.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Any exchange ratio would therefore be based partly on businesses that do not yet exist at full scale.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Musk’s Conflict Sits at the Centre
+      </SectionHeading>
+
+      <BodyParagraph>
+        Musk is not simply the chief executive around whom both companies have been built. He is also economically exposed to both sides of any potential transaction.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Tesla’s 2026 proxy statement lists him as beneficially owning about 19.8 per cent of Tesla, while SpaceX identifies him as its controlling shareholder.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        That is why both companies have handed the initial process to independent or disinterested directors. Musk has said he cannot participate directly in the committees’ negotiations because of the conflict.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The separation is not complete, however. SpaceX has disclosed that any deal recommended by its committee would still require approval from the company’s board and its controlling shareholder Musk.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Tesla investors also have a precedent in mind: the company’s 2016 acquisition of SolarCity, another Musk-linked business, led to years of shareholder litigation over conflicts of interest and the fairness of the transaction.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The committees therefore have two jobs. They have to decide whether a merger makes economic sense, and they have to show that the terms were reached through a process that treats both groups of shareholders fairly.
+      </BodyParagraph>
+
+      <SectionHeading>
+        One Company, a Much Broader Bet
+      </SectionHeading>
+
+      <BodyParagraph>
+        Tesla brings manufacturing, batteries, robotics and autonomous systems. SpaceX brings launch infrastructure, satellite communications, AI computing and software. Both need enormous amounts of energy and computing power, and both are investing in semiconductors.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Conglomerates can trade at discounts when investors struggle to understand where capital will be allocated or how different divisions should be valued.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Supporters of the merger would argue that Tesla and SpaceX are not a traditional conglomerate. Their businesses increasingly rely on the same underlying technologies: energy, chips, compute, communications and AI.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Critics could make an equally reasonable case that combining them would place an extraordinary collection of capital-intensive bets under one corporate roof.
+      </BodyParagraph>
+
+      <SectionHeading>
+        The $3.5tn Question
+      </SectionHeading>
+
+      <BodyParagraph>
+        For now, Tesla and SpaceX are not merging. They are deciding whether a merger makes sense.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        If the talks produce an agreement, the success of the deal will not be measured by whether Musk has built a larger empire. It will depend on something much less spectacular: whether the price is fair and whether putting the businesses together creates more value than leaving them apart.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Written by Federico Spogler and Giorgio Gheorghios Tsingros
+      </BodyParagraph>
+
+      <SectionHeading>
+        Sources
+      </SectionHeading>
+
+      <ul className="text-sm text-gray-400 space-y-2 mb-8">
+        <li>Primary sources: Tesla Q3 2026 Form 10-Q and Q3 shareholder update; SpaceX Q3 2026 Form 10-Q and Q3 earnings release; Tesla 2026 Proxy Statement; SpaceX public-offering and governance filings with the SEC.</li>
+        <li>Secondary verification and transaction reporting: Reuters, October 20–22, 2026.</li>
+      </ul>
+    </>
+  ),
   'bank-of-america-aml-penalty-earnings-2026': (
     <>
       <SectionHeading>
