@@ -1,6 +1,9 @@
 {
+  "lastUpdated": "2026-11-01T15:43:28.175Z",
+  "source": "gemini-2.5-flash",
   "stocks": [
     {
+      "id": "SPX",
       "symbol": "S&P 500",
       "value": "7,580.07",
       "change": "-1.82%",
@@ -8,69 +11,76 @@
       "type": "index"
     },
     {
-      "symbol": "NASDAQ Composite",
+      "id": "IXIC",
+      "symbol": "NASDAQ",
       "value": "25,437.00",
       "change": "-2.86%",
       "positive": false,
       "type": "index"
     },
     {
-      "symbol": "STOXX Europe 600",
-      "value": "€646.75",
+      "id": "SXXP",
+      "symbol": "STOXX 600",
+      "value": "646.75",
       "change": "-0.36%",
       "positive": false,
       "type": "index"
     },
     {
-      "symbol": "US 10-Year Treasury Yield",
+      "id": "EURUSD",
+      "symbol": "EUR/USD",
+      "value": "1.1158",
+      "change": "-0.20%",
+      "positive": false,
+      "type": "forex"
+    },
+    {
+      "id": "US10Y",
+      "symbol": "US 10Y",
       "value": "4.929%",
       "change": "-1.20%",
       "positive": false,
       "type": "rate"
     },
     {
-      "symbol": "EUR/USD",
-      "value": "1.11584",
-      "change": "-0.20%",
-      "positive": false,
-      "type": "forex",
-      "forexKey": "EUR/USD"
-    },
-    {
-      "symbol": "Bitcoin (BTC/USD)",
-      "value": "$77,891.07",
-      "change": "+0.67%",
-      "positive": true,
-      "type": "crypto"
-    },
-    {
-      "symbol": "JPMorgan Chase (JPM)",
+      "id": "JPM",
+      "symbol": "JPM",
       "value": "$336.01",
       "change": "-2.21%",
       "positive": false,
       "type": "stock"
     },
     {
-      "symbol": "Goldman Sachs (GS)",
+      "id": "GS",
+      "symbol": "GS",
       "value": "$894.55",
       "change": "-3.58%",
       "positive": false,
       "type": "stock"
     },
     {
-      "symbol": "BlackRock (BLK)",
+      "id": "BLK",
+      "symbol": "BLK",
       "value": "$1,147.54",
       "change": "-2.44%",
       "positive": false,
       "type": "stock"
     },
     {
-      "symbol": "LVMH (MC.PA)",
+      "id": "MC",
+      "symbol": "LVMH",
       "value": "€384.50",
       "change": "+1.18%",
       "positive": true,
       "type": "stock"
+    },
+    {
+      "id": "BTC",
+      "symbol": "BTC",
+      "value": "$77,891",
+      "change": "+0.67%",
+      "positive": true,
+      "type": "crypto"
     }
-  ],
-  "lastUpdated": "2026-11-01T15:43:28.175Z"
+  ]
 }
