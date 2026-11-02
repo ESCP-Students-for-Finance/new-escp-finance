@@ -2,8 +2,9 @@ name: Update Stock Prices
 
 on:
   schedule:
-    # Run every day at 9:00 AM UTC (4:00 AM EST)
-    - cron: '0 9 * * *'
+    # Every day at 06:17 UTC, after the US close and before Europe opens.
+    # (Off the hour on purpose: GitHub delays jobs scheduled at :00 by hours.)
+    - cron: '17 6 * * *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -12,6 +13,7 @@ permissions:
 jobs:
   update-stocks:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     
     steps:
       - name: Checkout repository
@@ -24,7 +26,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           
       - name: Install Dependencies
         run: npm install --no-save @google/generative-ai
