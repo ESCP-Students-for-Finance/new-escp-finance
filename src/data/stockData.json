@@ -1,84 +1,84 @@
 {
-  "lastUpdated": "2026-11-02T17:43:35.814Z",
+  "lastUpdated": "2026-11-03T14:18:24.731Z",
   "source": "gemini-2.5-flash",
   "stocks": [
     {
       "id": "SPX",
       "symbol": "S&P 500",
-      "value": "7,622.16",
-      "change": "+0.56%",
-      "positive": true,
+      "value": "7,541.40",
+      "change": "-0.51%",
+      "positive": false,
       "type": "index"
     },
     {
       "id": "IXIC",
       "symbol": "NASDAQ",
-      "value": "25,639.99",
-      "change": "+0.80%",
-      "positive": true,
+      "value": "25,164.36",
+      "change": "-1.07%",
+      "positive": false,
       "type": "index"
     },
     {
       "id": "SXXP",
       "symbol": "STOXX 600",
-      "value": "647.60",
-      "change": "-0.46%",
-      "positive": false,
+      "value": "649.44",
+      "change": "+0.42%",
+      "positive": true,
       "type": "index"
     },
     {
       "id": "EURUSD",
       "symbol": "EUR/USD",
-      "value": "1.1224",
-      "change": "+0.57%",
+      "value": "1.1176",
+      "change": "+0.12%",
       "positive": true,
       "type": "forex"
     },
     {
       "id": "US10Y",
       "symbol": "US 10Y",
-      "value": "4.920%",
-      "change": "-1.20%",
-      "positive": false,
+      "value": "4.915%",
+      "change": "+0.14%",
+      "positive": true,
       "type": "rate"
     },
     {
       "id": "JPM",
       "symbol": "JPM",
-      "value": "$341.85",
-      "change": "-1.90%",
-      "positive": false,
+      "value": "$340.76",
+      "change": "+1.10%",
+      "positive": true,
       "type": "stock"
     },
     {
       "id": "GS",
       "symbol": "GS",
-      "value": "$894.55",
-      "change": "-3.58%",
-      "positive": false,
+      "value": "$898.72",
+      "change": "+0.47%",
+      "positive": true,
       "type": "stock"
     },
     {
       "id": "BLK",
       "symbol": "BLK",
-      "value": "$1,147.54",
-      "change": "-2.44%",
-      "positive": false,
+      "value": "$1,163.59",
+      "change": "+1.40%",
+      "positive": true,
       "type": "stock"
     },
     {
       "id": "MC",
       "symbol": "LVMH",
-      "value": "€393.60",
-      "change": "+1.72%",
-      "positive": true,
+      "value": "€392.25",
+      "change": "-0.93%",
+      "positive": false,
       "type": "stock"
     },
     {
       "id": "BTC",
       "symbol": "BTC",
-      "value": "$78,103",
-      "change": "+0.12%",
+      "value": "$77,779",
+      "change": "+0.51%",
       "positive": true,
       "type": "crypto"
     }
