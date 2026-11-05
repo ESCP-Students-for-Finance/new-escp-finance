@@ -1,61 +1,61 @@
 {
-  "lastUpdated": "2026-11-04T14:35:08.125Z",
+  "lastUpdated": "2026-11-05T14:41:35.310Z",
   "source": "gemini-2.5-flash",
   "stocks": [
     {
       "id": "SPX",
       "symbol": "S&P 500",
-      "value": "7,568.92",
-      "change": "+0.36%",
+      "value": "7,688.62",
+      "change": "+1.58%",
       "positive": true,
       "type": "index"
     },
     {
       "id": "IXIC",
       "symbol": "NASDAQ",
-      "value": "25,372.01",
-      "change": "+0.83%",
+      "value": "25,736.51",
+      "change": "+1.44%",
       "positive": true,
       "type": "index"
     },
     {
       "id": "SXXP",
       "symbol": "STOXX 600",
-      "value": "656.15",
-      "change": "+1.62%",
+      "value": "657.40",
+      "change": "+1.82%",
       "positive": true,
       "type": "index"
     },
     {
       "id": "EURUSD",
       "symbol": "EUR/USD",
-      "value": "1.1179",
-      "change": "-0.10%",
-      "positive": false,
+      "value": "1.1232",
+      "change": "+0.36%",
+      "positive": true,
       "type": "forex"
     },
     {
       "id": "US10Y",
       "symbol": "US 10Y",
-      "value": "4.912%",
-      "change": "+1.23%",
-      "positive": true,
+      "value": "4.855%",
+      "change": "-0.61%",
+      "positive": false,
       "type": "rate"
     },
     {
       "id": "JPM",
       "symbol": "JPM",
-      "value": "$337.98",
-      "change": "-0.76%",
-      "positive": false,
+      "value": "$352.11",
+      "change": "+4.18%",
+      "positive": true,
       "type": "stock"
     },
     {
       "id": "GS",
       "symbol": "GS",
-      "value": "$896.09",
-      "change": "-0.29%",
-      "positive": false,
+      "value": "$928.00",
+      "change": "+3.56%",
+      "positive": true,
       "type": "stock"
     },
     {
@@ -69,16 +69,16 @@
     {
       "id": "MC",
       "symbol": "LVMH",
-      "value": "€399.55",
-      "change": "+1.99%",
-      "positive": true,
+      "value": "€401.50",
+      "change": "-5.88%",
+      "positive": false,
       "type": "stock"
     },
     {
       "id": "BTC",
       "symbol": "BTC",
-      "value": "$78,171",
-      "change": "+0.69%",
+      "value": "$80,435",
+      "change": "+1.70%",
       "positive": true,
       "type": "crypto"
     }
