@@ -22,6 +22,170 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+  'oil-prices-inflation-volatility-2026': (
+    <>
+      <BodyParagraph>
+        On 2 November 2026, Brent fell 7.6% in a single session, from $113.43 to $104.77, after weekend mediation in Qatar produced a draft proposal to end the war, reportedly centred on reopening the Strait of Hormuz. The next day the benchmark swung by more than $6 between its high and low before settling at $103.60, as news of US strikes on Iran's Qeshm Island collided with talk of diplomacy. Days earlier, Brent's expiring December contract had settled at $117.64, its highest level in six months. In 2026, they have become routine, and they now show up in the data that central banks watch: US consumer prices rose 3.7% in the year to September, and the euro-area flash estimate published today puts October inflation at 4.0%, the highest in over three years. Oil is no longer a price that markets set once and forget. It has become a source of volatility that runs through inflation, interest rates and corporate planning, and that is the theme we follow in this article.
+      </BodyParagraph>
+
+      <StatGrid className="mb-8" columns="md:grid-cols-4">
+        <StatCard value="$103.60" label="Brent settlement, 3 November" helper="After a $6 intraday swing" />
+        <StatCard value="13%" label="Largest one-day fall in 2026" helper="8 April ceasefire" />
+        <StatCard value="3.7%" label="US CPI, year to September" helper="Energy index +20.4% y/y" />
+        <StatCard value="4.0%" label="Euro-area inflation, October flash" helper="Highest in over three years" />
+      </StatGrid>
+
+      <SectionHeading>
+        Oil in 2026: four phases of one shock
+      </SectionHeading>
+
+      <BodyParagraph>
+        The price path since the war began on 28 February falls into four phases. From March to mid-April, Brent climbed from about $72 to above $110 as traffic through the Strait of Hormuz collapsed; it closed at $112.19 on 20 March, and WTI posted its largest weekly gain since futures trading began in 1983 in the week to 6 March. From April to June, prices followed the diplomatic calendar, moving 6% to 13% on single headlines about ceasefires, blockades and talks, until a June memorandum halted the war and stranded tankers began to leave the Gulf. Brent closed at $73.74 on 24 June, close to its pre-war level.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The third phase, from July to September, was a slow climb back. Brent stood near $71 in early July, $86 in mid-July and about $94 in late August, and was back above $100 by the time the ECB met on 10 September. A recovery in flows then pulled it down again: Saudi crude moving through Hormuz rose from about 0.7 million barrels per day in August to 2.9 million in the six days to 18 September, according to satellite data cited by JPMorgan, and Brent settled near $100 on 21 September after four straight falls. It was back at $106.84 by 2 October. The fourth phase is October, when attacks on shipping resumed. At least 30 vessels were struck through 27 October, roughly double the 15 incidents of September, and Brent gained more than 13% over the month, its fourth consecutive monthly increase.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/oil-figure-1.svg"
+          alt="Brent crude oil (USD/barrel): selected price levels, January–November 2026, front-month contract, with key event markers"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+          loading="lazy"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 1: Brent crude oil (USD/barrel): selected price levels, January–November 2026, front-month contract, with key event markers</figcaption>
+      </figure>
+
+      <SectionHeading>
+        Volatility is the story, not the level
+      </SectionHeading>
+
+      <BodyParagraph>
+        A Brent price of $100 to $105 would be uncomfortable but familiar. What is new is the speed at which it moves. Brent fell more than 13% on 8 April when a ceasefire was announced, the biggest one-day percentage drop for oil since April 2020. It fell about 9% on 17 April when Iran declared the Strait open, then jumped 6% to $118.03 on 29 April after Washington threatened to keep its blockade in place until a deal was reached. In January and February, by comparison, oil's largest daily moves were around 4%.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Options markets tell the same story. According to Pepperstone, the OVX oil volatility index peaked at 118 in March, against 20 to 30 in December and about 50 just before the conflict, while one-week implied volatility on WTI reached 171%, equivalent to daily moves of roughly 11%. On 3 November, Rigzone reported that volatility gauges were back at their highest since late July.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Before the war, the Strait of Hormuz carried about 16 million barrels per day of crude. Tracking data put the October average at 11.1 million, about 30% below that level, and the week to 28 October at 7.3 million. Production outside the strait is filling the gap only in part: OPEC output was still more than 3 million barrels per day below pre-war levels in September, although exports from Saudi Arabia, the UAE, Iraq and Kuwait rose 10% in October to above 15 million. When supply depends on whether the next tanker is hit by an explosive device, prices are set by the news flow more than by inventories, and the news flow is mostly political.
+      </BodyParagraph>
+
+      <SectionHeading>
+        From the pump to the CPI: how the shock reaches inflation
+      </SectionHeading>
+
+      <BodyParagraph>
+        Energy is the transmission channel, and in the United States it is visible at the pump. US CPI rose 3.7% in the year to September, up from 3.4% in August and above the 3.6% consensus. The energy index was up 20.4% on the year, and gasoline rose 9.1% in the month alone and 34.2% year on year, accounting for more than half of the monthly increase. The national average price was $4.33 per gallon on the day of the release, against $2.98 before the war, an increase of 45%. Airline fares were up 22.4% on the year. Core CPI rose 2.6%, from 2.4% in August.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The gap between a 3.7% headline and a 2.6% core is the whole debate. If energy prices stabilise, the gap closes from above. If they do not, the risk that policymakers name is the spread of higher costs into transport, food and services, which is how a supply shock turns into broad inflation. Adam Crisafulli of Vital Knowledge called the report “clearly hot” and said energy played a “huge role”.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/oil-figure-2.svg"
+          alt="US average retail gasoline price (USD/gallon): selected readings, February–October 2026"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+          loading="lazy"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 2: US average retail gasoline price (USD/gallon): selected readings, February–October 2026</figcaption>
+      </figure>
+
+      <BodyParagraph>
+        In Europe the headline figure is already higher. Euro-area inflation was 3.2% in August and 3.8% in September, when energy rose 18.9% on the year and core inflation stood at 2.5%. The flash estimate for October, released today, shows 4.0%, with energy up 20.8%, services up 3.3%, food, alcohol and tobacco up 1.6% and other goods up 1.2%. Eunews notes that Italy ranks third highest in the bloc.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/oil-figure-3.svg"
+          alt="Euro-area inflation (% y/y): energy component and headline HICP, August–October 2026 (October is the flash estimate)"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+          loading="lazy"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 3: Euro-area inflation (% y/y): energy component and headline HICP, August–October 2026 (October is the flash estimate)</figcaption>
+      </figure>
+
+      <SectionHeading>
+        Central banks: tightening into an energy shock
+      </SectionHeading>
+
+      <BodyParagraph>
+        In March, the question for the Federal Reserve was whether higher oil would delay rate cuts. Eight months later, it is whether the Fed hikes again. The Committee raised its target range by 25 basis points in September, to 3.75%–4.00%, and held on 28 October by a 10–2 vote, with Beth Hammack and Lisa Cook dissenting in favour of a second increase. Chair Kevin Warsh said that “energy and related prices have moved higher again in recent weeks” and that inflation had been running above the Committee's objective for close to six years. CME FedWatch implied a 78% probability of a December hike at the time of the meeting.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The ECB moved earlier. It raised its deposit rate by 25 basis points to 2.50% on 10 September, its second increase of the year, citing energy-driven inflation pressure and the risk that expensive energy spreads to a wider range of goods and services, and it held in October. Its September projections put average inflation at 3.0% in 2026 and 2.5% in 2027, revised up from 2.3%. Christine Lagarde said in September that the Council is not committed to a rate path and will decide meeting by meeting. The next meeting is on 16–17 December, and CNBC's headline on today's flash print says a rate hike “looms”.
+      </BodyParagraph>
+
+      <TableCard
+        title="Inflation and policy rates at a glance"
+        caption="Source: figures cited in the article (BLS via CBS News, Eurostat, Federal Reserve, ECB, CME FedWatch)."
+        className="mb-8"
+        header={["", "United States", "Euro area"]}
+        rows={[
+          ["Headline inflation", "3.7% (CPI, September)", "4.0% (HICP, October flash)"],
+          ["Energy inflation", "+20.4%", "+20.8%"],
+          ["Core inflation", "2.6% (September)", "2.5% (September)"],
+          ["Policy rate", "3.75%–4.00% (Fed funds target)", "2.50% (deposit rate)"],
+          ["Last move", "+25 bp in September, held on 28 October (10–2)", "+25 bp on 10 September, held in October"],
+          ["Next decision", "December (78% implied probability of a hike)", "16–17 December"],
+        ]}
+      />
+
+      <SectionHeading>
+        What markets are pricing from here?
+      </SectionHeading>
+
+      <BodyParagraph>
+        Forecasters have converged on a range rather than a point. Ryan McKay of TD Securities puts fair value for Brent at $90 to $100, with upside from the risk premium. The EIA's August outlook projected a 2026 average of $87 and $69 in 2027, assuming severe Hormuz constraints through August and a gradual return of regional output towards pre-war levels in early 2027. Goldman Sachs warned in July of Brent above $120 in the fourth quarter if the disruption persists. Physical indicators currently lean lower: Dubai's nearest timespread has moved into contango, near-term supply is outpacing demand for the first time since July, and Saudi Aramco says it will maximise output this quarter.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The risks are political. President Trump has threatened to resume strikes after the US midterm elections, and some analysts warn that Brent could reach $120 if tensions reignite. Norbert Rucker of Julius Baer said that oil above $100 and European gas above €90 are “difficult to reconcile with current market realities”, and that “wild price swings should not come as a surprise”.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Conclusion and takeaways
+      </SectionHeading>
+
+      <BodyParagraph>
+        Three conclusions emerge. First, what has changed is the speed of prices rather than their level: single-day moves of 6% to 13% have recurred since April, against about 4% before the war, and they are triggered mainly by diplomatic and military headlines rather than by inventory data. Second, pass-through is real but so far concentrated in the energy line. Energy inflation is around 20% in both the United States and the euro area, against core readings of 2.5% to 2.6%, and central banks have chosen to tighten because of what could follow, not because core inflation has already broken out. Third, the cost of the shock for investors and companies is not only higher fuel bills but a higher and less predictable path for interest rates, with a December hike priced by markets in the United States and under discussion in Europe. That matters for valuations, financing conditions and hedging policies well beyond the energy sector.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Whether the Qatari mediation leads to reopened shipping lanes or the weeks after the US elections bring renewed strikes, the experience of 2026 suggests that energy has stopped being a slow-moving input. Anyone who treated the March spike as a one-off has had to revise that view more than once since, and the next big move in oil is as likely to arrive on a headline as on a fundamental.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Written by Mattia Malandugno and Christos Gerontopoulos
+      </BodyParagraph>
+
+      <SectionHeading>
+        Sources
+      </SectionHeading>
+
+      <ul className="text-sm text-gray-400 space-y-2 mb-8">
+        <li>Rigzone (3 November 2026), "Oil Prices Swing on Conflicting Iran Signals."</li>
+        <li>Gulf News (3 November 2026), "Oil Prices Plunge 8% as US-Iran Peace Talks Ease Hormuz Tensions."</li>
+        <li>The National (3 November 2026), "Oil prices cross $105 after US strikes on Iran's Qeshm Island."</li>
+        <li>The Rio Times (30 October 2026), "Oil Hits Six-Month High as Hormuz Tanker Attack Stirs Fear."</li>
+        <li>Discovery Alert (October 2026), "Hormuz Tanker Attacks Hit Record, Yet Oil Flows and Brent Hold Firm."</li>
+        <li>World Oil (21 September 2026), "Brent falls to $100 as Strait of Hormuz oil flows increase."</li>
+        <li>S&amp;P Global Commodity Insights (11 August 2026), "US EIA raises Brent outlook to $87/b on Hormuz shipping constraints."</li>
+        <li>Wikipedia, "2026–2028 world oil market chronology" (Brent and WTI levels, March–June 2026); Fortune (15 July and 2 November 2026), "Current price of oil"; OE Digital (2 July 2026), "Oil Hits Four-Month Low After US-Iran Doha Talks"; Báo Lào Cai (22 August 2026), daily oil price report.</li>
+        <li>Pepperstone (10 March 2026), "Oil Market Volatility Crisis: Have We Passed the Peak of the Energy Shock?"</li>
+        <li>CBS News (14 October 2026), "September CPI report shows inflation accelerated to 3.7% as energy costs soared."</li>
+        <li>Eurostat (4 November 2026), flash estimate of euro area annual inflation for October 2026; Trading Economics, euro area inflation releases (September–October 2026); Eunews (4 November 2026), "Energy lifts eurozone inflation to 4 per cent in October, Italy third highest."</li>
+        <li>StockAnalysis (28 October 2026), "Fed holds rates steady at 3.75% to 4.00% in a 10-2 vote."</li>
+        <li>Nation Thailand (September 2026), "ECB raises eurozone deposit rate to 2.50% from September 16"; Democrata (29 October 2026), "The ECB pauses rate hikes despite the uptick in inflation and points to December as the next key date."</li>
+        <li>CNBC (4 November 2026), "Euro zone inflation hits 4% for first time in three years as interest rate hike looms."</li>
+      </ul>
+    </>
+  ),
   'tesla-spacex-merger-2026': (
     <>
       <BodyParagraph>
