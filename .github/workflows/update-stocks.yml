@@ -34,7 +34,9 @@ jobs:
       - name: Update stock data
         env:
             GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node scripts/updateStocksGemini.js
+        # Market data from Yahoo Finance (same source as the live /api/quotes);
+        # Gemini + Google Search only if Yahoo can't be reached.
+        run: node scripts/updateStocks.js || node scripts/updateStocksGemini.js
         
       - name: Commit and push if changed
         run: |
