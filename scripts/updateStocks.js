@@ -1,83 +1,46 @@
 import fs from 'fs';
-import https from 'https';
+import path from 'path';
+import { ASSETS, fetchAllQuotes } from '../api/quotes.js';
 
-// Function to fetch data from URL
-function fetchData(url) {
-    return new Promise((resolve, reject) => {
-        https.get(url, (res) => {
-            let data = '';
-            res.on('data', (chunk) => data += chunk);
-            res.on('end', () => {
-                try {
-                    resolve(JSON.parse(data));
-                } catch (e) {
-                    reject(e);
-                }
-            });
-        }).on('error', reject);
-    });
-}
+// Daily GitHub Action "Update Stock Prices": writes the latest market prices to
+// src/data/stockData.json, the fallback the ticker shows if the live endpoint
+// (/api/quotes) can't be reached. Same data source as the live endpoint.
+// Exits with an error (leaving the file unchanged) if no price could be fetched,
+// so the workflow can fall back to scripts/updateStocksGemini.js.
 
-async function updateStockData() {
-    const stockData = {
-        lastUpdated: new Date().toISOString(),
-        stocks: []
-    };
+const TARGET = path.resolve('./src/data/stockData.json');
 
+function loadPrevious() {
     try {
-        // Fetch S&P 500, NASDAQ, DOW from Yahoo Finance API alternative
-        // Using a free financial API - Alpha Vantage (you'll need to sign up for free API key)
-        // For now, using placeholder - you can add your API key
-
-        // Fetch Gold price from free API
-        try {
-            const goldData = await fetchData('https://api.metals.live/v1/spot/gold');
-            if (goldData && goldData[0]) {
-                stockData.stocks.push({
-                    symbol: 'GOLD',
-                    value: goldData[0].price.toFixed(2),
-                    change: '+0.00%',
-                    positive: true,
-                    type: 'metal'
-                });
-            }
-        } catch (err) {
-            console.log('Gold fetch failed:', err.message);
-        }
-
-        // Fetch Silver price
-        try {
-            const silverData = await fetchData('https://api.metals.live/v1/spot/silver');
-            if (silverData && silverData[0]) {
-                stockData.stocks.push({
-                    symbol: 'SILVER',
-                    value: silverData[0].price.toFixed(2),
-                    change: '+0.00%',
-                    positive: true,
-                    type: 'metal'
-                });
-            }
-        } catch (err) {
-            console.log('Silver fetch failed:', err.message);
-        }
-
-        // For indices, you would need a paid API or web scraping
-        // Adding placeholders that maintain current values
-        const currentData = JSON.parse(fs.readFileSync('./src/data/stockData.json', 'utf8'));
-        const indexStocks = currentData.stocks.filter(s => s.type === 'index' || s.type === 'commodity');
-        stockData.stocks.push(...indexStocks);
-
-        // Write updated data
-        fs.writeFileSync(
-            './src/data/stockData.json',
-            JSON.stringify(stockData, null, 2)
-        );
-
-        console.log('Stock data updated successfully at', stockData.lastUpdated);
-    } catch (error) {
-        console.error('Error updating stock data:', error);
-        process.exit(1);
+        const prev = JSON.parse(fs.readFileSync(TARGET, 'utf8'));
+        return Object.fromEntries((prev.stocks || []).filter((s) => s.id).map((s) => [s.id, s]));
+    } catch {
+        return {};
     }
 }
 
-updateStockData();
+async function main() {
+    const quotes = await fetchAllQuotes();
+    if (!quotes.length) throw new Error('No prices received from Yahoo Finance; stockData.json left unchanged');
+
+    const fresh = Object.fromEntries(quotes.map((q) => [q.id, q]));
+    const previous = loadPrevious();
+    const stocks = [];
+    for (const asset of ASSETS) {
+        if (fresh[asset.id]) stocks.push(fresh[asset.id]);
+        else if (previous[asset.id]) {
+            console.warn(`! ${asset.id}: no fresh price, keeping the previous one`);
+            stocks.push(previous[asset.id]);
+        }
+    }
+
+    const data = { lastUpdated: new Date().toISOString(), source: 'Yahoo Finance', stocks };
+    fs.writeFileSync(TARGET, JSON.stringify(data, null, 2) + '\n');
+    console.log(`Updated ${quotes.length}/${ASSETS.length} assets.`);
+    for (const s of stocks) console.log(`  ${s.symbol.padEnd(10)} ${s.value.padStart(12)} ${s.change}`);
+}
+
+main().catch((error) => {
+    console.error('Error updating stocks:', error.message || error);
+    process.exit(1);
+});
