@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T14:14:47.935Z",
+  "lastUpdated": "2026-11-06T14:18:15.065Z",
   "source": "Yahoo Finance",
   "stocks": [
     {
@@ -23,20 +23,20 @@
     {
       "id": "SXXP",
       "symbol": "STOXX 600",
-      "value": "643.29",
-      "change": "-1.77%",
+      "value": "642.82",
+      "change": "-1.84%",
       "positive": false,
       "type": "index",
-      "asOf": "2026-11-06T13:59:45.000Z"
+      "asOf": "2026-11-06T14:03:00.000Z"
     },
     {
       "id": "EURUSD",
       "symbol": "EUR/USD",
-      "value": "1.1142",
-      "change": "-0.68%",
+      "value": "1.1136",
+      "change": "-0.73%",
       "positive": false,
       "type": "forex",
-      "asOf": "2026-11-06T14:14:28.000Z"
+      "asOf": "2026-11-06T14:17:28.000Z"
     },
     {
       "id": "US10Y",
@@ -45,7 +45,7 @@
       "change": "+0.64%",
       "positive": true,
       "type": "rate",
-      "asOf": "2026-11-06T13:59:46.000Z"
+      "asOf": "2026-11-06T14:03:06.000Z"
     },
     {
       "id": "JPM",
@@ -77,20 +77,20 @@
     {
       "id": "MC",
       "symbol": "LVMH",
-      "value": "€402.95",
-      "change": "-3.75%",
+      "value": "€402.80",
+      "change": "-3.79%",
       "positive": false,
       "type": "stock",
-      "asOf": "2026-11-06T13:59:45.000Z"
+      "asOf": "2026-11-06T14:03:12.000Z"
     },
     {
       "id": "BTC",
       "symbol": "BTC",
-      "value": "$75,513",
-      "change": "-0.62%",
+      "value": "$75,467",
+      "change": "-0.68%",
       "positive": false,
       "type": "crypto",
-      "asOf": "2026-11-06T14:14:43.000Z"
+      "asOf": "2026-11-06T14:18:09.000Z"
     }
   ]
 }
