@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="509.04pt" height="216pt" viewBox="0 0 509.04 216" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 216 
+L 509.04 216 
+L 509.04 0 
+L 0 0 
+z
+" style="fill: #042440"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 43.2684 192.24 
+L 493.7688 192.24 
+L 493.7688 28.08 
+L 43.2684 28.08 
+z
+" style="fill: #042440"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 69.258808 192.24 
+L 69.258808 28.08 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mbb533d5ed4" d="M 0 0 
+L 0 4 
+" style="stroke: #3b5670; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mbb533d5ed4" x="69.258808" y="192.24" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="69.258808" y="207.717539" transform="rotate(-0 69.258808 207.717539)">Mar</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 122.972317 192.24 
+L 122.972317 28.08 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mbb533d5ed4" x="122.972317" y="192.24" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="122.972317" y="207.717539" transform="rotate(-0 122.972317 207.717539)">Apr</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 174.953132 192.24 
+L 174.953132 28.08 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mbb533d5ed4" x="174.953132" y="192.24" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="174.953132" y="207.717539" transform="rotate(-0 174.953132 207.717539)">May</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 228.666642 192.24 
+L 228.666642 28.08 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mbb533d5ed4" x="228.666642" y="192.24" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="228.666642" y="207.717539" transform="rotate(-0 228.666642 207.717539)">Jun</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 280.647457 192.24 
+L 280.647457 28.08 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mbb533d5ed4" x="280.647457" y="192.24" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="280.647457" y="207.718359" transform="rotate(-0 280.647457 207.718359)">Jul</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 334.360966 192.24 
+L 334.360966 28.08 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mbb533d5ed4" x="334.360966" y="192.24" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="334.360966" y="207.717539" transform="rotate(-0 334.360966 207.717539)">Aug</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 388.074475 192.24 
+L 388.074475 28.08 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mbb533d5ed4" x="388.074475" y="192.24" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="388.074475" y="207.717539" transform="rotate(-0 388.074475 207.717539)">Sep</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 440.055291 192.24 
+L 440.055291 28.08 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mbb533d5ed4" x="440.055291" y="192.24" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="440.055291" y="207.717539" transform="rotate(-0 440.055291 207.717539)">Oct</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <path d="M 493.7688 192.24 
+L 493.7688 28.08 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mbb533d5ed4" x="493.7688" y="192.24" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="493.7688" y="207.717539" transform="rotate(-0 493.7688 207.717539)">Nov</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_19">
+      <path d="M 43.2684 164.88 
+L 493.7688 164.88 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <defs>
+       <path id="mbe9f8785e2" d="M 0 0 
+L -4 0 
+" style="stroke: #3b5670; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mbe9f8785e2" x="43.2684" y="164.88" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: end; fill: #d1d5db" x="35.7684" y="168.86877" transform="rotate(-0 35.7684 168.86877)">3.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_21">
+      <path d="M 43.2684 130.68 
+L 493.7688 130.68 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#mbe9f8785e2" x="43.2684" y="130.68" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: end; fill: #d1d5db" x="35.7684" y="134.66877" transform="rotate(-0 35.7684 134.66877)">3.5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_23">
+      <path d="M 43.2684 96.48 
+L 493.7688 96.48 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#mbe9f8785e2" x="43.2684" y="96.48" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: end; fill: #d1d5db" x="35.7684" y="100.46877" transform="rotate(-0 35.7684 100.46877)">4.0</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_25">
+      <path d="M 43.2684 62.28 
+L 493.7688 62.28 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#mbe9f8785e2" x="43.2684" y="62.28" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: end; fill: #d1d5db" x="35.7684" y="66.26877" transform="rotate(-0 35.7684 66.26877)">4.5</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_27">
+      <path d="M 43.2684 28.08 
+L 493.7688 28.08 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#mbe9f8785e2" x="43.2684" y="28.08" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: end; fill: #d1d5db" x="35.7684" y="32.06877" transform="rotate(-0 35.7684 32.06877)">5.0</text>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #9ca3af" x="12.547658" y="110.16" transform="rotate(-90 12.547658 110.16)">USD / gallon</text>
+    </g>
+   </g>
+   <g id="line2d_29">
+    <path d="M 43.2684 166.248 
+L 493.7688 166.248 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke-dasharray: 4.81,2.08; stroke-dashoffset: 0; stroke: #c5a059; stroke-opacity: 0.85; stroke-width: 1.3"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 43.2684 192.24 
+L 43.2684 28.08 
+" style="fill: none; stroke: #3b5670; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 43.2684 192.24 
+L 493.7688 192.24 
+" style="fill: none; stroke: #3b5670; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: start; fill: #c5a059" x="247.726274" y="159.981891" transform="rotate(-0 247.726274 159.981891)">Pre-war level: $2.98 (27 Feb)</text>
+   </g>
+   <g id="line2d_30">
+    <path d="M 65.79342 166.248 
+L 98.714603 107.424 
+L 135.101174 85.536 
+L 181.883908 63.648 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #7f9bb8; stroke-width: 2.4; stroke-linecap: square"/>
+    <defs>
+     <path id="m1d303411cb" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #7f9bb8"/>
+    </defs>
+    <g clip-path="url(#pe013cb5912)">
+     <use xlink:href="#m1d303411cb" x="65.79342" y="166.248" style="fill: #7f9bb8; stroke: #7f9bb8"/>
+     <use xlink:href="#m1d303411cb" x="98.714603" y="107.424" style="fill: #7f9bb8; stroke: #7f9bb8"/>
+     <use xlink:href="#m1d303411cb" x="135.101174" y="85.536" style="fill: #7f9bb8; stroke: #7f9bb8"/>
+     <use xlink:href="#m1d303411cb" x="181.883908" y="63.648" style="fill: #7f9bb8; stroke: #7f9bb8"/>
+    </g>
+   </g>
+   <g id="line2d_31">
+    <path d="M 181.883908 63.648 
+L 462.580311 73.908 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke-dasharray: 10,6; stroke-dashoffset: 0; stroke: #7f9bb8; stroke-width: 2"/>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #c5a059" x="462.580311" y="65.469773" transform="rotate(-0 462.580311 65.469773)">$4.33</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="65.79342" y="176.794242" transform="rotate(-0 65.79342 176.794242)">$2.98</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: start; fill: #d1d5db" x="122.972317" y="111.814242" transform="rotate(-0 122.972317 111.814242)">$3.84</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: start; fill: #d1d5db" x="159.358888" y="89.926242" transform="rotate(-0 159.358888 89.926242)">$4.16</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #d1d5db" x="181.883908" y="59.146242" transform="rotate(-0 181.883908 59.146242)">$4.48</text>
+   </g>
+   <g id="text_22">
+    <text style="font-style: italic; font-size: 8px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; fill: #9ca3af" transform="translate(252.984202 49.297344)">no data points shown</text>
+    <text style="font-style: italic; font-size: 8px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; fill: #9ca3af" transform="translate(242.519827 58.899531)">between May and October</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; text-anchor: middle; fill: #c5a059" x="268.5186" y="18.08" transform="rotate(-0 268.5186 18.08)">US Average Retail Gasoline Price, 2026</text>
+   </g>
+   <g id="line2d_32">
+    <path d="M 462.580311 73.908 
+" clip-path="url(#pe013cb5912)" style="fill: none; stroke: #c5a059; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="m9434fb9054" d="M 0 4 
+C 1.060812 4 2.078319 3.578535 2.828427 2.828427 
+C 3.578535 2.078319 4 1.060812 4 0 
+C 4 -1.060812 3.578535 -2.078319 2.828427 -2.828427 
+C 2.078319 -3.578535 1.060812 -4 0 -4 
+C -1.060812 -4 -2.078319 -3.578535 -2.828427 -2.828427 
+C -3.578535 -2.078319 -4 -1.060812 -4 0 
+C -4 1.060812 -3.578535 2.078319 -2.828427 2.828427 
+C -2.078319 3.578535 -1.060812 4 0 4 
+z
+" style="stroke: #c5a059"/>
+    </defs>
+    <g clip-path="url(#pe013cb5912)">
+     <use xlink:href="#m9434fb9054" x="462.580311" y="73.908" style="fill: #c5a059; stroke: #c5a059"/>
+    </g>
+   </g>
+   <g id="patch_5">
+    <path d="M 418.956467 106.388754 
+Q 438.699052 91.725843 457.364565 77.862879 
+" style="fill: none; stroke: #c5a059; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 453.401235 78.564317 
+L 457.364565 77.862879 
+L 455.547717 81.454406 
+" style="fill: none; stroke: #c5a059; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_24">
+    <g id="patch_6">
+     <path d="M 343.407129 131.888109 
+L 458.563535 131.888109 
+L 458.563535 107.583891 
+L 343.407129 107.583891 
+z
+" style="fill: #042440"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; fill: #c5a059" transform="translate(344.757129 116.67266)">+45% vs pre-war;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Serif', Georgia, 'Times New Roman', serif; fill: #c5a059" transform="translate(344.757129 127.475121)">CPI gasoline +34.2% y/y</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe013cb5912">
+   <rect x="43.2684" y="28.08" width="450.5004" height="164.16"/>
+  </clipPath>
+ </defs>
+</svg>
