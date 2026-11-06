@@ -1,64 +1,42 @@
 import React, { useState, useEffect } from 'react';
 import stockDataFile from '../data/stockData.json';
 
-// Prices come from src/data/stockData.json, refreshed every day by the
-// "Update Stock Prices" GitHub Action (scripts/updateStocksGemini.js).
-// Bitcoin and EUR/USD are also refreshed live in the browser when the free
-// public APIs answer; if they don't, the daily values stay on screen.
+// Live prices come from /api/quotes (Vercel function, Yahoo Finance data,
+// refreshed every minute). Until it answers, or if it can't be reached, the
+// ticker shows src/data/stockData.json, refreshed daily by the
+// "Update Stock Prices" GitHub Action.
 
+const REFRESH_MS = 60000;
 const initialStocks = (stockDataFile.stocks || []).map((s) => ({ ...s }));
 
 export default function StockTicker() {
     const [stocks, setStocks] = useState(initialStocks);
 
-    // Live EUR/USD (value only; the daily change comes from the JSON file)
     useEffect(() => {
-        const fetchForex = async () => {
+        let cancelled = false;
+
+        const load = async () => {
+            if (document.hidden) return; // no polling in background tabs
             try {
-                const response = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+                const response = await fetch('/api/quotes', { cache: 'no-store' });
+                if (!response.ok) return;
                 const data = await response.json();
-                const eur = data?.rates?.EUR;
-                if (!eur) return;
-                setStocks((prev) => prev.map((stock) =>
-                    stock.id === 'EURUSD' ? { ...stock, value: (1 / eur).toFixed(4) } : stock
-                ));
+                const live = Object.fromEntries((data.stocks || []).map((s) => [s.id, s]));
+                if (cancelled) return;
+                setStocks((prev) => prev.map((stock) => (live[stock.id] ? { ...stock, ...live[stock.id] } : stock)));
             } catch (err) {
-                console.log('Forex update failed:', err);
+                console.log('Live prices unavailable:', err);
             }
         };
 
-        fetchForex();
-        const interval = setInterval(fetchForex, 300000); // every 5 minutes
-        return () => clearInterval(interval);
-    }, []);
-
-    // Live Bitcoin price and 24h change (CoinGecko)
-    useEffect(() => {
-        const fetchBitcoin = async () => {
-            try {
-                const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true');
-                const data = await response.json();
-                const price = data?.bitcoin?.usd;
-                const change = data?.bitcoin?.usd_24h_change;
-                if (typeof price !== 'number' || typeof change !== 'number') return;
-                setStocks((prev) => prev.map((stock) =>
-                    stock.id === 'BTC'
-                        ? {
-                            ...stock,
-                            value: '$' + Math.round(price).toLocaleString('en-US'),
-                            change: `${change >= 0 ? '+' : ''}${change.toFixed(2)}%`,
-                            positive: change >= 0,
-                        }
-                        : stock
-                ));
-            } catch (err) {
-                console.log('Bitcoin update failed:', err);
-            }
+        load();
+        const interval = setInterval(load, REFRESH_MS);
+        document.addEventListener('visibilitychange', load);
+        return () => {
+            cancelled = true;
+            clearInterval(interval);
+            document.removeEventListener('visibilitychange', load);
         };
-
-        fetchBitcoin();
-        const interval = setInterval(fetchBitcoin, 60000); // every minute
-        return () => clearInterval(interval);
     }, []);
 
     if (!stocks.length) return null;
