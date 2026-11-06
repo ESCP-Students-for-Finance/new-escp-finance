@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "Oil Prices and Inflation Volatility: The New Macro Theme",
+        excerpt: "Eight months after the strikes on Tehran, markets are no longer asking where oil trades but how violently it moves, and how quickly those moves reach consumer prices and central banks.",
+        category: "Energy & Macro",
+        series: "Market Momentum | Week 45",
+        author: "Mattia Malandugno and Christos Gerontopoulos",
+        date: "Nov 4, 2026",
+        image: "/oil-inflation-volatility.webp",
+        slug: "oil-prices-inflation-volatility-2026"
+    },
+    {
         title: "Tesla and SpaceX Explore a $3.5tn Merger: Musk’s Empire Moves Closer Together",
         excerpt: "Independent committees at Tesla and SpaceX are examining a possible combination, bringing a long-discussed idea into the boardroom. The harder questions are likely to be valuation, governance and who ultimately gets what.",
         category: "Tech & M&A",
