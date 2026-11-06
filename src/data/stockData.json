@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T13:49:49.746Z",
+  "lastUpdated": "2026-11-06T14:14:47.935Z",
   "source": "Yahoo Finance",
   "stocks": [
     {
@@ -8,7 +8,8 @@
       "value": "7,353.73",
       "change": "-4.36%",
       "positive": false,
-      "type": "index"
+      "type": "index",
+      "asOf": "2026-11-05T21:34:08.000Z"
     },
     {
       "id": "IXIC",
@@ -16,31 +17,35 @@
       "value": "24,315.00",
       "change": "-5.52%",
       "positive": false,
-      "type": "index"
+      "type": "index",
+      "asOf": "2026-11-05T22:15:59.000Z"
     },
     {
       "id": "SXXP",
       "symbol": "STOXX 600",
-      "value": "644.54",
-      "change": "-1.58%",
+      "value": "643.29",
+      "change": "-1.77%",
       "positive": false,
-      "type": "index"
+      "type": "index",
+      "asOf": "2026-11-06T13:59:45.000Z"
     },
     {
       "id": "EURUSD",
       "symbol": "EUR/USD",
-      "value": "1.1150",
-      "change": "-0.61%",
+      "value": "1.1142",
+      "change": "-0.68%",
       "positive": false,
-      "type": "forex"
+      "type": "forex",
+      "asOf": "2026-11-06T14:14:28.000Z"
     },
     {
       "id": "US10Y",
       "symbol": "US 10Y",
-      "value": "4.888%",
-      "change": "+1.05%",
+      "value": "4.868%",
+      "change": "+0.64%",
       "positive": true,
-      "type": "rate"
+      "type": "rate",
+      "asOf": "2026-11-06T13:59:46.000Z"
     },
     {
       "id": "JPM",
@@ -48,7 +53,8 @@
       "value": "$337.34",
       "change": "-4.19%",
       "positive": false,
-      "type": "stock"
+      "type": "stock",
+      "asOf": "2026-11-05T21:00:02.000Z"
     },
     {
       "id": "GS",
@@ -56,7 +62,8 @@
       "value": "$868.95",
       "change": "-6.36%",
       "positive": false,
-      "type": "stock"
+      "type": "stock",
+      "asOf": "2026-11-05T21:00:03.000Z"
     },
     {
       "id": "BLK",
@@ -64,23 +71,26 @@
       "value": "$1,170.67",
       "change": "-4.39%",
       "positive": false,
-      "type": "stock"
+      "type": "stock",
+      "asOf": "2026-11-05T21:00:02.000Z"
     },
     {
       "id": "MC",
       "symbol": "LVMH",
-      "value": "€403.30",
-      "change": "-3.67%",
+      "value": "€402.95",
+      "change": "-3.75%",
       "positive": false,
-      "type": "stock"
+      "type": "stock",
+      "asOf": "2026-11-06T13:59:45.000Z"
     },
     {
       "id": "BTC",
       "symbol": "BTC",
-      "value": "$75,797",
-      "change": "-0.24%",
+      "value": "$75,513",
+      "change": "-0.62%",
       "positive": false,
-      "type": "crypto"
+      "type": "crypto",
+      "asOf": "2026-11-06T14:14:43.000Z"
     }
   ]
 }
