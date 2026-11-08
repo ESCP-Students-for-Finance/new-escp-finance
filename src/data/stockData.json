@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T13:04:06.237Z",
+  "lastUpdated": "2026-11-08T13:26:51.463Z",
   "source": "Yahoo Finance",
   "stocks": [
     {
@@ -36,7 +36,7 @@
       "change": "-0.67%",
       "positive": false,
       "type": "forex",
-      "asOf": "2026-11-06T22:29:28.000Z"
+      "asOf": "2026-11-06T22:29:32.000Z"
     },
     {
       "id": "US10Y",
@@ -86,11 +86,11 @@
     {
       "id": "BTC",
       "symbol": "BTC",
-      "value": "$75,816",
-      "change": "+0.10%",
+      "value": "$75,948",
+      "change": "+0.26%",
       "positive": true,
       "type": "crypto",
-      "asOf": "2026-11-07T13:04:01.000Z"
+      "asOf": "2026-11-08T13:26:49.000Z"
     }
   ]
 }
