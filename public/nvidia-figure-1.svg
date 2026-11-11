@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="272.16pt" viewBox="0 0 576 272.16" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 272.16 
+L 576 272.16 
+L 576 0 
+L 0 0 
+z
+" style="fill: #042440"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 57.6 217.728 
+L 564.48 217.728 
+L 564.48 32.6592 
+L 57.6 32.6592 
+z
+" style="fill: #042440"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m09eeaab14d" d="M 0 0 
+L 0 4 
+" style="stroke: #3b5670; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m09eeaab14d" x="184.32" y="217.728" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(146.941641 234.257385)">Previous close</text>
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(162.609609 246.860256)">$186.64</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m09eeaab14d" x="437.76" y="217.728" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(407.312461 234.257385)">9 Nov close</text>
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(416.049609 246.860256)">$178.67</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <path d="M 57.6 217.728 
+L 564.48 217.728 
+" clip-path="url(#p06ac774ddc)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <defs>
+       <path id="m5f8785a827" d="M 0 0 
+L -4 0 
+" style="stroke: #3b5670; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m5f8785a827" x="57.6" y="217.728" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="50.1" y="221.71677" transform="rotate(-0 50.1 221.71677)">165</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <path d="M 57.6 186.8832 
+L 564.48 186.8832 
+" clip-path="url(#p06ac774ddc)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m5f8785a827" x="57.6" y="186.8832" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="50.1" y="190.87197" transform="rotate(-0 50.1 190.87197)">170</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <path d="M 57.6 156.0384 
+L 564.48 156.0384 
+" clip-path="url(#p06ac774ddc)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m5f8785a827" x="57.6" y="156.0384" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="50.1" y="160.02717" transform="rotate(-0 50.1 160.02717)">175</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <path d="M 57.6 125.1936 
+L 564.48 125.1936 
+" clip-path="url(#p06ac774ddc)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m5f8785a827" x="57.6" y="125.1936" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="50.1" y="129.18237" transform="rotate(-0 50.1 129.18237)">180</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <path d="M 57.6 94.3488 
+L 564.48 94.3488 
+" clip-path="url(#p06ac774ddc)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m5f8785a827" x="57.6" y="94.3488" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="50.1" y="98.33757" transform="rotate(-0 50.1 98.33757)">185</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13">
+      <path d="M 57.6 63.504 
+L 564.48 63.504 
+" clip-path="url(#p06ac774ddc)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m5f8785a827" x="57.6" y="63.504" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="50.1" y="67.49277" transform="rotate(-0 50.1 67.49277)">190</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_15">
+      <path d="M 57.6 32.6592 
+L 564.48 32.6592 
+" clip-path="url(#p06ac774ddc)" style="fill: none; stroke: #163b5e; stroke-width: 0.9; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m5f8785a827" x="57.6" y="32.6592" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="50.1" y="36.64797" transform="rotate(-0 50.1 36.64797)">195</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #9ca3af" x="23.535664" y="125.1936" transform="rotate(-90 23.535664 125.1936)">NVIDIA share price (US$)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 57.6 217.728 
+L 57.6 32.6592 
+" style="fill: none; stroke: #3b5670; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 57.6 217.728 
+L 564.48 217.728 
+" style="fill: none; stroke: #3b5670; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 118.4256 1235.6064 
+L 250.2144 1235.6064 
+L 250.2144 84.231706 
+L 118.4256 84.231706 
+z
+" clip-path="url(#p06ac774ddc)" style="fill: #7f9bb8"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 371.8656 1235.6064 
+L 503.6544 1235.6064 
+L 503.6544 133.398317 
+L 371.8656 133.398317 
+z
+" clip-path="url(#p06ac774ddc)" style="fill: #c5a059"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="184.32" y="77.647517" transform="rotate(-0 184.32 77.647517)">$186.64</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="437.76" y="126.814128" transform="rotate(-0 437.76 126.814128)">$178.67</text>
+   </g>
+   <g id="text_13">
+    <g id="patch_7">
+     <path d="M 156.454063 57.912314 
+L 465.625938 57.912314 
+Q 470.125938 57.912314 470.125938 53.412314 
+L 470.125938 43.367782 
+Q 470.125938 38.867782 465.625938 38.867782 
+L 156.454063 38.867782 
+Q 151.954063 38.867782 151.954063 43.367782 
+L 151.954063 53.412314 
+Q 151.954063 57.912314 156.454063 57.912314 
+z
+" style="fill: #042440; stroke: #3b5670; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="311.04" y="51.00997" transform="rotate(-0 311.04 51.00997)">−4.27%  |  −$7.97 per share  |  ≈ $190bn market-cap decline</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="311.04" y="22.6592" transform="rotate(-0 311.04 22.6592)">Market Reaction on 9 November 2026</text>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #9ca3af" x="288" y="265.356" transform="rotate(-0 288 265.356)">Trading volume: more than 450 million shares</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p06ac774ddc">
+   <rect x="57.6" y="32.6592" width="506.88" height="185.0688"/>
+  </clipPath>
+ </defs>
+</svg>
