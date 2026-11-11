@@ -22,6 +22,273 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+  'nvidia-jensen-huang-china-governance-crisis-2026': (
+    <>
+      <SectionHeading>
+        A Personal Admission Becomes a Corporate Crisis
+      </SectionHeading>
+
+      <BodyParagraph>
+        What began as a personal scandal has quickly developed into a corporate-governance and national-security crisis for NVIDIA. Reports published in early November linked the company’s founder and chief executive, Jensen Huang, to Alice Huang, a Chinese businesswoman and former executive of Singapore-based cloud-computing company Megaspeed. US officials reportedly believe that Alice Huang may have been connected to Chinese intelligence and may have attempted to obtain information or facilitate access to restricted artificial-intelligence chips. These claims have not been independently verified, and Alice Huang has not publicly responded to them. However, Jensen Huang acknowledged in a message to NVIDIA employees that he had been unfaithful to his wife and apologised to his family, colleagues and shareholders. He did not identify the woman involved or provide details about the relationship.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        On 8 November, NVIDIA’s board announced an independent investigation into whether Huang had been the target of a foreign intelligence operation. The board stated that it had no reason to believe that US national security or NVIDIA’s secrets had been compromised, but said that all available information would be reviewed by independent directors and external counsel. The situation became even more serious on 9 November, when shareholders filed a proposed class-action lawsuit accusing NVIDIA and Huang of concealing information that could have affected the company’s reputation and business prospects. The lawsuit is only an allegation and does not establish wrongdoing, but it demonstrates how a private relationship can become financially relevant when it involves a chief executive, a major customer, sensitive technology and international security concerns.
+      </BodyParagraph>
+
+      <StatGrid className="mb-8" columns="md:grid-cols-4">
+        <StatCard value="−4.27%" label="NVIDIA shares, 9 November" helper="Close $178.67, from $186.64" />
+        <StatCard value="≈$190bn" label="Market value lost in one session" helper="Reuters estimate" />
+        <StatCard value="450m+" label="Shares traded on 9 November" helper="Trading volume" />
+        <StatCard value="$4.5tn" label="Valuation, 6 November 2026" helper="From about $420bn at end-2022" />
+      </StatGrid>
+
+      <SectionHeading>
+        Jensen Huang and Alice Huang: Two Very Different Public Profiles
+      </SectionHeading>
+
+      <BodyParagraph>
+        Jensen Huang is one of the most influential executives in the global technology industry. Born in Taiwan and raised in the United States, he studied electrical engineering at Oregon State University and later completed a master’s degree at Stanford University. Before founding NVIDIA, he worked at LSI Logic and Advanced Micro Devices. In 1993, together with Chris Malachowsky and Curtis Priem, he created NVIDIA and has led the company ever since. The company initially focused on computer graphics and video-game hardware, but its invention of the graphics processing unit, or GPU, later became fundamental to modern artificial intelligence. Huang’s public image has become closely associated with NVIDIA’s success and made him one of the most recognisable figures in Silicon Valley. He has been married to Lori Huang for more than four decades, and the couple have two children, both of whom work at NVIDIA.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Alice Huang, by contrast, has a much less documented public profile. She is reportedly a Chinese citizen and is also known as Huang Le. News reports have linked her to Megaspeed, a Singapore-based cloud-computing and data-centre company that became an NVIDIA customer and was investigated over concerns that advanced chips could have been diverted to China. Some reports have also described her as having a background in journalism, finance and private equity, although several details of these profiles could not be independently verified.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        According to reporting based on US intelligence assessments, Alice Huang may have been recruited to gather information for Beijing. China has rejected the accusation, describing the spy narrative as unsubstantiated and defamatory. Reuters has also stressed that it could not independently verify the intelligence claims or determine Alice Huang’s current employment status. For this reason, she should be described as a suspected or alleged intelligence asset, rather than as a proven spy.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Why NVIDIA Is Central to the US–China AI Rivalry
+      </SectionHeading>
+
+      <BodyParagraph>
+        The controversy matters because NVIDIA designs the GPUs, networking products and software platforms that support data centres, cloud computing and generative artificial intelligence. Although NVIDIA is a fabless semiconductor company and relies on external manufacturers, its intellectual property and software ecosystem have made it the dominant supplier of AI-computing infrastructure. The company’s valuation rose from approximately $420 billion at the end of 2022 to around $4.5 trillion by 6 November 2026, reflecting the extraordinary demand created by artificial intelligence.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        This success has also placed NVIDIA at the centre of the strategic rivalry between Washington and Beijing. Since 2022, the United States has progressively restricted the export of advanced AI chips to China, including products such as the A100 and H100. Later rules also affected newer systems and required licences for certain products, including the H20 and H200. NVIDIA’s annual reports have warned investors that export controls can limit sales, create excess inventory and damage relations with customers. US policymakers have focused on preventing advanced computing technology from reaching Chinese military or intelligence organisations.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The Information, cited by Reuters, reported that Alice Huang’s alleged connections with NVIDIA and its distributors helped facilitate shipments worth at least $7.5 billion to Chinese firms, involving approximately 240,000 H100, H200 and A100 chips. These claims remain unverified, and the reports do not establish that NVIDIA violated export controls in connection with them. A separate Reuters factbox reported that Singapore authorities continued to investigate Megaspeed over suspected breaches of local law, while Singapore’s government denied that it had conducted an investigation specifically into Alice Huang. Nevertheless, if investigators established that personal influence helped a customer obtain priority access to restricted technology, the consequences would extend far beyond reputational damage. They could involve export licences, congressional scrutiny, regulatory investigations and a reassessment of the controls surrounding NVIDIA’s most valuable products.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Monday’s Sell-Off Turns Reputation Into a Financial Question
+      </SectionHeading>
+
+      <BodyParagraph>
+        The first direct market reaction came on Monday, 9 November. NVIDIA shares closed at $178.67, down $7.97, or 4.27%, from the previous close of $186.64. Trading volume reached more than 450 million shares, while Reuters estimated that the fall reduced the company’s market capitalisation by approximately $190 billion. The decline was significant not because the company had released weaker quarterly results, but because investors were suddenly forced to price a new form of uncertainty. Investors were left to assess the CEO’s ability to lead, the strength of internal controls, the board’s knowledge of the relationship and the consequences for NVIDIA’s business in China.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Later on Monday, a proposed shareholder class action accused NVIDIA and Huang of misleading investors by failing to disclose the relationship and the related national-security concerns. The plaintiffs will still have to prove that the alleged omission was material, that investors relied on the company’s disclosures and that the share-price loss was legally connected to that omission.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Similar episodes show how executive conduct can create financial exposure even when the original behaviour is personal. In 2019, McDonald’s dismissed CEO Steve Easterbrook after discovering that he had violated company policy by having a relationship with an employee. The company later sued him after alleging that he had concealed additional relationships, and he eventually returned more than $105 million in compensation. BP also reduced compensation from former CEO Bernard Looney after concluding that he had misled the board about personal relationships. NVIDIA’s situation is more sensitive because the alleged relationship intersects with national security, export restrictions and a strategically important customer. The stock-market decline therefore reflects more than moral judgement: it reflects concerns about legal liability, management distraction, political pressure and key-person risk.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/nvidia-figure-1.svg"
+          alt="Market reaction on 9 November 2026: NVIDIA share price, previous close and 9 November close (US$)"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+          loading="lazy"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 1: Market reaction on 9 November 2026: NVIDIA share price, previous close and 9 November close (US$)</figcaption>
+      </figure>
+
+      <SectionHeading>
+        What Investors Should Watch Next
+      </SectionHeading>
+
+      <BodyParagraph>
+        For investors, the most important developments will come from the investigations rather than from the personal details of the affair. NVIDIA’s independent committee will need to determine whether Huang disclosed the relationship to the board, whether any conflict of interest affected commercial decisions, whether Alice Huang had access to confidential information and whether any restricted chips were obtained or redirected improperly. Regulators and lawmakers may also examine Megaspeed’s activities, NVIDIA’s export-compliance procedures and the company’s lobbying efforts regarding sales to China. Huang has advocated publicly for controlled exports of certain AI chips to China, while US policymakers fear that advanced computing technology could strengthen Beijing’s military and surveillance capabilities. A confirmed intelligence operation would therefore create a governance crisis for both Huang and NVIDIA. Even if the espionage allegations are ultimately disproved, the company may still face reputational damage because its board had to launch an investigation into the conduct of its founder and chief executive.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The episode also exposes the risks of excessive dependence on one individual. Huang has led NVIDIA since its creation, is one of its largest shareholders and has become the company’s main public representative, product strategist and political advocate. This concentration of authority has helped NVIDIA move quickly, but it also means that personal decisions can create company-wide consequences.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The key lesson for shareholders is that the issue is not simply whether a CEO had an affair. The financial question is whether the relationship created undisclosed conflicts, weakened corporate controls or exposed the company to geopolitical and regulatory risk. Until the investigation produces evidence, investors should separate confirmed facts from allegations while recognising that uncertainty itself can be expensive for a company valued at several trillion dollars.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Written by Francesco Kaitsas and Giorgio Gheorghios Tsingros
+      </BodyParagraph>
+
+      <SectionHeading>
+        Sources
+      </SectionHeading>
+
+      <ul className="text-sm text-gray-400 space-y-2 mb-8">
+        <li>
+          <a
+            href="https://www.ft.com/content/1397e2f4-d7f5-4cbb-a4d9-04ecf661d1aa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.ft.com/content/1397e2f4-d7f5-4cbb-a4d9-04ecf661d1aa
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.bbc.com/news/articles/ckgel338xql3o"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.bbc.com/news/articles/ckgel338xql3o
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://edition.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://edition.cnn.com/2026/11/08/business/nvidia-investigation-ceo-jensen-huang
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.reuters.com/world/china/nvidia-ceos-affair-aided-75-billion-chip-shipments-china-information-reports-2026-11-10/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.reuters.com/world/china/nvidia-ceos-affair-aided-75-billion-chip-shipments-china-information-reports-2026-11-10/
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/default.aspx
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://nvidianews.nvidia.com/bios/jensen-huang"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://nvidianews.nvidia.com/bios/jensen-huang
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.investing.com/news/stock-market-news/explainerwhat-we-know-about-nvidias-probe-into-ceo-jensen-huang-5010580"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.investing.com/news/stock-market-news/explainerwhat-we-know-about-nvidias-probe-into-ceo-jensen-huang-5010580
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.investing.com/news/stock-market-news/nvidia-ceo-huang-sued-over-disclosures-related-to-suspected-chinese-spy-5013619"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.investing.com/news/stock-market-news/nvidia-ceo-huang-sued-over-disclosures-related-to-suspected-chinese-spy-5013619
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-nvidia-chip-sales-china"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-nvidia-chip-sales-china
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.channelnewsasia.com/world/nvidia-alice-huang-spying-jensen-6535566"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.channelnewsasia.com/world/nvidia-alice-huang-spying-jensen-6535566
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://live.euronext.com/en/financial-news/factbox-what-we-know-about-megaspeed-singapore-based-customer-nvidia"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://live.euronext.com/en/financial-news/factbox-what-we-know-about-megaspeed-singapore-based-customer-nvidia
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-annual-report-web-Hyperlinks.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-annual-report-web-Hyperlinks.pdf
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://finance.yahoo.com/quote/NVDA/history/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://finance.yahoo.com/quote/NVDA/history/
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.investing.com/news/stock-market-news/factboxscandalhit-companies-which-went-after-executive-compensation-3255957"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://www.investing.com/news/stock-market-news/factboxscandalhit-companies-which-went-after-executive-compensation-3255957
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://apnews.com/article/e8ba4279a0148c1cf13acba4ea97a1c8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#C5A059] hover:underline break-all"
+          >
+            https://apnews.com/article/e8ba4279a0148c1cf13acba4ea97a1c8
+          </a>
+        </li>
+      </ul>
+    </>
+  ),
   'oil-prices-inflation-volatility-2026': (
     <>
       <BodyParagraph>
