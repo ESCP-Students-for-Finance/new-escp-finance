@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "NVIDIA, Jensen Huang and the China Governance Crisis",
+        excerpt: "Reports linking Jensen Huang to a suspected Chinese intelligence asset have turned a personal admission into a board investigation, a shareholder lawsuit and a $190bn sell-off, because the story touches export controls, a key customer and the US–China AI rivalry.",
+        category: "Tech & Governance",
+        series: "Market Momentum | Week 46",
+        author: "Francesco Kaitsas and Giorgio Gheorghios Tsingros",
+        date: "Nov 11, 2026",
+        image: "/nvidia-governance-crisis.webp",
+        slug: "nvidia-jensen-huang-china-governance-crisis-2026"
+    },
+    {
         title: "Oil Prices and Inflation Volatility: The New Macro Theme",
         excerpt: "Eight months after the strikes on Tehran, markets are no longer asking where oil trades but how violently it moves, and how quickly those moves reach consumer prices and central banks.",
         category: "Energy & Macro",
