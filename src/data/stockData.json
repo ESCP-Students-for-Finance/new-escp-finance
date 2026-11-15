@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-14T13:33:46.742Z",
+  "lastUpdated": "2026-11-15T13:57:30.675Z",
   "source": "Yahoo Finance",
   "stocks": [
     {
@@ -86,11 +86,11 @@
     {
       "id": "BTC",
       "symbol": "BTC",
-      "value": "$66,650",
-      "change": "-2.33%",
-      "positive": false,
+      "value": "$65,451",
+      "change": "+2.08%",
+      "positive": true,
       "type": "crypto",
-      "asOf": "2026-11-14T13:33:32.000Z"
+      "asOf": "2026-11-15T13:57:28.000Z"
     }
   ]
 }
