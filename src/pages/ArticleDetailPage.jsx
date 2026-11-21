@@ -22,6 +22,188 @@ import { articles as siteArticles } from '../data/siteData';
 
 // Article content mapping
 const articleContents = {
+  'credit-agricole-banco-bpm-merger-2026': (
+    <>
+      <BodyParagraph>
+        Crédit Agricole has spent years building its position in Italian banking. On 9 November, the French group proposed opening talks on a merger between Banco BPM and Crédit Agricole Italia. The plan would also bring Crédit Agricole’s controlling stakes in its Italian life and non-life insurance businesses into the new group. Banco BPM would remain the listed company in Milan.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The scale would be significant. The combined group would become Italy’s third-largest banking group, with around 6.5 million customers and more than 2,300 branches. Crédit Agricole already owns roughly 29.6 per cent of Banco BPM and would hold about 45 per cent after the merger. It has described the proposal as friendly and says a deal could close in the second half of 2027.
+      </BodyParagraph>
+
+      <SectionHeading>
+        A friendly proposal, not a done deal
+      </SectionHeading>
+
+      <BodyParagraph>
+        Banco BPM has agreed to talk, but it has not endorsed the transaction. On 12 November, the board said it would test whether the proposal was workable and authorised chief executive Giuseppe Castagna to begin discussions. It also identified the issue that is likely to shape those talks: a merger would largely remove Banco BPM from the takeover market.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        That is a meaningful concession for shareholders. Banco BPM has spent much of the past two years at the centre of Italian banking consolidation, and a shareholder with about 45 per cent would make a rival bid far less likely. The negotiations are therefore likely to turn on how that lost optionality is valued.
+      </BodyParagraph>
+
+      <SectionHeading>
+        What Crédit Agricole is offering
+      </SectionHeading>
+
+      <BodyParagraph>
+        Crédit Agricole is proposing an exchange ratio that it says gives Banco BPM a 20 per cent valuation premium, alongside a €1 billion extraordinary dividend before the merger. It also estimates around €800 million of annual pre-tax synergies and says the deal could lift Banco BPM’s 2027 earnings per share by roughly 24 per cent once those synergies are fully reflected.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The 20 per cent headline needs to be read carefully. It is not a straightforward premium to Banco BPM’s share price before the announcement. Crédit Agricole is comparing the 2027 estimated price-to-earnings multiple assigned to Banco BPM with the lower multiple applied to the businesses it would contribute.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Banco BPM has already signalled that relative valuation alone will not settle the matter. Its board says the final terms should reflect both the bank’s earnings power and the value of remaining open to another buyer. If Crédit Agricole reaches about 45 per cent, that second source of value largely disappears.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Banco BPM has room to negotiate
+      </SectionHeading>
+
+      <BodyParagraph>
+        Banco BPM comes to the table with solid recent results. Adjusted net income reached €1.53 billion in the first nine months of 2026, a record for the period, and the bank kept full-year guidance above €1.95 billion. Core revenues were close to €4.6 billion and capital remained comfortable.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/ca-bpm-figure-1.svg"
+          alt="Banco BPM and Crédit Agricole Italia, 9M 2026 revenue and net income"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+          loading="lazy"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 1: What each side brings: 9M 2026 revenue and net income (€ billion)</figcaption>
+      </figure>
+
+      <BodyParagraph>
+        The earnings mix has also changed. Insurance, payments and asset management now make a substantial contribution, reducing the bank’s reliance on net interest income. Anima is central to that shift. Banco BPM took control of the asset manager after its 2025 tender offer, adding a sizeable savings platform to its banking and insurance businesses. By September 2026, Anima had around €206 billion of assets under management and administration.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Italy is already central to Crédit Agricole
+      </SectionHeading>
+
+      <BodyParagraph>
+        For Crédit Agricole, the proposal fits a strategy already in place. Italy is its second domestic market after France, and the ACT 2028 plan targets 6.5 million customers in the country and roughly 20 per cent of group earnings from Italy by 2028. A larger banking franchise would deepen a market the group already treats as core.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Crédit Agricole Italia is sizeable in its own right. It generated €2.39 billion of revenue and €532 million of net income in the first nine months of 2026. The two groups also know each other well: they are partners in consumer finance through Agos, while Crédit Agricole has steadily built its Banco BPM stake over several years.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The change in tone this year is striking. In January, after the ECB allowed Crédit Agricole to move above 20 per cent, the group said it did not intend to acquire or exercise control over Banco BPM. Ten months later, it was proposing a structure that would leave it with roughly 45 per cent of the combined bank.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/ca-bpm-figure-2.svg"
+          alt="Crédit Agricole’s position in Banco BPM"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+          loading="lazy"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 2: Crédit Agricole’s stake in Banco BPM today and in the proposed combined group (%)</figcaption>
+      </figure>
+
+      <SectionHeading>
+        Control without buying the whole bank
+      </SectionHeading>
+
+      <BodyParagraph>
+        If Crédit Agricole simply bought enough Banco BPM shares to cross the relevant takeover threshold, Italian rules could require a bid for the rest of the company. The proposed merger takes another route. It would use Italy’s whitewash procedure, allowing Crédit Agricole to move above the threshold without making a mandatory offer for every remaining share, provided the required shareholder approvals are obtained.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Crédit Agricole says Banco BPM’s extraordinary shareholders’ meeting would need to approve the merger with at least two-thirds of the capital represented. The whitewash exemption would also rely on support from shareholders other than Crédit Agricole and certain large holders. That gives minority investors a real say in the outcome.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        For those investors, the trade-off is clear. They would receive the proposed valuation terms, the extraordinary dividend and a share of the expected synergies, but they would also accept a shareholder with around 45 per cent of the combined bank. The possibility of a later control premium from another bidder would become remote.
+      </BodyParagraph>
+
+      <TableCard
+        title="Key proposal metrics at a glance"
+        className="mb-8"
+        header={["Item", "Value", "Notes"]}
+        rows={[
+          ["Combined group", "Italy’s third-largest banking group", "Around 6.5 million customers, more than 2,300 branches; listed in Milan"],
+          ["Crédit Agricole stake today", "~29.6%", "Already Banco BPM’s largest shareholder"],
+          ["Crédit Agricole stake after merger", "~45%", "Of the combined entity"],
+          ["Valuation premium", "20% (relative)", "Higher 2027E P/E for Banco BPM than for the contributed Crédit Agricole businesses"],
+          ["Extraordinary dividend", "€1 billion", "Paid to Banco BPM shareholders before the merger"],
+          ["Annual pre-tax synergies", "~€800 million", "Crédit Agricole estimate"],
+          ["Banco BPM 2027 EPS uplift", "~24%", "Once synergies are fully reflected"],
+          ["Shareholder approval", "Two-thirds of capital represented", "Banco BPM extraordinary meeting; whitewash also needs other shareholders’ support"],
+          ["Banco BPM 9M 2026", "€1.53bn adjusted net income", "Record for the period; FY guidance above €1.95bn"],
+          ["Crédit Agricole Italia 9M 2026", "€2.39bn revenue; €532m net income", "Partners with Banco BPM in consumer finance through Agos"],
+          ["Anima AuM/AuA", "~€206 billion", "September 2026"],
+          ["Expected closing", "Second half of 2027", "Subject to ECB approval and golden power review"],
+        ]}
+      />
+
+      <SectionHeading>
+        Politics is still part of the deal
+      </SectionHeading>
+
+      <BodyParagraph>
+        The two boards are only part of the process. Any transaction would need regulatory approval, including from the ECB, and would also face scrutiny under Italy’s golden power regime. Anima is likely to attract particular attention because it manages a large pool of Italian household savings, while Crédit Agricole already controls Amundi, Europe’s largest asset manager.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Reuters has reported that Crédit Agricole has offered assurances over Italian savings and could be open to discussing Anima if that helped secure political support. Banco BPM has publicly rejected the idea that a sale is planned.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        The political history is hard to ignore. UniCredit abandoned its own attempt to acquire Banco BPM in 2025 after the Italian government imposed golden power conditions. A year later, Crédit Agricole is pursuing a dominant position through a different structure.
+      </BodyParagraph>
+
+      <figure className="mb-8">
+        <img
+          src="/ca-bpm-figure-3.svg"
+          alt="Timeline from UniCredit's withdrawn bid to the targeted closing"
+          className="w-full rounded-2xl shadow-lg border border-white/10"
+          loading="lazy"
+        />
+        <figcaption className="text-xs text-gray-500 mt-2">Figure 3: Banco BPM and Crédit Agricole: key milestones</figcaption>
+      </figure>
+
+      <BodyParagraph>
+        Italian policymakers have long discussed the need for a third large banking group alongside Intesa Sanpaolo and UniCredit. A Banco BPM-Crédit Agricole Italia combination would have that scale. The ownership structure, however, complicates the idea of a purely Italian 'national champion': the new group would have a clearly dominant French shareholder.
+      </BodyParagraph>
+
+      <SectionHeading>
+        Conclusion: the price of control
+      </SectionHeading>
+
+      <BodyParagraph>
+        There is a credible industrial case for combining Banco BPM and Crédit Agricole Italia. Both businesses are profitable, their products are complementary and they already work together in consumer finance. The projected €800 million of annual synergies are large enough to matter, as is the €1 billion extraordinary dividend.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Banco BPM’s bargaining position is equally clear. Its shareholders would be giving up the chance that another buyer could one day pay a control premium. Crédit Agricole’s proposed valuation, dividend and synergies are its opening answer to that loss. Banco BPM is signalling that the answer may need to improve.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Seen that way, this is not simply another consolidation story. It is a negotiation over the price of influence. Crédit Agricole wants a dominant position without buying 100 per cent of Banco BPM, while Banco BPM wants shareholders to be paid for the optionality they would surrender. If the two sides can bridge that gap, Italy may finally get its third large banking group.
+      </BodyParagraph>
+
+      <BodyParagraph>
+        Written by Federico Spogler and Luca Accossato
+      </BodyParagraph>
+
+      <SectionHeading>
+        Sources
+      </SectionHeading>
+
+      <ul className="text-sm text-gray-400 space-y-2 mb-8">
+        <li>Primary sources: Banco BPM (5 and 12 November 2026), 9M results and response to the proposal; Crédit Agricole (9 November 2026), merger proposal; Crédit Agricole (2026), ACT 2028 strategic plan and 9M results.</li>
+        <li>Additional reporting: Reuters (9-16 November 2026), coverage of the proposed combination; UniCredit (22 July 2025), statement withdrawing its Banco BPM offer.</li>
+      </ul>
+    </>
+  ),
   'nvidia-jensen-huang-china-governance-crisis-2026': (
     <>
       <SectionHeading>
