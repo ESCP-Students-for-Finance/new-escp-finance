@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="316.8pt" viewBox="0 0 648 316.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 316.8 
+L 648 316.8 
+L 648 0 
+L 0 0 
+z
+" style="fill: #042440"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 44.064 161.568 
+L 603.936 161.568 
+" clip-path="url(#pd193264b8f)" style="fill: none; stroke: #56708c; stroke-width: 4"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m346dd3a303" d="M 0 9.082951 
+C 2.408827 9.082951 4.719319 8.125914 6.422616 6.422616 
+C 8.125914 4.719319 9.082951 2.408827 9.082951 0 
+C 9.082951 -2.408827 8.125914 -4.719319 6.422616 -6.422616 
+C 4.719319 -8.125914 2.408827 -9.082951 0 -9.082951 
+C -2.408827 -9.082951 -4.719319 -8.125914 -6.422616 -6.422616 
+C -8.125914 -4.719319 -9.082951 -2.408827 -9.082951 0 
+C -9.082951 2.408827 -8.125914 4.719319 -6.422616 6.422616 
+C -4.719319 8.125914 -2.408827 9.082951 0 9.082951 
+z
+" style="stroke: #042440; stroke-width: 1.5"/>
+    </defs>
+    <g clip-path="url(#pd193264b8f)">
+     <use xlink:href="#m346dd3a303" x="75.168" y="161.568" style="fill: #7f9bb8; stroke: #042440; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="75.168" y="132.947822" transform="rotate(-0 75.168 132.947822)">Jul 2025</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(32.487141 77.07958)">UniCredit drops</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(34.306438 90.282588)">Banco BPM bid</text>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#pd193264b8f)">
+     <use xlink:href="#m346dd3a303" x="199.584" y="161.568" style="fill: #7f9bb8; stroke: #042440; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="199.584" y="195.903022" transform="rotate(-0 199.584 195.903022)">Jan 2026</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(134.432203 239.009115)">ECB lets Crédit Agricole</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(165.880172 252.212123)">exceed 20%</text>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#pd193264b8f)">
+     <use xlink:href="#m346dd3a303" x="324" y="161.568" style="fill: #7f9bb8; stroke: #042440; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="324" y="132.947822" transform="rotate(-0 324 132.947822)">9 Nov 2026</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(283.367031 77.080439)">Crédit Agricole</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(277.240547 90.282588)">proposes merger</text>
+   </g>
+   <g id="PathCollection_4">
+    <g clip-path="url(#pd193264b8f)">
+     <use xlink:href="#m346dd3a303" x="448.416" y="161.568" style="fill: #7f9bb8; stroke: #042440; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="448.416" y="195.903022" transform="rotate(-0 448.416 195.903022)">12 Nov 2026</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(400.181859 238.569115)">Banco BPM board</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(416.971469 251.772123)">opens talks</text>
+   </g>
+   <g id="PathCollection_5">
+    <defs>
+     <path id="m2114af32e0" d="M 0 9.082951 
+C 2.408827 9.082951 4.719319 8.125914 6.422616 6.422616 
+C 8.125914 4.719319 9.082951 2.408827 9.082951 0 
+C 9.082951 -2.408827 8.125914 -4.719319 6.422616 -6.422616 
+C 4.719319 -8.125914 2.408827 -9.082951 0 -9.082951 
+C -2.408827 -9.082951 -4.719319 -8.125914 -6.422616 -6.422616 
+C -8.125914 -4.719319 -9.082951 -2.408827 -9.082951 0 
+C -9.082951 2.408827 -8.125914 4.719319 -6.422616 6.422616 
+C -4.719319 8.125914 -2.408827 9.082951 0 9.082951 
+z
+" style="stroke: #042440; stroke-width: 1.5"/>
+    </defs>
+    <g clip-path="url(#pd193264b8f)">
+     <use xlink:href="#m2114af32e0" x="572.832" y="161.568" style="fill: #c5a059; stroke: #042440; stroke-width: 1.5"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="572.832" y="132.947822" transform="rotate(-0 572.832 132.947822)">H2 2027</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(548.939656 77.07958)">Targeted</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; fill: #d1d5db" transform="translate(553.544188 90.282588)">closing</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="324" y="25.68" transform="rotate(-0 324 25.68)">Banco BPM – Crédit Agricole: from minority stake to merger proposal</text>
+   </g>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #9ca3af" x="324" y="307.296" transform="rotate(-0 324 307.296)">Source: UniCredit; Crédit Agricole; Banco BPM</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd193264b8f">
+   <rect x="12.96" y="31.68" width="622.08" height="259.776"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="374.4pt" viewBox="0 0 576 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 576 374.4 
+L 576 0 
+L 0 0 
+z
+" style="fill: #042440"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 51.84 321.984 
+L 564.48 321.984 
+L 564.48 44.928 
+L 51.84 44.928 
+z
+" style="fill: #042440"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="ma6da523883" d="M 0 0 
+L 0 4 
+" style="stroke: #3b5670; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma6da523883" x="175.763306" y="321.984" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #d1d5db" x="175.763306" y="337.462359" transform="rotate(-0 175.763306 337.462359)">Revenue (€bn)</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#ma6da523883" x="440.556694" y="321.984" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #d1d5db" x="440.556694" y="337.462359" transform="rotate(-0 440.556694 337.462359)">Net income (€bn)</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <path d="M 51.84 321.984 
+L 564.48 321.984 
+" clip-path="url(#p279334ceec)" style="fill: none; stroke-dasharray: 3.6,2.7; stroke-dashoffset: 0; stroke: #163b5e; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_4">
+      <defs>
+       <path id="m846f1c53c7" d="M 0 0 
+L -4 0 
+" style="stroke: #3b5670; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m846f1c53c7" x="51.84" y="321.984" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="44.34" y="325.97277" transform="rotate(-0 44.34 325.97277)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <path d="M 51.84 271.148037 
+L 564.48 271.148037 
+" clip-path="url(#p279334ceec)" style="fill: none; stroke-dasharray: 3.6,2.7; stroke-dashoffset: 0; stroke: #163b5e; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m846f1c53c7" x="51.84" y="271.148037" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="44.34" y="275.136806" transform="rotate(-0 44.34 275.136806)">1</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <path d="M 51.84 220.312073 
+L 564.48 220.312073 
+" clip-path="url(#p279334ceec)" style="fill: none; stroke-dasharray: 3.6,2.7; stroke-dashoffset: 0; stroke: #163b5e; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m846f1c53c7" x="51.84" y="220.312073" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="44.34" y="224.300843" transform="rotate(-0 44.34 224.300843)">2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <path d="M 51.84 169.47611 
+L 564.48 169.47611 
+" clip-path="url(#p279334ceec)" style="fill: none; stroke-dasharray: 3.6,2.7; stroke-dashoffset: 0; stroke: #163b5e; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m846f1c53c7" x="51.84" y="169.47611" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="44.34" y="173.46488" transform="rotate(-0 44.34 173.46488)">3</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <path d="M 51.84 118.640147 
+L 564.48 118.640147 
+" clip-path="url(#p279334ceec)" style="fill: none; stroke-dasharray: 3.6,2.7; stroke-dashoffset: 0; stroke: #163b5e; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m846f1c53c7" x="51.84" y="118.640147" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="44.34" y="122.628916" transform="rotate(-0 44.34 122.628916)">4</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13">
+      <path d="M 51.84 67.804183 
+L 564.48 67.804183 
+" clip-path="url(#p279334ceec)" style="fill: none; stroke-dasharray: 3.6,2.7; stroke-dashoffset: 0; stroke: #163b5e; stroke-width: 0.9"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m846f1c53c7" x="51.84" y="67.804183" style="fill: #3b5670; stroke: #3b5670; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: end; fill: #d1d5db" x="44.34" y="71.792953" transform="rotate(-0 44.34 71.792953)">5</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #9ca3af" x="31.016797" y="183.456" transform="rotate(-90 31.016797 183.456)">€ billion</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 51.84 321.984 
+L 51.84 44.928 
+" style="fill: none; stroke: #3b5670; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 51.84 321.984 
+L 564.48 321.984 
+" style="fill: none; stroke: #3b5670; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 75.141818 321.984 
+L 170.467438 321.984 
+L 170.467438 88.138569 
+L 75.141818 88.138569 
+z
+" clip-path="url(#p279334ceec)" style="fill: #c5a059"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 339.935207 321.984 
+L 435.260826 321.984 
+L 435.260826 244.204976 
+L 339.935207 244.204976 
+z
+" clip-path="url(#p279334ceec)" style="fill: #c5a059"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 181.059174 321.984 
+L 276.384793 321.984 
+L 276.384793 200.486048 
+L 181.059174 200.486048 
+z
+" clip-path="url(#p279334ceec)" style="fill: #7f9bb8"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 445.852562 321.984 
+L 541.178182 321.984 
+L 541.178182 294.939268 
+L 445.852562 294.939268 
+z
+" clip-path="url(#p279334ceec)" style="fill: #7f9bb8"/>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="122.804628" y="82.954193" transform="rotate(-0 122.804628 82.954193)">€4.60bn</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="387.598017" y="239.0206" transform="rotate(-0 387.598017 239.0206)">€1.53bn</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="228.721983" y="195.301671" transform="rotate(-0 228.721983 195.301671)">€2.39bn</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="493.515372" y="289.754891" transform="rotate(-0 493.515372 289.754891)">€0.53bn</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #e5e7eb" x="308.16" y="28.928" transform="rotate(-0 308.16 28.928)">Banco BPM and Crédit Agricole Italia – 9M 2026 results</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_9">
+     <path d="M 418.803984 62.356359 
+L 439.803984 62.356359 
+L 439.803984 55.006359 
+L 418.803984 55.006359 
+z
+" style="fill: #c5a059"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: start; fill: #d1d5db" x="448.203984" y="62.356359" transform="rotate(-0 448.203984 62.356359)">Banco BPM</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 418.803984 78.52718 
+L 439.803984 78.52718 
+L 439.803984 71.17718 
+L 418.803984 71.17718 
+z
+" style="fill: #7f9bb8"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: start; fill: #d1d5db" x="448.203984" y="78.52718" transform="rotate(-0 448.203984 78.52718)">Crédit Agricole Italia</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; fill: #9ca3af" x="288" y="366.912" transform="rotate(-0 288 366.912)">Source: Banco BPM 9M 2026 results (core revenues, adjusted net income); Crédit Agricole 9M 2026 results</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p279334ceec">
+   <rect x="51.84" y="44.928" width="512.64" height="277.056"/>
+  </clipPath>
+ </defs>
+</svg>
