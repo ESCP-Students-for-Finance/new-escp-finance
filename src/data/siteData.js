@@ -3,6 +3,16 @@
 // Articles data
 export const articles = [
     {
+        title: "Crédit Agricole’s Banco BPM Proposal: The Price of Building Italy’s Third Banking Group",
+        excerpt: "A merger with Crédit Agricole Italia would leave the French lender with about 45 per cent of a Milan-listed banking group. Banco BPM is open to talks, but says its shareholders should be compensated for giving up the bank’s takeover appeal.",
+        category: "Banking & M&A",
+        series: "Market Momentum | Week 47",
+        author: "Federico Spogler and Luca Accossato",
+        date: "Nov 19, 2026",
+        image: "/credit-agricole-banco-bpm.webp",
+        slug: "credit-agricole-banco-bpm-merger-2026"
+    },
+    {
         title: "NVIDIA, Jensen Huang and the China Governance Crisis",
         excerpt: "Reports linking Jensen Huang to a suspected Chinese intelligence asset have turned a personal admission into a board investigation, a shareholder lawsuit and a $190bn sell-off, because the story touches export controls, a key customer and the US–China AI rivalry.",
         category: "Tech & Governance",
